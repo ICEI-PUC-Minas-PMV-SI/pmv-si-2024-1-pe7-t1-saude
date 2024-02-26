@@ -66,6 +66,24 @@ Nesta seção, deverão ser descritas outras abordagens identificadas na literat
 
 Nesta seção, você deverá descrever detalhadamente o _dataset_ selecionado. Lembre-se de informar o link de acesso a ele, bem como, de descrever cada um dos seus atributos (a que se refere, tipo etc.), se existem atributos faltantes etc.
 
+Link para o dataset: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data
+
+Atributos:
+
+1) id: Identificador único
+2) gender: "Masculino", "Feminino" ou "Outro"
+3) age: Idade do paciente
+4) hypertension: 0 se o paciente não tiver hipertensão, 1 se tiver
+5) heart_disease: 0 se o paciente não tiver doença cardíaca, 1 se tiver
+6) ever_married: "Sim" ou "Não"
+7) work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"
+8) Residence_type: "Rural" ou "Urbano"
+9) avg_glucose_level: Nível médio de glicose no sangue
+10) bmi: Indice de massa corporal
+11) smoking_status: "fumou previamente", "nunca fumou", "fuma" ou "desconhecido"*
+12) stroke: 0 se o paciente não tiver tido um derrame, 1 se tiver
+*Note: "desconhecido" em smoking_status significa que a informação não está disponível
+
 # Canvas analítico
 
 Nesta seção, você deverá estruturar o seu Canvas Analítico. O Canvas Analítico tem o papel de registrar a organização das ideias e apresentar o modelo de negócio.
