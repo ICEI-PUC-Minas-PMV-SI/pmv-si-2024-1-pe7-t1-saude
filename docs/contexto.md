@@ -54,7 +54,12 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Estado da arte
 
-Nesta seção, deverão ser descritas outras abordagens identificadas na literatura que foram utilizadas para resolver problemas similares ao problema em questão. Para isso, faça uma pesquisa detalhada e identifique, no mínimo, 3 trabalhos que tenham utilizado dados em contexto similares e então, detalhe: detalhe e contextualize o problema, descreva o _dataset_ utilizado, detalhe quais abordagens/algoritmos foram utilizados (e seus parâmetros), identifique as métricas de avaliação empregadas e fale sobre os resultados obtidos. 
+Nesta seção, deverão ser descritas outras abordagens identificadas na literatura que foram utilizadas para resolver problemas similares ao problema em questão. Para isso:
+1- faça uma pesquisa detalhada e identifique, no mínimo, 3 trabalhos que tenham utilizado dados em contexto similares e então, 
+2- detalhe: detalhe e contextualize o problema, descreva o _dataset_ utilizado, 
+3- detalhe quais abordagens/algoritmos foram utilizados (e seus parâmetros), 
+4- identifique as métricas de avaliação empregadas e 
+5- fale sobre os resultados obtidos. 
 
 > **Links Úteis**:
 > - [Google Scholar](https://scholar.google.com/)
