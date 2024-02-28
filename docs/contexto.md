@@ -90,7 +90,11 @@ massa corporal
 
 11) Tabagismo: "fumou anteriormente", "nunca fumou", "fuma" ou "desconhecido"* 
 12) acidente vascular cerebral: 1 se o paciente teve um acidente vascular cerebral ou 0 se não 
- 
+
+
+ 5 - Fale sobre os resultados obtidos.
+A pesquisa fornece dados valiosos que permitem identificar padrões nos pacientes com probabilidade de sofrer um acidente vascular cerebral, considerando uma variedade de parâmetros de entrada. Esses parâmetros incluem características como histórico familiar, faixa etária, estilo de vida, e escolhas pessoais, como o tabagismo, entre outros. Esses insights individuais são essenciais para compreender o risco de cada pessoa. Os resultados destacam a importância da prevenção, ressaltando a necessidade de utilizar equipamentos tecnológicos e inteligência artificial (IA) para esse fim.
+
 
 > **Links Úteis**:
 > - [Google Scholar](https://scholar.google.com/)
