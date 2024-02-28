@@ -64,6 +64,15 @@ Número de internações por AVC aumentou quase 40% em nove anos | Jornal Hoje |
 
 avc.org.br/sobre-a-sbavc/numeros-do-avc-no-brasil-e-no-mundo: De acordo com outro registro, o portal de Transparência do Registro Civil, mantido pela ARPEN Brasil (Associação Nacional dos Registradores de Pessoas Naturais), o número de óbitos por AVC no Brasil foi de 101.965, em 2019 e 102.812 em 2020, números parecidos com os dados oficiais do SUS, que podem variar um pouco de acordo com a metodologia aplicada nos critérios de busca (CIDs considerados na pesquisa). O AVC, de acordo com este mesmo banco de dados, já matou no ano de 2022, de 1º de janeiro até 13 de outubro, 87.518 brasileiros. O número equivale à média de 12 óbitos por hora, ou 307 vítimas fatais por dia, tornando o AVC novamente a principal causa de morte no país. No mesmo período, o infarto, por exemplo, vitimou 81.987 pessoas, e a Covid-19, 59.165 cidadãos. Portanto, o AVC, que até meados da década de 2010-2015 era a primeira causa de morte no nosso país, passou para o segundo lugar, de forma similar ao que vemos no resto do mundo e em países mais desenvolvidos, e novamente em 2022, embora com dados menos oficiais (SIM x Registro Civil), retoma a posição de primeiro lugar em mortalidade no nosso país. 
 
+2 - Detalhe e contextualize o problema, descreva o dataset utilizado
+Dificuldade na Prevenção do AVC
+Atualmente, enfrentamos desafios significativos na prevenção do AVC, muitos dos quais estão enraizados em nossos estilos de vida modernos.
+A vida sedentária, aliada a problemas de saúde como tabagismo e histórico familiar de AVC, é uma realidade para muitas pessoas. Muitos trabalham em escritórios, passando longas horas sentados, e mantêm uma alimentação pouco saudável.
+Segundo a Organização Mundial da Saúde (OMS), o AVC é a segunda principal causa de morte em todo o mundo, sendo responsável por aproximadamente 11% do total de óbitos.
+Entre os fatores de risco para o AVC, destacam-se a hipertensão arterial, doenças cardiovasculares, aterosclerose, diabetes mellitus, obesidade, sedentarismo, tabagismo, doenças genéticas de coagulação, idade avançada e histórico prévio de AVC.
+É crucial que o público esteja ciente dos sintomas do AVC para reagir rapidamente diante dessa ameaça silenciosa.
+Para auxiliar nesse processo de conscientização e prevenção, dados e estudos são fundamentais. Um conjunto de dados útil pode ser encontrado em: Link para o dataset utilizado.
+
  
 
 > **Links Úteis**:
