@@ -73,6 +73,23 @@ Entre os fatores de risco para o AVC, destacam-se a hipertensão arterial, doen�
 É crucial que o público esteja ciente dos sintomas do AVC para reagir rapidamente diante dessa ameaça silenciosa.
 Para auxiliar nesse processo de conscientização e prevenção, dados e estudos são fundamentais. Um conjunto de dados útil pode ser encontrado em: Link para o dataset utilizado.
 
+4 - Identifique as métricas de avaliação empregadas  
+
+1) id: identificador único 
+2) sexo: "Masculino", "Feminino" ou "Outros" 
+3) idade: idade do paciente 
+4) hipertensão: 0 se o paciente não tem hipertensão, 1 se o paciente tem hipertensão 
+5) Cardiopatia: 0 se o paciente não tem nenhuma doença cardíaca, 1 se o paciente tem uma doença cardíaca  
+
+6) Casado "Não" ou "Sim" 
+7) Tipo de trabalho: "crianças", "Alergia”, "Nunca trabalhou, "Privado" ou "Trabalhador por conta própria" 
+8) Tipo de residencia: "Rural" ou "Urbano" 
+9) Nível de glicose: nível médio de glicose no sangue 
+10) IMC: índice de 
+massa corporal  
+
+11) Tabagismo: "fumou anteriormente", "nunca fumou", "fuma" ou "desconhecido"* 
+12) acidente vascular cerebral: 1 se o paciente teve um acidente vascular cerebral ou 0 se não 
  
 
 > **Links Úteis**:
