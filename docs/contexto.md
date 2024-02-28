@@ -54,12 +54,17 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Estado da arte
 
-Nesta seção, deverão ser descritas outras abordagens identificadas na literatura que foram utilizadas para resolver problemas similares ao problema em questão. Para isso:
-> - 1 faça uma pesquisa detalhada e identifique, no mínimo, 3 trabalhos que tenham utilizado dados em contexto similares e então, 
-> - 2 detalhe: detalhe e contextualize o problema, descreva o _dataset_ utilizado, 
-> - 3  detalhe quais abordagens/algoritmos foram utilizados (e seus parâmetros), 
-> - 4  identifique as métricas de avaliação empregadas e 
-> - 5  fale sobre os resultados obtidos. 
+Quais pesquisas estão sendo desenvolvidas sobre esse tema? 
+
+Mortes por AVC vão disparar nas próximas três décadas (correiobraziliense.com.br): Relatório produzido por comissão de médicos indica que, em três décadas, o número de óbitos aumentará 50% em relação a 2023, principalmente em países de renda média e baixa. Medidas de prevenção e tratamento podem evitar a tendência. 
+
+Modelo de aprendizado de máquina prevê AVC no momento da triagem - TecMundo: De acordo com o estudo, publicado no Journal of Medical Internet Research em fevereiro, o AVC está hoje "entre as condições médicas mal diagnosticadas mais comuns e perigosas". Os erros atingem particularmente pessoas negras, hispânicas, mulheres, idosos em Medicare e pessoas em áreas rurais dos EUA. Isso ocorre porque nem todos os pacientes exibem os sintomas característicos dessa grave condição médica, como problemas de fala, queda facial e fraqueza nos membros. 
+
+Número de internações por AVC aumentou quase 40% em nove anos | Jornal Hoje | G1 (globo.com): Diabetes, hipertensão, obesidade e colesterol alto são alguns dos fatores de risco para o problema. A diabetes é um dos principais fatores de riscos para o AVC. Além dela estão a hipertensão arterial, obesidade, colesterol alto, tabagismo e sedentarismo. 
+
+avc.org.br/sobre-a-sbavc/numeros-do-avc-no-brasil-e-no-mundo: De acordo com outro registro, o portal de Transparência do Registro Civil, mantido pela ARPEN Brasil (Associação Nacional dos Registradores de Pessoas Naturais), o número de óbitos por AVC no Brasil foi de 101.965, em 2019 e 102.812 em 2020, números parecidos com os dados oficiais do SUS, que podem variar um pouco de acordo com a metodologia aplicada nos critérios de busca (CIDs considerados na pesquisa). O AVC, de acordo com este mesmo banco de dados, já matou no ano de 2022, de 1º de janeiro até 13 de outubro, 87.518 brasileiros. O número equivale à média de 12 óbitos por hora, ou 307 vítimas fatais por dia, tornando o AVC novamente a principal causa de morte no país. No mesmo período, o infarto, por exemplo, vitimou 81.987 pessoas, e a Covid-19, 59.165 cidadãos. Portanto, o AVC, que até meados da década de 2010-2015 era a primeira causa de morte no nosso país, passou para o segundo lugar, de forma similar ao que vemos no resto do mundo e em países mais desenvolvidos, e novamente em 2022, embora com dados menos oficiais (SIM x Registro Civil), retoma a posição de primeiro lugar em mortalidade no nosso país. 
+
+ 
 
 > **Links Úteis**:
 > - [Google Scholar](https://scholar.google.com/)
