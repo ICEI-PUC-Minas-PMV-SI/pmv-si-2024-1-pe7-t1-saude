@@ -33,6 +33,12 @@ Lembre-se que, à medida que a pesquisa/experimentação evolui, os objetivos po
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
+A finalidade do trabalho é auxiliar a identificar pessoas que se encontram em grupo de risco para derrame. 
+
+Para isso, será realizado um estudo na área e, a partir dos dados coletados, será treinado um modelo de Machine Learning que seja capaz de predizer se uma pessoa se encontra nesse grupo a partir de certos atributos.
+
+A partir desse objetivo, será disponibilizado para os clientes da clínica Saúde+ uma série de recomendações caso se encontre em tal grupo de risco, como dicas de dieta, sintomas de um possível derrame, lista dos médicos cadastrados especializados na área, etc...
+
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com o conjunto de dados escolhido. Indique as razões pelas quais você escolheu seus objetivos específicos, as razões para aprofundar o estudo do problema identificado e qual o impacto que tal problema provoca na sociedade. Lembre-se de quantificar (com dados reais e suas respectivas fontes) este impacto.
@@ -105,8 +111,6 @@ A pesquisa fornece dados valiosos que permitem identificar padrões nos paciente
 > - [ACM Digital Library](https://dl.acm.org/)
 
 # Descrição do _dataset_ selecionado
-
-Nesta seção, você deverá descrever detalhadamente o _dataset_ selecionado. Lembre-se de informar o link de acesso a ele, bem como, de descrever cada um dos seus atributos (a que se refere, tipo etc.), se existem atributos faltantes etc.
 
 Link para o dataset: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data
 
