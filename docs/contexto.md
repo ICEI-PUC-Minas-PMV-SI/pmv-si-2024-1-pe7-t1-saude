@@ -118,13 +118,14 @@ Atributos:
 4) hypertension: 0 se o paciente não tiver hipertensão, 1 se tiver
 5) heart_disease: 0 se o paciente não tiver doença cardíaca, 1 se tiver
 6) ever_married: "Sim" ou "Não"
-7) work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"
+7) work_type: "Criança", "Esfera pública", "Nunca trabalhou", "Esfera privada" or "Conta própria"
 8) Residence_type: "Rural" ou "Urbano"
 9) avg_glucose_level: Nível médio de glicose no sangue
 10) bmi: Indice de massa corporal
 11) smoking_status: "fumou previamente", "nunca fumou", "fuma" ou "desconhecido"*
 12) stroke: 0 se o paciente não tiver tido um derrame, 1 se tiver
-*Note: "desconhecido" em smoking_status significa que a informação não está disponível
+    
+*Nota: "desconhecido" em smoking_status significa que a informação não está disponível
 
 # Canvas analítico
 
