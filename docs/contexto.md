@@ -33,7 +33,7 @@ Lembre-se que, à medida que a pesquisa/experimentação evolui, os objetivos po
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
-A finalidade do trabalho é auxiliar a identificar pessoas que se encontram em grupo de risco para derrame. 
+A finalidade do trabalho é auxiliar a identificar pessoas que se encontram em grupo de risco para AVC. 
 
 Para isso, será realizado um estudo na área e, a partir dos dados coletados, será treinado um modelo de Machine Learning que seja capaz de predizer se uma pessoa se encontra nesse grupo a partir de certos atributos.
 
@@ -113,6 +113,9 @@ A pesquisa fornece dados valiosos que permitem identificar padrões nos paciente
 # Descrição do _dataset_ selecionado
 
 Link para o dataset: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data
+
+De acordo com a Organização Mundial da Saúde (OMS), o AVC é a 2ª principal causa de morte no mundo, responsável por aproximadamente 11% do total de mortes.
+Este conjunto de dados é usado para prever se um paciente tem probabilidade de sofrer um derrame com base em parâmetros de entrada como sexo, idade, várias doenças e tabagismo. Cada linha dos dados fornece informações relevantes sobre o paciente.
 
 Atributos:
 
