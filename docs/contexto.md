@@ -109,11 +109,42 @@ Para isso, será realizado um estudo na área e, a partir dos dados coletados, s
 A partir desse objetivo, será disponibilizado para os clientes da clínica Saúde+ uma série de recomendações caso se encontre em tal grupo de risco, como dicas de dieta, sintomas de um possível derrame, lista dos médicos cadastrados especializados na área, etc...
 
 ## Justificativa
+# Importância e Motivação
 
-Descreva a importância ou a motivação para trabalhar com o conjunto de dados escolhido. Indique as razões pelas quais você escolheu seus objetivos específicos, as razões para aprofundar o estudo do problema identificado e qual o impacto que tal problema provoca na sociedade. Lembre-se de quantificar (com dados reais e suas respectivas fontes) este impacto.
+O AVC é um problema de saúde pública global, com 5,5 milhões de mortes e 110 milhões de DALYs (anos de vida perdidos por incapacidade) a cada ano (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html). No Brasil, o AVC é a segunda principal causa de morte (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z), responsável por 100 mil mortes anualmente.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+# Objetivo Específico
+
+Este estudo visa desenvolver um modelo de aprendizado de máquina para prever a probabilidade de um paciente sofrer um AVC. O modelo será treinado e validado usando o conjunto de dados "Stroke Prediction Dataset" disponível no Kaggle (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
+
+# Razões para Aprofundar o Estudo
+
+Falta de modelos preditivos: No Brasil, existem poucos modelos preditivos de AVC. A maioria dos estudos se concentra em identificar fatores de risco, mas não em prever a probabilidade de um evento.
+Melhorar a tomada de decisão: Um modelo preditivo preciso pode ajudar os profissionais de saúde a identificar pacientes com alto risco de AVC e tomar medidas preventivas.
+Reduzir a carga da doença: A prevenção do AVC pode reduzir significativamente os custos de saúde e a morbidade.
+# Impacto na Sociedade
+
+Um modelo preditivo de AVC preciso pode ter um impacto significativo na sociedade brasileira:
+
+Redução da mortalidade: A detecção precoce e o tratamento do AVC podem reduzir significativamente o número de mortes.
+Melhoria da qualidade de vida: A prevenção do AVC pode evitar sequelas graves, como hemiplegia e disfunção cognitiva.
+Redução dos custos de saúde: A prevenção do AVC pode reduzir os custos de hospitalização, reabilitação e outros cuidados médicos.
+# Quantificação do Impacto
+
+Custo do AVC no Brasil: R$ 12,6 bilhões por ano (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
+Redução potencial da mortalidade: 10% a 20% (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html).
+Redução potencial dos custos de saúde: 10% a 20% (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
+# Conclusões
+
+O desenvolvimento de um modelo preditivo de AVC preciso pode ter um impacto significativo na saúde pública brasileira. Este estudo visa contribuir para esse objetivo, fornecendo um modelo que possa ser utilizado por profissionais de saúde para identificar pacientes com alto risco de AVC e tomar medidas preventivas.
+
+# Referências
+
+1. MINISTÉRIO DA SAÚDE. AVC. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc. Acesso em: 01 mar. 2024.
+
+2. ORGANIZAÇÃO MUNDIAL DA SAÚDE. AVC. Disponível em: https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html. Acesso em: 01 mar. 2024.
+
+3. SORIANO, F. Stroke Prediction Dataset. Kaggle. Disponível em: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset. Acesso em: 01 mar. 2024.
 
 ## Público-Alvo
 
