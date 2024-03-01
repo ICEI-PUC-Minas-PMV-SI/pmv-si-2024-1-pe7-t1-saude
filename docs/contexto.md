@@ -14,12 +14,81 @@ Descreva ainda o contexto em que essa aplicação será usada, se houver: empres
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Questão de pesquisa
+## Introdução
 
-A questão de pesquisa é a base de todo o trabalho que será desenvolvido. É ela que motiva a realização da pesquisa e deverá ser adequada ao problema identificado. Ao término de sua pesquisa/experimentação, o objetivo é que seja encontrada a resposta da questão de pesquisa previamente definida.
+O AVC é uma das principais causas de morte e incapacidade no mundo. A previsão precisa do AVC pode ajudar a prevenir eventos futuros e melhorar os resultados dos pacientes. O aprendizado de máquina oferece uma oportunidade promissora para desenvolver modelos de previsão de AVC precisos e eficazes.
 
-> **Links Úteis**:
-> - [Questão de pesquisa](https://www.enago.com.br/academy/how-to-develop-good-research-question-types-examples/)
-> - [Problema de pesquisa](https://blog.even3.com.br/problema-de-pesquisa/)
+## Objetivo
+
+O objetivo deste estudo é determinar o modelo de aprendizado de máquina mais eficaz para prever a ocorrência de AVC em pacientes, considerando os fatores de risco presentes no conjunto de dados de Fedesoriano.
+
+## Hipótese
+
+Os modelos de aprendizado de máquina podem ser usados ​​para prever com precisão a ocorrência de AVC em pacientes, utilizando os fatores de risco presentes no conjunto de dados de Fedesoriano.
+
+## Metodologia
+
+### 1. Coleta e Pré-processamento de Dados
+
+O conjunto de dados de Fedesoriano será utilizado (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
+O conjunto de dados será limpo e pré-processado para lidar com valores ausentes e inconsistentes.
+As variáveis ​​serão padronizadas para garantir uma escala uniforme.
+### 2. Análise Exploratória de Dados
+
+A distribuição das variáveis ​​será visualizada para identificar outliers.
+Medidas estatísticas descritivas serão calculadas.
+As correlações entre as variáveis ​​serão identificadas.
+### 3. Seleção de Variáveis
+
+Técnicas de seleção de variáveis ​​serão utilizadas para identificar os preditores mais importantes.
+A importância estatística e a relevância clínica das variáveis ​​serão consideradas.
+### 4. Treinamento e Avaliação de Modelos
+
+Diferentes modelos de aprendizado de máquina serão treinados, como:
+Regressão logística
+Árvore de decisão
+Floresta aleatória
+Redes neurais artificiais
+O desempenho dos modelos será avaliado usando métricas como:
+Acurácia
+Precisão
+Recall
+F1-score
+### 5. Comparação de Modelos
+
+O desempenho dos diferentes modelos de aprendizado de máquina será comparado.
+O modelo com o melhor desempenho para a tarefa de previsão de AVC será selecionado.
+### 6. Interpretação do Modelo
+
+Os fatores de risco mais importantes para AVC de acordo com o modelo selecionado serão identificados.
+Os resultados do modelo serão interpretados de forma clinicamente relevante.
+### 7. Validação Externa
+
+O modelo selecionado será validado em um conjunto de dados externo.
+## Cronograma
+
+Coleta e pré-processamento de dados: 1 semana
+Análise exploratória de dados: 1 semana
+Seleção de variáveis: 1 semana
+Treinamento e avaliação de modelos: 2 semanas
+Comparação de modelos: 1 semana
+Interpretação do modelo: 1 semana
+Validação externa: 1 semana
+Redação do relatório final: 2 semanas
+
+## Resultados Esperados
+
+Identificação dos principais fatores de risco para AVC presentes no conjunto de dados.
+Seleção do modelo de aprendizado de máquina mais eficaz para a tarefa de previsão de AVC.
+Interpretação dos resultados do modelo de forma clinicamente relevante.
+Discussão das implicações éticas e sociais da utilização de modelos de aprendizado de máquina para a previsão de AVC.
+
+## Referências
+
+1. Fedesoriano. Stroke Prediction Dataset. Kaggle. 2021. https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+
+2. Saria, S., et al. "Ethical Considerations in the Use of Machine Learning for Stroke Prediction." Journal of the American Medical Informatics Association 26.10 (2019): 2208-2213. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9279513/
+
 
 ## Objetivos preliminares
 
