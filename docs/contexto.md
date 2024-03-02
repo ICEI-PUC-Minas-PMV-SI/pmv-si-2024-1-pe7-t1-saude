@@ -131,9 +131,6 @@ Redução dos custos de saúde: A prevenção do AVC pode reduzir os custos de h
 Custo do AVC no Brasil: R$ 12,6 bilhões por ano (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
 Redução potencial da mortalidade: 10% a 20% (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html).
 Redução potencial dos custos de saúde: 10% a 20% (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
-# Conclusões
-
-O desenvolvimento de um modelo preditivo de AVC preciso pode ter um impacto significativo na saúde pública brasileira. Este estudo visa contribuir para esse objetivo, fornecendo um modelo que possa ser utilizado por profissionais de saúde para identificar pacientes com alto risco de AVC e tomar medidas preventivas.
 
 
  
@@ -234,6 +231,12 @@ Canvas Analítico. O Canvas Analítico tem o papel de registrar a organização 
 
 > **Links Úteis**:
 > - [Modelo do Canvas Analítico](https://github.com/ICEI-PUC-Minas-PMV-SI/PesquisaExperimentacao-Template/blob/main/help/Software-Analtics-Canvas-v1.0.pdf)
+
+
+# Conclusões
+
+O desenvolvimento de um modelo preditivo de AVC preciso pode ter um impacto significativo na saúde pública brasileira. Este estudo visa contribuir para esse objetivo, fornecendo um modelo que possa ser utilizado por profissionais de saúde para identificar pacientes com alto risco de AVC e tomar medidas preventivas.
+
 
 # Referências
 
