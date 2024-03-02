@@ -1,6 +1,9 @@
-# Introdução
+## Introdução
 
-Texto descritivo introdutório apresentando a visão geral do projeto a ser desenvolvido considerando o contexto em que ele se insere, os objetivos gerais, a justificativa e o público-alvo do projeto.
+(Texto descritivo introdutório apresentando a visão geral do projeto a ser desenvolvido considerando o contexto em que ele se insere, os objetivos gerais, a justificativa e o público-alvo do projeto.)
+
+O AVC é uma das principais causas de morte e incapacidade no mundo. A previsão precisa do AVC pode ajudar a prevenir eventos futuros e melhorar os resultados dos pacientes. O aprendizado de máquina oferece uma oportunidade promissora para desenvolver modelos de previsão de AVC precisos e eficazes.
+
 
 ## Problema
 
@@ -14,9 +17,6 @@ Descreva ainda o contexto em que essa aplicação será usada, se houver: empres
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Questão de pesquisa
-## Introdução
-
-O AVC é uma das principais causas de morte e incapacidade no mundo. A previsão precisa do AVC pode ajudar a prevenir eventos futuros e melhorar os resultados dos pacientes. O aprendizado de máquina oferece uma oportunidade promissora para desenvolver modelos de previsão de AVC precisos e eficazes.
 
 ## Objetivo
 
@@ -83,13 +83,6 @@ Seleção do modelo de aprendizado de máquina mais eficaz para a tarefa de prev
 Interpretação dos resultados do modelo de forma clinicamente relevante.
 Discussão das implicações éticas e sociais da utilização de modelos de aprendizado de máquina para a previsão de AVC.
 
-## Referências
-
-1. Fedesoriano. Stroke Prediction Dataset. Kaggle. 2021. https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
-
-2. Saria, S., et al. "Ethical Considerations in the Use of Machine Learning for Stroke Prediction." Journal of the American Medical Informatics Association 26.10 (2019): 2208-2213. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9279513/
-
-
 ## Objetivos preliminares
 
 Aqui você deve descrever os objetivos preliminares do trabalho indicando que o objetivo geral é experimentar modelos de aprendizado de máquina adequados para solucionar o problema apresentado acima. 
@@ -138,13 +131,8 @@ Redução potencial dos custos de saúde: 10% a 20% (https://www.gov.br/saude/pt
 
 O desenvolvimento de um modelo preditivo de AVC preciso pode ter um impacto significativo na saúde pública brasileira. Este estudo visa contribuir para esse objetivo, fornecendo um modelo que possa ser utilizado por profissionais de saúde para identificar pacientes com alto risco de AVC e tomar medidas preventivas.
 
-# Referências
 
-1. MINISTÉRIO DA SAÚDE. AVC. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc. Acesso em: 01 mar. 2024.
-
-2. ORGANIZAÇÃO MUNDIAL DA SAÚDE. AVC. Disponível em: https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html. Acesso em: 01 mar. 2024.
-
-3. SORIANO, F. Stroke Prediction Dataset. Kaggle. Disponível em: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset. Acesso em: 01 mar. 2024.
+ 
 
 ## Público-Alvo
 
@@ -245,13 +233,24 @@ Canvas Analítico. O Canvas Analítico tem o papel de registrar a organização 
 
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho utilizando o padrão ABNT.
+(Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho utilizando o padrão ABNT.)
+
+(falta utilizar o apdra ABNT)
 https://miro.com/app/board/uXjVNmjzMv4=/#tpicker-content
 https://www.correiobraziliense.com.br/ciencia-e-saude/2023/10/5132443-mortes-por-avc-vao-disparar-nas-proximas-tres-decadas.html
 https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 https://1drv.ms/w/s!AkfLoi_fDEzRnQyaP9yUT4npZXtH?e=Jh7vbH
 https://vitorborbarodrigues.medium.com/m%C3%A9tricas-de-avalia%C3%A7%C3%A3o-acur%C3%A1cia-precis%C3%A3o-recall-quais-as-diferen%C3%A7as-c8f05e0a513c#:~:text=M%C3%A9tricas%20de%20Avalia%C3%A7%C3%A3o%201%20Acur%C3%A1cia%3A%2
 
+1. MINISTÉRIO DA SAÚDE. AVC. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc. Acesso em: 01 mar. 2024.
+
+2. ORGANIZAÇÃO MUNDIAL DA SAÚDE. AVC. Disponível em: https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html. Acesso em: 01 mar. 2024.
+
+3. SORIANO, F. Stroke Prediction Dataset. Kaggle. Disponível em: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset. Acesso em: 01 mar. 2024.
+4.  Fedesoriano. Stroke Prediction Dataset. Kaggle. 2021. https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+
+5. Saria, S., et al. "Ethical Considerations in the Use of Machine Learning for Stroke Prediction." Journal of the American Medical Informatics Association 26.10 (2019): 2208-2213. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9279513/
+  
 
 
 > **Links Úteis**:
