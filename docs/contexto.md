@@ -18,7 +18,7 @@ Descreva ainda o contexto em que essa aplicação será usada, se houver: empres
 
 ## Questão de pesquisa
 
-## Objetivo
+# Objetivo
 
 O objetivo deste estudo é determinar o modelo de aprendizado de máquina mais eficaz para prever a ocorrência de AVC em pacientes, considerando os fatores de risco presentes no conjunto de dados de Fedesoriano.
 
