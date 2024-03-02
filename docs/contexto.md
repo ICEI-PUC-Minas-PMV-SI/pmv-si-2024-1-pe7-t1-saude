@@ -76,6 +76,9 @@ Interpretação do modelo: 1 semana
 Validação externa: 1 semana
 Redação do relatório final: 2 semanas
 
+[Saude+(PROJECT LIBRE.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/files/14471029/Saude%2B.PROJECT.LIBRE.pdf)
+
+
 ## Resultados Esperados
 
 Identificação dos principais fatores de risco para AVC presentes no conjunto de dados.
