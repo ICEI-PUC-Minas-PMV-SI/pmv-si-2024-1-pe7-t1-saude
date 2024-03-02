@@ -85,7 +85,7 @@ Discussão das implicações éticas e sociais da utilização de modelos de apr
 
 ## Objetivos preliminares
 
-Aqui você deve descrever os objetivos preliminares do trabalho indicando que o objetivo geral é experimentar modelos de aprendizado de máquina adequados para solucionar o problema apresentado acima. 
+(Aqui você deve descrever os objetivos preliminares do trabalho indicando que o objetivo geral é experimentar modelos de aprendizado de máquina adequados para solucionar o problema apresentado acima. 
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
 
@@ -95,20 +95,24 @@ Lembre-se que, à medida que a pesquisa/experimentação evolui, os objetivos po
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
+
+
 A finalidade do trabalho é auxiliar a identificar pessoas que se encontram em grupo de risco para AVC. 
 
 Para isso, será realizado um estudo na área e, a partir dos dados coletados, será treinado um modelo de Machine Learning que seja capaz de predizer se uma pessoa se encontra nesse grupo a partir de certos atributos.
 
 A partir desse objetivo, será disponibilizado para os clientes da clínica Saúde+ uma série de recomendações caso se encontre em tal grupo de risco, como dicas de dieta, sintomas de um possível derrame, lista dos médicos cadastrados especializados na área, etc...
 
+# Objetivo Específico
+
+Este estudo visa desenvolver um modelo de aprendizado de máquina para prever a probabilidade de um paciente sofrer um AVC. O modelo será treinado e validado usando o conjunto de dados "Stroke Prediction Dataset" disponível no Kaggle (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
+
+
 ## Justificativa
 # Importância e Motivação
 
 O AVC é um problema de saúde pública global, com 5,5 milhões de mortes e 110 milhões de DALYs (anos de vida perdidos por incapacidade) a cada ano (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html). No Brasil, o AVC é a segunda principal causa de morte (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z), responsável por 100 mil mortes anualmente.
 
-# Objetivo Específico
-
-Este estudo visa desenvolver um modelo de aprendizado de máquina para prever a probabilidade de um paciente sofrer um AVC. O modelo será treinado e validado usando o conjunto de dados "Stroke Prediction Dataset" disponível no Kaggle (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
 
 # Razões para Aprofundar o Estudo
 
