@@ -1,17 +1,15 @@
-## Introdução
+# Introdução
 
 (Texto descritivo introdutório apresentando a visão geral do projeto a ser desenvolvido considerando o contexto em que ele se insere, os objetivos gerais, a justificativa e o público-alvo do projeto.)
 
 O AVC é uma das principais causas de morte e incapacidade no mundo. A previsão precisa do AVC pode ajudar a prevenir eventos futuros e melhorar os resultados dos pacientes. O aprendizado de máquina oferece uma oportunidade promissora para desenvolver modelos de previsão de AVC precisos e eficazes.
 
 
-## Problema
+# Problema
 
 O Acidente Vascular Cerebral (AVC) é um problema sério que afeta muitas pessoas em todo o mundo. De acordo com uma reportagem do Estado de Minas (https://www.em.com.br/app/noticia/bem-viver/2022/04/18/interna_bem_viver,1360730/avc-e-a-segunda-causa-de-mortes-no-mundo-e-avanca-nos-paises-de-baixa-renda.shtml) a Organização Mundial da Saúde (OMS) cita o AVC como a segunda principal causa de morte no mundo, sendo responsável por cerca de 11% dos óbitos. Essa lesão traz um risco para a vida das vítimas, não só ocasionando mortes mas, também, trazendo incapacidades físicas e mentais em adultos, trazendo grandes impactos para a qualidade de vida e gerando altos custos para os sistemas de saúde. Dessa forma, é crucial que seja estudado as prováveis causas para seu acontecimento de modo a reconhecer padrões e prover prevenções e tratamentos para esse acidente.
 
-## Questão de pesquisa
-
-# Objetivo
+# Questão de pesquisa
 
 O objetivo deste estudo é determinar o modelo de aprendizado de máquina mais eficaz para prever a ocorrência de AVC em pacientes, considerando os fatores de risco presentes no conjunto de dados de Fedesoriano.
 
@@ -58,7 +56,7 @@ Os resultados do modelo serão interpretados de forma clinicamente relevante.
 ### 7. Validação Externa
 
 O modelo selecionado será validado em um conjunto de dados externo.
-## Cronograma
+# Cronograma
 
 Coleta e pré-processamento de dados: 1 semana
 Análise exploratória de dados: 1 semana
@@ -108,32 +106,32 @@ A partir desse objetivo, será disponibilizado para os clientes da clínica Saú
 Este estudo visa desenvolver um modelo de aprendizado de máquina para prever a probabilidade de um paciente sofrer um AVC. O modelo será treinado e validado usando o conjunto de dados "Stroke Prediction Dataset" disponível no Kaggle (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
 
 
-## Justificativa
-# Importância e Motivação
+# Justificativa
+## Importância e Motivação
 
 O AVC é um problema de saúde pública global, com 5,5 milhões de mortes e 110 milhões de DALYs (anos de vida perdidos por incapacidade) a cada ano (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html). No Brasil, o AVC é a segunda principal causa de morte (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z), responsável por 100 mil mortes anualmente.
 
 
-# Razões para Aprofundar o Estudo
+## Razões para Aprofundar o Estudo
 
 Falta de modelos preditivos: No Brasil, existem poucos modelos preditivos de AVC. A maioria dos estudos se concentra em identificar fatores de risco, mas não em prever a probabilidade de um evento.
 Melhorar a tomada de decisão: Um modelo preditivo preciso pode ajudar os profissionais de saúde a identificar pacientes com alto risco de AVC e tomar medidas preventivas.
 Reduzir a carga da doença: A prevenção do AVC pode reduzir significativamente os custos de saúde e a morbidade.
-# Impacto na Sociedade
+
+## Impacto na Sociedade
 
 Um modelo preditivo de AVC preciso pode ter um impacto significativo na sociedade brasileira:
 
 Redução da mortalidade: A detecção precoce e o tratamento do AVC podem reduzir significativamente o número de mortes.
 Melhoria da qualidade de vida: A prevenção do AVC pode evitar sequelas graves, como hemiplegia e disfunção cognitiva.
 Redução dos custos de saúde: A prevenção do AVC pode reduzir os custos de hospitalização, reabilitação e outros cuidados médicos.
-# Quantificação do Impacto
+
+## Quantificação do Impacto
 
 Custo do AVC no Brasil: R$ 12,6 bilhões por ano (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
 Redução potencial da mortalidade: 10% a 20% (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html).
 Redução potencial dos custos de saúde: 10% a 20% (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
 
-
- 
 
 ## Público-Alvo
 
