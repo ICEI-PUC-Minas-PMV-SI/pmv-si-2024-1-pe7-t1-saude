@@ -107,18 +107,18 @@ Este estudo visa desenvolver um modelo de aprendizado de máquina para prever a 
 
 
 # Justificativa
-## Importância e Motivação
+### 1. Importância e Motivação
 
 O AVC é um problema de saúde pública global, com 5,5 milhões de mortes e 110 milhões de DALYs (anos de vida perdidos por incapacidade) a cada ano (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html). No Brasil, o AVC é a segunda principal causa de morte (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z), responsável por 100 mil mortes anualmente.
 
 
-## Razões para Aprofundar o Estudo
+### 2.  Razões para Aprofundar o Estudo
 
 Falta de modelos preditivos: No Brasil, existem poucos modelos preditivos de AVC. A maioria dos estudos se concentra em identificar fatores de risco, mas não em prever a probabilidade de um evento.
 Melhorar a tomada de decisão: Um modelo preditivo preciso pode ajudar os profissionais de saúde a identificar pacientes com alto risco de AVC e tomar medidas preventivas.
 Reduzir a carga da doença: A prevenção do AVC pode reduzir significativamente os custos de saúde e a morbidade.
 
-## Impacto na Sociedade
+### 3.  Impacto na Sociedade
 
 Um modelo preditivo de AVC preciso pode ter um impacto significativo na sociedade brasileira:
 
@@ -126,14 +126,14 @@ Redução da mortalidade: A detecção precoce e o tratamento do AVC podem reduz
 Melhoria da qualidade de vida: A prevenção do AVC pode evitar sequelas graves, como hemiplegia e disfunção cognitiva.
 Redução dos custos de saúde: A prevenção do AVC pode reduzir os custos de hospitalização, reabilitação e outros cuidados médicos.
 
-## Quantificação do Impacto
+### 4. Quantificação do Impacto
 
 Custo do AVC no Brasil: R$ 12,6 bilhões por ano (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
 Redução potencial da mortalidade: 10% a 20% (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html).
 Redução potencial dos custos de saúde: 10% a 20% (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
 
 
-## Público-Alvo
+# Público-Alvo
 
 O nosso público-alvo tem uma ampla gama de profissionais de saúde, pesquisadores médicos, cientistas de dados e formuladores de políticas públicas. 
 Aqui estão algumas categorias específicas dentro desse público:
