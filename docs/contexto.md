@@ -234,15 +234,8 @@ https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 https://1drv.ms/w/s!AkfLoi_fDEzRnQyaP9yUT4npZXtH?e=Jh7vbH
 https://vitorborbarodrigues.medium.com/m%C3%A9tricas-de-avalia%C3%A7%C3%A3o-acur%C3%A1cia-precis%C3%A3o-recall-quais-as-diferen%C3%A7as-c8f05e0a513c#:~:text=M%C3%A9tricas%20de%20Avalia%C3%A7%C3%A3o%201%20Acur%C3%A1cia%3A%2
 
-1. MINISTÉRIO DA SAÚDE. AVC. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc. Acesso em: 01 mar. 2024.
-
-2. ORGANIZAÇÃO MUNDIAL DA SAÚDE. AVC. Disponível em: https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html. Acesso em: 01 mar. 2024.
-
-3. SORIANO, F. Stroke Prediction Dataset. Kaggle. Disponível em: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset. Acesso em: 01 mar. 2024.
-4.  Fedesoriano. Stroke Prediction Dataset. Kaggle. 2021. https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
-
-5. Saria, S., et al. "Ethical Considerations in the Use of Machine Learning for Stroke Prediction." Journal of the American Medical Informatics Association 26.10 (2019): 2208-2213. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9279513/
-6. Serrano, Amanda. AVC é a segunda causa de mortes no mundo e avança nos países de baixa renda. Estado de Minas [online], Minas Gerais, 02 mar. 2024. Saúde. Disponível em: https://www.em.com.br/app/noticia/bem-viver/2022/04/18/interna_bem_viver,1360730/avc-e-a-segunda-causa-de-mortes-no-mundo-e-avanca-nos-paises-de-baixa-renda.shtml. Acesso em: 02 mar. 2024.
+1. Ministério da Saúde. (2023). AVC. https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc
+2. Organização Mundial da Saúde. (2023). Acidente vascular cerebral (AVC). https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html
 
 
 
