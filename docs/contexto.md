@@ -236,6 +236,7 @@ https://vitorborbarodrigues.medium.com/m%C3%A9tricas-de-avalia%C3%A7%C3%A3o-acur
 
 1. Ministério da Saúde. (2023). AVC. https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc
 2. Organização Mundial da Saúde. (2023). Acidente vascular cerebral (AVC). https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html
+3. Serrano, Amanda. AVC é a segunda causa de mortes no mundo e avança nos países de baixa renda. Estado de Minas [online], Minas Gerais, 02 mar. 2024. Saúde. Disponível em: https://www.em.com.br/app/noticia/bem-viver/2022/04/18/interna_bem_viver,1360730/avc-e-a-segunda-causa-de-mortes-no-mundo-e-avanca-nos-paises-de-baixa-renda.shtml. Acesso em: 02 mar. 2024.
 
 
 
