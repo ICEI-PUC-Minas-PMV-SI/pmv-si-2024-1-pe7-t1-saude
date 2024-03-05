@@ -228,7 +228,8 @@ https://vitorborbarodrigues.medium.com/m%C3%A9tricas-de-avalia%C3%A7%C3%A3o-acur
 
 SOBRENOME, Nome. PREVISÃO DA GRAVIDADE DO ACIDENTE VASCULAR CEREBRAL USANDO APRENDIZADO DE MÁQUINA. Nome do j, cidade de publicação (se houver), dia, mês e ano. Seção (caso exista). Disponível em: . Acesso em: dia, mês e ano.
 
-PREVISÂO da gravidade do acidente vascular cerebral usando aprendizado de máuina. IIETA, 2022. Disponível em: https://iieta-org.translate.goog/journals/ria/paper/10.18280/ria.340609?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp. Acesso em: 04, 03 e 2024.
+PREVISÂO da gravidade do acidente vascular cerebral usando aprendizado de máuina. IIETA, 2022. Disponível em: https://iieta.org/journals/ria/paper/10.18280/ria.340609. Acesso em: 04, 03 e 2024.
 
 > **Links Úteis**:
-> - [Padrão ABNT PUC Minas](https://portal.pucminas.br/biblioteca/index_padrao.php?pagina=5886)
+> - [Padrão
+> - ABNT PUC Minas](https://portal.pucminas.br/biblioteca/index_padrao.php?pagina=5886)
