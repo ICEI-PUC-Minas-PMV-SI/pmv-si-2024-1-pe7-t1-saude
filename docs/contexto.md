@@ -11,51 +11,8 @@ O Acidente Vascular Cerebral (AVC) é um problema sério que afeta muitas pessoa
 
 # Questão de pesquisa
 
-O objetivo deste estudo é determinar o modelo de aprendizado de máquina mais eficaz para prever a ocorrência de AVC em pacientes, considerando os fatores de risco presentes no conjunto de dados de Fedesoriano.
+É possível estimar a probabilidade de um indivíduo sofrer um AVC com base em fatores de risco como idade, sexo, histórico familiar, tabagismo, diabetes, doenças cardíacas, hipertensão e uso de álcool?
 
-## Hipótese
-
-Os modelos de aprendizado de máquina podem ser usados ​​para prever com precisão a ocorrência de AVC em pacientes, utilizando os fatores de risco presentes no conjunto de dados de Fedesoriano.
-
-## Metodologia
-
-### 1. Coleta e Pré-processamento de Dados
-
-O conjunto de dados de Fedesoriano será utilizado (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
-O conjunto de dados será limpo e pré-processado para lidar com valores ausentes e inconsistentes.
-As variáveis ​​serão padronizadas para garantir uma escala uniforme.
-### 2. Análise Exploratória de Dados
-
-A distribuição das variáveis ​​será visualizada para identificar outliers.
-Medidas estatísticas descritivas serão calculadas.
-As correlações entre as variáveis ​​serão identificadas.
-### 3. Seleção de Variáveis
-
-Técnicas de seleção de variáveis ​​serão utilizadas para identificar os preditores mais importantes.
-A importância estatística e a relevância clínica das variáveis ​​serão consideradas.
-### 4. Treinamento e Avaliação de Modelos
-
-Diferentes modelos de aprendizado de máquina serão treinados, como:
-Regressão logística
-Árvore de decisão
-Floresta aleatória
-Redes neurais artificiais
-O desempenho dos modelos será avaliado usando métricas como:
-Acurácia
-Precisão
-Recall
-F1-score
-### 5. Comparação de Modelos
-
-O desempenho dos diferentes modelos de aprendizado de máquina será comparado.
-O modelo com o melhor desempenho para a tarefa de previsão de AVC será selecionado.
-### 6. Interpretação do Modelo
-
-Os fatores de risco mais importantes para AVC de acordo com o modelo selecionado serão identificados.
-Os resultados do modelo serão interpretados de forma clinicamente relevante.
-### 7. Validação Externa
-
-O modelo selecionado será validado em um conjunto de dados externo.
 # Cronograma
 
 Coleta e pré-processamento de dados: 1 semana
@@ -109,28 +66,46 @@ Este estudo visa desenvolver um modelo de aprendizado de máquina para prever a 
 # Justificativa
 ### 1. Importância e Motivação
 
-O AVC é um problema de saúde pública global, com 5,5 milhões de mortes e 110 milhões de DALYs (anos de vida perdidos por incapacidade) a cada ano (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html). No Brasil, o AVC é a segunda principal causa de morte (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z), responsável por 100 mil mortes anualmente.
+O acidente vascular cerebral (AVC) configura-se como um problema de saúde pública de alcance global, resultando em 5,5 milhões de óbitos e 110 milhões de DALYs (anos de vida perdidos por incapacidade) anualmente (Organização Mundial da Saúde, 2023). No Brasil, o AVC assume a posição de segunda principal causa de morte (Ministério da Saúde, 2023), sendo responsável por aproximadamente 100 mil óbitos a cada ano.
 
 
 ### 2.  Razões para Aprofundar o Estudo
 
-Falta de modelos preditivos: No Brasil, existem poucos modelos preditivos de AVC. A maioria dos estudos se concentra em identificar fatores de risco, mas não em prever a probabilidade de um evento.
-Melhorar a tomada de decisão: Um modelo preditivo preciso pode ajudar os profissionais de saúde a identificar pacientes com alto risco de AVC e tomar medidas preventivas.
-Reduzir a carga da doença: A prevenção do AVC pode reduzir significativamente os custos de saúde e a morbidade.
+Observa-se no Brasil uma escassez de modelos preditivos de AVC. A maior parte dos estudos existentes concentra-se na identificação de fatores de risco, não se dedicando à previsão da probabilidade de ocorrência de um evento.
+
+- 2.2. Aprimoramento da Tomada de Decisão 
+Um modelo preditivo preciso pode auxiliar os profissionais da saúde na identificação de pacientes com alto risco de AVC, possibilitando a implementação de medidas preventivas.
+
+- 2.3. Redução da Carga da Doença
+A prevenção do AVC pode gerar um impacto significativo na redução dos custos de saúde e da morbidade.
+
 
 ### 3.  Impacto na Sociedade
 
-Um modelo preditivo de AVC preciso pode ter um impacto significativo na sociedade brasileira:
+Um modelo preditivo de AVC preciso pode gerar um impacto significativo na sociedade brasileira:
 
-Redução da mortalidade: A detecção precoce e o tratamento do AVC podem reduzir significativamente o número de mortes.
-Melhoria da qualidade de vida: A prevenção do AVC pode evitar sequelas graves, como hemiplegia e disfunção cognitiva.
-Redução dos custos de saúde: A prevenção do AVC pode reduzir os custos de hospitalização, reabilitação e outros cuidados médicos.
+- 3.1. Redução da Mortalidade
+
+A detecção precoce e o tratamento adequado do AVC podem reduzir consideravelmente o número de óbitos.
+
+- 3.2. Melhoria da Qualidade de Vida
+
+A prevenção do AVC pode evitar sequelas graves, como hemiplegia e disfunção cognitiva.
+
+- 3.3. Redução dos Custos de Saúde
+
+A prevenção do AVC pode reduzir os custos de hospitalização, reabilitação e outros cuidados médicos.
 
 ### 4. Quantificação do Impacto
 
-Custo do AVC no Brasil: R$ 12,6 bilhões por ano (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
-Redução potencial da mortalidade: 10% a 20% (https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html).
-Redução potencial dos custos de saúde: 10% a 20% (https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z).
+- 4.1. Custo do AVC no Brasil
+O AVC impõe um custo anual de R$ 12,6 bilhões ao país (Ministério da Saúde, 2023).
+
+- 4.2. Redução Potencial da Mortalidade
+Estima-se que a redução da mortalidade por AVC possa variar entre 10% e 20% (Organização Mundial da Saúde, 2023).
+
+- 4.3. Redução Potencial dos Custos de Saúde
+A redução dos custos de saúde relacionados ao AVC pode alcançar de 10% a 20% (Ministério da Saúde, 2023).
 
 
 # Público-Alvo
