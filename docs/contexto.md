@@ -162,6 +162,10 @@ Número de internações por AVC aumentou quase 40% em nove anos | Jornal Hoje |
 
 avc.org.br/sobre-a-sbavc/numeros-do-avc-no-brasil-e-no-mundo: De acordo com outro registro, o portal de Transparência do Registro Civil, mantido pela ARPEN Brasil (Associação Nacional dos Registradores de Pessoas Naturais), o número de óbitos por AVC no Brasil foi de 101.965, em 2019 e 102.812 em 2020, números parecidos com os dados oficiais do SUS, que podem variar um pouco de acordo com a metodologia aplicada nos critérios de busca (CIDs considerados na pesquisa). O AVC, de acordo com este mesmo banco de dados, já matou no ano de 2022, de 1º de janeiro até 13 de outubro, 87.518 brasileiros. O número equivale à média de 12 óbitos por hora, ou 307 vítimas fatais por dia, tornando o AVC novamente a principal causa de morte no país. No mesmo período, o infarto, por exemplo, vitimou 81.987 pessoas, e a Covid-19, 59.165 cidadãos. Portanto, o AVC, que até meados da década de 2010-2015 era a primeira causa de morte no nosso país, passou para o segundo lugar, de forma similar ao que vemos no resto do mundo e em países mais desenvolvidos, e novamente em 2022, embora com dados menos oficiais (SIM x Registro Civil), retoma a posição de primeiro lugar em mortalidade no nosso país. 
 
+
+
+
+
 2 - Detalhe e contextualize o problema, descreva o dataset utilizado
 
 Dificuldade na Prevenção do AVC
@@ -172,28 +176,31 @@ Entre os fatores de risco para o AVC, destacam-se a hipertensão arterial, doen�
 É crucial que o público esteja ciente dos sintomas do AVC para reagir rapidamente diante dessa ameaça silenciosa.
 Para auxiliar nesse processo de conscientização e prevenção, dados e estudos são fundamentais. Um conjunto de dados útil pode ser encontrado em: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
+3 - Algoritmos utilizados nas pesquisas
+Principais pesquisas são:
+Prediction of Brain Stroke Severity Using Machine Learning
+Algoritmo de árvore de decisão de C4.5 e modelo de rede neural híbrida.
+Floresta de decisão bootstrap árvores impulsionadas regressão logística e rede neural profunda.
+O algoritmo de aprendizagem supervisionada usa o modelo Naïve Bayes, que depende do teorema de Bayes. “Regressão multilinear” dentre os vários tipos de módulos de regressão linear. A regressão logística enquadra-se na técnica de aprendizagem supervisionada,
+Previsão de AVC (SPN)
+
+
 4 - Identifique as métricas de avaliação empregadas  
 
-1) id: identificador único 
-2) sexo: "Masculino", "Feminino" ou "Outros" 
-3) idade: idade do paciente 
-4) hipertensão: 0 se o paciente não tem hipertensão, 1 se o paciente tem hipertensão 
-5) Cardiopatia: 0 se o paciente não tem nenhuma doença cardíaca, 1 se o paciente tem uma doença cardíaca  
+A precisão (ACC) é avaliada pelo número de todas as identificações exatas separadas da soma de um número do conjunto de dados.
 
-6) Casado "Não" ou "Sim" 
-7) Tipo de trabalho: "crianças", "Alergia”, "Nunca trabalhou, "Privado" ou "Trabalhador por conta própria" 
-8) Tipo de residencia: "Rural" ou "Urbano" 
-9) Nível de glicose: nível médio de glicose no sangue 
-10) IMC: índice de 
-massa corporal  
+EX: Precisão =  Verdadeiro Positivo  +  Verdadeiro   Negativo  Verdadeiro Positivo  +  Verdadeiro   Negativo  +  Falso Negativo  +  Falso Positivo 
 
-11) Tabagismo: "fumou anteriormente", "nunca fumou", "fuma" ou "desconhecido"* 
-12) acidente vascular cerebral: 1 se o paciente teve um acidente vascular cerebral ou 0 se não 
+F1-Score determina quão específico é o classificador e também quão rígido ele pode ser. A proporção de alta precisão e baixa recuperação extrai as possibilidades mais precisas, mas omite vários exemplos que se tornam complexos durante a divisão. A expressão matemática é dada por:
+
+EX:  F1- Pontuação = 2∗11 precisão +1 lembrar 
+
 
 
  5 - Resultados obtidos.
+
+
  
-A pesquisa fornece dados valiosos que permitem identificar padrões nos pacientes com probabilidade de sofrer um acidente vascular cerebral, considerando uma variedade de parâmetros de entrada. Esses parâmetros incluem características como histórico familiar, faixa etária, estilo de vida, e escolhas pessoais, como o tabagismo, entre outros. Esses insights individuais são essenciais para compreender o risco de cada pessoa. Os resultados destacam a importância da prevenção, ressaltando a necessidade de utilizar equipamentos tecnológicos e inteligência artificial (IA) para esse fim.
 
 
 > **Links Úteis**:
@@ -261,8 +268,14 @@ https://vitorborbarodrigues.medium.com/m%C3%A9tricas-de-avalia%C3%A7%C3%A3o-acur
 
 5. Saria, S., et al. "Ethical Considerations in the Use of Machine Learning for Stroke Prediction." Journal of the American Medical Informatics Association 26.10 (2019): 2208-2213. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9279513/
 6. Serrano, Amanda. AVC é a segunda causa de mortes no mundo e avança nos países de baixa renda. Estado de Minas [online], Minas Gerais, 02 mar. 2024. Saúde. Disponível em: https://www.em.com.br/app/noticia/bem-viver/2022/04/18/interna_bem_viver,1360730/avc-e-a-segunda-causa-de-mortes-no-mundo-e-avanca-nos-paises-de-baixa-renda.shtml. Acesso em: 02 mar. 2024.
-  
 
+
+
+
+
+SOBRENOME, Nome. PREVISÃO DA GRAVIDADE DO ACIDENTE VASCULAR CEREBRAL USANDO APRENDIZADO DE MÁQUINA. Nome do j, cidade de publicação (se houver), dia, mês e ano. Seção (caso exista). Disponível em: . Acesso em: dia, mês e ano.
+
+PREVISÂO da gravidade do acidente vascular cerebral usando aprendizado de máuina. IIETA, 2022. Disponível em: https://iieta-org.translate.goog/journals/ria/paper/10.18280/ria.340609?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp. Acesso em: 04, 03 e 2024.
 
 > **Links Úteis**:
 > - [Padrão ABNT PUC Minas](https://portal.pucminas.br/biblioteca/index_padrao.php?pagina=5886)
