@@ -190,7 +190,7 @@ Log Loss: Log Loss (ou perda logarítmica) é uma métrica que penaliza previsõ
 
  5 - Resultados obtidos.
 
-As pesquisas sobre machine learning para prevenção de AVC estão produzindo resultados promissores que têm o potencial de melhorar significativamente a detecção precoce, o tratamento e a prevenção do AVC, reduzindo assim o impacto devastador dessa condição de saúde. O dignostico precoce, o monitoramento e a personalização do tratamento, além do Modelos Preditivos Precisospara identificando as pessoas com maior risco de AVC.
+As pesquisas sobre machine learning para prevenção de AVC estão produzindo resultados importantíssimo que têm o potencial de melhorar significativamente a detecção precoce, o tratamento e a prevenção do AVC, reduzindo assim o impacto devastador dessa condição de saúde. O dignostico precoce, o monitoramento e a personalização do tratamento, além do Modelos Preditivos Precisospara identificando as pessoas com maior risco de AVC.
  
 
 
