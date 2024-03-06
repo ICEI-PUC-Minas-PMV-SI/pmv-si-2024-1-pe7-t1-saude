@@ -49,6 +49,14 @@ A partir desse objetivo, será disponibilizado para os clientes da clínica Saú
 
 # Justificativa
 O Correio Braziliense (2024) publicou um artigo que alerta para o aumento significativo das mortes por acidente vascular cerebral (AVC) nas próximas três décadas. De acordo com um relatório produzido por uma comissão de médicos, o número de óbitos por AVC pode aumentar em até 50% em relação a 2023, principalmente em países de renda média e baixa.
+Atualmente, enfrentamos desafios significativos na prevenção do AVC, muitos dos quais estão enraizados em nossos estilos de vida modernos.
+A vida sedentária, aliada a problemas de saúde como tabagismo e histórico familiar de AVC, é uma realidade para muitas pessoas. Muitos trabalham em escritórios, passando longas horas sentados, e mantêm uma alimentação pouco saudável.
+Segundo a Organização Mundial da Saúde (OMS), o AVC é a segunda principal causa de morte em todo o mundo, sendo responsável por aproximadamente 11% do total de óbitos.
+Entre os fatores de risco para o AVC, destacam-se a hipertensão arterial, doenças cardiovasculares, aterosclerose, diabetes mellitus, obesidade, sedentarismo, tabagismo, doenças genéticas de coagulação, idade avançada e histórico prévio de AVC.
+É crucial que o público esteja ciente dos sintomas do AVC para reagir rapidamente diante dessa ameaça silenciosa.
+Para auxiliar nesse processo de conscientização e prevenção, dados e estudos são fundamentais. Um conjunto de dados útil pode ser encontrado em: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+
+
 
 ### 1. Importância e Motivação
 
@@ -116,15 +124,11 @@ Esses são alguns dos grupos que representam uma variedade de interesses e aplic
 
 Diversas pesquisas estão em andamento, como o desenvolvimento de modelos de predição mais precisos, estudos de subgrupos para identificar variações no risco entre diferentes grupos, e aplicações clínicas para personalizar a prevenção e o tratamento do AVC. O objetivo final é melhorar a prevenção, o diagnóstico e o tratamento do AVC, salvando vidas e reduzindo o impacto dessa doença devastadora.
 
-2 - Detalhe e contextualize o problema, descreva o dataset utilizado (Prediction of Brain Stroke Severity Using Machine Learning)
 
-Dificuldade na Prevenção do AVC
-Atualmente, enfrentamos desafios significativos na prevenção do AVC, muitos dos quais estão enraizados em nossos estilos de vida modernos.
-A vida sedentária, aliada a problemas de saúde como tabagismo e histórico familiar de AVC, é uma realidade para muitas pessoas. Muitos trabalham em escritórios, passando longas horas sentados, e mantêm uma alimentação pouco saudável.
-Segundo a Organização Mundial da Saúde (OMS), o AVC é a segunda principal causa de morte em todo o mundo, sendo responsável por aproximadamente 11% do total de óbitos.
-Entre os fatores de risco para o AVC, destacam-se a hipertensão arterial, doenças cardiovasculares, aterosclerose, diabetes mellitus, obesidade, sedentarismo, tabagismo, doenças genéticas de coagulação, idade avançada e histórico prévio de AVC.
-É crucial que o público esteja ciente dos sintomas do AVC para reagir rapidamente diante dessa ameaça silenciosa.
-Para auxiliar nesse processo de conscientização e prevenção, dados e estudos são fundamentais. Um conjunto de dados útil pode ser encontrado em: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+2 - Detalhe e contextualize o problema, descreva o dataset utilizado (Prediction of Brain Stroke Severity Using Machine Learning)
+"O ML oferece algoritmos capazes de modelar relações complexas e ocultas entre múltiplas variáveis ​​clínicas e fisiológicas e resultados desejados. 
+A previsão de doenças vasculares (DCV) facilitam a tomada de decisão clínica pois é baseada em escores de rsico que utilizam as características clínicas e momorbidades dos pacientes mas o  ML e/ou inteligência artificial (IA) têm o potencial de prever as consequências de diferenças sutis interindividuais na fisiologia e/ou anatomia, sendo muito mais promissorja que combinam recursos complecos e produz avaliaçoes de risco muito masi precisas.
+
 
 Identificação de Fatores de Risco: Os pesquisadores estão usando técnicas de machine learning para identificar padrões e correlações em grandes conjuntos de dados de saúde para prever quem está em maior risco de desenvolver AVC. Isso pode incluir análise de dados demográficos, histórico médico, estilo de vida e biomarcadores.
 
@@ -142,13 +146,13 @@ Essas são apenas algumas das muitas áreas de pesquisa em machine learning para
 3 - Algoritmos utilizados nas pesquisas
 Principais pesquisas são:
 Prediction of Brain Stroke Severity Using Machine Learning
+
 Algoritmo de árvore de decisão de C4.5 e modelo de rede neural híbrida.
 Floresta de decisão bootstrap árvores impulsionadas regressão logística e rede neural profunda.
+
 O algoritmo de aprendizagem supervisionada usa o modelo Naïve Bayes, que depende do teorema de Bayes. “Regressão multilinear” dentre os vários tipos de módulos de regressão linear. A regressão logística enquadra-se na técnica de aprendizagem supervisionada,
+
 Previsão de AVC (SPN)
-
-
-
 
 Vários como Redes Neurais Artificiais (RNAs) são modelos inspirados no funcionamento do cérebro humano e são frequentemente usados em pesquisas de machine learning devido à sua capacidade de aprender padrões complexos em grandes conjuntos de dados. E tamém  SVM que é um algoritmo de aprendizado supervisionado que é frequentemente usado para classificação e regressão. Ele funciona bem em conjuntos de dados de alta dimensionalidade e é eficaz na identificação de padrões não lineares.
 
