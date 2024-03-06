@@ -48,10 +48,11 @@ A partir desse objetivo, será disponibilizado para os clientes da clínica Saú
 
 
 # Justificativa
+O Correio Braziliense (2024) publicou um artigo que alerta para o aumento significativo das mortes por acidente vascular cerebral (AVC) nas próximas três décadas. De acordo com um relatório produzido por uma comissão de médicos, o número de óbitos por AVC pode aumentar em até 50% em relação a 2023, principalmente em países de renda média e baixa.
+
 ### 1. Importância e Motivação
 
 O acidente vascular cerebral (AVC) configura-se como um problema de saúde pública de alcance global, resultando em 5,5 milhões de óbitos e 110 milhões de DALYs (anos de vida perdidos por incapacidade) anualmente (Organização Mundial da Saúde, 2023). No Brasil, o AVC assume a posição de segunda principal causa de morte (Ministério da Saúde, 2023), sendo responsável por aproximadamente 100 mil óbitos a cada ano.
-
 
 ### 2.  Razões para Aprofundar o Estudo
 
@@ -113,17 +114,7 @@ Esses são alguns dos grupos que representam uma variedade de interesses e aplic
 
 1 - Quais pesquisas estão sendo desenvolvidas sobre esse tema? 
 
-Mortes por AVC vão disparar nas próximas três décadas (correiobraziliense.com.br): Relatório produzido por comissão de médicos indica que, em três décadas, o número de óbitos aumentará 50% em relação a 2023, principalmente em países de renda média e baixa. Medidas de prevenção e tratamento podem evitar a tendência. 
-
-Modelo de aprendizado de máquina prevê AVC no momento da triagem - TecMundo: De acordo com o estudo, publicado no Journal of Medical Internet Research em fevereiro, o AVC está hoje "entre as condições médicas mal diagnosticadas mais comuns e perigosas". Os erros atingem particularmente pessoas negras, hispânicas, mulheres, idosos em Medicare e pessoas em áreas rurais dos EUA. Isso ocorre porque nem todos os pacientes exibem os sintomas característicos dessa grave condição médica, como problemas de fala, queda facial e fraqueza nos membros. 
-
-Número de internações por AVC aumentou quase 40% em nove anos | Jornal Hoje | G1 (globo.com): Diabetes, hipertensão, obesidade e colesterol alto são alguns dos fatores de risco para o problema. A diabetes é um dos principais fatores de riscos para o AVC. Além dela estão a hipertensão arterial, obesidade, colesterol alto, tabagismo e sedentarismo. 
-
-avc.org.br/sobre-a-sbavc/numeros-do-avc-no-brasil-e-no-mundo: De acordo com outro registro, o portal de Transparência do Registro Civil, mantido pela ARPEN Brasil (Associação Nacional dos Registradores de Pessoas Naturais), o número de óbitos por AVC no Brasil foi de 101.965, em 2019 e 102.812 em 2020, números parecidos com os dados oficiais do SUS, que podem variar um pouco de acordo com a metodologia aplicada nos critérios de busca (CIDs considerados na pesquisa). O AVC, de acordo com este mesmo banco de dados, já matou no ano de 2022, de 1º de janeiro até 13 de outubro, 87.518 brasileiros. O número equivale à média de 12 óbitos por hora, ou 307 vítimas fatais por dia, tornando o AVC novamente a principal causa de morte no país. No mesmo período, o infarto, por exemplo, vitimou 81.987 pessoas, e a Covid-19, 59.165 cidadãos. Portanto, o AVC, que até meados da década de 2010-2015 era a primeira causa de morte no nosso país, passou para o segundo lugar, de forma similar ao que vemos no resto do mundo e em países mais desenvolvidos, e novamente em 2022, embora com dados menos oficiais (SIM x Registro Civil), retoma a posição de primeiro lugar em mortalidade no nosso país. 
-
-
-
-
+Diversas pesquisas estão em andamento, como o desenvolvimento de modelos de predição mais precisos, estudos de subgrupos para identificar variações no risco entre diferentes grupos, e aplicações clínicas para personalizar a prevenção e o tratamento do AVC. O objetivo final é melhorar a prevenção, o diagnóstico e o tratamento do AVC, salvando vidas e reduzindo o impacto dessa doença devastadora.
 
 2 - Detalhe e contextualize o problema, descreva o dataset utilizado
 
@@ -220,7 +211,8 @@ https://vitorborbarodrigues.medium.com/m%C3%A9tricas-de-avalia%C3%A7%C3%A3o-acur
 
 1. Ministério da Saúde. (2023). AVC. https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/avc
 2. Organização Mundial da Saúde. (2023). Acidente vascular cerebral (AVC). https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html
-3. Serrano, Amanda. AVC é a segunda causa de mortes no mundo e avança nos países de baixa renda. Estado de Minas [online], Minas Gerais, 02 mar. 2024. Saúde. Disponível em: https://www.em.com.br/app/noticia/bem-viver/2022/04/18/interna_bem_viver,1360730/avc-e-a-segunda-causa-de-mortes-no-mundo-e-avanca-nos-paises-de-baixa-renda.shtml. Acesso em: 02 mar. 2024.
+3. Serrano, Amanda. AVC é a segunda causa de mortes no mundo e avança nos países de baixa renda. Estado de Minas, Belo Horizonte, MG, 18 abr. 2022. Saúde. Disponível em: https://www.em.com.br/app/noticia/bem-viver/2022/04/18/interna_bem_viver,1360730/avc-e-a-segunda-causa-de-mortes-no-mundo-e-avanca-nos-paises-de-baixa-renda.shtml.
+4. Correio Braziliense. Mortes por AVC vão disparar nas próximas três décadas. Correio Braziliense, Brasília, DF, 24 out. 2023. Disponível em: https://www.correiobraziliense.com.br/ciencia-e-saude/2023/10/5132443-mortes-por-avc-vao-disparar-nas-proximas-tres-decadas.html.
 
 
 
