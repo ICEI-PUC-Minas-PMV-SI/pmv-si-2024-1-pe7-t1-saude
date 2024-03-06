@@ -116,7 +116,7 @@ Esses são alguns dos grupos que representam uma variedade de interesses e aplic
 
 Diversas pesquisas estão em andamento, como o desenvolvimento de modelos de predição mais precisos, estudos de subgrupos para identificar variações no risco entre diferentes grupos, e aplicações clínicas para personalizar a prevenção e o tratamento do AVC. O objetivo final é melhorar a prevenção, o diagnóstico e o tratamento do AVC, salvando vidas e reduzindo o impacto dessa doença devastadora.
 
-2 - Detalhe e contextualize o problema, descreva o dataset utilizado
+2 - Detalhe e contextualize o problema, descreva o dataset utilizado (Prediction of Brain Stroke Severity Using Machine Learning)
 
 Dificuldade na Prevenção do AVC
 Atualmente, enfrentamos desafios significativos na prevenção do AVC, muitos dos quais estão enraizados em nossos estilos de vida modernos.
