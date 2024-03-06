@@ -126,6 +126,19 @@ Entre os fatores de risco para o AVC, destacam-se a hipertensão arterial, doen�
 É crucial que o público esteja ciente dos sintomas do AVC para reagir rapidamente diante dessa ameaça silenciosa.
 Para auxiliar nesse processo de conscientização e prevenção, dados e estudos são fundamentais. Um conjunto de dados útil pode ser encontrado em: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
+Identificação de Fatores de Risco: Os pesquisadores estão usando técnicas de machine learning para identificar padrões e correlações em grandes conjuntos de dados de saúde para prever quem está em maior risco de desenvolver AVC. Isso pode incluir análise de dados demográficos, histórico médico, estilo de vida e biomarcadores.
+
+Diagnóstico Precoce: Algoritmos de machine learning estão sendo desenvolvidos para analisar imagens médicas, como tomografias computadorizadas (TC) e ressonâncias magnéticas (RM), a fim de detectar sinais precoces de AVC. Isso pode ajudar os médicos a diagnosticar e tratar o AVC mais rapidamente, reduzindo o dano cerebral.
+
+Previsão de Recorrência: Uma vez que uma pessoa tenha sofrido um AVC, há um risco aumentado de recorrência. Modelos de machine learning estão sendo explorados para prever a probabilidade de um indivíduo sofrer um segundo AVC com base em seu histórico médico, fatores de estilo de vida e outros dados relevantes.
+
+Desenvolvimento de Sistemas de Monitoramento Remoto: Dispositivos vestíveis e sensores de saúde estão se tornando mais comuns, e os pesquisadores estão usando dados coletados por esses dispositivos para monitorar a saúde cardiovascular e prever eventos como AVC. Algoritmos de machine learning são usados para analisar os dados e identificar padrões que podem indicar um risco aumentado de AVC.
+
+Personalização do Tratamento: A resposta ao tratamento após um AVC pode variar de pessoa para pessoa. Pesquisas estão sendo realizadas para desenvolver modelos de machine learning que possam prever quais tratamentos serão mais eficazes para indivíduos com base em suas características individuais e perfil genético.
+
+Essas são apenas algumas das muitas áreas de pesquisa em machine learning para a prevenção de AVC. O uso dessa tecnologia promete melhorar significativamente a detecção precoce, o tratamento e a prevenção de AVC, reduzindo assim o impacto devastador dessa condição de saúde.
+
+
 3 - Algoritmos utilizados nas pesquisas
 Principais pesquisas são:
 Prediction of Brain Stroke Severity Using Machine Learning
@@ -133,6 +146,21 @@ Algoritmo de árvore de decisão de C4.5 e modelo de rede neural híbrida.
 Floresta de decisão bootstrap árvores impulsionadas regressão logística e rede neural profunda.
 O algoritmo de aprendizagem supervisionada usa o modelo Naïve Bayes, que depende do teorema de Bayes. “Regressão multilinear” dentre os vários tipos de módulos de regressão linear. A regressão logística enquadra-se na técnica de aprendizagem supervisionada,
 Previsão de AVC (SPN)
+
+
+
+
+Vários como Redes Neurais Artificiais (RNAs) são modelos inspirados no funcionamento do cérebro humano e são frequentemente usados em pesquisas de machine learning devido à sua capacidade de aprender padrões complexos em grandes conjuntos de dados. E tamém  SVM que é um algoritmo de aprendizado supervisionado que é frequentemente usado para classificação e regressão. Ele funciona bem em conjuntos de dados de alta dimensionalidade e é eficaz na identificação de padrões não lineares.
+
+As Redes Neurais Recorrentes (RNN) são frequentemente usadas em pesquisas que envolvem séries temporais, como dados de monitoramento de saúde ao longo do tempo. Elas são capazes de capturar dependências temporais nos dados.
+
+
+Esta, Árvores de decisão são modelos simples e interpretáveis que são frequentemente usados para classificação e regressão. Florestas aleatórias são uma extensão das árvores de decisão e combinam várias árvores para melhorar o desempenho preditivo.
+
+Outra muito utilizada é CNNs que são frequentemente usadas em pesquisas que envolvem análise de imagens médicas, como tomografias computadorizadas (TC) e ressonâncias magnéticas (RM). Elas são eficazes na extração de características de imagens complexas.
+
+E por ultimo o SVM que é um algoritmo de aprendizado supervisionado que pode ser usado para classificação e regressão. Ele é eficaz na identificação de padrões complexos e na separação de classes em espaços de alta dimensão.
+
 
 
 4 - Identifique as métricas de avaliação empregadas  
@@ -147,9 +175,22 @@ EX:  F1- Pontuação = 2∗11 precisão +1 lembrar
 
 
 
+Precisão e Revocação, esta métrica mede a proporção de previsões positivas corretas em relação ao total de previsões positivas feitas pelo modelo. Revocação (ou sensibilidade) mede a proporção de instâncias positivas corretamente identificadas pelo modelo em relação ao total de instâncias positivas no conjunto de dados.
+
+O F1-Score é a média harmônica entre precisão e revocação. Ele fornece uma única métrica que leva em consideração tanto a precisão quanto a revocação do modelo.
+
+ A curva ROC que é uma representação gráfica do desempenho de um modelo de classificação em diferentes limiares de decisão. A área sob a curva ROC (ROC-AUC) é uma métrica que quantifica a capacidade discriminativa do modelo em distinguir entre classes positivas e negativas.
+
+A acurácia mede a proporção de previsões corretas feitas pelo modelo em relação ao total de previsões feitas. É uma métrica simples e amplamente utilizada, mas pode não ser adequada para conjuntos de dados desbalanceados.
+
+Índice de Jaccard: Também conhecido como Coeficiente de Jaccard, é a medida da similaridade entre dois conjuntos de dados. No contexto de classificação binária, é a proporção entre a interseção e a união dos conjuntos de verdadeiros positivos e verdadeiros negativos.
+
+Log Loss: Log Loss (ou perda logarítmica) é uma métrica que penaliza previsões incorretas. É comumente usado em problemas de classificação binária e multiclasse para avaliar a calibração das probabilidades previstas pelo modelo.
+
+
  5 - Resultados obtidos.
 
-
+As pesquisas sobre machine learning para prevenção de AVC estão produzindo resultados promissores que têm o potencial de melhorar significativamente a detecção precoce, o tratamento e a prevenção do AVC, reduzindo assim o impacto devastador dessa condição de saúde. O dignostico precoce, o monitoramento e a personalização do tratamento, além do Modelos Preditivos Precisospara identificando as pessoas com maior risco de AVC.
  
 
 
