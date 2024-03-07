@@ -119,15 +119,18 @@ Esses são alguns dos grupos que representam uma variedade de interesses e aplic
 
 1 - Quais pesquisas estão sendo desenvolvidas sobre esse tema? 
 
+Bandi, Bhattacharyya & Midhunchkkravarthy (2020) Prediction of Brain Stroke Severity Using Machine Learning. IIETA, Vol. 34, página 1. "Esta pesquisa do modelo Stroke Predictor (SPR) utilizando técnicas de aprendizado de máquina 
+melhorou a precisão da previsão para 96,97% quando comparado com os modelos existentes."
+
 Diversas pesquisas estão em andamento, como o desenvolvimento de modelos de predição mais precisos, estudos de subgrupos para identificar variações no risco entre diferentes grupos, e aplicações clínicas para personalizar a prevenção e o tratamento do AVC. O objetivo final é melhorar a prevenção, o diagnóstico e o tratamento do AVC, salvando vidas e reduzindo o impacto dessa doença devastadora.
 
 
-2 - Detalhe e contextualize o problema, descreva o dataset utilizado (Prediction of Brain Stroke Severity Using Machine Learning)
-"O ML oferece algoritmos capazes de modelar relações complexas e ocultas entre múltiplas variáveis ​​clínicas e fisiológicas e resultados desejados. 
-A previsão de doenças vasculares (DCV) facilitam a tomada de decisão clínica pois é baseada em escores de rsico que utilizam as características clínicas e momorbidades dos pacientes mas o  ML e/ou inteligência artificial (IA) têm o potencial de prever as consequências de diferenças sutis interindividuais na fisiologia e/ou anatomia, sendo muito mais promissorja que combinam recursos complecos e produz avaliaçoes de risco muito masi precisas.
+2 - Detalhe e contextualize o problema, descreva o dataset utilizado 
 
+Bandi, Bhattacharyya & Midhunchkkravarthy (2020) perceberam que o ML oferece algoritmos capazes de modelar relações complexas e ocultas entre múltiplas variáveis ​​clínicas e fisiológicas e resultados desejados. A previsão de doenças vasculares (DCV) facilitam a tomada de decisão clínica pois é baseada em escores de rsico que utilizam as características clínicas e momorbidades dos pacientes mas o  ML e/ou inteligência artificial (IA) têm o potencial de prever as consequências de diferenças sutis interindividuais na fisiologia e/ou anatomia, sendo muito mais promissorja que combinam recursos complecos e produz avaliaçoes de risco muito masi precisas.
 
-Identificação de Fatores de Risco: Os pesquisadores estão usando técnicas de machine learning para identificar padrões e correlações em grandes conjuntos de dados de saúde para prever quem está em maior risco de desenvolver AVC. Isso pode incluir análise de dados demográficos, histórico médico, estilo de vida e biomarcadores.
+Para Bandi et. al (2020) o estudo de prevenção de AVC utilizando ML visa resolver os seguintes problemas:
+Para Identificação de Fatores de Risco: Os pesquisadores estão usando técnicas de machine learning para identificar padrões e correlações em grandes conjuntos de dados de saúde para prever quem está em maior risco de desenvolver AVC. Isso pode incluir análise de dados demográficos, histórico médico, estilo de vida e biomarcadores.
 
 Diagnóstico Precoce: Algoritmos de machine learning estão sendo desenvolvidos para analisar imagens médicas, como tomografias computadorizadas (TC) e ressonâncias magnéticas (RM), a fim de detectar sinais precoces de AVC. Isso pode ajudar os médicos a diagnosticar e tratar o AVC mais rapidamente, reduzindo o dano cerebral.
 
@@ -141,9 +144,8 @@ Essas são apenas algumas das muitas áreas de pesquisa em machine learning para
 
 
 3 - Algoritmos utilizados nas pesquisas
-Principais pesquisas são:
-Prediction of Brain Stroke Severity Using Machine Learning
 
+Bandi et. al (2020) utilizaram algorítmos que seguem
 Algoritmo de árvore de decisão de C4.5 e modelo de rede neural híbrida.
 Floresta de decisão bootstrap árvores impulsionadas regressão logística e rede neural profunda.
 
