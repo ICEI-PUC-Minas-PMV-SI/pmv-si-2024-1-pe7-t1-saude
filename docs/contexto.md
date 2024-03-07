@@ -150,7 +150,7 @@ Prediction of Brain Stroke Severity Using Machine Learning
 Algoritmo de árvore de decisão de C4.5 e modelo de rede neural híbrida.
 Floresta de decisão bootstrap árvores impulsionadas regressão logística e rede neural profunda.
 
-O algoritmo de aprendizagem supervisionada usa o modelo Naïve Bayes, que depende do teorema de Bayes. “Regressão multilinear” dentre os vários tipos de módulos de regressão linear. A regressão logística enquadra-se na técnica de aprendizagem supervisionada,
+O algoritmo de aprendizagem supervisionada usa o modelo Naïve Bayes, que depende do teorema de Bayesm obteve nessa pesquisa 76,77 %. “Regressão multilinear” dentre os vários tipos de módulos de regressão linear. A regressão logística enquadra-se na técnica de aprendizagem supervisionada,
 
 Previsão de AVC (SPN)
 
@@ -159,43 +159,41 @@ Vários como Redes Neurais Artificiais (RNAs) são modelos inspirados no funcion
 As Redes Neurais Recorrentes (RNN) são frequentemente usadas em pesquisas que envolvem séries temporais, como dados de monitoramento de saúde ao longo do tempo. Elas são capazes de capturar dependências temporais nos dados.
 
 
-Esta, Árvores de decisão são modelos simples e interpretáveis que são frequentemente usados para classificação e regressão. Florestas aleatórias são uma extensão das árvores de decisão e combinam várias árvores para melhorar o desempenho preditivo.
+Esta, Árvores de decisão são modelos simples e interpretáveis que são frequentemente usados para classificação e regressão obteve performance de 93,12% na pesquisa em questão. Florestas aleatórias são uma extensão das árvores de decisão e combinam várias árvores para melhorar o desempenho preditivo.
 
 Outra muito utilizada é CNNs que são frequentemente usadas em pesquisas que envolvem análise de imagens médicas, como tomografias computadorizadas (TC) e ressonâncias magnéticas (RM). Elas são eficazes na extração de características de imagens complexas.
 
-E por ultimo o SVM que é um algoritmo de aprendizado supervisionado que pode ser usado para classificação e regressão. Ele é eficaz na identificação de padrões complexos e na separação de classes em espaços de alta dimensão.
+E por ultimo o SVM que é um algoritmo de aprendizado supervisionado que pode ser usado para classificação e regressão obteve performance de aproximadaemnte 83% . Ele é eficaz na identificação de padrões complexos e na separação de classes em espaços de alta dimensão.
 
 
 
 4 - Identifique as métricas de avaliação empregadas  
 
-A precisão (ACC) é avaliada pelo número de todas as identificações exatas separadas da soma de um número do conjunto de dados.
-
+A precisão (ACC) é avaliada pelo número de todas as identificações exatas separadas da soma de um número do conjunto de dados. 
 EX: Precisão =  Verdadeiro Positivo  +  Verdadeiro   Negativo  Verdadeiro Positivo  +  Verdadeiro   Negativo  +  Falso Negativo  +  Falso Positivo 
 
 F1-Score determina quão específico é o classificador e também quão rígido ele pode ser. A proporção de alta precisão e baixa recuperação extrai as possibilidades mais precisas, mas omite vários exemplos que se tornam complexos durante a divisão. A expressão matemática é dada por:
 
 EX:  F1- Pontuação = 2∗11 precisão +1 lembrar 
 
+Precisão e Revocação, esta métrica mede a proporção de previsões positivas corretas em relação ao total de previsões positivas feitas pelo modelo. Revocação (ou sensibilidade) mede a proporção de instâncias positivas corretamente identificadas pelo modelo em relação ao total de instâncias positivas no conjunto de dados. 94 e 91 % aproximandamente comparaçaõ entre  basic randomforest  e improved random forest model.
 
 
-Precisão e Revocação, esta métrica mede a proporção de previsões positivas corretas em relação ao total de previsões positivas feitas pelo modelo. Revocação (ou sensibilidade) mede a proporção de instâncias positivas corretamente identificadas pelo modelo em relação ao total de instâncias positivas no conjunto de dados.
+O F1-Score é a média harmônica entre precisão e revocação. Ele fornece uma única métrica que leva em consideração tanto a precisão quanto a revocação do modelo. 94 e 91 % aproximandamente comparaçaõ entre  basic randomforest  e improved random forest model.
 
-O F1-Score é a média harmônica entre precisão e revocação. Ele fornece uma única métrica que leva em consideração tanto a precisão quanto a revocação do modelo.
 
  A curva ROC que é uma representação gráfica do desempenho de um modelo de classificação em diferentes limiares de decisão. A área sob a curva ROC (ROC-AUC) é uma métrica que quantifica a capacidade discriminativa do modelo em distinguir entre classes positivas e negativas.
 
-A acurácia mede a proporção de previsões corretas feitas pelo modelo em relação ao total de previsões feitas. É uma métrica simples e amplamente utilizada, mas pode não ser adequada para conjuntos de dados desbalanceados.
-
-Índice de Jaccard: Também conhecido como Coeficiente de Jaccard, é a medida da similaridade entre dois conjuntos de dados. No contexto de classificação binária, é a proporção entre a interseção e a união dos conjuntos de verdadeiros positivos e verdadeiros negativos.
-
-Log Loss: Log Loss (ou perda logarítmica) é uma métrica que penaliza previsões incorretas. É comumente usado em problemas de classificação binária e multiclasse para avaliar a calibração das probabilidades previstas pelo modelo.
+A acurácia mede a proporção de previsões corretas feitas pelo modelo em relação ao total de previsões feitas. É uma métrica simples e amplamente utilizada, mas pode não ser adequada para conjuntos de dados desbalanceados. 96 e 94 % aproximandamente comparaçaõ entre  basic randomforest  e improved random forest model. 96 e 94 % aproximandamente comparaçaõ entre  basic randomforest  e improved random forest model.
 
 
- 5 - Resultados obtidos.
+5 - Resultados obtidos.
 
 As pesquisas sobre machine learning para prevenção de AVC estão produzindo resultados importantíssimo que têm o potencial de melhorar significativamente a detecção precoce, o tratamento e a prevenção do AVC, reduzindo assim o impacto devastador dessa condição de saúde. O dignostico precoce, o monitoramento e a personalização do tratamento, além do Modelos Preditivos Precisospara identificando as pessoas com maior risco de AVC.
  
+Neste estudo, uma técnica de conjunto Random Forest foi utilizada para prever o risco de AVC, alcançando uma precisão de 96,97% com uma taxa de erro de 0,03%. Os resultados indicam uma eficácia significativa na previsão de AVC usando este modelo. Como futuras pesquisas, sugere-se explorar métodos para diferentes tipos de AVC e níveis de risco, potencialmente utilizando conjuntos de dados de imagens.
+
+![métricas e algoritimos - Copia](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/3d0ed661-972e-4735-bbf5-26e5465fd031)
 
 
 > **Links Úteis**:
