@@ -145,24 +145,24 @@ Rede neural profunda baseada em atenção
 Floresta aleatória
 
 As métricas utilizadas por  Chahine et. al (2023) e os resultados obtidos:
- | Entrada| Métrica	| Precisão |
- | — — — —|— — — — — |— — — — —|
- |Mesmos fatores de risco que a calculadora de risco ACC/AHA | Sensibilidade especificidade	| 0,86 0,95 e AUC 0,92 |
- | — — — —|— — — — — |— — — — —|
+ | Entrada | Métrica | Precisão |
+ | :---  |  :---:  |---:  |
+ |Mesmos fatores de risco que a calculadora de risco ACC/AHA | Sensibilidade especificidade | 0,86 0,95 e AUC 0,92 |
+ | :--- | :---: | ---: |
  | Fatores sociodemográficos, dieta, história médica, atividade física e medidas físicas |
-	| Precisão Sensibilidade Especificidade VPP VPL |	♂ 76%, ♀ 80%; ♂ 76%, ♀ 67%; ♂ 76%, ♀ 81%; ♂ 26%, ♀ 24%; ♂ 97%, ♀ 97 |
- | — — — —|— — — — — |— — — — —|
- | Fatores de risco ACC/AHA e 22 variáveis adicionais | Sensibilidade especificidade VPP VPN AUC |	67,5%, 70,7%, 18,4%, 95,7%, 0,76 |
- | — — — —|— — — — — |— — — — —|
+ | Precisão Sensibilidade Especificidade VPP VPL | ♂ 76%, ♀ 80%; ♂ 76%, ♀ 67%; ♂ 76%, ♀ 81%; ♂ 26%, ♀ 24%; ♂ 97%, ♀ 97 |
+ |  :--- |  :---: |  ---:|
+ | Fatores de risco ACC/AHA e 22 variáveis adicionais | Sensibilidade especificidade VPP VPN AUC | 67,5%, 70,7%, 18,4%, 95,7%, 0,76 |
+ | :--- | :---: |  ---: |
  | Imagem, ECG e biomarcadores séricos (735 variáveis) | Índice C, Escore Brier | 0,81, 0,083 |
- | — — — —|— — — — — |— — — — —|
- | 473 variáveis clínicas e laboratoriais	| Sensibilidade VPP AUC |	69,9%, 2,6%, 0,774 |
- | — — — —|— — — — — |— — — — —|
- | Lista diversificada de comorbidades/variáveis demográficas/temporais de exposição | AUC |	0,892 |
- | — — — —|— — — — — |— — — — —|
- |Informações demográficas, de exames de saúde e de histórico médico |	AUC | 	0,727 |
- | — — — —|— — — — — |— — — — —|
- |Carga de FA registrada em dispositivos eletrônicos implantáveis cardíacos | Sensibilidade especificidade AUC |	52%, 63%, 0,662 |
+ |  :--- |  :---: |  ---: |
+ | 473 variáveis clínicas e laboratoriais| Sensibilidade VPP AUC | 69,9%, 2,6%, 0,774 |
+ |  :--- |  :---: |  ---: |
+ | Lista diversificada de comorbidades/variáveis demográficas/temporais de exposição | AUC | 0,892 |
+ |  :--- |  :---:  |  ---: |
+ |Informações demográficas, de exames de saúde e de histórico médico | AUC | 0,727 |
+ |  :--- |  :---: |  ---: |
+ |Carga de FA registrada em dispositivos eletrônicos implantáveis cardíacos | Sensibilidade especificidade AUC | 52%, 63%, 0,662 |
 
 
 Pesquisa 2 https://iieta.org/journals/ria/paper/10.18280/ria.340609
@@ -185,8 +185,8 @@ Neste dataset inclui um total de 4.799 sujeitos, que contém 3.123 homens e 1.67
 
 
 Tabela 1. Resumo do conjunto de dados do artigo de Bandi et. Al (2020)
-| Atributo |	Mínimo |	Máximo |	Significar	| Desvio | padrão |
-| — — — — —|— — — — |— — —  —|— — — — — —| — — — —| — — — —|
+| Atributo | Mínimo | Máximo | Significar | Desvio | padrão |
+| :---: | :---: | :---: | :---: | :---: |  ---:|
 | Idade  | 1 | 90 | 47.12 | 23.69 |
 | NIHSS   | 0 | 45 |  18.12 | 11.27 |
 | Sra  | -1 | 6 | 3.67 | 1.87 |
@@ -195,8 +195,8 @@ Tabela 1. Resumo do conjunto de dados do artigo de Bandi et. Al (2020)
 | Glicose  | 70 | 295 | 225.85 | 56.11 |
 | Paralisia  | 0 | 3 | 1.36 | 1.106 |
 | Tabagismo  | 0 | 3 | 0.88 | 0.9 |
-| IMC    | 18  | 45 | 33.73 | 6.23 |
-| Colesterol	| 160	| 253 | 217.53 | 20.26 |
+| IMC | 18  | 45 | 33.73 | 6.23 |
+| Colesterol | 160 | 253 | 217.53 | 20.26 |
 
 •	Variáveis demográficas dos participantes (idade, gênero, altura, peso, etc.).
 •	Resultados de testes físicos (pressão arterial, frequência cardíaca em repouso, capacidade aeróbica, etc.).
