@@ -154,7 +154,7 @@ Foi utilizado a técnica SMOTE para equilibrar o conjunto de dados para melhorar
 
 Nesta pesquisa Rodriguez (2021) provou q atraves da CIencia de dados e do uso de algoriticmo de Aprendizagem de máquina , é possível prever or esultado do AVC  e que a metodologia CRISPI-DM ajuda na orientação da análise dos dados, tornando mais simples e efeicaz. 
 
-Pesquisa 3 Aprendizado de máquina para acidente vascular cerebral: uma revisão - ScienceDirect 
+Pesquisa 4 Aprendizado de máquina para acidente vascular cerebral: uma revisão - ScienceDirect 
 
  
 
