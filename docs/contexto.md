@@ -185,7 +185,7 @@ Neste dataset inclui um total de 4.799 sujeitos, que contém 3.123 homens e 1.67
 
 
 Tabela 1. Resumo do conjunto de dados do artigo de Bandi et. Al (2020)
-| Atributo | Mínimo | Máximo | Significar | Desvio | padrão |
+| Atributo | Mínimo | Máximo | Significar | Desvio padrão |
 | :---: | :---: | :---: | :---: | :---: |  ---:|
 | Idade  | 1 | 90 | 47.12 | 23.69 |
 | NIHSS   | 0 | 45 |  18.12 | 11.27 |
