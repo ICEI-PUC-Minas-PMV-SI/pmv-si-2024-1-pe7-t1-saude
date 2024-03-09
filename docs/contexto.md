@@ -186,15 +186,15 @@ Neste dataset inclui um total de 4.799 sujeitos, que contém 3.123 homens e 1.67
 
 Tabela 1. Resumo do conjunto de dados do artigo de Bandi et. Al (2020)
 | Atributo | Mínimo | Máximo | Significar | Desvio padrão |
-| :---: | :---: | :---: | :---: | :---: |  ---:|
+| :---: | :---: | :---: | :---: | ---: | 
 | Idade  | 1 | 90 | 47.12 | 23.69 |
-| NIHSS   | 0 | 45 |  18.12 | 11.27 |
+| NIHSS | 0 | 45 |  18.12 | 11.27 |
 | Sra  | -1 | 6 | 3.67 | 1.87 |
 | PA sistólica | 100 | 195 | 153.09 | 24.92 |
 | PA diastólica | 59 | 135 | 103.65 | 18.34 |
 | Glicose  | 70 | 295 | 225.85 | 56.11 |
-| Paralisia  | 0 | 3 | 1.36 | 1.106 |
-| Tabagismo  | 0 | 3 | 0.88 | 0.9 |
+| Paralisia | 0 | 3 | 1.36 | 1.106 |
+| Tabagismo | 0 | 3 | 0.88 | 0.9 |
 | IMC | 18  | 45 | 33.73 | 6.23 |
 | Colesterol | 160 | 253 | 217.53 | 20.26 |
 
