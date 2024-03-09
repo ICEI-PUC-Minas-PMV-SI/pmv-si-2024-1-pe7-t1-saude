@@ -249,10 +249,12 @@ O desenvolvimento de um modelo preditivo de AVC preciso pode ter um impacto sign
 2. ORGANIZAÇÃO MUNDIAL DA SAÚDE. Acidente vascular cerebral (AVC). Cairo: Organização Mundial da Saúde, 2023. Disponível em: https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html.
 3. SERRANO, AMANDA. AVC é a segunda causa de mortes no mundo e avança nos países de baixa renda. Estado de Minas, Belo Horizonte, MG, 18 abr. 2022. Saúde. Disponível em: https://www.em.com.br/app/noticia/bem-viver/2022/04/18/interna_bem_viver,1360730/avc-e-a-segunda-causa-de-mortes-no-mundo-e-avanca-nos-paises-de-baixa-renda.shtml.
 4. CORREIO BRAZILIENSE. Mortes por AVC vão disparar nas próximas três décadas. Correio Braziliense, Brasília, DF, 24 out. 2023. Disponível em: https://www.correiobraziliense.com.br/ciencia-e-saude/2023/10/5132443-mortes-por-avc-vao-disparar-nas-proximas-tres-decadas.html.
-5. Rev.,Arrhythm Eletrofisiol (2023), Chahine, Magoon, Maidu, Del Álamo, & Akoum, Machine Learning and the Conundrum of Stroke Risk Prediction, NIH- National Library of Medicine, DOI: 10.15420/aer.2022.34, EUA, v.12, e07, out/2022. Disponível em: Machine Learning e o enigma da previsão de risco de AVC - PMC (nih.gov). 
-6. Bandi, Bhattacharyya & Midhunchkkravarthy (2020) Prediction of Brain Stroke Severity Using Machine Learning. IIETA, DOI: https://doi.org/10 18280/ria.340609, Vol. 34, página 1.Disponível em: https://iieta.org/journals/ria/paper/10.18280/ria.340609 
-7. Rodriguez (2021). Stroke prediction through Data Science and Machine Learning Algorithms. School of Engineering and Sciences Tecnológico de Monterrey Monterrey. DOI: 10.13140/RG.2.2.33027.43040, Monterrei México. Disponível em: https://www.researchgate.net/publication/352261064. 
-8. PREVISÂO da gravidade do acidente vascular cerebral usando aprendizado de máuina. IIETA, 2022. Disponível em: https://iieta.org/journals/ria/paper/10.18280/ria.340609. Acesso em: 04, 03 e 2024.
+5. Rev.,Arrhythm Eletrofisiol (2023), CHAHINE, MAGOON, MAIDU, ÁLAMO, & AkOUM (2023). Machine Learning and the Conundrum of Stroke Risk Prediction, NIH- National Library of Medicine, DOI: 10.15420/aer.2022.34, EUA, v.12, e07, out/2022. Disponível em: Machine Learning e o enigma da previsão de risco de AVC - PMC (nih.gov). Acesso em: 08, 03 e 2024.
+
+6. BANDI, BHATTACHARYYA & MIDHUNCHKKRAVARTHY (2020). Prediction of Brain Stroke Severity Using Machine Learning. IIETA, DOI: https://doi.org/10 18280/ria.340609, Vol. 34, página 1.Disponível em: https://iieta.org/journals/ria/paper/10.18280/ria.340609. Acesso em: 08, 03 e 2024.
+7. RODRIGUEZ (2021). Stroke prediction through Data Science and Machine Learning Algorithms. School of Engineering and Sciences Tecnológico de Monterrey Monterrey. DOI: 10.13140/RG.2.2.33027.43040, Monterrei México. Disponível em: https://www.researchgate.net/publication/352261064. 
+8. PREVISÂO da gravidade do acidente vascular cerebral usando aprendizado de máuina. IIETA, 2022. Disponível em: https://iieta.org/journals/ria/paper/10.18280/ria.340609. Acesso em: 04, 03 e 2024. Acesso em: 08, 03 e 2024.
+
 
 > **Links Úteis**:
 > - [Padrão
