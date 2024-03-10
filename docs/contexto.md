@@ -313,12 +313,6 @@ Utilizado o modelo ML que têm a capacidade de aprender e melhorar a partir de d
 
  
 
-> **Links Úteis**:
-> - [Google Scholar](https://scholar.google.com/)
-> - [IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp)
-> - [Science Direct](https://www.sciencedirect.com/)
-> - [ACM Digital Library](https://dl.acm.org/)
-
 # Descrição do _dataset_ selecionado
 
 Link para o dataset: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data
@@ -367,6 +361,3 @@ O desenvolvimento de um modelo preditivo de AVC preciso pode ter um impacto sign
 8. PREVISÂO da gravidade do acidente vascular cerebral usando aprendizado de máuina. IIETA, 2022. Disponível em: https://iieta.org/journals/ria/paper/10.18280/ria.340609. Acesso em: 04, 03 e 2024. Acesso em: 08, 03 e 2024.
 
 
-> **Links Úteis**:
-> - [Padrão
-> - ABNT PUC Minas](https://portal.pucminas.br/biblioteca/index_padrao.php?pagina=5886)
