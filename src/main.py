@@ -5,6 +5,7 @@ import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 
+
 avc = pd.read_csv('../healthcare-dataset-stroke-data.csv')
 #print(avc.to_string())
 avc.info()
