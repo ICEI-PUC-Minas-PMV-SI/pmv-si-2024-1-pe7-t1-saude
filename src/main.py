@@ -13,6 +13,28 @@ print(avc.isnull().sum())
 print(avc.describe().to_string())
 print ("\nValores únicos :  \n",avc.nunique())
 
+#plt.rcParams['figure.dpi'] = 500
+
+fig = plt.figure(figsize=(2.7, 1.1), facecolor='#f6f5f5')
+gs = fig.add_gridspec(1, 1)
+gs.update(wspace=0, hspace=0)
+
+background_color = "#f6f5f5"
+
+ax0 = fig.add_subplot(gs[0, 0])
+ax0.set_facecolor(background_color)
+for s in ["top","right", 'left', 'bottom']:
+    ax0.spines[s].set_visible(False)
+ax0.set_xticks([])
+ax0.set_yticks([])
+ax0.grid(which='major', axis='y', zorder=0, color='#EEEEEE')
+ax0.text(-0.12, 1, 'Valores relevantes', color='black', fontsize=7, ha='left', weight='bold', va='bottom')
+ax0.text(-0.12, 0.99, 'Uma olhada rápida em valores encontrados no dataset', color='#292929', fontsize=5, ha='left', va='top')
+ax0.text(0.15, 0.3, avc.bmi.isnull().sum(), color='red', fontsize=20, ha='center', weight='bold', va='bottom')
+ax0.text(0.15, 0.3, 'Valores nulos de IMC \nQual estratégia utilizar \npara lidar?', color='dimgray', fontsize=6, ha='center', va='top', weight='bold')
+ax0.text(0.85, 0.3, "%.1f" % avc.bmi.mean(), color='red', fontsize=20, ha='center', weight='bold', va='bottom')
+ax0.text(0.85, 0.3, 'IMC médio no Dataset \nA média mundial é \nem torno de 25%', color='dimgray', fontsize=6, ha='center', va='top', weight='bold')
+lt.show()
 
 fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(12, 10))
 avc.plot(kind="hist", y="age", bins=82, color="b", ax=axes[0][0])
