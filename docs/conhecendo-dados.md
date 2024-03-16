@@ -10,6 +10,31 @@ Inclua nesta seção, gráficos, tabelas e demais artefatos que você considere 
 
 A partir da análise descrita e exploratória realizada, descreva todos os achados considerados relevantes para o contexto em que o trabalho se insere. Por exemplo: com relação à centralidade dos dados algo chamou a sua atenção? foi possível identificar correlação entre os atributos?
 
+### Porcentagem de pessoas com AVC:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/70342051/b7426daf-8412-4328-91c1-5286f373b6f5)
+
+<b>1. Desequilíbrio de Classes:</b>
+
+Maioria dos pacientes (95,1%) não teve AVC.
+Ocorrência de AVC é minoritária (4,9%).
+
+<b>2. Correlações:</b>
+
+Correlação positiva entre idade e AVC (risco aumenta com a idade).
+Correlações com outros atributos (hipertensão, doença cardíaca, tabagismo) devem ser exploradas.
+
+<b>3. Centralidade dos Dados:</b>
+
+Atributos com maior influência no risco de AVC São:
+Fatores Demográficos: Idade e sexo.
+Fatores de Saúde: Hipertensão, doença cardíaca, diabetes, tabagismo.
+
+<b>4. Observações:</b>
+
+Dataset é apenas um exemplo e pode não ser representativo da população geral.
+
+
 ## Ferramentas utilizadas
 
 Existem muitas ferramentas diferentes que podem ser utilizadas para fazer a análise dos dados. Nesta seção, descreva as ferramentas/tecnologias utilizadas e sua aplicação.
