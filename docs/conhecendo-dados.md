@@ -41,21 +41,26 @@ A partir dessas primeiras análises, podemos notar alguns pontos interessantes. 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_imc.png)
 
+
 Para começarmos a nos aprofundar nos dados, demonstramos a relação entre os atributos através do mapa de calor:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Mapa_calor.png)
+
 
 Podemos observar possíveis correlações entre certos atributos. Algumas delas são exploradas em mais detalhes nos gráficos abaixo:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao.png)
 
+
 Nos aprofundando um pouco, podemos avaliar a distribuição de certos atributos, visando entender se a distribuição está de acordo com o esperado.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_distribuicao.png)
 
+
 Pode-se observar a partir da distribuição que o atributo binário "stroke" parece desbalanceado, o que é confirmado a partir de uma análise em cima do próprio
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/70342051/b7426daf-8412-4328-91c1-5286f373b6f5)
+
 
 
 ## Descrição dos achados
@@ -105,8 +110,8 @@ A linguagem de programação escolhida para desenvolvimento do código foi o Pyt
 A IDE de desenvolvimento escolhida foi o IntelliJ (https://www.jetbrains.com/pt-br/idea/)
 As bibliotecas escolhidas para análise do dataset e criação de gráficos foram as seguintes:
 
-pandas \n
-matplotlib \n
-scikit-learn \n
-seaborn \n
-numpy \n
+pandas 
+matplotlib 
+scikit-learn 
+seaborn 
+numpy 
