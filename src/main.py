@@ -10,6 +10,7 @@ avc = pd.read_csv('../healthcare-dataset-stroke-data.csv')
 avc.info()
 print(avc.isnull().sum())
 print(avc.describe().to_string())
+print(avc.age.isin([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]).sum())
 print("\nValores únicos :  \n", avc.nunique())
 
 # plt.rcParams['figure.dpi'] = 500
@@ -38,17 +39,26 @@ ax0.text(0.85, 0.3, 'IMC médio no Dataset \nA média mundial é \nem torno de 2
          ha='center', va='top', weight='bold')
 plt.show()
 
-fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(12, 10))
-avc.plot(kind="hist", y="age", bins=82, color="b", ax=axes[0][0])
-avc.plot(kind="hist", y="bmi", bins=87, color="r", ax=axes[0][1])
-avc.plot(kind="hist", y="heart_disease", bins=5, color="g", ax=axes[1][0])
+fig, axes = plt.subplots(nrows=2, ncols=3, figsize=(12, 10))
+avc.plot(kind="hist", y="age", bins=104, color="b", ax=axes[0][0])
+avc.plot(kind="hist", y="bmi", bins=418, color="r", ax=axes[0][1])
+avc.plot(kind="hist", y="heart_disease", bins=5, color="g", ax=axes[0][2])
+avc.plot(kind="hist", y="avg_glucose_level", bins=107, color="purple", ax=axes[1][0])
+avc.plot(kind="hist", y="hypertension", bins=5, color="gray", ax=axes[1][1])
+avc.plot(kind="hist", y="stroke", bins=5, color="orange", ax=axes[1][2])
+fig.tight_layout()
 plt.show()
 
-fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(15, 5))
-avc.plot(kind='scatter', x='age', y='avg_glucose_level', alpha=0.5, color='green', ax=axes[0],
-         title="Age vs. avg_glucose_level")
-avc.plot(kind='scatter', x='bmi', y='avg_glucose_level', alpha=0.5, color='red', ax=axes[1],
-         title="bmi vs. avg_glucose_level")
+fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(15, 8))
+avc.plot(kind='scatter', x='age', y='avg_glucose_level', alpha=0.6, color='green', ax=axes[0][0],
+         title="Idade X Nível de glicose")
+avc.plot(kind='scatter', x='bmi', y='avg_glucose_level', alpha=0.6, color='red', ax=axes[0][1],
+         title="IMC X Nível de glicose")
+avc.plot(kind='scatter', x='age', y='avg_glucose_level', alpha=0.6, color='blue', ax=axes[1][0],
+         title="Idade X Nível de glicose")
+avc.plot(kind='scatter', x='age', y='stroke', alpha=0.6, color='orange', ax=axes[1][1],
+         title="Idade X AVC")
+fig.tight_layout()
 plt.show()
 
 labels = avc['stroke'].value_counts(sort=True).index
