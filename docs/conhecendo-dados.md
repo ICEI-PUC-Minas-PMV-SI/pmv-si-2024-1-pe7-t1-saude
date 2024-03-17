@@ -23,7 +23,9 @@ Primeiramente, trazemos as informações do tamanho do dataset e os tipos de seu
  10  smoking_status     5110 non-null   object 
  11  stroke             5110 non-null   int64  
 
+
  Além disso, podemos observar os dados analíticos dos atributos numéricos do dataset:
+
 
                   id          age  hypertension  heart_disease  avg_glucose_level          bmi       stroke
 count   5110.000000  5110.000000   5110.000000    5110.000000        5110.000000  4909.000000  5110.000000
@@ -41,15 +43,15 @@ A partir dessas primeiras análises, podemos notar alguns pontos interessantes. 
 
 Para começarmos a nos aprofundar nos dados, demonstramos a relação entre os atributos através do mapa de calor:
 
-(Mapa de calor)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Mapa_calor.png)
 
-Podemos observar possíveis corelações entre certos atributos. Algumas delas são exploradas em mais detalhes nos gráficos abaixo:
+Podemos observar possíveis correlações entre certos atributos. Algumas delas são exploradas em mais detalhes nos gráficos abaixo:
 
-(Gráficos de relação de atributos)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao.png)
 
 Nos aprofundando um pouco, podemos avaliar a distribuição de certos atributos, visando entender se a distribuição está de acordo com o esperado.
 
-(Colocar gráfico de distribuição aqui)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_distribuicao.png)
 
 Pode-se observar a partir da distribuição que o atributo binário "stroke" parece desbalanceado, o que é confirmado a partir de uma análise em cima do próprio
 
@@ -59,6 +61,7 @@ Pode-se observar a partir da distribuição que o atributo binário "stroke" par
 ## Descrição dos achados
 
 A partir da análise descrita e exploratória realizada, descreva todos os achados considerados relevantes para o contexto em que o trabalho se insere. Por exemplo: com relação à centralidade dos dados algo chamou a sua atenção? foi possível identificar correlação entre os atributos?
+
 
 ### Valores nulos:
 
@@ -102,8 +105,8 @@ A linguagem de programação escolhida para desenvolvimento do código foi o Pyt
 A IDE de desenvolvimento escolhida foi o IntelliJ (https://www.jetbrains.com/pt-br/idea/)
 As bibliotecas escolhidas para análise do dataset e criação de gráficos foram as seguintes:
 
-pandas 
-matplotlib
-scikit-learn
-seaborn
-numpy
+pandas \n
+matplotlib \n
+scikit-learn \n
+seaborn \n
+numpy \n
