@@ -8,34 +8,38 @@ Inclua nesta seção, gráficos, tabelas e demais artefatos que você considere 
 
 Primeiramente, trazemos as informações do tamanho do dataset e os tipos de seus atributos antes de qualquer transformação:
 
-#   Column             Non-Null Count  Dtype  
----  ------             --------------  -----  
- 0   id                 5110 non-null   int64  
- 1   gender             5110 non-null   object 
- 2   age                5110 non-null   float64
- 3   hypertension       5110 non-null   int64  
- 4   heart_disease      5110 non-null   int64  
- 5   ever_married       5110 non-null   object 
- 6   work_type          5110 non-null   object 
- 7   Residence_type     5110 non-null   object 
- 8   avg_glucose_level  5110 non-null   float64
- 9   bmi                4909 non-null   float64
- 10  smoking_status     5110 non-null   object 
- 11  stroke             5110 non-null   int64  
+# Tabela de dados
+
+| Coluna           | Contagem não nula | Tipo de dados |
+|------------------|-----------------:|-----------------|
+| id                |             5110 | int64            |
+| gender            |             5110 | object           |
+| age               |             5110 | float64          |
+| hypertension      |             5110 | int64            |
+| heart_disease     |             5110 | int64            |
+| ever_married      |             5110 | object           |
+| work_type         |             5110 | object           |
+| Residence_type    |             5110 | object           |
+| avg_glucose_level |             5110 | float64          |
+| bmi               |             4909 | float64          |
+| smoking_status    |             5110 | object           |
+| stroke            |             5110 | int64            |
+
 
 
  Além disso, podemos observar os dados analíticos dos atributos numéricos do dataset:
 
 
-                  id          age  hypertension  heart_disease  avg_glucose_level          bmi       stroke
-count   5110.000000  5110.000000   5110.000000    5110.000000        5110.000000  4909.000000  5110.000000
-mean   36517.829354    43.226614      0.097456       0.054012         106.147677    28.893237     0.048728
-std    21161.721625    22.612647      0.296607       0.226063          45.283560     7.854067     0.215320
-min       67.000000     0.080000      0.000000       0.000000          55.120000    10.300000     0.000000
-25%    17741.250000    25.000000      0.000000       0.000000          77.245000    23.500000     0.000000
-50%    36932.000000    45.000000      0.000000       0.000000          91.885000    28.100000     0.000000
-75%    54682.000000    61.000000      0.000000       0.000000         114.090000    33.100000     0.000000
-max    72940.000000    82.000000      1.000000       1.000000         271.740000    97.600000     1.000000
+| Statistic           | id              | age             | hypertension  | heart_disease | avg_glucose_level | bmi            | stroke          |
+|--------------------|------------------|-----------------|----------------|----------------|-------------------|-----------------|-----------------|
+| count               | 5110.000000     | 5110.000000     | 5110.000000    | 5110.000000    | 5110.000000     | 4909.000000     | 5110.000000     |
+| mean                | 36517.829354     | 43.226614       | 0.097456       | 0.054012       | 106.147677     | 28.893237       | 0.048728       |
+| std                 | 21161.721625     | 22.612647       | 0.296607       | 0.226063       | 45.283560     | 7.854067       | 0.215320       |
+| min                 | 67.000000       | 0.080000        | 0.000000       | 0.000000       | 55.120000     | 10.300000       | 0.000000       |
+| 25th percentile     | 17741.250000     | 25.000000       | 0.000000       | 0.000000       | 77.245000     | 23.500000       | 0.000000       |
+| 50th percentile     | 36932.000000     | 45.000000       | 0.000000       | 0.000000       | 91.885000     | 28.100000       | 0.000000       |
+| 75th percentile     | 54682.000000     | 61.000000       | 0.000000       | 0.000000       | 114.090000     | 33.100000       | 0.000000       |
+| max                 | 72940.000000     | 82.000000       | 1.000000       | 1.000000       | 271.740000     | 97.600000       | 1.000000       |
 
 A partir dessas primeiras análises, podemos notar alguns pontos interessantes. Por exemplo:
 
