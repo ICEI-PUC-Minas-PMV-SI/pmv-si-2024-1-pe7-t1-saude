@@ -71,6 +71,9 @@ Pode-se observar a partir da distribuição que o atributo binário "stroke" par
 
 A partir da análise descrita e exploratória realizada, descreva todos os achados considerados relevantes para o contexto em que o trabalho se insere. Por exemplo: com relação à centralidade dos dados algo chamou a sua atenção? foi possível identificar correlação entre os atributos?
 
+### Mapa de calor:
+
+Com os dados do mapa de calor conseguimos constatar que não existem atributos que exercem um impacto forte no indicie de AVC. Contudo, por um lado alguns atributos como hipertensão, idade, nível médio de glicose e histórico de doenças cardíacas são indicies que não podem ser ignorados. Por outro lado, o atributo de tipo de residência não aparenta ter nenhuma correlação com a o indicie de AVC. 
 
 ### Valores nulos:
 
