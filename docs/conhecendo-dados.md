@@ -116,13 +116,124 @@ Ocorrência de AVC é minoritária (4,9%).
 <b>2. Correlações:</b>
 
 Correlação positiva entre idade e AVC (risco aumenta com a idade).
-Correlações com outros atributos (hipertensão, doença cardíaca, tabagismo) devem ser exploradas.
+Correlações com outros atributos (hipertensão, doença cardíaca, tabagismo) devem ser exploradas sendo assim, temos:
+
+<b>2.1. Idade:</b>
+
+Correlação positiva forte: risco de AVC aumenta com a idade.
+Explicação:
+Envelhecimento causa rigidez arterial, aterosclerose e declínio da função cardiovascular.
+Maior probabilidade de acúmulo de fatores de risco (hipertensão, diabetes).
+
+<b>2.2. Hipertensão:</b>
+
+Correlação positiva forte: hipertensão aumenta significativamente o risco de AVC.
+Explicação:
+Pressão alta danifica os vasos sanguíneos, tornando-os mais propensos a rupturas e coágulos.
+A hipertensão não controlada é um dos principais fatores de risco para AVC.
+
+<b>2.3. Doença cardíaca:</b>
+
+Correlação positiva forte: doenças cardíacas aumentam o risco de AVC.
+Explicação:
+Doenças cardíacas como arritmia, infarto e insuficiência cardíaca podem levar à formação de coágulos sanguíneos que podem causar AVC.
+A doença cardíaca também pode danificar os vasos sanguíneos, tornando-os mais propensos a rupturas.
+
+<b>2.4. Tabagismo: </b>
+
+Correlação positiva forte: tabagismo aumenta significativamente o risco de AVC.
+Explicação:
+O cigarro danifica os vasos sanguíneos e aumenta a coagulação do sangue.
+Tabagismo aumenta o risco de aterosclerose e outras doenças cardiovasculares.
+
+
+<b>2.5.0 Outros Fatores de Risco: </b>
+<b></b>
+2.5.1. Diabetes:
+
+Aumento do risco de AVC, especialmente em diabéticos tipo 2.
+<b></b>
+2.5.2. Colesterol alto:
+
+Aumento do risco de aterosclerose e coágulos sanguíneos.
+<b></b>
+2.5.3. Obesidade:
+
+Aumento do risco de hipertensão, diabetes e outras doenças cardiovasculares.
+<b></b>
+2.5.4. Sedentarismo:
+
+Aumento do risco de doenças cardiovasculares e diabetes.
+<b></b>
+2.5.5. Dieta:
+
+Dieta rica em gorduras saturadas e trans, colesterol e sódio aumenta o risco de AVC.
+<b></b>
+2.5.6. Consumo excessivo de álcool:
+
+Aumento do risco de hipertensão e doenças cardíacas.
+
+
+<b>2.6. Considerações Adicionais: </b>
+
+A força da correlação não indica causalidade.
+O risco individual de AVC depende de uma combinação de fatores.
+Modificar os fatores de risco pode reduzir significativamente o risco de AVC.
 
 <b>3. Centralidade dos Dados:</b>
 
-Atributos com maior influência no risco de AVC São:
-Fatores Demográficos: Idade e sexo.
-Fatores de Saúde: Hipertensão, doença cardíaca, diabetes, tabagismo.
+Os dados do changeset fornecem informações valiosas sobre os fatores de risco para AVC. A análise desses dados pode ajudar a:
+
+<b>3.0.1. Identificar os principais fatores de risco:</b>
+
+Idade, sexo, hipertensão, doença cardíaca, diabetes e tabagismo são os principais fatores de risco para AVC.
+Compreender a relação entre esses fatores e o risco de AVC.
+
+<b>3.0.2. Desenvolver estratégias de prevenção:</b>
+
+Modificar os fatores de risco pode reduzir significativamente o risco de AVC.
+Criar programas de prevenção direcionados a grupos de alto risco.
+
+<b>3.0.3. Melhorar o tratamento e o prognóstico:</b>
+
+A análise de dados pode ajudar a identificar pacientes com maior risco de complicações.
+Otimizar o tratamento e melhorar o prognóstico dos pacientes com AVC.
+
+<b>3.1.0. Fatores Demográficos:</b>
+
+
+<b>3.1.1. Idade:</b>
+
+A idade é o principal fator de risco para AVC.
+O risco de AVC aumenta significativamente com a idade.
+
+<b>3.1.2. Sexo:</b>
+
+Homens têm um risco ligeiramente maior de AVC do que mulheres.
+As mulheres têm um risco maior de AVC após a menopausa.
+
+<b>3.2.0. Fatores de Saúde:</b>
+
+
+<b>3.2.1. Hipertensão:</b>
+
+A hipertensão é um dos principais fatores de risco para AVC.
+A pressão alta danifica os vasos sanguíneos, aumentando o risco de rupturas e coágulos.
+
+<b>3.2.2. Doença cardíaca:</b>
+
+Doenças cardíacas aumentam o risco de AVC.
+A doença cardíaca pode levar à formação de coágulos sanguíneos que podem causar AVC.
+
+<b>3.2.3. Diabetes:</b>
+
+O diabetes aumenta o risco de AVC, especialmente em diabéticos tipo 2.
+O diabetes danifica os vasos sanguíneos e aumenta o risco de coágulos sanguíneos.
+
+<b>3.2.4. Tabagismo:</b>
+
+O tabagismo é um importante fator de risco para AVC.
+O cigarro danifica os vasos sanguíneos e aumenta a coagulação do sangue.
 
 <b>4. Observações:</b>
 
