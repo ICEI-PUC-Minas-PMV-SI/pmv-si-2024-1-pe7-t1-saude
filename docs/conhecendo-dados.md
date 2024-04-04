@@ -51,7 +51,10 @@ Para começarmos a nos aprofundar nos dados, demonstramos a relação entre os a
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Mapa_calor.png)
 
 É possível observar que um dos atributos com maior relação com o atributo binário "stroke" é a idade. Existe alguma relação entre idade e incidência de AVC?
-Observa-se que menores de 55 anos, o AVC pode ocorrer, mas é menos comum. Após 55 anos o risco de AVC aumenta de forma considerável. Após 55 anos de idade as chances de AVC duplicam (MARIANELLI Mariana, MARIANELLI Camila, NETO Tobias. Principais fatores de risco do avc isquêmico: Uma abordagem descritiva). Entre aqueles com mais de 75 anos o risco aumentacom a idade. Os fatores de risco como diabetes, tabagismo, hopertensão, alto colesterol e obesidade, assim como a falta de atividade física devem ser considerado.
+Observa-se que menores de 55 anos, o AVC pode ocorrer, mas é menos comum. Após 55 anos o risco de AVC aumenta de forma considerável. Após 55 anos de idade as chances de AVC duplicam (MARIANELLI Mariana, MARIANELLI Camila, NETO Tobias. Principais fatores de risco do avc isquêmico: Uma abordagem descritiva). 
+Abaixo de 85 anos de idade o sexo masculino é o mais acometido. Já em idades acima de 85 anos, o sexo feminino é o mais acometido já que as mulheres apresentam maior expectativa de vida (JAMES et al., 2014). 
+Os fatores de risco como diabetes, tabagismo, hopertensão, alto colesterol e obesidade, assim como a falta de atividade física devem ser considerado. 
+Em relação aos fatores de risco modificáveis, a hipertensão arterial sistêmica foi apontada como o mais comum deles, além da fibrilação atrial, diabetes mellitus, dislipidemia, obesidade e o tabagismo que pode inclusive dobrar o risco de AVCI (apud MARIANELLI, 2020)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_idade.png)
 
@@ -263,3 +266,6 @@ ORGANIZAÇÃO MUNDIAL DA SAÚDE. Obesity: preventing and managing the global epi
 SILVA, M. V. B. M. PARÂMETROS ANTROPOMÉTRICOS E DE SAÚDE DOS OFICIAIS DO CENTRO DE INSTRUÇÃO E ADAPTAÇÃO DA AERONÁUTICA - CIAAR (BASE AÉREA DE BELO HORIZONTE). Revista Brasileira de Atividade Física & Saúde. Universidade Federal de Minas Gerais, V8, 2003, p 41-48. 
 
 MARIANELLI Mariana, MARIANELLI Camila, NETO Tobias. Principais fatores de risco do avc isquêmico: Uma abordagem descritiva. Vol.3, 2020. https://ojs.brazilianjournals.com.br/ojs/index.php/BJHR/article/view/22269
+
+
+JAMES, Paul A. et al. 2014 evidence-based guideline for the management of high blood pressure in adults: report from the panel members appointed to the Eighth Joint National Committee (JNC 8). JAMA, v. 311, n. 5, p. 507-520, 5 fev. 2014. doi: 10.1001/jama.2013.284427.
