@@ -100,7 +100,10 @@ Pode se observar que o atributo IMC possui 201 entradas nulas no dataset. Qual s
 
 ### Valores médios possívelmente discrepantes:
 
-Dos valores médios observados na descrição do dataset, há um destaque para o IMC médio. No dataset, o IMC médio é de aproximadamente 28.9. Segundo a OMS, o IMC de um adulto saudável é entre 19 e 25, porém é notado que existe uma variância entre diferentes culturas, gêneros e outros fatores.
+Segundo a Organização mundial de saúde, a entrofia, o indivíduo considerado saudável deve ter o IMC entre 18,5 a 24,99.
+Dos valores médios observados na descrição do dataset, há um destaque para o IMC médio. No dataset, o IMC médio é de aproximadamente 28.9. Segundo a OMS, o IMC de um adulto saudável é entre 18,5 e 24,99, porém é notado que existe uma variância entre diferentes culturas, gêneros e outros fatores. Acima deste valor pode ser considerado um individuo, com sobrepeso, gordo ou obeso (NIEMAN, 1990)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/d26183ee-5002-402d-8f75-65f83a295952)
 
 ### Atributos mais relacionados a incidencia de AVC:
 
@@ -252,3 +255,8 @@ matplotlib
 scikit-learn 
 seaborn 
 numpy 
+
+
+ORGANIZAÇÃO MUNDIAL DA SAÚDE. Obesity: preventing and managing the global epidemic. Geneva, 1998. p. 276.
+
+SILVA, M. V. B. M.. PARÂMETROS ANTROPOMÉTRICOS E DE SAÚDE DOS OFICIAIS DO CENTRO DE INSTRUÇÃO E ADAPTAÇÃO DA AERONÁUTICA - CIAAR (BASE AÉREA DE BELO HORIZONTE). Revista Brasileira de Atividade Física & Saúde. Universidade Federal de Minas Gerais, V8, 2003, p 41-48. 
