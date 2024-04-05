@@ -72,7 +72,7 @@ No entanto "Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por me
 
 Vínculo empregatício: Como estão distribuídas as categorias de vínculo empregatício no dataset? Quantas incidências de AVC tem cada categoria?
 
-Percebe-se, a partir da análise do conjunto de dados selecionado, que as categorias mais prevalentes são aquelas relacionadas a pessoas empregadas em empresas privadas. Em contraste, as categorias de crianças e trabalhadores por conta própria estão significativamente abaixo da média, representando menos de 50% do total. Essa disparidade nos dados é evidente. Por exemplo, há um grande número de entrevistados que são empregados em empresas privadas em comparação com aqueles que trabalham por conta própria, sendo que menos da metade pertence a essa última categoria. No entanto, é difícil determinar se o tipo de emprego tem influência no risco de AVC, uma vez que não temos dados suficientes para avaliar isso com precisão. Seria necessário entrevistar um número significativamente maior de pessoas em cada categoria para estabelecer uma correlação confiável entre o tipo de vínculo empregatício e a incidência de AVC.
+Percebe-se, a partir da análise do conjunto de dados selecionado, que as categorias mais prevalentes são aquelas relacionadas a pessoas empregadas em empresas privadas. Em contraste, as categorias de crianças e trabalhadores por conta própria estão significativamente abaixo da média, representando menos de 50% do total. Essa disparidade nos dados é evidente. Por exemplo, há um grande número de indivíduo que são empregados em empresas privadas em comparação com aqueles que trabalham por conta própria, sendo que menos da metade pertence a essa última categoria. No entanto, é difícil determinar se o tipo de emprego tem influência no risco de AVC, sendo assim, as correlaçoes observadas nos nossos dados nao apontam para uma conclusão precisa. Seria necessário nova coleta e  um número significativamente maior de pessoas em cada categoria para estabelecer uma correlação confiável entre o tipo de vínculo empregatício e a incidência de AVC.
 
 
 Mas Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning', outra reclassificação foi feita ao alterar todos os valores de 'filho' para 'nunca trabalhou', visto que crianças não deveriam ser consideradas como um tipo de trabalho, o que pode implicar em valores de 'nunca trabalharam'.
@@ -80,6 +80,8 @@ Mas Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de al
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_work.png)
 
 Histórico de estado civil: Como estão distribuídas as categorias de estado civil no dataset? Quantas incidências de AVC tem cada categoria?
+
+No dataset assim como no grafico não percebe=se grnade influencia nas categorias de estado civil, até mesmo em estudos 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_married.png)
 
