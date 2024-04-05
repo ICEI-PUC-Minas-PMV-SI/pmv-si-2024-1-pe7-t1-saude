@@ -56,6 +56,8 @@ Observa-se que o AVC é menos comum em pessoas com menos de 55 anos, porém, ap�
 
 Além disso, abaixo dos 85 anos, os homens têm maior propensão a serem afetados pelo AVC. No entanto, acima dos 85 anos, as mulheres têm uma incidência maior, o que pode ser atribuído à maior expectativa de vida feminina (JAMES et al., 2014).
 
+Ainda que a idade, para Rodriguez José (2021) seja considerado uma característica não controlável, para o caso de machine learning, já que a intensão deste seja para prevençao de AVC.
+
 Fatores de risco como diabetes, tabagismo, hipertensão, alto colesterol e obesidade, bem como a falta de atividade física, desempenham um papel crucial no desenvolvimento do AVC.
 
 Entre os fatores de risco modificáveis, destaca-se a hipertensão arterial sistêmica como o mais comum, seguido pela fibrilação atrial, diabetes mellitus, dislipidemia, obesidade e tabagismo, que pode até dobrar o risco de AVC (apud MARIANELLI, 2020).
