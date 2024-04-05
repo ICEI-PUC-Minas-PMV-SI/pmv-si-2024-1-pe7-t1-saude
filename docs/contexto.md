@@ -45,57 +45,16 @@ A partir desse objetivo, será disponibilizado para os clientes da clínica Saú
 
 
 # Justificativa
-O Correio Braziliense (2024) publicou um artigo que alerta para o aumento significativo das mortes por acidente vascular cerebral (AVC) nas próximas três décadas. De acordo com um relatório produzido por uma comissão de médicos, o número de óbitos por AVC pode aumentar em até 50% em relação a 2023, principalmente em países de renda média e baixa.
-Atualmente, enfrentamos desafios significativos na prevenção do AVC, muitos dos quais estão enraizados em nossos estilos de vida modernos.
-A vida sedentária, aliada a problemas de saúde como tabagismo e histórico familiar de AVC, é uma realidade para muitas pessoas. Muitos trabalham em escritórios, passando longas horas sentados, e mantêm uma alimentação pouco saudável.
-Segundo a Organização Mundial da Saúde (OMS), o AVC é a segunda principal causa de morte em todo o mundo, sendo responsável por aproximadamente 11% do total de óbitos.
-Entre os fatores de risco para o AVC, destacam-se a hipertensão arterial, doenças cardiovasculares, aterosclerose, diabetes mellitus, obesidade, sedentarismo, tabagismo, doenças genéticas de coagulação, idade avançada e histórico prévio de AVC.
-É crucial que o público esteja ciente dos sintomas do AVC para reagir rapidamente diante dessa ameaça silenciosa.
-Para auxiliar nesse processo de conscientização e prevenção, dados e estudos são fundamentais. Um conjunto de dados útil pode ser encontrado em: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
+O Acidente Vascular Cerebral (AVC) é um problema de saúde pública global com alta morbidade e mortalidade. Segundo a Sociedade Brasileira de Doenças Cerebrovasculares (SBDCV), o AVC é a principal causa de morte no Brasil, vitimando cerca de 130 mil pessoas por ano.
 
+Estudos demonstram que a falta de educação de qualidade pode influenciar no risco de AVC. Pessoas com menor nível de escolaridade apresentam maior risco de AVC. Segundo pesquisa publicada na revista Stroke¹, o risco de AVC é 22% maior em pessoas com menos de 8 anos de estudo em comparação com aquelas com 12 anos ou mais. Fatores socioeconômicos desfavoráveis, como baixa renda e falta de acesso à educação, estão associados a um maior risco de AVC. Um estudo publicado na revista PLOS Medicine² verificou que a privação socioeconômica está associada a um aumento de 25% no risco de AVC.
 
-### 1. Importância e Motivação
+No Brasil, as escolas públicas apresentam um desempenho inferior às escolas privadas em diversos indicadores, como taxas de aprovação e proficiência em português e matemática.
 
-O acidente vascular cerebral (AVC) configura-se como um problema de saúde pública de alcance global, resultando em 5,5 milhões de óbitos e 110 milhões de DALYs (anos de vida perdidos por incapacidade) anualmente (Organização Mundial da Saúde, 2023). No Brasil, o AVC assume a posição de segunda principal causa de morte (Ministério da Saúde, 2023), sendo responsável por aproximadamente 100 mil óbitos a cada ano.
+O dataset de Previsão de AVC visa desenvolver modelos preditivos para identificar pessoas com alto risco de AVC e contribuir para a prevenção do AVC no Brasil, especialmente em populações com menor nível de escolaridade.
 
-### 2.  Razões para Aprofundar o Estudo
-
-Observa-se no Brasil uma escassez de modelos preditivos de AVC. A maior parte dos estudos existentes concentra-se na identificação de fatores de risco, não se dedicando à previsão da probabilidade de ocorrência de um evento.
-
-- 2.2. Aprimoramento da Tomada de Decisão 
-Um modelo preditivo preciso pode auxiliar os profissionais da saúde na identificação de pacientes com alto risco de AVC, possibilitando a implementação de medidas preventivas.
-
-- 2.3. Redução da Carga da Doença
-A prevenção do AVC pode gerar um impacto significativo na redução dos custos de saúde e da morbidade.
-
-
-### 3.  Impacto na Sociedade
-
-Um modelo preditivo de AVC preciso pode gerar um impacto significativo na sociedade brasileira:
-
-- 3.1. Redução da Mortalidade
-
-A detecção precoce e o tratamento adequado do AVC podem reduzir consideravelmente o número de óbitos.
-
-- 3.2. Melhoria da Qualidade de Vida
-
-A prevenção do AVC pode evitar sequelas graves, como hemiplegia e disfunção cognitiva.
-
-- 3.3. Redução dos Custos de Saúde
-
-A prevenção do AVC pode reduzir os custos de hospitalização, reabilitação e outros cuidados médicos.
-
-### 4. Quantificação do Impacto
-
-- 4.1. Custo do AVC no Brasil
-O AVC impõe um custo anual de R$ 12,6 bilhões ao país (Ministério da Saúde, 2023).
-
-- 4.2. Redução Potencial da Mortalidade
-Estima-se que a redução da mortalidade por AVC possa variar entre 10% e 20% (Organização Mundial da Saúde, 2023).
-
-- 4.3. Redução Potencial dos Custos de Saúde
-A redução dos custos de saúde relacionados ao AVC pode alcançar de 10% a 20% (Ministério da Saúde, 2023).
+A solução proposta pode trazer diversos benefícios, como a redução do número de AVCs no Brasil, melhoria da qualidade de vida das pessoas que sofreram AVC e redução dos custos com tratamento e reabilitação de AVC.
 
 
 # Público-Alvo
@@ -359,5 +318,10 @@ O desenvolvimento de um modelo preditivo de AVC preciso pode ter um impacto sign
 6. BANDI, BHATTACHARYYA & MIDHUNCHKKRAVARTHY (2020). Prediction of Brain Stroke Severity Using Machine Learning. IIETA, DOI: https://doi.org/10 18280/ria.340609, Vol. 34, página 1.Disponível em: https://iieta.org/journals/ria/paper/10.18280/ria.340609. Acesso em: 08, 03 e 2024.
 7. RODRIGUEZ (2021). Stroke prediction through Data Science and Machine Learning Algorithms. School of Engineering and Sciences Tecnológico de Monterrey Monterrey. DOI: 10.13140/RG.2.2.33027.43040, Monterrei México. Disponível em: https://www.researchgate.net/publication/352261064. 
 8. PREVISÂO da gravidade do acidente vascular cerebral usando aprendizado de máuina. IIETA, 2022. Disponível em: https://iieta.org/journals/ria/paper/10.18280/ria.340609. Acesso em: 04, 03 e 2024. Acesso em: 08, 03 e 2024.
-
+9.  PLOS MEDICINE. Disponível em: https://www.scielo.br/j/anp/a/jwY83PBY8VqGVLDhgZymxbT/?lang=pt&format=pdf
+10.  IDEB 2019. Disponível em: https://undime.org.br/noticia/15-09-2020-15-37-ideb-2019-resultados-foram-divulgados-nesta-terca-feira-15
+11. PROVA BRASIL 2019. Disponível em: https://undime.org.br/noticia/16-09-2020-09-24-inep-divulga-resultados-do-saeb-2019
+12. SOCIEDADE BRASILEIRA DE CARDIOLOGIA. Disponível em: http://publicacoes.cardiol.br/portal/abc/portugues/aop/2019/aop-diretriz-prevencao-cardiovascular-portugues.pdf
+13. DIRETRIZES DE ATENÇÃO E REABILITAÇÃO AO ACIDENTE VASCULAR CEREBRAL. Disponível em: https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_atencao_reabilitacao_acidente_vascular_cerebral.pdf
+14. SISTEMAS DE INFORMAÇÕES DE MORTALIDADE - SIM. Disponível em: http://tabnet.saude.sp.gov.br/deftohtm.exe?tabnet/ind43_matriz.def
 
