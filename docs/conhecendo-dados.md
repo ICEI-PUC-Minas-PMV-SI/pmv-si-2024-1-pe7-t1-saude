@@ -64,9 +64,10 @@ Entre os fatores de risco modificáveis, destaca-se a hipertensão arterial sist
 
 Sobre os atributos não-binários, vamos observar sua distribuição e correlação com incidência de AVC:
 
-Tabagismo: Como estão distribuídas as categorias de histórico de tabagismo no dataset? Quantas incidências de AVC tem cada categoria?
-atraves da analise do dataset em questao, podemos avaliar que o tabagismo não tem grande influencia no avc, porém nosso dataset encontra um grande numero de pessoas que estao categorizadas como "desconhecidas, ou seja não responderam se fuma ou nao, talves por se tratr de crianças. entao pode ter havido influencia no resultado ja que estudos dizem que o tabagismo influencia  no avc.
-No entanto "Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning', os valores desconhecidos relacionados ao tabagismo em indivíduos com menos de 18 anos foram ajustados para 'nunca', resultando na redução de incógnitas de 1.544 para 909, que posteriormente foram removidas do conjunto de dados."
+Tabagismo: 
+Como estão distribuídas as categorias de histórico de tabagismo no dataset? Quantas incidências de AVC tem cada categoria?
+Atraves da analise do dataset da saúde, em questao , podemos avaliar que o tabagismo tem influencia no AVC, no dataset encontramos um grande numero de pessoas que estao categorizadas como "desconhecidas, ou seja não responderam se fuma ou nao, talves por se tratar de crianças. então pode ter havido influência no resultado já que estudos afirmam que o tabagismo influencia  ao acometimento de AVC.
+Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning', os valores desconhecidos relacionados ao tabagismo em indivíduos com menos de 18 anos foram ajustados para 'nunca', resultando na redução de incógnitas de 1.544 para 909, que posteriormente foram removidas do conjunto de dados.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_smoke.png)
 
