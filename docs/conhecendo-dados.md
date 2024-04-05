@@ -50,11 +50,15 @@ Para começarmos a nos aprofundar nos dados, demonstramos a relação entre os a
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Mapa_calor.png)
 
-É possível observar que um dos atributos com maior relação com o atributo binário "stroke" é a idade. Existe alguma relação entre idade e incidência de AVC?
-Observa-se que menores de 55 anos, o AVC pode ocorrer, mas é menos comum. Após 55 anos o risco de AVC aumenta de forma considerável. Após 55 anos de idade as chances de AVC duplicam (MARIANELLI Mariana, MARIANELLI Camila, NETO Tobias. Principais fatores de risco do avc isquêmico: Uma abordagem descritiva). 
-Abaixo de 85 anos de idade o sexo masculino é o mais acometido. Já em idades acima de 85 anos, o sexo feminino é o mais acometido já que as mulheres apresentam maior expectativa de vida (JAMES et al., 2014). 
-Os fatores de risco como diabetes, tabagismo, hopertensão, alto colesterol e obesidade, assim como a falta de atividade física devem ser considerado. 
-Em relação aos fatores de risco modificáveis, a hipertensão arterial sistêmica foi apontada como o mais comum deles, além da fibrilação atrial, diabetes mellitus, dislipidemia, obesidade e o tabagismo que pode inclusive dobrar o risco de AVCI (apud MARIANELLI, 2020)
+É evidente que a idade é um dos atributos mais significantemente associados ao risco de AVC, conforme indicado pela análise do atributo binário "stroke". Existe uma correlação substancial entre idade e incidência de AVC.
+
+Observa-se que o AVC é menos comum em pessoas com menos de 55 anos, porém, após essa faixa etária, o risco aumenta consideravelmente. Estudos mostram que após os 55 anos, as chances de AVC duplicam (MARIANELLI Mariana, MARIANELLI Camila, NETO Tobias. Principais fatores de risco do AVC isquêmico: Uma abordagem descritiva).
+
+Além disso, abaixo dos 85 anos, os homens têm maior propensão a serem afetados pelo AVC. No entanto, acima dos 85 anos, as mulheres têm uma incidência maior, o que pode ser atribuído à maior expectativa de vida feminina (JAMES et al., 2014).
+
+Fatores de risco como diabetes, tabagismo, hipertensão, alto colesterol e obesidade, bem como a falta de atividade física, desempenham um papel crucial no desenvolvimento do AVC.
+
+Entre os fatores de risco modificáveis, destaca-se a hipertensão arterial sistêmica como o mais comum, seguido pela fibrilação atrial, diabetes mellitus, dislipidemia, obesidade e tabagismo, que pode até dobrar o risco de AVC (apud MARIANELLI, 2020).
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_idade.png)
 
@@ -65,6 +69,8 @@ Tagaismo: Como estão distribuídas as categorias de histórico de tabagismo no 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_smoke.png)
 
 Vínculo empregatício: Como estão distribuídas as categorias de vínculo empregatício no dataset? Quantas incidências de AVC tem cada categoria?
+
+Percebe-se, a partir da análise do conjunto de dados selecionado, que as categorias mais prevalentes são aquelas relacionadas a pessoas empregadas em empresas privadas. Em contraste, as categorias de crianças e trabalhadores por conta própria estão significativamente abaixo da média, representando menos de 50% do total. Essa disparidade nos dados é evidente. Por exemplo, há um grande número de entrevistados que são empregados em empresas privadas em comparação com aqueles que trabalham por conta própria, sendo que menos da metade pertence a essa última categoria. No entanto, é difícil determinar se o tipo de emprego tem influência no risco de AVC, uma vez que não temos dados suficientes para avaliar isso com precisão. Seria necessário entrevistar um número significativamente maior de pessoas em cada categoria para estabelecer uma correlação confiável entre o tipo de vínculo empregatício e a incidência de AVC.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_work.png)
 
