@@ -64,13 +64,18 @@ Entre os fatores de risco modificáveis, destaca-se a hipertensão arterial sist
 
 Sobre os atributos não-binários, vamos observar sua distribuição e correlação com incidência de AVC:
 
-Tagaismo: Como estão distribuídas as categorias de histórico de tabagismo no dataset? Quantas incidências de AVC tem cada categoria?
+Tabagismo: Como estão distribuídas as categorias de histórico de tabagismo no dataset? Quantas incidências de AVC tem cada categoria?
+atraves da analise do dataset em questao, podemos avaliar que o tabagismo não tem grande influencia no avc, porém nosso dataset encontra um grande numero de pessoas que estao categorizadas como "desconhecidas, ou seja não responderam se fuma ou nao, talves por se tratr de crianças. entao pode ter havido influencia no resultado ja que estudos dizem que o tabagismo influencia  no avc.
+No entanto "Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning', os valores desconhecidos relacionados ao tabagismo em indivíduos com menos de 18 anos foram ajustados para 'nunca', resultando na redução de incógnitas de 1.544 para 909, que posteriormente foram removidas do conjunto de dados."
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_smoke.png)
 
 Vínculo empregatício: Como estão distribuídas as categorias de vínculo empregatício no dataset? Quantas incidências de AVC tem cada categoria?
 
 Percebe-se, a partir da análise do conjunto de dados selecionado, que as categorias mais prevalentes são aquelas relacionadas a pessoas empregadas em empresas privadas. Em contraste, as categorias de crianças e trabalhadores por conta própria estão significativamente abaixo da média, representando menos de 50% do total. Essa disparidade nos dados é evidente. Por exemplo, há um grande número de entrevistados que são empregados em empresas privadas em comparação com aqueles que trabalham por conta própria, sendo que menos da metade pertence a essa última categoria. No entanto, é difícil determinar se o tipo de emprego tem influência no risco de AVC, uma vez que não temos dados suficientes para avaliar isso com precisão. Seria necessário entrevistar um número significativamente maior de pessoas em cada categoria para estabelecer uma correlação confiável entre o tipo de vínculo empregatício e a incidência de AVC.
+
+
+Mas Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning', outra reclassificação foi feita ao alterar todos os valores de 'filho' para 'nunca trabalhou', visto que crianças não deveriam ser consideradas como um tipo de trabalho, o que pode implicar em valores de 'nunca trabalharam'.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_work.png)
 
