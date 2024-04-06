@@ -45,7 +45,7 @@ Para começarmos a nos aprofundar nos dados, demonstramos a relação entre os a
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Mapa_calor.png)
 
 É evidente que a idade é um dos atributos mais significantemente associados ao risco de AVC, conforme indicado pela análise do atributo binário "stroke". Existe uma correlação substancial entre idade e incidência de AVC e essas informaçoes condizem com a realidade de acordo com estudos citados no item "achados".
-Tivemos neste dataset algumas 
+
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_idade.png)
 
@@ -80,7 +80,8 @@ Dos casados  220 (6,5%) tiveram a AVC e entre os solteiros 29 (1,6%).
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_married.png)
 
 Sexo: Como estão distribuídas as categorias de sexo no dataset? Quantas incidências de AVC tem cada categoria?
-
+As categorias são feminino (2994), masculino (2115) e outros (1)
+141 (4,7) pessoas do sexo feminino tiveram AVC e 108 (5,1%) dos homens.
 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_gender.png)
@@ -90,6 +91,7 @@ Além disso, podemos explorar a correlação entre alguns atributos contínuos. 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_v2.png)
 
 Nos aprofundando um pouco, podemos avaliar a distribuição de certos atributos. Os atributos em questão estão balanceados?
+
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_distribuicao_v2.png)
 
