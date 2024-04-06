@@ -44,9 +44,8 @@ Para começarmos a nos aprofundar nos dados, demonstramos a relação entre os a
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Mapa_calor.png)
 
-É evidente que a idade é um dos atributos mais significantemente associados ao risco de AVC, conforme indicado pela análise do atributo binário "stroke". Existe uma correlação substancial entre idade e incidência de AVC.
+É evidente que a idade é um dos atributos mais significantemente associados ao risco de AVC, conforme indicado pela análise do atributo binário "stroke". Existe uma correlação substancial entre idade e incidência de AVC e essas informaçoes condizem com a realidade de acordo com estudos citados no item "achados".
 
-Observa-se que o AVC é menos comum em pessoas com menos de 55 anos, porém, após essa faixa etária, o risco aumenta consideravelmente. Estudos mostram que após os 55 anos, as chances de AVC duplicam (MARIANELLI Mariana, MARIANELLI Camila, NETO Tobias. Principais fatores de risco do AVC isquêmico: Uma abordagem descritiva).
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_idade.png)
 
@@ -113,6 +112,7 @@ Pode-se observar a partir da distribuição que o atributo binário "stroke" par
 ## Descrição dos achados
 
 A partir da análise descrita e exploratória realizada, descreva todos os achados considerados relevantes para o contexto em que o trabalho se insere. Por exemplo: com relação à centralidade dos dados algo chamou a sua atenção? foi possível identificar correlação entre os atributos?
+Observa-se que o AVC é menos comum em pessoas com menos de 55 anos, porém, após essa faixa etária, o risco aumenta consideravelmente. Estudos mostram que após os 55 anos, as chances de AVC duplicam (MARIANELLI Mariana, MARIANELLI Camila, NETO Tobias. Principais fatores de risco do AVC isquêmico: Uma abordagem descritiva).
 
 ### Mapa de calor:
 
