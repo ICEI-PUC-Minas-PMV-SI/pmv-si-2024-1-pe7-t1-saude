@@ -54,11 +54,6 @@ Sobre os atributos não-binários, vamos observar sua distribuição e correlaç
 Tabagismo: 
 Como estão distribuídas as categorias de histórico de tabagismo no dataset? Quantas incidências de AVC tem cada categoria?
 
-Atraves da análise do dataset da saúde, em questao , podemos avaliar que o tabagismo tem muita influência na incidência de AVC; No dataset encontramos um grande número de pessoas que estao categorizadas como "desconhecidas", ou seja não temos informação se fuma ou nao, talves por se tratar de crianças. Então pode ter havido influência no resultado já que estudos afirmam que o tabagismo influencia ao acometimento de AVC. Mas claramente pessoas que fumam ou que fumavam anteriormente tiveram AVC em número superior ao daqueles que nao fumam ou estão na categoria, desconhem.
-
-As cataegorias foram divididas em: nunca fumou (1892), desconhecida (1544), fumou anteriormente (885), fuma (789)
-Daqueles que nunca fumaram 90 (4,75%)  tiveram AVC, dos desconhecidos 47 (3%), do que fumaram anteriormente 70 (7,9%), e daqueles que fumam 42 (5,8%) tiveram AVC.
-
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_smoke.png)
 
 Vínculo empregatício: Como estão distribuídas as categorias de vínculo empregatício no dataset? Quantas incidências de AVC tem cada categoria?
@@ -85,11 +80,6 @@ Dos casados  220 (6,5%) tiveram a AVC e entre os solteiros 29 (1,6%).
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_married.png)
 
 Sexo: Como estão distribuídas as categorias de sexo no dataset? Quantas incidências de AVC tem cada categoria?
-As categorias são feminino (2994), masculino (2115) e outros (1)
-141 (4,7) pessoas do sexo feminino tiveram AVC e 108 (5,1%) dos homens.
-Perecebe-se que a categoria "sexo", neste dataset não mostra diferença suficiente para alergarmos se um ou o outro tem mairo chance de ter AVC visto que a diferença é de apenas 0,4% entre eles.
-
-Abaixo de 85 anos de idade o sexo masculino é o mais acometido. Já em idades acima de 85 anos, o sexo feminino é o mais acometido já que as mulheres apresentam maior expectativa de vida. Em idades abaixo de 85 anos o sexo masculino é o mais acometido. (JAMES et al., 2014). 
 
 
 
@@ -172,6 +162,18 @@ Correlação positiva fraca: tabagismo aumenta significativamente o risco de AVC
 Explicação:
 O cigarro danifica os vasos sanguíneos e aumenta a coagulação do sangue.
 Tabagismo aumenta o risco de aterosclerose e outras doenças cardiovasculares.
+Atraves da análise do dataset da saúde, em questao , podemos avaliar que o tabagismo tem muita influência na incidência de AVC; No dataset encontramos um grande número de pessoas que estao categorizadas como "desconhecidas", ou seja não temos informação se fuma ou nao, talves por se tratar de crianças. Então pode ter havido influência no resultado já que estudos afirmam que o tabagismo influencia ao acometimento de AVC. Mas claramente pessoas que fumam ou que fumavam anteriormente tiveram AVC em número superior ao daqueles que nao fumam ou estão na categoria, desconhem.
+
+As cataegorias foram divididas em: nunca fumou (1892), desconhecida (1544), fumou anteriormente (885), fuma (789)
+Daqueles que nunca fumaram 90 (4,75%)  tiveram AVC, dos desconhecidos 47 (3%), do que fumaram anteriormente 70 (7,9%), e daqueles que fumam 42 (5,8%) tiveram AVC.
+
+<b>2.5. Sexo: </b>
+As categorias são feminino (2994), masculino (2115) e outros (1)
+141 (4,7) pessoas do sexo feminino tiveram AVC e 108 (5,1%) dos homens.
+Perecebe-se que a categoria "sexo", neste dataset não mostra diferença suficiente para alergarmos se um ou o outro tem mairo chance de ter AVC visto que a diferença é de apenas 0,4% entre eles.
+
+Abaixo de 85 anos de idade o sexo masculino é o mais acometido. Já em idades acima de 85 anos, o sexo feminino é o mais acometido já que as mulheres apresentam maior expectativa de vida. Em idades abaixo de 85 anos o sexo masculino é o mais acometido. (JAMES et al., 2014). 
+
 
 <b>2.6. Considerações Adicionais: </b>
 
