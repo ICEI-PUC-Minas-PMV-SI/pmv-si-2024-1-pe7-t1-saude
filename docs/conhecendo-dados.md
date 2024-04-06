@@ -78,15 +78,20 @@ Percebe-se, a partir da análise do conjunto de dados selecionado, que as catego
 
 Histórico de estado civil: Como estão distribuídas as categorias de estado civil no dataset? Quantas incidências de AVC tem cada categoria?
 
-No dataset não percebe-se influencia nas categorias de estado civil.
-As categorias foram divididas em casado (3353) e não casados (1757)
+No dataset percebe-se influência nas categorias de estado civil que os casados tiveram mais AVC dos que os solteiros.
+As categorias foram divididas em casado (3353) e não casados (1757).
+Dos casados  220 (6,5%) tiveram a AVC e entre os solteiros 29 (1,6%). 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_married.png)
 
 Sexo: Como estão distribuídas as categorias de sexo no dataset? Quantas incidências de AVC tem cada categoria?
+As categorias são feminino (2994), masculino (2115) e outros (1)
+141 (4,7) pessoas do sexo feminino tiveram AVC e 108 (5,1%) dos homens.
+Perecebe-se que a categoria "sexo", neste dataset não mostra diferença suficiente para alergarmos se um ou o outro tem mairo chance de ter AVC visto que a diferença é de apenas 0,4% entre eles.
 
 Abaixo de 85 anos de idade o sexo masculino é o mais acometido. Já em idades acima de 85 anos, o sexo feminino é o mais acometido já que as mulheres apresentam maior expectativa de vida. Em idades abaixo de 85 anos o sexo masculino é o mais acometido. (JAMES et al., 2014). 
-As categorias são feminino (2994), masculino (2115) e outros (1)
+
+
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_gender.png)
 
