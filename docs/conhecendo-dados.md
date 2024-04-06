@@ -90,8 +90,9 @@ As categorias são feminino (2994), masculino (2115) e outros (1)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_gender.png)
 
-Além disso, podemos explorar a correlação entre alguns atributos contínuos. Algumas delas são exploradas em mais detalhes nos gráficos abaixo: 
+Como é a a relação entre idade, IMC, nível de glicose no sangue e risco de AVC, de acordo com o dataset?
 
+O gráfico do dataset mostra a relação entre o nível de glicose no sangue e a idade, o IMC e o AVC e com isso o aumento da idade, observa-se um aumento no nível de glicose no sangue. O mesmo ocorre com o IMC, onde um índice mais elevado está associado a um nível mais alto de glicose. Já a relação entre IMC e idade não é clara neste gráfico. Quanto ao risco de AVC, este aumenta significativamente com o nível de glicose no sangue.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_v2.png)
 
