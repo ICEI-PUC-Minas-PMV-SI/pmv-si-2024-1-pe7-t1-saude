@@ -66,8 +66,8 @@ Vínculo empregatício: Como estão distribuídas as categorias de vínculo empr
 
 As categorias são: filho (687) , trabalho público (657), nunca trabalhou (22), empresa privada (2925), autônomo (819)
 2925 pessoas. 
-Da categoria filhos, 2 tiveram AVC, o trabalhadores públicos 33, dos que trbalharam em empresa privada 149 e entre os autonomos 65 tiveream AVC.
-Se olharmos o percentual dos trabalhadores em empresa publica (5%), privada (5%) e autônomo (8%), Os que mais foram acometidos por AVC foram os autônomos abaixo os de empresa pública e privada que se equipararam.
+Da categoria filhos, 2 tiveram AVC, o trabalhadores públicos 33, dos que trabalharam em empresa privada 149 e entre os autônomos 65 tiveream AVC.
+Se olharmos o percentual dos trabalhadores em empresa pública (5%), privada (5%) e autônomo (8%), Os que mais foram acometidos por AVC foram os autônomos abaixo os de empresa pública e privada, deste dois, ambos se equipararam. O dataset apresenta um número bem maior de trabalhadores de empresa privada, porém o percentual quanto a quantidade de pessoas que tiveram AVC foi dos trabalahdores autônomos.
 
 Percebe-se, a partir da análise do conjunto de dados selecionado, que as categorias mais prevalentes são aquelas relacionadas aos autônomos. Em contraste, as categorias de crianças e que nunca trabalhou, além de uma quantidade pequena de amostra, demonstrando que é em baixo a chance de ter um AVC. Essa disparidade nos dados é evidente. Por exemplo, há um grande número de indivíduo que são empregados em empresas privadas em comparação com aqueles que trabalham por conta própria, sendo que menos da metade pertence a essa última categoria. No entanto, é difícil determinar se o tipo de emprego tem influência no risco de AVC, sendo assim, as correlaçoes observadas nos nossos dados não apontam para uma conclusão precisa, exceto se compararamos apenas cas categorias, privado, publico e autônomo. Seria necessário nova coleta e um número significativamente maior de pessoas em cada categoria para estabelecer uma correlação confiável entre o tipo de vínculo empregatício e a incidência de AVC.
 
@@ -78,9 +78,10 @@ Percebe-se, a partir da análise do conjunto de dados selecionado, que as catego
 
 Histórico de estado civil: Como estão distribuídas as categorias de estado civil no dataset? Quantas incidências de AVC tem cada categoria?
 
-No dataset percebe-se influência nas categorias de estado civil que os casados tiveram mais AVC dos que os solteiros.
+No dataset podemos destacar que há influência nas categorias de estado civil pois os casados tiveram mais AVC dos que os solteiros. Isto pode ser devido a idade, se analisarmos o contexto gera,  mas neste gráfico foi analisado apenas as categorias casado e não casado.
 As categorias foram divididas em casado (3353) e não casados (1757).
 Dos casados  220 (6,5%) tiveram a AVC e entre os solteiros 29 (1,6%). 
+
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_married.png)
 
