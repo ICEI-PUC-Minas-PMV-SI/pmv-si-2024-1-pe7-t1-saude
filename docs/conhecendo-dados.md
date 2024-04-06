@@ -143,28 +143,28 @@ Correlações com outros atributos (hipertensão, doença cardíaca, tabagismo) 
 
 <b>2.1. Idade:</b>
 
-Correlação positiva forte: risco de AVC aumenta com a idade.
+Correlação positiva fraca: risco de AVC aumenta com a idade.
 Explicação:
 Envelhecimento causa rigidez arterial, aterosclerose e declínio da função cardiovascular.
 Maior probabilidade de acúmulo de fatores de risco (hipertensão, diabetes).
 
 <b>2.2. Hipertensão:</b>
 
-Correlação positiva forte: hipertensão aumenta significativamente o risco de AVC.
+Correlação positiva fraca: hipertensão aumenta significativamente o risco de AVC.
 Explicação:
 Pressão alta danifica os vasos sanguíneos, tornando-os mais propensos a rupturas e coágulos.
 A hipertensão não controlada é um dos principais fatores de risco para AVC.
 
 <b>2.3. Doença cardíaca:</b>
 
-Correlação positiva forte: doenças cardíacas aumentam o risco de AVC.
+Correlação positiva fraca: doenças cardíacas aumentam o risco de AVC.
 Explicação:
 Doenças cardíacas como arritmia, infarto e insuficiência cardíaca podem levar à formação de coágulos sanguíneos que podem causar AVC.
 A doença cardíaca também pode danificar os vasos sanguíneos, tornando-os mais propensos a rupturas.
 
 <b>2.4. Tabagismo: </b>
 
-Correlação positiva forte: tabagismo aumenta significativamente o risco de AVC.
+Correlação positiva fraca: tabagismo aumenta significativamente o risco de AVC.
 Explicação:
 O cigarro danifica os vasos sanguíneos e aumenta a coagulação do sangue.
 Tabagismo aumenta o risco de aterosclerose e outras doenças cardiovasculares.
@@ -181,7 +181,7 @@ Os dados do dataset fornecem informações valiosas sobre os fatores de risco pa
 
 <b>3.0.1. Identificar os principais fatores de risco:</b>
 
-Idade, sexo, hipertensão, doença cardíaca, diabetes e tabagismo são os principais fatores de risco para AVC.
+Idade, hipertensão, doença cardíaca e tabagismo são os principais fatores de risco para AVC.
 Compreender a relação entre esses fatores e o risco de AVC.
 
 <b>3.0.2. Desenvolver estratégias de prevenção:</b>
