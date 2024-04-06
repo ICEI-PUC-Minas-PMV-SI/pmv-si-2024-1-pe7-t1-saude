@@ -22,7 +22,6 @@ Primeiramente, trazemos as informações do tamanho do dataset e os tipos de seu
 
 
  Além disso, podemos observar os dados analíticos dos atributos numéricos do dataset:
-No dataset aparece 3353 pessoas casadas e 1757 não casadas. Pessoas que fumam 42 sendo que as que nunca fumaram 90, podendo causar desbalanceamento. Da categoria tipo de trabalho, temos 2925 que trabalham em emrpesa privada, 819 autonomos, 687 filhos, 657 de empresa pública e apensa 22 que nunca trabalharam. Pessoas do sexo masculino 2007 para 2853 feminino.
 
 
 | Statistic           | id              | age             | hypertension  | heart_disease | avg_glucose_level | bmi            | stroke          |
@@ -76,7 +75,7 @@ Percebe-se, a partir da análise do conjunto de dados selecionado, que as catego
 
 Histórico de estado civil: Como estão distribuídas as categorias de estado civil no dataset? Quantas incidências de AVC tem cada categoria?
 
-No dataset podemos destacar que há influência nas categorias de estado civil pois os casados tiveram mais AVC dos que os solteiros. Isto pode ser devido a idade, se analisarmos o contexto gera,  mas neste gráfico foi analisado apenas as categorias casado e não casado.
+No dataset podemos destacar que há influência nas categorias de estado civil pois os casados tiveram mais AVC dos que os solteiros. Isto pode ser devido a idade, se analisarmos o contexto gera, mas neste gráfico foi analisado apenas as categorias casado e não casado.
 As categorias foram divididas em casado (3353) e não casados (1757).
 Dos casados  220 (6,5%) tiveram a AVC e entre os solteiros 29 (1,6%). 
 
@@ -109,7 +108,6 @@ Pode-se observar a partir da distribuição que o atributo binário "stroke" par
 
 ## Descrição dos achados
 
-A partir da análise descrita e exploratória realizada, descreva todos os achados considerados relevantes para o contexto em que o trabalho se insere. Por exemplo: com relação à centralidade dos dados algo chamou a sua atenção? foi possível identificar correlação entre os atributos?
 Observa-se que o AVC é menos comum em pessoas com menos de 55 anos, porém, após essa faixa etária, o risco aumenta consideravelmente. Estudos mostram que após os 55 anos, as chances de AVC duplicam (MARIANELLI Mariana, MARIANELLI Camila, NETO Tobias. Principais fatores de risco do AVC isquêmico: Uma abordagem descritiva).
 
 ### Mapa de calor:
