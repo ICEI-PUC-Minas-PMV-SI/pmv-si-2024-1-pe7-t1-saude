@@ -8,38 +8,13 @@ O Acidente Vascular Cerebral (AVC) é um problema sério que afeta muitas pessoa
 
 # Questão de pesquisa
 
-É possível estimar a probabilidade de um indivíduo sofrer um AVC com base em fatores de risco como idade, sexo, histórico familiar, tabagismo, diabetes, doenças cardíacas, hipertensão e uso de álcool?
-
-# Cronograma
-
-Coleta e pré-processamento de dados: 1 semana
-Análise exploratória de dados: 1 semana
-Seleção de variáveis: 1 semana
-Treinamento e avaliação de modelos: 2 semanas
-Comparação de modelos: 1 semana
-Interpretação do modelo: 1 semana
-Validação externa: 1 semana
-Redação do relatório final: 2 semanas
-
-[Saude+(PROJECT LIBRE.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/files/14471029/Saude%2B.PROJECT.LIBRE.pdf)
-
-![Project Libre-Tarefas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/f8201179-514a-4183-91a0-3c2fca2617f4)
-
-![Project Livre-Cronograma parte 1 e 2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/b4ef9f85-873e-469d-bf94-02fb0f52b375)
-
-
-## Resultados Esperados
-
-Identificação dos principais fatores de risco para AVC presentes no conjunto de dados.
-Seleção do modelo de aprendizado de máquina mais eficaz para a tarefa de previsão de AVC.
-Interpretação dos resultados do modelo de forma clinicamente relevante.
-Discussão das implicações éticas e sociais da utilização de modelos de aprendizado de máquina para a previsão de AVC.
+É possível estimar a probabilidade de um indivíduo sofrer um AVC com base em fatores de risco como idade, sexo, histórico familiar, tabagismo, doenças cardíacas, hipertensão, etc...?
 
 ## Objetivos preliminares
 
 A finalidade do trabalho é auxiliar a identificar pessoas que se encontram em grupo de risco para AVC. 
 
-Para isso, será realizado um estudo na área e, a partir dos dados coletados, será treinado um modelo de Machine Learning que seja capaz de predizer se uma pessoa se encontra nesse grupo a partir de certos atributos.
+Para isso, será realizado um estudo na área e, a partir dos dados coletados, será treinado um modelo de Machine Learning que seja capaz de estimar com confiabilidade alta alta se uma pessoa se encontra nesse grupo a partir de certos atributos históricos.
 
 A partir desse objetivo, será disponibilizado para os clientes da clínica Saúde+ uma série de recomendações caso se encontre em tal grupo de risco, como dicas de dieta, sintomas de um possível derrame, lista dos médicos cadastrados especializados na área, etc...
 
@@ -306,6 +281,22 @@ Canvas Analítico. O Canvas Analítico tem o papel de registrar a organização 
 
 O desenvolvimento de um modelo preditivo de AVC preciso pode ter um impacto significativo na saúde pública brasileira. Este estudo visa contribuir para esse objetivo, fornecendo um modelo que possa ser utilizado por profissionais de saúde para identificar pacientes com alto risco de AVC e tomar medidas preventivas.
 
+# Cronograma
+
+Coleta e pré-processamento de dados: 1 semana
+Análise exploratória de dados: 1 semana
+Seleção de variáveis: 1 semana
+Treinamento e avaliação de modelos: 2 semanas
+Comparação de modelos: 1 semana
+Interpretação do modelo: 1 semana
+Validação externa: 1 semana
+Redação do relatório final: 2 semanas
+
+[Saude+(PROJECT LIBRE.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/files/14471029/Saude%2B.PROJECT.LIBRE.pdf)
+
+![Project Libre-Tarefas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/f8201179-514a-4183-91a0-3c2fca2617f4)
+
+![Project Livre-Cronograma parte 1 e 2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/b4ef9f85-873e-469d-bf94-02fb0f52b375)
 
 # Referências
 
