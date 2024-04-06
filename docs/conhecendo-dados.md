@@ -22,7 +22,7 @@ Primeiramente, trazemos as informações do tamanho do dataset e os tipos de seu
 
 
  Além disso, podemos observar os dados analíticos dos atributos numéricos do dataset:
-
+No dataset aparece 3353 pessoas casadas e 1757 não casadas. Pessoas que fumam 42 sendo que as que nunca fumaram 90, podendo causar desbalanceamento. Da categoria tipo de trabalho, temos 2925 que trabalham em emrpesa privada, 819 autonomos, 687 filhos, 657 de empresa pública e apensa 22 que nunca trabalharam. Pessoas do sexo masculino 2007 para 2853 feminino.
 
 
 | Statistic           | id              | age             | hypertension  | heart_disease | avg_glucose_level | bmi            | stroke          |
@@ -90,12 +90,13 @@ As categorias são feminino (2994), masculino (2115) e outros (1)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_gender.png)
 
-Além disso, podemos explorar a correlação entre alguns atributos contínuos. Algumas delas são exploradas em mais detalhes nos gráficos abaixo:
+Além disso, podemos explorar a correlação entre alguns atributos contínuos. Algumas delas são exploradas em mais detalhes nos gráficos abaixo: 
+
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_v2.png)
 
 Nos aprofundando um pouco, podemos avaliar a distribuição de certos atributos. Os atributos em questão estão balanceados?
-Está bem balanceado os dados do dataset que analisa a idade e visualizamos que a maior incidencia está os de 75 anos de idade.
+Está bem balanceado os dados do dataset que analisa a idade e visualizamos que a maior concentração está em 70 anos de idade. A maior frequancia de AVC aparce entre 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_distribuicao_v2.png)
 
