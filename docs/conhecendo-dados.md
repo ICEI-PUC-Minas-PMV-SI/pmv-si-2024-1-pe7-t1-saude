@@ -97,7 +97,7 @@ O gráfico do dataset mostra a relação entre o nível de glicose no sangue e a
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_v2.png)
 
 Nos aprofundando um pouco, podemos avaliar a distribuição de certos atributos. Os atributos em questão estão balanceados?
-Está bem balanceado os dados do dataset que analisa a idade e visualizamos que a maior concentração está em 70 anos de idade. A maior frequancia de AVC aparce entre 
+Está bem balanceado os dados do dataset que analisa a idade e visualizamos que a maior concentração está nos 70 anos de idade. 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_distribuicao_v2.png)
 
