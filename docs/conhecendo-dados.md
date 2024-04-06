@@ -71,11 +71,17 @@ Como estão distribuídas as categorias de histórico de tabagismo no dataset? Q
 Atraves da analise do dataset da saúde, em questao , podemos avaliar que o tabagismo tem influencia no AVC, no dataset encontramos um grande numero de pessoas que estao categorizadas como "desconhecidas, ou seja não responderam se fuma ou nao, talves por se tratar de crianças. então pode ter havido influência no resultado já que estudos afirmam que o tabagismo influencia  ao acometimento de AVC.
 Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning', os valores desconhecidos relacionados ao tabagismo em indivíduos com menos de 18 anos foram ajustados para 'nunca', resultando na redução de incógnitas de 1.544 para 909, que posteriormente foram removidas do conjunto de dados.
 
+As cataegorias foram divididas em: nunca fumou (1892), desconhecida (1544), fumou anteriormente (885), fuma (789)
+A categoria desconhecido, foi feito uma suposição de que pessoas com menos de 18 anos, nunca havia fumado, ja que há pouca probabilidade de haver fumado antes dos 18 anos.
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_smoke.png)
 
 Vínculo empregatício: Como estão distribuídas as categorias de vínculo empregatício no dataset? Quantas incidências de AVC tem cada categoria?
 
 Percebe-se, a partir da análise do conjunto de dados selecionado, que as categorias mais prevalentes são aquelas relacionadas a pessoas empregadas em empresas privadas. Em contraste, as categorias de crianças e trabalhadores por conta própria estão significativamente abaixo da média, representando menos de 50% do total. Essa disparidade nos dados é evidente. Por exemplo, há um grande número de indivíduo que são empregados em empresas privadas em comparação com aqueles que trabalham por conta própria, sendo que menos da metade pertence a essa última categoria. No entanto, é difícil determinar se o tipo de emprego tem influência no risco de AVC, sendo assim, as correlaçoes observadas nos nossos dados nao apontam para uma conclusão precisa. Seria necessário nova coleta e  um número significativamente maior de pessoas em cada categoria para estabelecer uma correlação confiável entre o tipo de vínculo empregatício e a incidência de AVC.
+
+As categorias são: filho (687), trabalho público (657), nunca trabalhou (22), empresa privada (2925), autônomo (819)
+2925 pessoas
 
 
 Mas Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning', outra reclassificação foi feita ao alterar todos os valores de 'filho' para 'nunca trabalhou', visto que crianças não deveriam ser consideradas como um tipo de trabalho, o que pode implicar em valores de 'nunca trabalharam'.
@@ -84,12 +90,16 @@ Mas Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de al
 
 Histórico de estado civil: Como estão distribuídas as categorias de estado civil no dataset? Quantas incidências de AVC tem cada categoria?
 
-No dataset assim como no grafico não percebe=se grnade influencia nas categorias de estado civil, até mesmo em estudos 
+No dataset assim como no grafico não percebe-se influencia nas categorias de estado civil, Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning' os valores 
+Identificou-se uma alta correlação entre as características já casado e a idade. 
+As categorias foram divididas em casado (3353) e não casados (1757)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_married.png)
 
 Sexo: Como estão distribuídas as categorias de sexo no dataset? Quantas incidências de AVC tem cada categoria?
+
 Abaixo de 85 anos de idade o sexo masculino é o mais acometido. Já em idades acima de 85 anos, o sexo feminino é o mais acometido já que as mulheres apresentam maior expectativa de vida. Em idades abaixo de 85 anos o sexo masculino é o mais acometido. (JAMES et al., 2014). 
+As categorias são feminino (2994), masculino (2115) e outros (1)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_gender.png)
 
@@ -101,7 +111,7 @@ Nos aprofundando um pouco, podemos avaliar a distribuição de certos atributos.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_distribuicao_v2.png)
 
-Pode-se observar a partir da distribuição que o atributo binário "stroke" parece desbalanceado, o que é confirmado a partir de uma análise em cima do próprio
+Pode-se observar a partir da distribuição que o atributo binário "stroke" parece desbalanceado, o que é confirmado a partir de uma análise em cima do próprio gráfico.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/70342051/b7426daf-8412-4328-91c1-5286f373b6f5)
 
