@@ -55,10 +55,10 @@ Sobre os atributos não-binários, vamos observar sua distribuição e correlaç
 Tabagismo: 
 Como estão distribuídas as categorias de histórico de tabagismo no dataset? Quantas incidências de AVC tem cada categoria?
 
-Atraves da analise do dataset da saúde, em questao , podemos avaliar que o tabagismo tem certa influencia na incidência de AVC; No dataset encontramos um grande numero de pessoas que estao categorizadas como "desconhecidas", ou seja não temos informação se fuma ou nao, talves por se tratar de crianças. então pode ter havido influência no resultado já que estudos afirmam que o tabagismo influencia ao acometimento de AVC.
+Atraves da análise do dataset da saúde, em questao , podemos avaliar que o tabagismo tem muita influência na incidência de AVC; No dataset encontramos um grande número de pessoas que estao categorizadas como "desconhecidas", ou seja não temos informação se fuma ou nao, talves por se tratar de crianças. Então pode ter havido influência no resultado já que estudos afirmam que o tabagismo influencia ao acometimento de AVC. Mas claramente pessoas que fumam ou que fumavam anteriormente tiveram AVC em número superior ao daqueles que nao fumam ou estão na categoria, desconhem.
 
 As cataegorias foram divididas em: nunca fumou (1892), desconhecida (1544), fumou anteriormente (885), fuma (789)
-Daqueles que nunca fumaram 90 tiveram AVC, dos desconhecidos 70, do que desconhecem 47, e daqueles que fumam 42 
+Daqueles que nunca fumaram 90 (4,75%)  tiveram AVC, dos desconhecidos 47 (3%), do que fumaram anteriormente 70 (7,9%), e daqueles que fumam 42 (5,8%) tiveram AVC.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_smoke.png)
 
@@ -67,12 +67,10 @@ Vínculo empregatício: Como estão distribuídas as categorias de vínculo empr
 As categorias são: filho (687) , trabalho público (657), nunca trabalhou (22), empresa privada (2925), autônomo (819)
 2925 pessoas. 
 Da categoria filhos, 2 tiveram AVC, o trabalhadores públicos 33, dos que trbalharam em empresa privada 149 e entre os autonomos 65 tiveream AVC.
-Se olharmos o percentual dos trabalahadores em empresa publica (5%), privada (5%) e autonomo (8%), Os que mas foram acometidos por AVC foram os autonomos e de empresa publica e privada se equiparam.
+Se olharmos o percentual dos trabalhadores em empresa publica (5%), privada (5%) e autonomo (8%), Os que mas foram acometidos por AVC foram os autonomos e de empresa pública e privada se equiparam.
 
 Percebe-se, a partir da análise do conjunto de dados selecionado, que as categorias mais prevalentes são aquelas relacionadas a pessoas empregadas em empresas privadas e autônomo. Em contraste, as categorias de crianças e que nunca trabalhou, alem de uma quantidade pequena de amostra, demosntrando que é em baixo a chance de ter um AVC. Essa disparidade nos dados é evidente. Por exemplo, há um grande número de indivíduo que são empregados em empresas privadas em comparação com aqueles que trabalham por conta própria, sendo que menos da metade pertence a essa última categoria. No entanto, é difícil determinar se o tipo de emprego tem influência no risco de AVC, sendo assim, as correlaçoes observadas nos nossos dados não apontam para uma conclusão precisa, exceto se compararamos apenas cas categorias, privado, publico e autônomo. Seria necessário nova coleta e um número significativamente maior de pessoas em cada categoria para estabelecer uma correlação confiável entre o tipo de vínculo empregatício e a incidência de AVC.
 
-As categorias são: filho (687) , trabalho público (657), nunca trabalhou (22), empresa privada (2925), autônomo (819)
-2925 pessoas. 
 
 
 
