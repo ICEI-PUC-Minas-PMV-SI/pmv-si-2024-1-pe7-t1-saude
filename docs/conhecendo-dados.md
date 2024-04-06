@@ -45,7 +45,7 @@ Para começarmos a nos aprofundar nos dados, demonstramos a relação entre os a
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Mapa_calor.png)
 
 É evidente que a idade é um dos atributos mais significantemente associados ao risco de AVC, conforme indicado pela análise do atributo binário "stroke". Existe uma correlação substancial entre idade e incidência de AVC e essas informaçoes condizem com a realidade de acordo com estudos citados no item "achados".
-
+Tivemos neste dataset algumas 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_idade.png)
 
@@ -140,7 +140,7 @@ Correlações com outros atributos (hipertensão, doença cardíaca, tabagismo) 
 Correlação positiva fraca: risco de AVC aumenta com a idade.
 Explicação:
 Envelhecimento causa rigidez arterial, aterosclerose e declínio da função cardiovascular.
-Maior probabilidade de acúmulo de fatores de risco (hipertensão, diabetes).
+Maior probabilidade de acúmulo de fatores de risco (hipertensão, diabetes). A faixa de idade com maior número de AVC é acima dos 75 anos.
 
 <b>2.2. Hipertensão:</b>
 
