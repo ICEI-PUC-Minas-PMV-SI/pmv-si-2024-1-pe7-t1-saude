@@ -34,18 +34,40 @@ A solução proposta pode trazer diversos benefícios, como a redução do núme
 
 # Público-Alvo
 
-O nosso público-alvo tem uma ampla gama de profissionais de saúde, pesquisadores médicos, cientistas de dados e formuladores de políticas públicas. 
-Aqui estão algumas categorias específicas dentro desse público:
+O nosso público-alvo é direcionado a uma ampla gama de profissionais de saúde, pesquisadores médicos, cientistas de dados e formuladores de políticas públicas. A fim de identificar as necessidades, interesses e preocupações de cada grupo envolvido e desenvolver estratégias de engajamento e comunicação adequadas para colaboração eficaz no uso de conjuntos de dados de previsão de AVC. Aqui estão algumas personas dentro desse público:
 
- 1 - Profissionais de Saúde: Médicos, enfermeiros, fisioterapeutas e outros profissionais de saúde que trabalham diretamente com pacientes em risco de AVC ou que já sofreram um AVC. Eles podem usar esses dados para entender melhor os fatores de risco, padrões de ocorrência e estratégias de prevenção.
+Profissionais de Saúde:
+Médicos: Especialistas em neurologia, cardiologia, medicina interna, etc.
+Enfermeiros: Especializados em cuidados intensivos, reabilitação, etc.
+Terapeutas: Fisioterapeutas, terapeutas ocupacionais, etc.
 
- 2 - Pesquisadores Médicos: Acadêmicos e pesquisadores que estudam doenças cardiovasculares, neurologia e fatores de risco para AVC. Eles podem usar esses conjuntos de dados para desenvolver novos modelos de previsão, identificar tendências emergentes e conduzir estudos epidemiológicos.
+Pesquisadores Médicos:
+Acadêmicos: Professores universitários, pesquisadores clínicos, etc.
+Institutos de Pesquisa: Centros de pesquisa médica, laboratórios especializados, etc.
+Organizações Sem Fins Lucrativos: Fundações de pesquisa médica, organizações de caridade, etc.
 
- 3 - Cientistas de Dados e Analistas: Profissionais que trabalham com análise de dados e aprendizado de máquina, especialmente aqueles interessados em saúde e medicina. Eles podem usar esses dados para desenvolver algoritmos de previsão de AVC, identificar padrões ocultos nos dados e criar ferramentas de suporte à decisão para profissionais de saúde.
+Cientistas de Dados:
+Analistas de Dados: Especialistas em análise estatística e modelagem.
+Engenheiros de Machine Learning: Desenvolvedores de algoritmos de previsão e aprendizado de máquina.
+Especialistas em Visualização de Dados: Designers de interfaces de usuário e especialistas em visualização de dados.
 
- 4 - Formuladores de Políticas Públicas: Tomadores de decisão em níveis governamentais e não governamentais que estão envolvidos na formulação de políticas de saúde pública. Eles podem usar esses dados para entender melhor a carga do AVC em suas populações, avaliar a eficácia das intervenções de prevenção e desenvolver políticas direcionadas para reduzir o impacto do AVC na sociedade.
+Formuladores de Políticas Públicas:
+Governamentais: Ministérios da Saúde, agências reguladoras, etc.
+Organizações Internacionais: OMS, Banco Mundial, etc.
+Organizações Não Governamentais: Grupos de advocacia de saúde, grupos de defesa dos pacientes, etc.
 
- 5 - Educadores em Saúde: Profissionais envolvidos na educação pública sobre saúde, incluindo professores, instrutores de saúde comunitária e defensores da saúde. Eles podem usar esses dados para fornecer informações precisas sobre os fatores de risco de AVC, sinais de alerta e medidas preventivas para o público em geral.
+Pacientes e Cuidadores:
+Indivíduos afetados por AVC e seus familiares.
+Grupos de Apoio: Organizações de apoio a pacientes com AVC, fóruns online, etc.
+
+Indústria e Parceiros Comerciais:
+Empresas Farmacêuticas: Desenvolvedores de medicamentos e dispositivos médicos.
+Empresas de Tecnologia: Fabricantes de dispositivos médicos, empresas de software de saúde, etc.
+Seguradoras de Saúde: Prestadores de serviços de saúde e seguros médicos.
+
+Educadores e Acadêmicos:
+Instituições de Ensino: Universidades, escolas de medicina, etc.
+Professores e Pesquisadores: Educadores envolvidos no treinamento de profissionais de saúde e pesquisadores médicos.
 
 Esses são alguns dos grupos que representam uma variedade de interesses e aplicações para conjuntos de dados de previsão de AVC, desde o diagnóstico e tratamento até a prevenção e políticas de saúde pública.
 
