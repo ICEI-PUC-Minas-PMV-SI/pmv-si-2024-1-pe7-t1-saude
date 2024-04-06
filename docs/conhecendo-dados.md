@@ -48,44 +48,30 @@ Para começarmos a nos aprofundar nos dados, demonstramos a relação entre os a
 
 Observa-se que o AVC é menos comum em pessoas com menos de 55 anos, porém, após essa faixa etária, o risco aumenta consideravelmente. Estudos mostram que após os 55 anos, as chances de AVC duplicam (MARIANELLI Mariana, MARIANELLI Camila, NETO Tobias. Principais fatores de risco do AVC isquêmico: Uma abordagem descritiva).
 
-Além disso, abaixo dos 85 anos, os homens têm maior propensão a serem afetados pelo AVC. No entanto, acima dos 85 anos, as mulheres têm uma incidência maior, o que pode ser atribuído à maior expectativa de vida feminina (JAMES et al., 2014).
-
-Ainda que a idade, para Rodriguez José (2021) seja considerado uma característica não controlável, para o caso de machine learning, já que a intensão deste seja para prevençao de AVC.
-
-Fatores de risco como diabetes, tabagismo, hipertensão, alto colesterol e obesidade, bem como a falta de atividade física, desempenham um papel crucial no desenvolvimento do AVC.
-
-Entre os fatores de risco modificáveis, destaca-se a hipertensão arterial sistêmica como o mais comum, seguido pela fibrilação atrial, diabetes mellitus, dislipidemia, obesidade e tabagismo, que pode até dobrar o risco de AVC (apud MARIANELLI, 2020).
-
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_idade.png)
 
 Sobre os atributos não-binários, vamos observar sua distribuição e correlação com incidência de AVC:
 
 Tabagismo: 
 Como estão distribuídas as categorias de histórico de tabagismo no dataset? Quantas incidências de AVC tem cada categoria?
-Atraves da analise do dataset da saúde, em questao , podemos avaliar que o tabagismo tem influencia no AVC, no dataset encontramos um grande numero de pessoas que estao categorizadas como "desconhecidas, ou seja não responderam se fuma ou nao, talves por se tratar de crianças. então pode ter havido influência no resultado já que estudos afirmam que o tabagismo influencia  ao acometimento de AVC.
-Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning', os valores desconhecidos relacionados ao tabagismo em indivíduos com menos de 18 anos foram ajustados para 'nunca', resultando na redução de incógnitas de 1.544 para 909, que posteriormente foram removidas do conjunto de dados.
+Atraves da analise do dataset da saúde, em questao , podemos avaliar que o tabagismo tem certa influencia na incidência de AVC; No dataset encontramos um grande numero de pessoas que estao categorizadas como "desconhecidas", ou seja não temos informação se fuma ou nao, talves por se tratar de crianças. então pode ter havido influência no resultado já que estudos afirmam que o tabagismo influencia ao acometimento de AVC.
 
 As cataegorias foram divididas em: nunca fumou (1892), desconhecida (1544), fumou anteriormente (885), fuma (789)
-A categoria desconhecido, foi feito uma suposição de que pessoas com menos de 18 anos, nunca havia fumado, ja que há pouca probabilidade de haver fumado antes dos 18 anos.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_smoke.png)
 
 Vínculo empregatício: Como estão distribuídas as categorias de vínculo empregatício no dataset? Quantas incidências de AVC tem cada categoria?
 
-Percebe-se, a partir da análise do conjunto de dados selecionado, que as categorias mais prevalentes são aquelas relacionadas a pessoas empregadas em empresas privadas. Em contraste, as categorias de crianças e trabalhadores por conta própria estão significativamente abaixo da média, representando menos de 50% do total. Essa disparidade nos dados é evidente. Por exemplo, há um grande número de indivíduo que são empregados em empresas privadas em comparação com aqueles que trabalham por conta própria, sendo que menos da metade pertence a essa última categoria. No entanto, é difícil determinar se o tipo de emprego tem influência no risco de AVC, sendo assim, as correlaçoes observadas nos nossos dados nao apontam para uma conclusão precisa. Seria necessário nova coleta e  um número significativamente maior de pessoas em cada categoria para estabelecer uma correlação confiável entre o tipo de vínculo empregatício e a incidência de AVC.
+Percebe-se, a partir da análise do conjunto de dados selecionado, que as categorias mais prevalentes são aquelas relacionadas a pessoas empregadas em empresas privadas. Em contraste, as categorias de crianças e trabalhadores por conta própria estão significativamente abaixo da média, representando menos de 50% do total. Essa disparidade nos dados é evidente. Por exemplo, há um grande número de indivíduo que são empregados em empresas privadas em comparação com aqueles que trabalham por conta própria, sendo que menos da metade pertence a essa última categoria. No entanto, é difícil determinar se o tipo de emprego tem influência no risco de AVC, sendo assim, as correlaçoes observadas nos nossos dados não apontam para uma conclusão precisa. Seria necessário nova coleta e um número significativamente maior de pessoas em cada categoria para estabelecer uma correlação confiável entre o tipo de vínculo empregatício e a incidência de AVC.
 
 As categorias são: filho (687), trabalho público (657), nunca trabalhou (22), empresa privada (2925), autônomo (819)
 2925 pessoas
-
-
-Mas Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning', outra reclassificação foi feita ao alterar todos os valores de 'filho' para 'nunca trabalhou', visto que crianças não deveriam ser consideradas como um tipo de trabalho, o que pode implicar em valores de 'nunca trabalharam'.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_work.png)
 
 Histórico de estado civil: Como estão distribuídas as categorias de estado civil no dataset? Quantas incidências de AVC tem cada categoria?
 
-No dataset assim como no grafico não percebe-se influencia nas categorias de estado civil, Segundo Rodrigues (2021) em seu estudo 'Previsão de traçado por meio de algoritmos de Ciência de Dados e Machine Learning' os valores 
-Identificou-se uma alta correlação entre as características já casado e a idade. 
+No dataset não percebe-se influencia nas categorias de estado civil.
 As categorias foram divididas em casado (3353) e não casados (1757)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Grafico_correlacao_married.png)
@@ -174,34 +160,6 @@ Explicação:
 O cigarro danifica os vasos sanguíneos e aumenta a coagulação do sangue.
 Tabagismo aumenta o risco de aterosclerose e outras doenças cardiovasculares.
 
-
-<b>2.5.0 Outros Fatores de Risco: </b>
-<b></b>
-2.5.1. Diabetes:
-
-Aumento do risco de AVC, especialmente em diabéticos tipo 2.
-<b></b>
-2.5.2. Colesterol alto:
-
-Aumento do risco de aterosclerose e coágulos sanguíneos.
-<b></b>
-2.5.3. Obesidade:
-
-Aumento do risco de hipertensão, diabetes e outras doenças cardiovasculares.
-<b></b>
-2.5.4. Sedentarismo:
-
-Aumento do risco de doenças cardiovasculares e diabetes.
-<b></b>
-2.5.5. Dieta:
-
-Dieta rica em gorduras saturadas e trans, colesterol e sódio aumenta o risco de AVC.
-<b></b>
-2.5.6. Consumo excessivo de álcool:
-
-Aumento do risco de hipertensão e doenças cardíacas.
-
-
 <b>2.6. Considerações Adicionais: </b>
 
 A força da correlação não indica causalidade.
@@ -210,7 +168,7 @@ Modificar os fatores de risco pode reduzir significativamente o risco de AVC.
 
 <b>3. Centralidade dos Dados:</b>
 
-Os dados do changeset fornecem informações valiosas sobre os fatores de risco para AVC. A análise desses dados pode ajudar a:
+Os dados do dataset fornecem informações valiosas sobre os fatores de risco para AVC. A análise desses dados pode ajudar a:
 
 <b>3.0.1. Identificar os principais fatores de risco:</b>
 
@@ -226,42 +184,6 @@ Criar programas de prevenção direcionados a grupos de alto risco.
 
 A análise de dados pode ajudar a identificar pacientes com maior risco de complicações.
 Otimizar o tratamento e melhorar o prognóstico dos pacientes com AVC.
-
-<b>3.1.0. Fatores Demográficos:</b>
-
-
-<b>3.1.1. Idade:</b>
-
-A idade é o principal fator de risco para AVC.
-O risco de AVC aumenta significativamente com a idade.
-
-<b>3.1.2. Sexo:</b>
-
-Homens têm um risco ligeiramente maior de AVC do que mulheres.
-As mulheres têm um risco maior de AVC após a menopausa.
-
-<b>3.2.0. Fatores de Saúde:</b>
-
-
-<b>3.2.1. Hipertensão:</b>
-
-A hipertensão é um dos principais fatores de risco para AVC.
-A pressão alta danifica os vasos sanguíneos, aumentando o risco de rupturas e coágulos.
-
-<b>3.2.2. Doença cardíaca:</b>
-
-Doenças cardíacas aumentam o risco de AVC.
-A doença cardíaca pode levar à formação de coágulos sanguíneos que podem causar AVC.
-
-<b>3.2.3. Diabetes:</b>
-
-O diabetes aumenta o risco de AVC, especialmente em diabéticos tipo 2.
-O diabetes danifica os vasos sanguíneos e aumenta o risco de coágulos sanguíneos.
-
-<b>3.2.4. Tabagismo:</b>
-
-O tabagismo é um importante fator de risco para AVC.
-O cigarro danifica os vasos sanguíneos e aumenta a coagulação do sangue.
 
 <b>4. Observações:</b>
 
