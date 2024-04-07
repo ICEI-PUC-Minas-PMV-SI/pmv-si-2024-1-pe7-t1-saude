@@ -1,6 +1,6 @@
 # Introdução
 
-O AVC é uma das principais causas de morte e incapacidade no mundo. A previsão precisa do AVC pode ajudar a prevenir eventos futuros e melhorar os resultados dos pacientes. O aprendizado de máquina oferece uma oportunidade promissora para desenvolver modelos de previsão de AVC precisos e eficazes.
+O AVC é uma das principais causas de morte e incapacidade no mundo. A previsão precisa do AVC pode ajudar a prevenir eventos futuros e melhorar os resultados dos pacientes. Este projeto visa buscar as possíveis causas e encontrar soluções para esse problema. Para isso foi utilizado os dados de 5110 indivíduos comparando 12 atributos diferentes, sendo eles idade, vínculo empregatício, histórico de estado civil, sexo, IMC, hipertensão, se já se casou, tabagismo, se já teve um AVC, tipo de residência, nível médio de glicose e histórico de doenças cardíacas. Dessa forma, utilizamos de machine learning para comparar e fazer a correlação entre esses atributos coletados, sendo assim, será possível estudar os dados e estabelecer correlações entre o AVC e os atributos.
 
 # Problema
 
