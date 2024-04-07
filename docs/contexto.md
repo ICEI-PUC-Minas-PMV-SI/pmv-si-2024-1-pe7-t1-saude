@@ -74,31 +74,15 @@ Esses são alguns dos grupos que representam uma variedade de interesses e aplic
 ## Estado da arte
 
 Pesquisa 1: Machine Learning and the Conundrum of Stroke Risk Prediction
+Pesquisas em Desenvolvimento:Chahine, Magoon, Álamo, Boyle & Akoum (2023) conduziram um estudo sobre o uso de técnicas de aprendizado de máquina (ML) para prever o risco de AVC. Eles compararam diferentes algoritmos de ML, como SVM, RF, GBT e multilayer perceptron, usando dados de uma grande coorte chinesa.Essa pesquisa visa aprimorar a previsão de risco de AVC, explorando associações estatísticas complexas e ocultas entre variáveis clínicas, fisiológicas e resultados de interesse.
+Os escores de risco tradicionais para AVC dependem de características clínicas e comorbidades do paciente, mas métodos de ML podem oferecer uma avaliação mais precisa, combinando uma variedade de recursos.
+Algoritmos de ML, como SVM, RF, GBT, entre outros, são comumente utilizados em pesquisas clínicas para encontrar características mais relevantes para a previsão de AVC.
+O dataset utilizado inclui características e dados demográficos dos pacientes, biomarcadores sanguíneos e dados de imagem, fornecendo uma base para a previsão do risco de AVC.
+Os estudos examinaram dados de pacientes com fibrilação atrial (FA), destacando a importância da carga de arritmia na predição do risco de AVC, com algoritmos de ML mostrando melhorias na predição em comparação com escores tradicionais.
 
-1 - Quais pesquisas estão sendo desenvolvidas sobre esse tema?
-Chahine, Magoon, Álamo, Boyle & Akoum (2023) Machine Learning and the Conundrum of Stroke Risk Prediction, National Library of Medicine, Vol. 12  pg 07, usou técnicas de aprendizado de máquina com algoritmo padrão predizem o risco usando associações estatísticas baseadas em regressão, têm acurácia preditiva moderada. Usaram as variáveis de risco coletadas na coorte Multi-Ethnic Study of Atherosclerosis para treinar um algoritmo SVM ML.
-Esta revisão resume os esforços recentes para implantar o aprendizado de máquina (ML) para prever o risco de AVC e enriquecer a compreensão dos mecanismos subjacentes ao AVC. Com paradigma de avaliação e mitigação do risco de AVC está focado nos fatores de risco clínicos e comorbidades.
-Chahine, Magoon, Álamo, Boyle & Akoum (2023) Compararam o Perfil de Risco de AVC de Framingham de 2017 com técnicas de ML para predição de risco de AVC (random survival forest [RSF], SVM, GBT e multilayer perceptron) em uma corte chinesa de 503.842 adultos.
-
-2 - Detalhe e contextualize o problema, descreva o dataset utilizado.
-Os escores de risco tradicionais dependem principalmente de comorbidades e características clínicas do paciente para prever o risco de AVC, no entanto, abordagens baseadas em aprendizado de máquina podem combinar recursos complexos para produzir uma avaliação de risco mais precisa.
- Modelos de classificação e regressão (por exemplo, máquina de vetores de suporte [SVM], floresta aleatória [RF], árvore intensificada por gradiente [GBT]) são mais comumente usados em pesquisas clínicas. Esses métodos pesquisam entre as variáveis preditoras disponíveis para encontrar as características mais bem vinculadas ao resultado. Modelos de aprendizagem profunda baseados em redes neurais, especialmente redes neurais convolucionais (CNNs), podem ser usados para extrair características de ECGs e podem ser usados em algoritmos de reconhecimento de imagem para encontrar padrões de dados em pixels de imagem.
-O dataset foi extraído MedGen na biblioteca NLM fornece acesso à literatura científica. A inclusão em um banco de dados NLM não implica endosso ou acordo com, o conteúdo da NLM ou do National Institutes of Health. Cada símbolo ancora um link para o registro no banco de dados Gene do NCBI. A lista completa de relacionamentos Gene-MedGen é fornecida a partir do site FTP da Gene. Testes genéticos registrados no NIH Genetic Testing Registry (GTR) GeneReviews ClinVar OMIM Genes relacionados Transtornos com características clínicas semelhantes Literatura médica e de pesquisa Diretrizes práticas Recursos do consumidor Ontologias como HPO e ORDO.
-Para Chahine, Magoon, Álamo, Boyle & Akoum (2023) o ML oferece algoritmos capazes de modelar relações complexas e ocultas entre múltiplas variáveis clínicas e fisiológicas e os resultados desejados.
-Dataset utilizado foram características e dados demográficos dos pacientes, níveis de biomarcadores sanguínios, dados de imagem como base para predizer DCV. 
-Avaliação Clínica do Risco de Acidente Vascular Cerebral na Fibrilação Atrial. Os primeiros esforços para desenvolver algoritmos de ML para prever o risco de AVC em pacientes com FA mostraram alguma promessa e alcançaram uma AUC tão alta quanto 0,892 em uma análise de coorte. Usando os dados do Seguro Nacional de Saúde da Coreia e forneceu melhor predição de AVC isquêmico em pacientes com FA em comparação com ACS2DS2-Escores da EAVc (AUC 0,727 versus 0,651, respectivamente).  
-A carga de arritmia é um fator significativo na predição do risco de AVC, uma vez que pacientes com FA persistente ou permanente têm maior propensão a AVC do que pacientes com FA paroxística. [Rev.,Arrhythm Eletrofisiol (2023), Chahine, Magoon, Maidu, Del Álamo, & Akoum, Machine Learning and the Conundrum of Stroke Risk Prediction, Vol.12.e07,  DOI: 10.15420/aer.2022.34. Disponível em: Machine Learning and the Conundrum of Stroke Risk Prediction - PMC (nih.gov)].
-Chahine et. al (2023) identificaram a RSF como o modelo de risco cardiovascular mais preditivo (incluindo acidente vascular cerebral) de nove modelos testados em uma população multirracial inicialmente assintomática.
-
-Chahine et. al (2023) comparam estudos de  algoritmos de ML com métodos convencionais para previsão de risco de AVC são eles:
-Máquina de vetor de suporte
-Modelo de conjunto combinando árvores Gradient Boosted e modelos Cox
-Redes neurais
-Floresta aleatória
-Algoritmo AutoPrognosis
-Regressão logística
-Rede neural profunda baseada em atenção
-Floresta aleatória
+Os pesquisadores compararam diferentes algoritmos de ML, como SVM, RF, GBT, redes neurais, entre outros, com métodos convencionais de previsão de risco de AVC.
+Identificaram o modelo de floresta aleatória (RF) como o mais preditivo entre nove modelos testados em uma população multirracial inicialmente assintomática.
+Essa pesquisa destaca a promessa do aprendizado de máquina na previsão do risco de AVC, mostrando avanços significativos em comparação com métodos convencionais.
 
 As métricas utilizadas por  Chahine et. al (2023) e os resultados obtidos:
  | Entrada | Métrica | Precisão |
@@ -121,25 +105,12 @@ As métricas utilizadas por  Chahine et. al (2023) e os resultados obtidos:
  |Carga de FA registrada em dispositivos eletrônicos implantáveis cardíacos | Sensibilidade especificidade AUC | 52%, 63%, 0,662 |
 
 
-Pesquisa 2 https://iieta.org/journals/ria/paper/10.18280/ria.340609
+Pesquisa 2: Prediction of Brain Stroke Severity Using Machine Learning
 
-1 - Quais pesquisas estão sendo desenvolvidas sobre esse tema?
-Diversas pesquisas estão em andamento, como o desenvolvimento de modelos de predição mais precisos, estudos de subgrupos para identificar variações no risco entre diferentes grupos, e aplicações clínicas para personalizar a prevenção e o tratamento do AVC. O objetivo final é melhorar a prevenção, o diagnóstico e o tratamento do AVC, salvando vidas e reduzindo o impacto dessa doença devastadora.
-Bandi, Bhattacharyya & Midhunchkkravarthy (2020) Prediction of Brain Stroke Severity Using Machine Learning. IIETA, Vol. 34, página 1. "Esta pesquisa do modelo Stroke Predictor (SPR) utilizando técnicas de aprendizado de máquina melhorou a precisão da previsão para 96,97% quando comparado com os modelos existentes."
-
-2 - Detalhe e contextualize o problema, descreva o dataset utilizado.
-Bandi, Bhattacharyya & Midhunchkkravarthy (2020) perceberam que o ML oferece algoritmos capazes de modelar relações complexas e ocultas entre múltiplas variáveis clínicas e fisiológicas e resultados desejados. A previsão de doenças vasculares (DCV) facilitam a tomada de decisão clínica pois é baseada em escores de risco que utilizam as características clínicas e comorbidades dos pacientes, mas o ML e/ou inteligência artificial (IA) têm o potencial de prever as consequências de diferenças sutis interindividuais na fisiologia e/ou anatomia, sendo muito mais promissora que combinam recursos complexos e produz avaliações de risco muito mais precisas.
-Para Bandi et. al (2020) o estudo de prevenção de AVC utilizando ML visa resolver os seguintes problemas: Para Identificação de Fatores de Risco: Os pesquisadores estão usando técnicas de machine learning para identificar padrões e correlações em grandes conjuntos de dados de saúde para prever quem está em maior risco de desenvolver AVC. Isso pode incluir análise de dados demográficos, histórico médico, estilo de vida e biomarcadores.
--Diagnóstico Precoce: Algoritmos de machine learning estão sendo desenvolvidos para analisar imagens médicas, como tomografias computadorizadas (TC) e ressonâncias magnéticas (RM), a fim de detectar sinais precoces de AVC. Isso pode ajudar os médicos a diagnosticarem e tratar o AVC mais rapidamente, reduzindo o dano cerebral.
--Previsão de Recorrência: Uma vez que uma pessoa tenha sofrido um AVC, há um risco aumentado de recorrência. Modelos de machine learning estão sendo explorados para prever a probabilidade de um indivíduo sofrer um segundo AVC com base em seu histórico médico, fatores de estilo de vida e outros dados relevantes.
--Desenvolvimento de Sistemas de Monitoramento Remoto: Dispositivos vestíveis e sensores de saúde estão se tornando mais comuns, e os pesquisadores estão usando dados coletados por esses dispositivos para monitorar a saúde cardiovascular e prever eventos como AVC. Algoritmos de machine learning são usados para analisar os dados e identificar padrões que podem indicar um risco aumentado de AVC.
--Personalização do Tratamento: A resposta ao tratamento após um AVC pode variar de pessoa para pessoa. Pesquisas estão sendo realizadas para desenvolver modelos de machine learning que possam prever quais tratamentos serão mais eficazes para indivíduos com base em suas características individuais e perfil genético.
-Essas são apenas algumas das muitas áreas de pesquisa em machine learning para a prevenção de AVC. O uso dessa tecnologia promete melhorar significativamente a detecção precoce, o tratamento e a prevenção de AVC, reduzindo assim o impacto devastador dessa condição de saúde.
-Dataset utilizados:
-Bandi, Midhunchakkaravarthy & Bhattacharyya. (2020). Dataset Stroke_Analysis [CSV]. Mendeley Data. Stroke_Analysis - Mendeley Data
-Neste dataset inclui um total de 4.799 sujeitos, que contém 3.123 homens e 1.676 mulheres e o resumo dos atributos primários está disponível no conjunto de dados. Como parte do pré-processamento dos dados, do conjunto de dados disponível, exclui-se o atributo 'Gênero' neste trabalho de pesquisa.
-
-
+A pesquisa examina o uso de técnicas de aprendizado de máquina (ML) para a prevenção de acidente vascular cerebral (AVC), destacando várias áreas de pesquisa em andamento e os resultados obtidos. Aqui está um resumo das principais conclusões:
+Pesquisas em Andamento: Diversas pesquisas estão em andamento, incluindo o desenvolvimento de modelos de predição mais precisos, estudos de subgrupos para identificar variações no risco entre diferentes grupos e aplicações clínicas para personalizar a prevenção e o tratamento do AVC.
+Contextualização do Problema e Dataset Utilizado: A pesquisa aborda a importância do ML na previsão de AVC, destacando áreas como identificação de fatores de risco, diagnóstico precoce, previsão de recorrência, desenvolvimento de sistemas de monitoramento remoto e personalização do tratamento. O dataset utilizado inclui informações demográficas, resultados de testes físicos, histórico médico, dados de monitoramento durante o exercício e resultados de acompanhamento ao longo do tempo.
+Algoritmos Utilizados: Os pesquisadores utilizaram uma variedade de algoritmos de ML, incluindo árvore de decisão, rede neural híbrida, florestas de decisão bootstrap, regressão logística, modelo Naïve Bayes, regressão multilinear, redes neurais artificiais (RNAs), SVM e redes neurais recorrentes (RNN).
 Tabela 1. Resumo do conjunto de dados do artigo de Bandi et. Al (2020)
 | Atributo | Mínimo | Máximo | Significar | Desvio padrão |
 | :---: | :---: | :---: | :---: | ---: | 
@@ -159,115 +130,33 @@ Tabela 1. Resumo do conjunto de dados do artigo de Bandi et. Al (2020)
 •	Histórico médico dos participantes (presença de condições médicas pré-existentes, uso de medicamentos, etc.).
 •	Dados de monitoramento durante o exercício (duração, intensidade, tipo de exercício, etc.).
 •	Resultados de acompanhamento ao longo do tempo (alterações na pressão arterial, frequência cardíaca máxima alcançada, melhora na capacidade aeróbica, etc.).
-
-3 - Algoritmos utilizados nas pesquisas.
-Bandi et. al (2020) utilizaram os algoritmos que seguem:
-Algoritmo de árvore de decisão de C4.5 e modelo de rede neural híbrida. Floresta de decisão bootstrap árvores impulsionadas regressão logística e rede neural profunda.
-No algoritmo de aprendizagem supervisionada usa o modelo Naïve Bayes, que depende do teorema de Bayesm obteve nessa pesquisa 76,77 %. “Regressão multilinear” dentre os vários tipos de módulos de regressão linear. A regressão logística enquadra-se na técnica de aprendizagem supervisionada,
-Em Previsão de AVC (SPN) na etapa 1: se o modelo treinado for 'Falso', carregue os dados treinados e comece a treinar o modelo. Etapa 2: a partir dos dados do usuário, inicialize os dados necessários para a previsão.
-Redes Neurais Artificiais (RNAs) são modelos inspirados no funcionamento do cérebro humano e são frequentemente usados em pesquisas de machine learning devido à sua capacidade de aprender padrões complexos em grandes conjuntos de dados. E SVM que é um algoritmo de aprendizado supervisionado que é frequentemente usado para classificação e regressão. Ele funciona bem em conjuntos de dados de alta dimensionalidade e é eficaz na identificação de padrões não lineares.
-As Redes Neurais Recorrentes (RNN) são frequentemente usadas em pesquisas que envolvem séries temporais, como dados de monitoramento de saúde ao longo do tempo. Elas são capazes de capturar dependências temporais nos dados.
-Dos resultados:
-Nesta, Árvores de decisão, são modelos simples e interpretáveis que são frequentemente usados para classificação e regressão, obteve performance de 93,12% na pesquisa em questão. Florestas aleatórias são uma extensão das árvores de decisão e combinam várias árvores para melhorar o desempenho preditivo.
-Outra muito utilizada é CNNs que são frequentemente usadas em pesquisas que envolvem análise de imagens médicas, como tomografias computadorizadas (TC) e ressonâncias magnéticas (RM). Elas são eficazes na extração de características de imagens complexas.
-E por último o SVM que é um algoritmo de aprendizado supervisionado que pode ser usado para classificação e regressão obteve performance de aproximadamente 83%. Ele é eficaz na identificação de padrões complexos e na separação de classes em espaços de alta dimensão.
-
-4 - Identifique as métricas de avaliação empregadas.
-A precisão (ACC) é avaliada pelo número de todas as identificações exatas separadas da soma de um número do conjunto de dados. EX: Precisão = Verdadeiro Positivo + Verdadeiro Negativo Verdadeiro Positivo + Verdadeiro Negativo + Falso Negativo + Falso Positivo
-F1-Score determina quão específico é o classificador e também quão rígido ele pode ser. A proporção de alta precisão e baixa recuperação extrai as possibilidades mais precisas, mas omite vários exemplos que se tornam complexos durante a divisão. A expressão matemática é dada por:
-EX: F1- Pontuação = 2∗11 precisão +1 lembrar
-Precisão e Revocação, esta métrica mede a proporção de previsões positivas corretas em relação ao total de previsões positivas feitas pelo modelo. Revocação (ou sensibilidade) mede a proporção de instâncias positivas corretamente identificadas pelo modelo em relação ao total de instâncias positivas no conjunto de dados. 94 e 91 % aproximandamente comparaçaõ entre basic randomforest e improved random forest model.
-O F1-Score é a média harmônica entre precisão e revocação. Ele fornece uma única métrica que leva em consideração tanto a precisão quanto a revocação do modelo. 94 e 91 % aproximandamente comparaçaõ entre basic randomforest e improved random forest model.
-A curva ROC que é uma representação gráfica do desempenho de um modelo de classificação em diferentes limiares de decisão. A área sob a curva ROC (ROC-AUC) é uma métrica que quantifica a capacidade discriminativa do modelo em distinguir entre classes positivas e negativas.
-A acurácia mede a proporção de previsões corretas feitas pelo modelo em relação ao total de previsões feitas. É uma métrica simples e amplamente utilizada, mas pode não ser adequada para conjuntos de dados desbalanceados. 96 e 94 % aproximadamente comparação entre basic randomforest e improved random forest model. 96 e 94 % aproximadamente comparação entre basic randomforest e improved random forest model.
-
-As métricas de desemplenho utilizadas foram:
-A precisão (ACC) é avaliada pelo número de todas as identificações exatas separadas pela soma de um número do conjunto de dados.
-A sensibilidade é avaliada para o número de identificações de divisões positivas corretas para o número total de positivos.
-A Especificidade é determinada pela quantidade total de identificações negativas corretas separadas pelo total de números negativos.
-A Taxa de Falso Positivo é determinada pela avaliação FP / (FP+TN). Ele é determinado pela proporção de pontos negativos que são erroneamente tomados como positivos quando comparados com o de todos os pontos negativos dos dados.
-O F1-Score determina o quão específico é o classificador e também o quão rígido ele pode ser. A proporção de alta precisão e baixa recordação desenha as possibilidades mais precisas, mas omite vários exemplos que se tornam complexos ao dividir. A expressão matemática é dada por:
-A Precisão dá múltiplos resultados positivos quando distinguida por um número de resultados positivos identificados pelos classificadores.
-5 - Resultados obtidos.
-As pesquisas sobre machine learning para prevenção de AVC estão produzindo resultados importantíssimo que têm o potencial de melhorar significativamente a detecção precoce, o tratamento e a prevenção do AVC, reduzindo assim o impacto devastador dessa condição de saúde. O diagnóstico precoce, o monitoramento e a personalização do tratamento, além do Modelos Preditivos Precisos para identificando as pessoas com maior risco de AVC.
-Neste estudo, uma técnica de conjunto Random Forest foi utilizada para prever o risco de AVC, alcançando uma precisão de 96,97% com uma taxa de erro de 0,03%. Os resultados indicam uma eficácia significativa na previsão de AVC usando este modelo. Como futuras pesquisas, sugere-se explorar métodos para diferentes tipos de AVC e níveis de risco, potencialmente utilizando conjuntos de dados de imagens.
+Métricas de Avaliação Empregadas: Foram utilizadas várias métricas de avaliação, incluindo precisão (ACC), sensibilidade, especificidade, taxa de falso positivo, F1-Score e área sob a curva ROC (ROC-AUC), entre outras.
+Resultados Obtidos: Os resultados indicam uma eficácia significativa na previsão de AVC usando modelos de ML, com uma precisão de 96,97% alcançada com uma técnica de conjunto Random Forest. Isso sugere um potencial promissor para melhorar a detecção precoce, o tratamento e a prevenção do AVC.
+No geral, a pesquisa destaca a importância do ML na área da saúde, especificamente na prevenção de AVC, e demonstra resultados promissores que podem ter um impacto significativo na saúde pública.
 
 
-Pesquisa 3: Stroke prediction through Data Science and Machine Learning Algorithms 
+Pesquisa 3: Stroke prediction through Data Science and Machine Learning Algorithms
+Pesquisas em Andamento: A pesquisa de Rodriguez (2021) Stroke prediction through Data Science and Machine Learning Algorithms tem como objetivo criar um modelo preciso para prever o resultado do AVC com ciência de dados e aprendizado de máquina (ML) com base em dados anteriores e características individuais e fornecer informações úteis para a equipe médica implantar o tratamento necessário e diminuir riscos e consequências.
+Para Rodriguez (2021) é difícil interpretar os padrões ou extrair informações úteis dos dados pois entende que seja devido à quantidade de informações serem pouco perceptível e é onde as técnicas de ML são muito úteis para ensinar, como o próprio nome indica, máquinas a lidar com dados de forma mais eficiente.
+O dataset utilizado foi HealthData.gov, Liu, Fan & WU (2019). A hybrid machine learning approach to cerebral stroke prediction based on imbalanced medical-datasets [RAR]. Mendley. Data for: A hybrid machine learning approach to cerebral stroke prediction based on imbalanced medical-datasets - Mendeley Data, que também é utilizado como conjunto de dados de referência em uma competição de Kaggle2. .
+Nele inclui informações sobre 5.110 indivíduos caracterizados por 10 características e inclui informações sobre a variável alvo que é o AVC para todos eles, isso permite uma abordagem de aprendizagem supervisionada e é a mais frequente utilizada. O objetivo é montar um modelo conciso da distribuição de rótulos de classes em termos de características preditoras e depois é usado para atribuir rótulos de classe às instancias de teste.
+O dataset original tinha 201 valores ausentes para IMC. Mais de 30 % tinha o status desconhecido para tabagismo, demonstrando falta de informação assim utilizaram a idade de 18 ou menos para nunca.
+Algoritmos Utilizados: Algoritmos, métricas e resultados de Rodriguez (2021) foram:
+A precisão do modelo de Arvore de decisão foi 0,9011. De regressão logística 0,8059. Baías ingênuas 0,7907 e Classificador de vizinhos K 0,8790. O Floresta aleatória obteve precisão de 0,9232 de rede neural 0,82. Máquinas e vetores de suporte 0,822 e por fim Classificador XGBoost 0,91
+Segundo a pesquisa de Rodriguez (2021) Random Forest foi o algoritmo de ML de melhor desempenho para este problema específico, seguido por XGBoost e Decision Tree em termos de precisão do modelo.
+AUC de 0,975 no Random Forest e uma AUC de 0,500 para Random prediction. Na Curva Receiver Operating Characteristic (ROC) quando maior a AUC, melhor o modelo de classificação correta das instancias.
+Foi utilizado a técnica SMOTE para equilibrar o conjunto de dados para melhorar o desempenho dos modelos de ML.
+Resultados Obtidos: Nesta pesquisa Rodriguez (2021) provou que através da CIencia de dados e do uso de algoriticmo de Aprendizagem de máquina , é possível prever or esultado do AVC e que a metodologia CRISPI-DM ajuda na orientação da análise dos dados, tornando mais simples e efeicaz.
 
-A pesquisa de Rodriguez (2021)  Stroke prediction through Data Science and Machine Learning Algorithms tem como objetivo criar um modelo preciso para prever o resultado do AVC com ciência de dados e aprendizado de máquina (ML) com base em dados anteriores e características individuais e fornecer informações úteis para a equipe médica implantar o tratamento necessário e diminuir riscos e consequências. 
+Pesquisa 4: Aprendizado de máquina para acidente vascular cerebral: uma revisão – ScienceDirect
+A pesquisa revisa o uso de aprendizado de máquina (ML) e deep learning para o tratamento do acidente vascular cerebral (AVC), classificando as técnicas em quatro categorias e revisando sistematicamente estudos em cada categoria. Aqui está uma análise mais aprofundada:
+Pesquisas em Andamento: A aplicação de ML e deep learning na saúde está crescendo, com um foco crescente no AVC devido à sua alta taxa de mortalidade e a necessidade de detecção precoce. A revisão identificou 39 estudos sobre ML para AVC, abrangendo os anos de 2007 a 2019.
+Contextualização do Problema e Dataset Utilizado: O AVC é um grande desafio de saúde, e o ML tem sido reconhecido como uma ferramenta promissora para ajudar na detecção precoce e no tratamento. Os estudos revisados foram obtidos da base de dados científica ScienceDirect e abordaram diferentes aspectos do AVC, incluindo prevenção, diagnóstico, tratamento e prognóstico.
+Algoritmos Utilizados: Os estudos revisados utilizaram uma variedade de algoritmos de ML, com foco em aprendizado supervisionado, não supervisionado e profundo. Esses algoritmos têm a capacidade de aprender e melhorar a partir de dados passados sem serem explicitamente programados, permitindo análises complexas de conjuntos de dados relacionados ao AVC.
+Métricas de Avaliação Empregadas: Os estudos empregaram diferentes métricas de desempenho para avaliar a eficácia das técnicas de ML, incluindo acurácia, sensibilidade, especificidade, F1-Score e área sob a curva ROC. No entanto, a comparação entre estudos foi dificultada pela variedade de métricas utilizadas e pela heterogeneidade dos conjuntos de dados e técnicas empregadas.
+Resultados Obtidos: Os estudos revisados abordaram diversas áreas de pesquisa relacionadas ao AVC, incluindo prevenção, diagnóstico, tratamento e prognóstico. Embora seja difícil comparar diretamente os resultados devido às diferenças nos métodos e métricas de avaliação, alguns estudos relataram maior acurácia na classificação em determinadas áreas, como prevenção e diagnóstico.
+No geral, a pesquisa destaca o potencial do ML e deep learning para melhorar o entendimento, detecção e tratamento do AVC, mas também ressalta a necessidade de padronização nas métricas de avaliação e maior colaboração entre os pesquisadores para avançar nessa área.
 
-Para Rodriguez (2021) é difícil interpretar os padrões ou extrair informações úteis dos dados pois entende que seja devido à quantidade de informações serem pouco perceptível e é onde as técnicas de ML são muito úteis para ensinar, como o próprio nome indica, máquinas a lidar com dados de forma mais eficiente. 
-
-O dataset utilizado foi HealthData.gov, Liu, Fan & WU (2019). A hybrid machine learning approach to cerebral stroke prediction based on imbalanced medical-datasets  [RAR]. Mendley. Data for: A hybrid machine learning approach to cerebral stroke prediction based on imbalanced medical-datasets - Mendeley Data, que também é utilizado como conjunto de dados de referência em uma competição de Kaggle2. . 
-
-Nele inclui informações sobre 5.110 indivíduos caracterizados por 10 características e inclui informações sobre a variável alvo que é o  AVC para todos eles, isso permite uma abordagem de aprendizagem supervisionada e é a mais frequente utilizada. O objetivo é montar um modelo conciso da distribuição de rótulos de classes em termos de características preditoras e depois é usado para atribuir rótulos de classe às instancias de teste. 
-
- 
-
-O dataset original  tinha 201 valores ausentes para IMC.  Mais de 30 %  tinha o status desconhecido para tabagismo, demonstrando  falta de informação assim utilizaram a idade de 18 ou menos para nunca. 
-
- 
-
- 
-
-Algoritmos, métricas e resultados de Rodriguez (2021) foram: 
-
- 
-
-A precisão do modelo de Arvore de decisão foi 0,9011. De regressão logística 0,8059. Baías ingênuas 0,7907 e Classificador de vizinhos K 0,8790. O Floresta aleatória obteve precisão de 0,9232 de rede neural 0,82. Máquinas e vetores de suporte 0,822 e por fim Classificador XGBoost 0,91 
-
-Segundo a pesquisa de Rodriguez (2021) Random Forest foi o algoritmo de ML de melhor desempenho para este problema específico, seguido por XGBoost e Decision Tree em termos de precisão do modelo. 
-
-AUC  de 0,975 no Random Forest e uma AUC de 0,500 para Random prediction. Na Curva Receiver Operating Characteristic (ROC) quando maior a AUC, melhor o modelo de classificação correta das instancias. 
-
-Foi utilizado a técnica SMOTE para equilibrar o conjunto de dados para melhorar o desempenho dos modelos de ML. 
-
-Nesta pesquisa Rodriguez (2021) provou q atraves da CIencia de dados e do uso de algoriticmo de Aprendizagem de máquina , é possível prever or esultado do AVC  e que a metodologia CRISPI-DM ajuda na orientação da análise dos dados, tornando mais simples e efeicaz. 
-
-Pesquisa 4 Aprendizado de máquina para acidente vascular cerebral: uma revisão - ScienceDirect 
-
- 
-
-( NAO FOI POSSÍVEL OBTER OS DADOS, POIS NÃO FOI POSSÍVEL ABRIR O PDF), Porém o trabalho é muito relevante. 
-
-1 - Quais pesquisas estão sendo desenvolvidas sobre esse tema? 
-
-Uma aplicação de ML e Deep Learning na área da saúde está crescendo, no entanto, algumas áreas de pesquisa não chamam atenção suficiente para a investigação científica, embora haja real necessidade de pesquisa. Portanto, o objetivo deste trabalho é classificar o estado da arte das técnicas de ML para acidente vascular cerebral em 4 categorias com base em suas funcionalidades ou similaridade e, em seguida, revisar sistematicamente os estudos de cada categoria.   
-
- 
-
-2 - Detalhe e contextualize o problema, descreva o dataset utilizado 
-
-Para Sirsat, Fermé & Câmara (2020). Machine Learning for Brain Stroke: A Review, o AVC é um grande desafio relacionado à saúde e que nos últimos anos o ML tem crescido rapidamente e evoluído e que o AVC é um grande problema devido a alta taxa de mortalidade, para isso a detecção deve ser precoce.  
-
-Segundo Sirsat et. al (2020) Machine Learning (ML) é uma tecnologia de ponta que pode ajudar os profissionais de saúde a tomar decisões clínicas e previsões. 
-
- 
-
-Foram 39 estudos  identificados a partir dos resultados da base de dados científica ScienceDirect web sobre ML para acidente vascular cerebral do ano de 2007 a 2019. 
-
- 
-
-3 - Algoritmos utilizados nas pesquisas 
-
-Utilizado o modelo ML que têm a capacidade de aprender e melhorar a partir de dados passados sem serem explicitamente programados. Existem vários subtipos de ML, no entanto, nesta revisão, a aprendizagem supervisionada, a aprendizagem não supervisionada e a aprendizagem profunda são tipos focados no presente estudo.  
-
-4 - Identifique as métricas de avaliação empregadas 
-
-5 - Resultados obtidos. 
-
- Os resultados  encontrados em 8 estudos sobre prevenção de AVC, 18 estudos sobre diagnóstico de AVC, 4 estudos sobre tratamento de AVC e 9 estudos sobre prognóstico de AVC.  Foi observado que é difícil comparar os estudos, pois eles empregaram diferentes métricas de desempenho para diferentes tarefas, considerando diferentes conjuntos de dados, técnicas e parâmetros de ajuste. Assim, citam-se apenas as áreas de pesquisa que foram alvo de mais de um estudo e os estudos que relatam maior acurácia na classificação 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 # Descrição do _dataset_ selecionado
 
