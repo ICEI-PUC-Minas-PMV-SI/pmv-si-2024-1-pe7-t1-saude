@@ -1,3 +1,11 @@
+# Pergunta orientada a dados (???)
+
+Justificar a definição / diferença da questão de pesquisa
+
+# Tipos de dados do _dataset_
+
+Qual o tipo de cada um dos atributos?
+
 # Preparação dos dados
 
 Nesta etapa, deverão ser descritas todas as técnicas utilizadas para pré-processamento/tratamento dos dados.
