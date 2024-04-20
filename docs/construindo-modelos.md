@@ -16,7 +16,7 @@ hypertension: 0 se o paciente não tiver hipertensão, 1 se tiver - Qualitativo 
 
 heart_disease: 0 se o paciente não tiver doença cardíaca, 1 se tiver - Qualitativo binominal assimétrico / Quantitativo binário;
 
-ever_married: "Sim" ou "Não" - Qualitativo binominal simétrico / Quantitativo binário;
+ever_married: "Sim" ou "Não" - Qualitativo binominal simétrico ;
 
 work_type: "Criança", "Esfera pública", "Nunca trabalhou", "Esfera privada" or "Conta própria" - Qualitativo polinominal não ordinal;
 
