@@ -6,6 +6,19 @@ Justificar a definição / diferença da questão de pesquisa
 
 Qual o tipo de cada um dos atributos?
 
+id: Identificador único - Quantitativo discreto não normalizado
+gender: "Masculino", "Feminino" ou "Outro" - Qualitativo polinominal não ordinal
+age: Idade do paciente - Quantitativo discreto não normalizado
+hypertension: 0 se o paciente não tiver hipertensão, 1 se tiver - Qualitativo binominal assimétrico / Quantitativo binário
+heart_disease: 0 se o paciente não tiver doença cardíaca, 1 se tiver - Qualitativo binominal assimétrico / Quantitativo binário
+ever_married: "Sim" ou "Não" - Qualitativo binominal simétrico / Quantitativo binário
+work_type: "Criança", "Esfera pública", "Nunca trabalhou", "Esfera privada" or "Conta própria" - Qualitativo polinominal não ordinal
+Residence_type: "Rural" ou "Urbano" - Qualitativo binominal simétrico / Quantitativo binário
+avg_glucose_level: Nível médio de glicose no sangue - Quantitativo contínuo não normalizado
+bmi: Indice de massa corporal - Quantitativo contínuo não normalizado
+smoking_status: "fumou previamente", "nunca fumou", "fuma" ou "desconhecido" - Qualitativo binominal simétrico / Quantitativo binário
+stroke: 0 se o paciente não tiver tido um derrame, 1 se tiver - Qualitativo binominal assimétrico / Quantitativo binário
+
 # Preparação dos dados
 
 Nesta etapa, deverão ser descritas todas as técnicas utilizadas para pré-processamento/tratamento dos dados.
