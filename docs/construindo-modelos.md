@@ -31,6 +31,19 @@ smoking_status: "fumou previamente", "nunca fumou", "fuma" ou "desconhecido" - Q
 stroke: 0 se o paciente não tiver tido um derrame, 1 se tiver - Qualitativo binominal assimétrico / Quantitativo binário;
 
 
+
+
+<b>Estatísticas descritivas no dataset:</b>
+
+Tipo de dado: Categórico ou numérico
+
+Número de valores únicos: Para variáveis categóricas
+
+Média, mediana, moda, mínimo e máximo: Para variáveis numéricas
+
+Distribuição de frequência: Para variáveis categóricas e numéricas
+
+
 # Preparação dos dados
 
 Nesta etapa, deverão ser descritas todas as técnicas utilizadas para pré-processamento/tratamento dos dados.
