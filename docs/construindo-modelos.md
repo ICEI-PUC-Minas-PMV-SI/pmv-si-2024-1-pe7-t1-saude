@@ -33,15 +33,15 @@ stroke: 0 se o paciente não tiver tido um derrame, 1 se tiver - Qualitativo bin
 
 
 
-<b>Estatísticas descritivas no dataset:</b>
+## <b>Estatísticas descritivas no dataset:</b>
 
-Tipo de dado: Categórico ou numérico
+Tipo de dado: Categórico ou numérico.
 
-Número de valores únicos: Para variáveis categóricas
+Número de valores únicos: Para variáveis categóricas.
 
-Média, mediana, moda, mínimo e máximo: Para variáveis numéricas
+Média, mediana, moda, mínimo e máximo: Para variáveis numéricas.
 
-Distribuição de frequência: Para variáveis categóricas e numéricas
+Distribuição de frequência: Para variáveis categóricas e numéricas.
 
 
 # Preparação dos dados
