@@ -17,6 +17,9 @@ Maior Precisão do Modelo:
 Personalização das Intervenções
 Adaptação ao Contexto do SEST SENAT:
 
+Pode-se remover ou nao alguns atributos com dados faltantes, pode ser uma solução mesmo que nao seja desejável. Podemos inferir dados apartir de dados conhecidos. Ex: O dataset escolhido tem o IMC , mas não tem o peso de cada individuo. Tratar os valores como especial substituindo o valor omisso em caso de nao respondidos por outros ou -1. Isso poderá trazer novas regras de aprendizagem de máquina.
+
+
 Diante do exposto combinar diferentes bases de dados pode ser vantajoso para a pesquisa em prevenção de AVC, especialmente ao implementar em diferentes tipos de empresas. Isso amplia a variedade de dados, melhora a compreensão de padrões, aumenta a precisão do modelo, permite personalização das intervenções e adaptação ao contexto do SEST SENAT. No entanto, é crucial garantir a privacidade e segurança dos dados, além de seguir as melhores práticas éticas e regulatórias.
 
 
