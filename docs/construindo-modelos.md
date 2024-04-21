@@ -2,6 +2,24 @@
 
 Justificar a definição / diferença da questão de pesquisa
 
+
+# Vale a pena combinar outras bases de dados:
+Sim. É importante combinar outras bases de dados que tenham outras informações para resolver o problema identificado isso pode ser uma estratégia valiosa para aprimorar os modelos de IA em prevenção de AVC,
+
+Porquê?
+
+Para organizaçoes de outras categorias pode ser usados dados desta empresa para agregar valor a pesquisa. Por exemplo: a empresa SEST SENAT atende a um publico de trabalhadores do transporte. Esta empresa presta serviços odontológicos, nutricional, psicológico e fisioterapia. Esta empresa é nacional possui um enorme publico e um banco de dados específico de um público que trabalha no transporte. Se a empresa pretender aumentar seu atendimento na fisioterapia e nutricão, ela poderá usar os dados para que atraves do resultado faça um trabalho voltado para a prevençao do AVA, oferecendo seus serviços para aqueles que tem porcentagem alta de chances de um AVC futuro, aumentar a qualidade de vida de seus funcionários e cuidar para estes sejam alertados e cobrados por um cuidado, assim dimunuirá as doenças bem como o afastamento por AVC. 
+
+Vantagens:
+Ampliação da Variedade de Dados: 
+Melhor Compreensão dos Padrões: 
+Maior Precisão do Modelo: 
+Personalização das Intervenções
+Adaptação ao Contexto do SEST SENAT:
+
+Diante do exposto combinar diferentes bases de dados pode ser vantajoso para a pesquisa em prevenção de AVC, especialmente ao implementar em diferentes tipos de empresas. Isso amplia a variedade de dados, melhora a compreensão de padrões, aumenta a precisão do modelo, permite personalização das intervenções e adaptação ao contexto do SEST SENAT. No entanto, é crucial garantir a privacidade e segurança dos dados, além de seguir as melhores práticas éticas e regulatórias.
+
+
 # Tipos de dados do _dataset_
 
 Qual o tipo de cada um dos atributos?
