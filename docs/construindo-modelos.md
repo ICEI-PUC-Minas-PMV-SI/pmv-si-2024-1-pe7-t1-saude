@@ -23,6 +23,17 @@ Pode-se remover ou nao alguns atributos com dados faltantes, pode ser uma soluç
 Diante do exposto combinar diferentes bases de dados pode ser vantajoso para a pesquisa em prevenção de AVC, especialmente ao implementar em diferentes tipos de empresas. Isso amplia a variedade de dados, melhora a compreensão de padrões, aumenta a precisão do modelo, permite personalização das intervenções e adaptação ao contexto do SEST SENAT. No entanto, é crucial garantir a privacidade e segurança dos dados, além de seguir as melhores práticas éticas e regulatórias.
 
 
+# Prof. Hugo citou alguma medida de estatística descritiva que não foi abordada na Etapa 02?
+Não, essas foram as estatísticas descritivas usada no dataset:
+
+Tipo de dado: Categórico ou numérico.
+
+Número de valores únicos: Para variáveis categóricas.
+
+Média, mediana, moda, mínimo e máximo: Para variáveis numéricas.
+
+Distribuição de frequência: Para variáveis categóricas e numéricas.
+
 # Tipos de dados do _dataset_
 
 Qual o tipo de cada um dos atributos?
@@ -51,18 +62,6 @@ smoking_status: "fumou previamente", "nunca fumou", "fuma" ou "desconhecido" - Q
 
 stroke: 0 se o paciente não tiver tido um derrame, 1 se tiver - Qualitativo binominal assimétrico / Quantitativo binário;
 
-
-
-
-## <b>Estatísticas descritivas no dataset:</b>
-
-Tipo de dado: Categórico ou numérico.
-
-Número de valores únicos: Para variáveis categóricas.
-
-Média, mediana, moda, mínimo e máximo: Para variáveis numéricas.
-
-Distribuição de frequência: Para variáveis categóricas e numéricas.
 
 
 # Preparação dos dados
