@@ -66,10 +66,12 @@ stroke: 0 se o paciente não tiver tido um derrame, 1 se tiver - Qualitativo bin
 
 # Preparação dos dados
 
-1.ratamento de Valores Ausentes (Missing Values):
+1.Tratamento de Valores Ausentes (Missing Values):
 
 Para o atributo bmi: considerando que o índice de massa corporal (IMC) é uma medida importante para a saúde e que existem 201 valores ausentes, podemos preencher esses valores utilizando a média do IMC presente nos dados. Isso pode ser uma abordagem razoável, mas pode distorcer um pouco a distribuição dos dados. Uma alternativa seria imputar os valores ausentes usando métodos mais avançados, como regressão linear ou K-Nearest Neighbors (KNN), com base em outros atributos relevantes.
+
 Remoção de Outliers para o atributo age: dado que a idade é um fator significativo na incidência de AVC e que existem outliers podem ser observados a partir da análise do dataset, uma abordagem pode ser a remoção de outliers baseada em alguma medida estatística, como o método IQR (Interquartile Range).
+
 Correlações e Influências nos Atributos:
  - Para os atributos categóricos como smoking_status, work_type, Residence_type e ever_married:
  •	Não há valores ausentes nestes atributos. A correlação entre eles e a incidência de AVC pode ser explorada mais a fundo para determinar se eles devem ser mantidos no modelo ou se alguns deles podem ser descartados.
@@ -84,6 +86,7 @@ Resumindo:
 
 
 2.Transformação de Dados:
+
  IMC (Índice de Massa Corporal): normalizar os valores de IMC para uma escala específica, como a faixa de 0 a 1, para torná-los comparáveis entre si. Isso pode ser feito usando técnicas de normalização, como a fórmula Min-Max.
  Nível Médio de Glicose: da mesma forma que o IMC, normalizar os valores do nível médio de glicose para uma escala específica, como a faixa de 0 a 1, para torná-los comparáveis entre si.
 Codificação de Variáveis Categóricas:
