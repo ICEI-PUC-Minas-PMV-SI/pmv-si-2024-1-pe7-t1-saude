@@ -66,7 +66,7 @@ stroke: 0 se o paciente não tiver tido um derrame, 1 se tiver - Qualitativo bin
 
 # Preparação dos dados
 
-1.Tratamento de Valores Ausentes (Missing Values):
+**1 - Tratamento de Valores Ausentes (Missing Values):**
 
 Para o atributo bmi: considerando que o índice de massa corporal (IMC) é uma medida importante para a saúde e que existem 201 valores ausentes, podemos preencher esses valores utilizando a média do IMC presente nos dados. Isso pode ser uma abordagem razoável, mas pode distorcer um pouco a distribuição dos dados. Uma alternativa seria imputar os valores ausentes usando métodos mais avançados, como regressão linear ou K-Nearest Neighbors (KNN), com base em outros atributos relevantes.
 
@@ -86,23 +86,22 @@ Resumindo:
  •	Manter o atributo avg_glucose_level para avaliação em modelos.
 
 
-2.Transformação de Dados:
+**2 - Transformação de Dados:**
 
 IMC (Índice de Massa Corporal): normalizar os valores de IMC para uma escala específica, como a faixa de 0 a 1, para torná-los comparáveis entre si. Isso pode ser feito usando técnicas de normalização, como a fórmula Min-Max.
 Nível Médio de Glicose: da mesma forma que o IMC, normalizar os valores do nível médio de glicose para uma escala específica, como a faixa de 0 a 1, para torná-los comparáveis entre si.
-- Codificação de Variáveis Categóricas:
+
+Codificação de Variáveis Categóricas:
 Tabagismo: converter as categorias de histórico de tabagismo em variáveis numéricas usando a técnica de one-hot encoding. Cada categoria (nunca fumou, fumou anteriormente, fuma, desconhecida) se tornará uma nova coluna binária.
 Vínculo Empregatício: da mesma forma, converter as categorias de vínculo empregatício em variáveis numéricas usando one-hot encoding. Cada categoria (filho, trabalho público, nunca trabalhou, empresa privada, autônomo) se tornará uma nova coluna binária.
 Estado Civil: converter as categorias de estado civil em variáveis numéricas usando one-hot encoding. Neste caso, temos apenas duas categorias (casado, não casado), então apenas uma nova coluna binária será criada.
-Gênero:
-Converter as categorias de sexo em variáveis numéricas usando one-hot encoding. Neste caso, temos três categorias (feminino, masculino, outros), então duas novas colunas binárias serão criadas.
-
+Gênero: converter as categorias de sexo em variáveis numéricas usando one-hot encoding. Neste caso, temos três categorias (feminino, masculino, outros), então duas novas colunas binárias serão criadas.
 Resumindo:
 Normalizar os valores de IMC e nível médio de glicose para uma escala específica para torná-los comparáveis.
 Codificar variáveis categóricas (tabagismo, vínculo empregatício, estado civil e sexo) usando one-hot encoding para que elas possam ser utilizadas em modelos de machine learning.
 
 
-3.Feature Engineering: 
+**3 - Feature Engineering:**
 
 A idade é um atributo significativamente associado ao risco de AVC. Podemos criar faixas etárias (por exemplo, 0-18 anos, 18-35 anos, 35-55 anos, 55+ anos) como novos atributos para capturar diferentes grupos etários e seu impacto no risco de AVC. Uma possível engenharia de características seria calcular a duração do tabagismo para os ex-fumantes ou a quantidade média de cigarros fumados por dia para os fumantes, como medidas mais detalhadas do histórico de tabagismo.
 Seleção de características relevantes: os atributos relacionados à saúde da pessoa, como nível médio de glicose, hipertensão e histórico de doenças cardíacas, mostraram uma correlação mais forte com o risco de AVC. Portanto, podemos priorizar esses atributos durante a modelagem.
@@ -112,24 +111,49 @@ Tratamento de valores ausentes: para lidar com os valores nulos no atributo IMC,
 Transformação de dados: poderíamos transformar variáveis categóricas, como histórico de tabagismo e estado civil, em variáveis binárias (por exemplo, nunca fumou = 0, fuma = 1) para facilitar a modelagem.
 
 
-4.Tratamento de dados desbalanceados:
+**4 - Tratamento de dados desbalanceados:**
 
 Para lidar com dados desbalanceados, como no caso do atributo binário "stroke", onde a maioria dos pacientes não teve AVC (95,1%), enquanto apenas uma minoria teve (4,9%), algumas técnicas podem ser consideradas:
 
-Oversampling: Consiste em aumentar a representação da classe minoritária, neste caso, os casos de AVC, gerando novas amostras sintéticas a partir dos dados existentes. Isso pode ser feito utilizando técnicas como SMOTE (Synthetic Minority Over-sampling Technique) para gerar exemplos sintéticos da classe minoritária.
-Undersampling: Consiste em reduzir a representação da classe majoritária, neste caso, os casos sem AVC, selecionando aleatoriamente uma quantidade igual de amostras da classe majoritária para equilibrar as classes.
-Algoritmos que lidam naturalmente com desbalanceamento: Alguns algoritmos de aprendizado de máquina são menos sensíveis a desbalanceamentos de classe, como árvores de decisão, Random Forests, gradient boosting, SVM com pesos nas classes, entre outros. Esses algoritmos podem ser uma opção quando o desbalanceamento não é muito extremo.
+Oversampling: consiste em aumentar a representação da classe minoritária, neste caso, os casos de AVC, gerando novas amostras sintéticas a partir dos dados existentes. Isso pode ser feito utilizando técnicas como SMOTE (Synthetic Minority Over-sampling Technique) para gerar exemplos sintéticos da classe minoritária.
+Undersampling: consiste em reduzir a representação da classe majoritária, neste caso, os casos sem AVC, selecionando aleatoriamente uma quantidade igual de amostras da classe majoritária para equilibrar as classes.
+Algoritmos que lidam naturalmente com desbalanceamento: alguns algoritmos de aprendizado de máquina são menos sensíveis a desbalanceamentos de classe, como árvores de decisão, Random Forests, gradient boosting, SVM com pesos nas classes, entre outros. Esses algoritmos podem ser uma opção quando o desbalanceamento não é muito extremo.
 
 
-5.Divisão dos dados: 
+**5 - Divisão dos dados:**
 
-Após realizar a análise exploratória dos dados e identificar os atributos relevantes para prever o risco de AVC, o próximo passo seria dividir o conjunto de dados em dois subconjuntos: um conjunto de treinamento e um conjunto de teste.
+Após realizar a análise exploratória dos dados e identificar os atributos relevantes para prever o risco de AVC, o próximo passo será dividir o conjunto de dados em dois subconjuntos: um conjunto de treinamento e um conjunto de teste.
 Conjunto de treinamento: este conjunto será usado para treinar o modelo de aprendizado de máquina. Ele consistirá em uma parte significativa dos dados, por exemplo, 70-80% do conjunto de dados total.
 Conjunto de teste: este conjunto será usado para avaliar o desempenho do modelo treinado. Ele consistirá em uma porção menor dos dados, geralmente 20-30% do conjunto de dados total.
 Importância da separação: Ao dividir os dados em conjuntos de treinamento e teste, garantimos que o modelo seja avaliado em dados que não foram vistos durante o treinamento. Isso ajuda a estimar o desempenho do modelo em dados não vistos e a identificar se o modelo está superestimando ou subestimando o desempenho.
 Avaliação do modelo: Após treinar o modelo usando o conjunto de treinamento, ele será avaliado usando o conjunto de teste. Métricas de avaliação, como precisão, recall, F1-score e curva ROC, podem ser calculadas para entender o desempenho do modelo na previsão do risco de AVC com base nos atributos fornecidos.
 
 
+**6 - Manuseio de Dados Temporais:**
+
+Ordenação temporal: Não é mencionado no dataset explicitamente dados temporais, como datas ou timestamps. No entanto, alguns atributos, como idade, podem ser considerados temporalmente, pois representam a idade das pessoas no momento da análise. Portanto, ao analisar a correlação entre idade e risco de AVC, é importante considerar a ordem temporal dos dados e como ela pode influenciar as conclusões.
+Técnicas de análise temporal: Embora não forneça dados explícitos de séries temporais, ele aborda a relação entre idade e outros fatores de risco para AVC ao longo do tempo. Por exemplo, menciona que o risco de AVC aumenta consideravelmente após os 55 anos. Ao analisar essa relação, seria útil aplicar técnicas de análise de séries temporais, como análise de tendências ao longo do tempo e modelagem de séries temporais, para entender melhor como o risco de AVC evolui com a idade.
+Manipulação de dados temporais: Como não há dados de séries temporais explícitas nos dados, não há necessidade imediata de técnicas de manipulação de dados temporais, como interpolação de valores ausentes em séries temporais ou agregação de dados em intervalos de tempo específicos. No entanto, se os dados incluíssem informações temporais, seria importante garantir que fossem tratados corretamente para preservar a ordem temporal e evitar viés nos resultados da análise.
+Visualização temporal: Ao explorar a relação entre idade e risco de AVC ao longo do tempo, a visualização desempenha um papel crucial. Gráficos de tendência, como gráficos de linha ou gráficos de dispersão com marcação temporal, podem ajudar a identificar padrões ou mudanças ao longo do tempo. 
+Embora o dataset não forneça dados temporais explícitos, a análise de como variáveis como idade evoluem ao longo do tempo e sua relação com o risco de AVC destacam a importância de considerar a ordem temporal dos dados e aplicar técnicas específicas de análise temporal, mesmo em contextos onde os dados temporais não são diretamente fornecidos.
+
+
+**7 - Redução de Dimensionalidade:**
+
+Identificação da dimensionalidade: nos dados fornecidos são mencionados diversos atributos que podem ser usados para prever o risco de AVC, como idade, histórico de tabagismo, vínculo empregatício, estado civil, sexo, IMC, nível de glicose no sangue, entre outros. Cada atributo adiciona uma dimensão ao conjunto de dados.
+Interpretação dos componentes principais: isso pode nos ajudar a identificar quais atributos são os mais importantes para prever o risco de AVC e quais podem ser descartados ou combinados para reduzir a dimensionalidade do conjunto de dados.
+Visualização dos dados reduzidos: podemos visualizar os dados em um espaço de dimensão reduzida para entender melhor a estrutura dos dados e identificar padrões ou clusters que possam existir.
+Ao aplicar técnicas de redução de dimensionalidade como PCA, podemos simplificar a análise de conjuntos de dados complexos relacionados ao risco de AVC, tornando mais fácil identificar padrões e relações entre os atributos e a ocorrência de AVC. Isso pode nos ajudar a desenvolver modelos mais eficazes para prever e prevenir o risco de AVC com base nos fatores de risco identificados.
+
+
+**8 - Validação Cruzada:**
+
+Preparação dos dados: Antes de aplicar a validação cruzada, é necessário preparar os dados, incluindo a seleção dos atributos relevantes, tratamento de valores nulos (como no caso do IMC) e codificação de variáveis categóricas, se necessário.
+Seleção do modelo: Dado que estamos interessados em prever o risco de AVC com base nos fatores de risco identificados, podemos escolher um modelo de classificação adequado, como regressão logística, árvores de decisão, ou até mesmo modelos mais complexos como redes neurais.
+Divisão dos dados: Os dados devem ser divididos em conjuntos de treinamento e teste. No entanto, em vez de usar apenas uma divisão fixa, aplicaremos a validação cruzada para dividir os dados em várias partes, treinar o modelo em cada parte e avaliar seu desempenho médio.
+Validação cruzada k-fold: Neste caso, podemos usar a validação cruzada k-fold, onde os dados são divididos em k partes (ou "dobras"). O modelo é treinado k vezes, cada vez usando k-1 partes como conjunto de treinamento e a parte restante como conjunto de teste. Isso garante que cada observação seja usada tanto para treinamento quanto para teste, melhorando a robustez da avaliação do modelo.
+Avaliação do desempenho: Após realizar a validação cruzada, podemos calcular métricas de desempenho, como precisão, recall, F1-score e área sob a curva ROC (AUC-ROC), para cada fold. Em seguida, podemos calcular a média e o desvio padrão dessas métricas para avaliar o desempenho geral do modelo.
+Interpretação dos resultados: Com base nas métricas de desempenho obtidas durante a validação cruzada, podemos entender melhor como nosso modelo se sai na previsão do risco de AVC com base nos fatores de risco identificados. Isso nos permite fazer inferências mais confiáveis sobre a eficácia do modelo em generalizar para novos dados.
 
 
 
