@@ -18,6 +18,11 @@ Personalização das Intervenções
 Adaptação ao Contexto do SEST SENAT:
 
 Pode-se remover ou nao alguns atributos com dados faltantes, pode ser uma solução mesmo que nao seja desejável. Podemos inferir dados apartir de dados conhecidos. Ex: O dataset escolhido tem o IMC , mas não tem o peso de cada individuo. Tratar os valores como especial substituindo o valor omisso em caso de nao respondidos por outros ou -1. Isso poderá trazer novas regras de aprendizagem de máquina.
+Normalização de dados numéricos para que fiquem em faixas semelhante.
+Minmax: Essa técnica dimensiona os valores para um intervalo fixo, geralmente entre 0 e 1. 
+Z-score: Essa técnica transforma os dados para que tenham uma média de zero e um desvio padrão de um.
+
+Através da seleção de dados, eliminar a enfase em certos tributos e a agregação como forrma de redução de dimensionalidade, combinando dois ou mais atributos em um único atributo. Pode-se pegar, por exemplo o campo idade e agregar em uma faixa etária para suavisar os dados.
 
 
 Diante do exposto combinar diferentes bases de dados pode ser vantajoso para a pesquisa em prevenção de AVC, especialmente ao implementar em diferentes tipos de empresas. Isso amplia a variedade de dados, melhora a compreensão de padrões, aumenta a precisão do modelo, permite personalização das intervenções e adaptação ao contexto do SEST SENAT. No entanto, é crucial garantir a privacidade e segurança dos dados, além de seguir as melhores práticas éticas e regulatórias.
