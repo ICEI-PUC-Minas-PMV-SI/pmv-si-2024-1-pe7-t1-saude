@@ -4,28 +4,27 @@ Sim, a pergunta orientada a dados e a questão de pesquisa são diferentes, mesm
 Dessa forma, conclui-se que a questão de pesquisa tem o intuito de fornecer uma visão geral do tema a ser estudado, introduzindo seus tópicos, enquanto as perguntas orientadas a dados têm a função de construir perguntas mais específicas para responder às questões de pesquisa.
 
 # Vale a pena combinar outras bases de dados:
-Sim. É importante combinar outras bases de dados que tenham outras informações para resolver o problema identificado isso pode ser uma estratégia valiosa para aprimorar os modelos de IA em prevenção de AVC,
+Não. 
+É importante combinar outras bases de dados que tenham outras informações para resolver o problema identificado isso pode ser uma estratégia valiosa para aprimorar os modelos de IA em prevenção de AVC, mas no caso desta pesquisa não foi encontrado um dataset para suprir as faltas ou que agregue valor a pesquisa.
 
-Porquê?
 
-Para organizaçoes de outras categorias pode ser usados dados desta empresa para agregar valor a pesquisa. Por exemplo: a empresa SEST SENAT atende a um publico de trabalhadores do transporte. Esta empresa presta serviços odontológicos, nutricional, psicológico e fisioterapia. Esta empresa é nacional possui um enorme publico e um banco de dados específico de um público que trabalha no transporte. Se a empresa pretender aumentar seu atendimento na fisioterapia e nutricão, ela poderá usar os dados para que atraves do resultado faça um trabalho voltado para a prevençao do AVC, oferecendo seus serviços para aqueles que tem porcentagem alta de chances de um AVC futuro, aumentar a qualidade de vida de seus funcionários e cuidar para estes sejam alertados e cobrados por um cuidado, assim dimunuirá as doenças bem como o afastamento por AVC. 
+Porquê algumas pesquisas utilizam mais de um dataset?
 
 Vantagens:
 Ampliação da Variedade de Dados: 
 Melhor Compreensão dos Padrões: 
 Maior Precisão do Modelo: 
 Personalização das Intervenções
-Adaptação ao Contexto do SEST SENAT:
+Adaptabilidade
 
-Pode-se remover ou nao alguns atributos com dados faltantes, pode ser uma solução mesmo que nao seja desejável. Podemos inferir dados apartir de dados conhecidos. Ex: O dataset escolhido tem o IMC , mas não tem o peso de cada individuo. Tratar os valores como especial substituindo o valor omisso em caso de nao respondidos por outros ou -1. Isso poderá trazer novas regras de aprendizagem de máquina.
+Poderia remover ou nao alguns atributos com dados faltantes. Poderia inferir dados apartir de dados conhecidos. Ex: O dataset escolhido tem o IMC , mas não tem o peso de cada individuo. Um novo dataset  trataria os valores como especial substituindo o valor omisso em caso de nao respondidos por outros ou -1. Isso poderá trazer novas regras de aprendizagem de máquina.
 Normalização de dados numéricos para que fiquem em faixas semelhante.
 Minmax: Essa técnica dimensiona os valores para um intervalo fixo, geralmente entre 0 e 1. 
 Z-score: Essa técnica transforma os dados para que tenham uma média de zero e um desvio padrão de um.
 
-Através da seleção de dados, eliminar a enfase em certos tributos e a agregação como forrma de redução de dimensionalidade, combinando dois ou mais atributos em um único atributo. Pode-se pegar, por exemplo o campo idade e agregar em uma faixa etária para suavisar os dados.
+Através da seleção de dados, eliminar a enfase em certos tributos e a agregação como forrma de redução de dimensionalidade, combinando dois ou mais atributos em um único atributo. 
 
-
-Diante do exposto combinar diferentes bases de dados pode ser vantajoso para a pesquisa em prevenção de AVC, especialmente ao implementar em diferentes tipos de empresas. Isso amplia a variedade de dados, melhora a compreensão de padrões, aumenta a precisão do modelo, permite personalização das intervenções e adaptação ao contexto do SEST SENAT. No entanto, é crucial garantir a privacidade e segurança dos dados, além de seguir as melhores práticas éticas e regulatórias.
+Diante do exposto combinar diferentes bases de dados pode ser vantajoso para algumas pesquisa. Isso amplia a variedade de dados, melhora a compreensão de padrões, aumenta a precisão do modelo, permite personalização das intervenções e adaptação ao contexto. No entanto, é crucial garantir a privacidade e segurança dos dados, além de seguir as melhores práticas éticas e regulatórias. Para a pesquisa em questão não foi encontrado um dataset que relacione os dados de forma a gregar valor ao trabalho. A menos que, por exemplo, que seja intenção da pesquisa, relacionar por exemplo em média a pesquisa feita em determina região (urbana ou rural) para relacionar quem teria mais risco de AVC, Regiao que mora com as taxas e probabilidade desta regiao oud aquela e não é a intenção do grupo e da pesquisa referente a este trabalho.
 
 
 # Prof. Hugo citou alguma medida de estatística descritiva que não foi abordada na Etapa 02?
