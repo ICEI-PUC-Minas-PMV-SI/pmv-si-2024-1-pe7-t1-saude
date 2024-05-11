@@ -4,28 +4,22 @@ Sim, a pergunta orientada a dados e a questão de pesquisa são diferentes, mesm
 Dessa forma, conclui-se que a questão de pesquisa tem o intuito de fornecer uma visão geral do tema a ser estudado, introduzindo seus tópicos, enquanto as perguntas orientadas a dados têm a função de construir perguntas mais específicas para responder às questões de pesquisa.
 
 # Vale a pena combinar outras bases de dados:
-Não. 
-É importante combinar outras bases de dados que tenham outras informações para resolver o problema identificado isso pode ser uma estratégia valiosa para aprimorar os modelos de IA em prevenção de AVC, mas no caso desta pesquisa não foi encontrado um dataset para suprir as faltas ou que agregue valor a pesquisa.Pois não podemos combinar perfis de pessoas diferentes, deve ser um dataset que tenha uma lógica/conecção, que fizesse parte da pesquisa. 
-Não pode-se simplesmente combinar outro dataset para ter mais atributos que descrevem um determinado perfil, pois não se pode juntar perfis de pessoas diferentes 
- do dataset selecionado.
+Não.
+"É essencial considerar a combinação de diferentes conjuntos de dados que possuam informações complementares para abordar o problema identificado. Essa estratégia pode ser valiosa para aprimorar os modelos de IA na prevenção de AVC. Contudo, para esta pesquisa específica, não encontramos um conjunto de dados que atendesse às lacunas ou agregasse valor à investigação. É importante ressaltar que a combinação de perfis de pessoas distintas não é viável; o conjunto de dados deve possuir uma lógica ou conexão direta com a pesquisa em questão.
 
-Porquê algumas pesquisas utilizam mais de um dataset?
+Por que algumas pesquisas utilizam mais de um conjunto de dados?
 
 Vantagens:
-Ampliação da Variedade de Dados: 
-Melhor Compreensão dos Padrões: 
-Maior Precisão do Modelo: 
-Personalização das Intervenções
-Adaptabilidade
 
-Poderia remover ou nao alguns atributos com dados faltantes. Poderia inferir dados apartir de dados conhecidos. Ex: O dataset escolhido tem o IMC , mas não tem o peso de cada individuo. Um novo dataset  trataria os valores como especial substituindo o valor omisso em caso de nao respondidos por outros ou -1. Isso poderá trazer novas regras de aprendizagem de máquina.
-Normalização de dados numéricos para que fiquem em faixas semelhante.
-Minmax: Essa técnica dimensiona os valores para um intervalo fixo, geralmente entre 0 e 1. 
-Z-score: Essa técnica transforma os dados para que tenham uma média de zero e um desvio padrão de um.
+Ampliação da Variedade de Dados, Melhor Compreensão dos Padrões, Maior Precisão do Modelo, Personalização das Intervenções, Adaptabilidade
 
-Através da seleção de dados, eliminar a enfase em certos tributos e a agregação como forrma de redução de dimensionalidade, combinando dois ou mais atributos em um único atributo. 
+Pode-se optar por remover atributos com dados faltantes ou inferir dados a partir de informações conhecidas. Por exemplo, se o conjunto de dados selecionado incluir o IMC, mas não o peso de cada indivíduo, um novo conjunto de dados poderia tratar esses valores especiais, substituindo os valores omitidos por outros ou atribuindo um valor como -1. Isso pode resultar em novas regras de aprendizado de máquina.
 
-Diante do exposto combinar diferentes bases de dados pode ser vantajoso para algumas pesquisa. Isso amplia a variedade de dados, melhora a compreensão de padrões, aumenta a precisão do modelo, permite personalização das intervenções e adaptação ao contexto. No entanto, é crucial garantir a privacidade e segurança dos dados, além de seguir as melhores práticas éticas e regulatórias. Para a pesquisa em questão não foi encontrado um dataset que relacione os dados de forma a gregar valor ao trabalho. A menos que, por exemplo, que seja intenção da pesquisa, relacionar por exemplo em média a pesquisa feita em determina região (urbana ou rural) para relacionar quem teria mais risco de AVC, Regiao que mora com as taxas e probabilidade desta regiao oud aquela e não é a intenção do grupo e da pesquisa referente a este trabalho.
+A normalização de dados numéricos é outra etapa importante, visando a colocar esses dados em faixas semelhantes. Técnicas como Minmax e Z-score podem ser empregadas para esse fim.
+
+A seleção de dados pode envolver a redução da ênfase em certos atributos e a agregação como forma de redução da dimensionalidade, combinando dois ou mais atributos em um único atributo.
+
+Em suma, a combinação de diferentes conjuntos de dados pode ser vantajosa para algumas pesquisas, pois amplia a variedade de dados, melhora a compreensão de padrões, aumenta a precisão do modelo, permite a personalização das intervenções e a adaptação ao contexto. No entanto, é fundamental garantir a privacidade e segurança dos dados, além de seguir as melhores práticas éticas e regulatórias. Para a pesquisa em questão, não encontramos um conjunto de dados que relacione as informações de forma a agregar valor ao trabalho realizado. A menos que seja intenção da pesquisa, por exemplo, relacionar a média de pesquisas realizadas em determinadas regiões (urbanas ou rurais) com o risco de AVC, não é o objetivo do grupo ou da pesquisa referente a este trabalho."
 
 
 # Prof. Hugo citou alguma medida de estatística descritiva que não foi abordada na Etapa 02?
