@@ -5,8 +5,9 @@ Dessa forma, conclui-se que a questão de pesquisa tem o intuito de fornecer uma
 
 # Vale a pena combinar outras bases de dados:
 Não. 
-É importante combinar outras bases de dados que tenham outras informações para resolver o problema identificado isso pode ser uma estratégia valiosa para aprimorar os modelos de IA em prevenção de AVC, mas no caso desta pesquisa não foi encontrado um dataset para suprir as faltas ou que agregue valor a pesquisa.
-
+É importante combinar outras bases de dados que tenham outras informações para resolver o problema identificado isso pode ser uma estratégia valiosa para aprimorar os modelos de IA em prevenção de AVC, mas no caso desta pesquisa não foi encontrado um dataset para suprir as faltas ou que agregue valor a pesquisa.Pois não podemos combinar perfis de pessoas diferentes, deve ser um dataset que tenha uma lógica/conecção, que fizesse parte da pesquisa. 
+Não pode-se simplesmente combinar outro dataset para ter mais atributos que descrevem um determinado perfil, pois não se pode juntar perfis de pessoas diferentes 
+ do dataset selecionado.
 
 Porquê algumas pesquisas utilizam mais de um dataset?
 
