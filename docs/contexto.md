@@ -186,7 +186,7 @@ Atributos:
 
 Canvas Analítico. O Canvas Analítico tem o papel de registrar a organização das ideias e apresentar o modelo de negócio.
 
-![Canvas-analitico](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/docs/img/Camvas_analitico_v3.png)
+![Camvas_analitico_v4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/d961ac0d-28d9-435f-9463-7dd11d9e74b1)
 
 # Conclusões
 
