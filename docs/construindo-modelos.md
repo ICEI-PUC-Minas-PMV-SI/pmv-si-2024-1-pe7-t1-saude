@@ -310,7 +310,7 @@ Comparação com Árvore de Decisão:
 Observou-se que tanto a precisão quanto o recall da Árvore de Decisão foram iguais e bons (90% )
 Embora a Árvore de Decisão possa ter um desempenho semelhante em termos de precisão e recall, é importante considerar outras métricas, como F1-Score (que foi 90%), para avaliar seu desempenho geral em comparação com o Random Forest e o KNN.
 
-Em resumo, diante do exposto, ao escolher entre o Random Forest e o KNN para prever AVC, é essencial considerar não apenas uma métrica isolada, mas uma análise abrangente das métricas de avaliação. O modelo que melhor equilibra precisão, recall e outras métricas relevantes será o mais adequado para prever eficazmente os casos de AVC. O Random Forest foi o modelo considerado mais adequado para o cenário em questão.
+Em resumo, diante do exposto, ao escolher entre o Random Forest e o KNN para prever AVC, é essencial considerar não apenas uma métrica isolada, mas uma análise abrangente das métricas de avaliação. O modelo que melhor equilibra precisão, recall e outras métricas relevantes será o mais adequado para prever eficazmente os casos de AVC. O Random Forest foi o modelo considerado mais adequado para o cenário em questão. 
 
 
 (Em construção) 
