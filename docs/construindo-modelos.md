@@ -158,7 +158,7 @@ Interpretação dos resultados: Com base nas métricas de desempenho obtidas dur
 
 # Descrição dos modelos
 
-1.1 Random Forest
+## 1.1 Random Forest
 
 Descrição: O Random Forest é um algoritmo de aprendizado de conjunto ("ensemble learning") que combina múltiplas árvores de decisão para construir um modelo robusto e preciso.
 
@@ -173,7 +173,7 @@ Limitações:
 - Dificuldade na interpretação do modelo final devido à combinação de diversas árvores.
 
 
-1.2 Decision Tree
+## 1.2 Decision Tree
 
 Descrição: O Decision Tree é um algoritmo simples e intuitivo que representa as decisões de forma hierárquica, similar a uma árvore.
 
@@ -189,7 +189,7 @@ Limitações:
 
 
 
-1.3 Support Vector Machine (SVM)
+## 1.3 Support Vector Machine (SVM)
 
 Descrição: O SVM busca encontrar um hiperplano que maximiza a margem entre os pontos de dados de classes diferentes, representando a fronteira de decisão.
 
