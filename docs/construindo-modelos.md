@@ -204,6 +204,21 @@ Limitações:
 - Sensível à escolha da função de kernel.
 
 
+
+## Recursos Computacionais
+
+Testes foram realizados em um sistema computacional com as seguintes configurações de hardware:
+
+| Componente | Especificação |
+|---|---|
+| Processador | Processador AMD Ryzen 5 5600X, 3.7GHz (4.6GHz Max Turbo) |
+| Placa de Vídeo | Placa de Vídeo NV RTX3060TI 8GB |
+| Memória RAM | Corsair VENGEANCE RGB PRO DDR4 32GB (2 x 16GB) |
+| Placa Mãe | Placa Mãe Asus TUF Gaming B550M-Plus, AMD AM4, mATX, DDR4 |
+| Armazenamento | SSD Kingston NV2 1TB NVMe M.2 2280 |
+| Sistema Operacional | Microsoft Windows 11 Professional 64 Bits ESD |
+
+
 Nesta seção, conhecendo os dados e de posse dos dados preparados, é hora de descrever os algoritmos de aprendizado de máquina selecionados para a construção dos modelos propostos. Inclua informações abrangentes sobre cada algoritmo implementado, aborde conceitos fundamentais, princípios de funcionamento, vantagens/limitações e justifique a escolha de cada um dos algoritmos. 
 
 Explore aspectos específicos, como o ajuste dos parâmetros livres de cada algoritmo. Lembre-se de experimentar parâmetros diferentes e principalmente, de justificar as escolhas realizadas.
