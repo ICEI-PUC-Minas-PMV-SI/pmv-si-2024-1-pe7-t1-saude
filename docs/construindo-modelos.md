@@ -234,14 +234,45 @@ Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos dev
 | Métrica | Especificação |
 |---|---|
 | acurácia| 
-| K-fold cross-validation mean accuracy |
+| K-fold cross-validation mean accuracy | 
 | standart deviation -desvio padra |
 | roc auc- Receiver Operating Characteristic Area Under the Curve |
 | precision- precisão |
 | recall |
 | F1-Score |
 
+Acurácia (Accuracy):
 
+A acurácia pode ser útil para avaliar a proporção de previsões corretas feitas pelo modelo de ML na classificação de indivíduos como propensos ou não a ter AVC.
+Então uma alta acurácia indica que o modelo está fazendo previsões precisas,  é importante para garantir que os pacientes sejam corretamente identificados como de alto risco ou não.
+
+K-fold cross-validation mean accuracy:
+
+A validação cruzada k-fold, com a média da acurácia, pode fornecer uma estimativa mais robusta do desempenho do modelo em diferentes conjuntos de dados.
+Dentro do contexto da prevenção de AVC, é importante que o modelo seja generalizável e capaz de fazer previsões precisas em diferentes populações. A validação cruzada k-fold ajuda a garantir que o modelo não esteja superestimando seu desempenho em um único conjunto de dados.
+
+Desvio Padrão (Standard Deviation):
+
+O desvio padrão das acurácias calculadas em cada iteração da validação cruzada k-fold pode indicar a variabilidade do desempenho do modelo.
+Então um baixo desvio padrão sugere que o modelo é consistente em sua capacidade de fazer previsões precisas, enquanto um alto desvio padrão pode indicar inconsistências que precisam ser investigadas.
+
+ROC AUC (Receiver Operating Characteristic Area Under the Curve):
+
+A área sob a curva ROC é uma métrica útil para avaliar a capacidade do modelo de distinguir entre indivíduos propensos e não propensos a ter AVC.
+Então um valor alto de ROC AUC indica que o modelo é capaz de fazer distinções claras entre os dois grupos, o que é crucial para identificar corretamente os indivíduos de alto risco.
+
+Precisão (Precision) e Recall:
+
+Precisão e recall podem ser aplicados para avaliar a precisão das previsões positivas e a capacidade do modelo de identificar corretamente os indivíduos de alto risco, respectivamente.
+Uma alta precisão garante que as previsões positivas do modelo sejam confiáveis, enquanto um alto recall indica que o modelo está identificando corretamente a maioria dos casos de alto risco.
+
+F1-Score:
+
+O F1-Score é uma métrica útil para equilibrar precisão e recall, fornecendo uma medida única do desempenho do modelo.
+Por isso em casos onde precisão e recall são igualmente importantes, o F1-Score pode ser uma métrica útil para avaliar o desempenho geral do modelo.
+
+
+Diante do exposto, no contexto da prevenção de AVC, todas essas métricas desempenham um papel importante na avaliação e seleção de modelos de ML, garantindo que o modelo seja preciso, robusto e capaz de identificar corretamente os indivíduos de alto risco.
 
 
 
