@@ -158,6 +158,52 @@ Interpretação dos resultados: Com base nas métricas de desempenho obtidas dur
 
 # Descrição dos modelos
 
+1.1 Random Forest
+
+Descrição: O Random Forest é um algoritmo de aprendizado de conjunto ("ensemble learning") que combina múltiplas árvores de decisão para construir um modelo robusto e preciso.
+
+Vantagens:
+- Alta acurácia e robustez a outliers e ruídos nos dados.
+- Baixo viés e menor suscetibilidade a sobreajuste.
+- Capacidade de lidar com dados de alta dimensionalidade.
+- Permite a interpretação das variáveis mais importantes.
+
+Limitações:
+- Alto custo computacional, principalmente para grandes conjuntos de dados.
+- Dificuldade na interpretação do modelo final devido à combinação de diversas árvores.
+
+
+1.2 Decision Tree
+
+Descrição: O Decision Tree é um algoritmo simples e intuitivo que representa as decisões de forma hierárquica, similar a uma árvore.
+
+Vantagens:
+- Simplicidade e fácil interpretação, permitindo a visualização das regras de decisão.
+- Baixo custo computacional para treinamento e predição.
+- Robustez a outliers.
+
+Limitações:
+- Baixa acurácia em alguns casos com dados complexos ou não lineares.
+- Suscetível a sobreajuste se não for podado ou regularizado adequadamente.
+- Dificuldade em lidar com dados de alta dimensionalidade.
+
+
+
+1.3 Support Vector Machine (SVM)
+
+Descrição: O SVM busca encontrar um hiperplano que maximiza a margem entre os pontos de dados de classes diferentes, representando a fronteira de decisão.
+
+Vantagens:
+- Alta acurácia em problemas com dados lineares e não lineares.
+- Robustez a outliers e ruídos nos dados.
+- Boa capacidade de generalização.
+
+Limitações:
+- Alto custo computacional, principalmente para grandes conjuntos de dados.
+- Dificuldade na interpretação do modelo final.
+- Sensível à escolha da função de kernel.
+
+
 Nesta seção, conhecendo os dados e de posse dos dados preparados, é hora de descrever os algoritmos de aprendizado de máquina selecionados para a construção dos modelos propostos. Inclua informações abrangentes sobre cada algoritmo implementado, aborde conceitos fundamentais, princípios de funcionamento, vantagens/limitações e justifique a escolha de cada um dos algoritmos. 
 
 Explore aspectos específicos, como o ajuste dos parâmetros livres de cada algoritmo. Lembre-se de experimentar parâmetros diferentes e principalmente, de justificar as escolhas realizadas.
