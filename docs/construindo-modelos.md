@@ -265,12 +265,16 @@ Precisão (Precision) e Recall:
 
 Precisão e recall podem ser aplicados para avaliar a precisão das previsões positivas e a capacidade do modelo de identificar corretamente os indivíduos de alto risco, respectivamente.
 Uma alta precisão garante que as previsões positivas do modelo sejam confiáveis, enquanto um alto recall indica que o modelo está identificando corretamente a maioria dos casos de alto risco.
+A precision penalisa quando tem falso positivo
+O recall penaliza quando da falso negativo portanto lida bem com o falso negativo.
+
+
 
 F1-Score:
 
 O F1-Score é uma métrica útil para equilibrar precisão e recall, fornecendo uma medida única do desempenho do modelo.
 Por isso em casos onde precisão e recall são igualmente importantes, o F1-Score pode ser uma métrica útil para avaliar o desempenho geral do modelo.
-
+O F1 é a média do recall e da precisão.
 
 Diante do exposto, no contexto da prevenção de AVC, todas essas métricas desempenham um papel importante na avaliação e seleção de modelos de ML, garantindo que o modelo seja preciso, robusto e capaz de identificar corretamente os indivíduos de alto risco.
 
@@ -279,6 +283,12 @@ Diante do exposto, no contexto da prevenção de AVC, todas essas métricas dese
 ## Discussão dos resultados obtidos
 
 Nesta seção, discuta os resultados obtidos pelos modelos construídos, no contexto prático em que os dados se inserem, promovendo uma compreensão abrangente e aprofundada da qualidade de cada um deles. Lembre-se de relacionar os resultados obtidos ao problema identificado, a questão de pesquisa levantada e estabelecendo relação com os objetivos previamente propostos. 
+
+
+o knn é mto bom o recall com falso negativo e mto ruim com o falso positivo
+
+
+
 
 # Pipeline de pesquisa e análise de dados
 
