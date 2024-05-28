@@ -313,6 +313,21 @@ Embora a Árvore de Decisão possa ter um desempenho semelhante em termos de pre
 Em resumo, ao escolher entre o Random Forest e o KNN para prever AVC, é essencial considerar não apenas uma métrica isolada, mas uma análise abrangente das métricas de avaliação. O modelo que melhor equilibra precisão, recall e outras métricas relevantes será o mais adequado para prever eficazmente os casos de AVC.
 
 
+(Em construção) 
+Descrição:
+
+20% depois do oversampling: 
+
+Nossos Modelos lidam melhor com a precisão para evitar falsos negativos (Recall)- Não tem risco, mas possui chances de ter AVC. 
+
+No Modelo KNN lida bem com Recall, porém não lida bem com falso positivo 
+
+No Modelo KNN discrepante a Métrica da Acurácia comparado ao Modelo Random Forest 
+
+No Modelo KNN é percebível o baixo desvio na Métrica de Precision, resultando em F1-Score com baixo desempenho. 
+
+O F1-Score é uma métrica útil para equilibrar precisão e recall, fornecendo uma medida única do desempenho que atingiu uma alta precisão no Modelo Random Forest 
+
 # Pipeline de pesquisa e análise de dados
 
 Em pesquisa e experimentação em sistemas de informação, um pipeline de pesquisa e análise de dados refere-se a um conjunto organizado de processos e etapas que um profissional segue para realizar a coleta, preparação, análise e interpretação de dados durante a fase de pesquisa e desenvolvimento de modelos. Esse pipeline é essencial para extrair _insights_ significativos, entender a natureza dos dados e, construir modelos de aprendizado de máquina eficazes. 
