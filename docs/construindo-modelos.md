@@ -330,4 +330,38 @@ O F1-Score é uma métrica útil para equilibrar precisão e recall, fornecendo 
 
 # Pipeline de pesquisa e análise de dados
 
-Em pesquisa e experimentação em sistemas de informação, um pipeline de pesquisa e análise de dados refere-se a um conjunto organizado de processos e etapas que um profissional segue para realizar a coleta, preparação, análise e interpretação de dados durante a fase de pesquisa e desenvolvimento de modelos. Esse pipeline é essencial para extrair _insights_ significativos, entender a natureza dos dados e, construir modelos de aprendizado de máquina eficazes. 
+Em pesquisa e experimentação em sistemas de informação, um pipeline de pesquisa e análise de dados refere-se a um conjunto organizado de processos e etapas que um profissional segue para realizar a coleta, preparação, análise e interpretação de dados durante a fase de pesquisa e desenvolvimento de modelos. Esse pipeline é essencial para extrair _insights_ significativos, entender a natureza dos dados e, construir modelos de aprendizado de máquina eficazes.
+
+
+1. Análise e Preparação de Dados:
+Exploração dos Dados: Analisar o texto para entender a natureza dos dados e os atributos disponíveis.
+
+Tratamento de Valores Ausentes e Outliers: Preencher os valores ausentes, como no caso do IMC, e remover outliers, como no caso da idade.
+
+Codificação de Variáveis Categóricas: Converter variáveis categóricas em numéricas usando técnicas como one-hot encoding.
+
+Feature Engineering: Criar novas features com base nos atributos existentes, como faixas etárias para a idade e medidas adicionais para o histórico de tabagismo.
+
+Redução de Dimensionalidade: Identificar e reduzir a dimensionalidade dos dados, se necessário, para simplificar a modelagem.
+
+2. Construção e Avaliação de Modelos:
+Seleção de Modelos: Escolher algoritmos de aprendizado de máquina adequados, como Random Forest, Decision Tree e Support Vector Machine, com base na natureza dos dados e nos objetivos do projeto.
+
+Treinamento de Modelos: Treinar os modelos selecionados usando o conjunto de dados preparado.
+
+Avaliação de Desempenho: Avaliar o desempenho dos modelos usando métricas como acurácia, precisão, recall, F1-score e ROC AUC.
+
+3. Ajuste de Parâmetros e Otimização:
+Ajuste de Parâmetros: Experimentar diferentes valores de parâmetros para os modelos e selecionar aqueles que oferecem o melhor desempenho.
+
+Validação Cruzada: Usar validação cruzada para garantir que os modelos sejam generalizáveis e não estejam superestimando o desempenho em um único conjunto de dados.
+
+4. Avaliação Final e Discussão de Resultados:
+Comparação de Modelos: Comparar os diferentes modelos em termos de métricas de desempenho para selecionar o mais adequado.
+
+Discussão dos Resultados: Interpretar os resultados obtidos em relação ao problema identificado e aos objetivos do projeto, destacando as vantagens e limitações de cada modelo.
+
+Revisão e Refinamento: Revisar e refinar o pipeline conforme necessário com base na discussão dos resultados e nas necessidades do projeto.
+
+Este pipeline fornece uma estrutura abrangente para lidar com a análise de dados e a construção de modelos de aprendizado de máquina para prever o risco de AVC, garantindo uma abordagem sistemática e eficaz para o problema em questão.
+
