@@ -368,5 +368,7 @@ Este pipeline fornece uma estrutura abrangente para lidar com a análise de dado
 
 
       
+![Sales Pipeline ](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/8f2ed84e-3fd7-4722-bf79-8109cf29162d)
+![Sales Pipeline ](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/8f2ed84e-3fd7-4722-bf79-8109cf29162d)
 
 
