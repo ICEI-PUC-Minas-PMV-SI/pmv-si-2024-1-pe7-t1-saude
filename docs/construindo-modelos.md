@@ -259,12 +259,12 @@ Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos dev
 
 | Métrica | 
 |---|
-| acurácia| 
-| K-fold cross-validation mean accuracy | 
-| standart deviation -desvio padra |
-| roc auc- Receiver Operating Characteristic Area Under the Curve |
-| precision- precisão |
-| recall |
+| Acurácia| 
+| K-Fold Cross-Validation Mean Accuracy  | 
+| Standart Deviation (Desvio Padrão) |
+| Roc Auc (Receiver Operating Characteristic Area Under the Curve) |
+| Precision (Precisão) |
+| Recall |
 | F1-Score |
 
 ![modelo e metrica 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/c7ed54ef-a8ce-48ab-8b59-bf7741e24efd)
