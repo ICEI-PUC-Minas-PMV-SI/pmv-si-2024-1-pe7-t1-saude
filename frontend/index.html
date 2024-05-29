@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predição de AVC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        input {
+            width: 96.5%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .results {
+            margin-top: 20px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .result {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .result strong {
+            color: #333;
+        }
+
+        .loading {
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulário de Predição de AVC</h1>
+    <form id="predictionForm">
+        <label for="gender">Gênero</label>
+        <select id="gender" name="gender">
+            <option value="Male">Masculino</option>
+            <option value="Female">Feminino</option>
+            <option value="Other">Outro</option>
+        </select>
+
+        <label for="age">Idade</label>
+        <input type="number" id="age" name="age" placeholder="Ex: 45" required>
+
+        <label for="hypertension">Hipertensão</label>
+        <input type="number" id="hypertension" name="hypertension" placeholder="0 ou 1" required>
+
+        <label for="heart_disease">Doença Cardíaca</label>
+        <input type="number" id="heart_disease" name="heart_disease" placeholder="0 ou 1" required>
+
+        <label for="ever_married">Já foi casado(a)</label>
+        <select id="ever_married" name="ever_married">
+            <option value="Yes">Sim</option>
+            <option value="No">Não</option>
+        </select>
+
+        <label for="work_type">Tipo de Trabalho</label>
+        <select id="work_type" name="work_type">
+            <option value="Private">Privado</option>
+            <option value="Self-employed">Autônomo</option>
+            <option value="Govt_job">Servidor Público</option>
+            <option value="children">Criança</option>
+            <option value="Never_worked">Nunca Trabalhou</option>
+        </select>
+
+        <label for="Residence_type">Tipo de Residência</label>
+        <select id="Residence_type" name="Residence_type">
+            <option value="Urban">Urbana</option>
+            <option value="Rural">Rural</option>
+        </select>
+
+        <label for="avg_glucose_level">Nível Médio de Glicose</label>
+        <input type="number" id="avg_glucose_level" name="avg_glucose_level" placeholder="Ex: 105.5" step="0.01"
+            required>
+
+        <label for="bmi">IMC</label>
+        <input type="number" id="bmi" name="bmi" placeholder="Ex: 24.5" step="0.01" required>
+
+        <label for="smoking_status">Status de Fumante</label>
+        <select id="smoking_status" name="smoking_status">
+            <option value="formerly smoked">Fumou Antigamente</option>
+            <option value="never smoked">Nunca Fumou</option>
+            <option value="smokes">Fumante</option>
+            <option value="Unknown">Desconhecido</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div class="results" id="results"></div>
+    <div class="loading" id="loading" style="display: none;">Carregando...</div>
+
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('results').innerHTML = '';
+
+            fetch('http://127.0.0.1:5000/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => response.json())
+                .then(results => {
+                    document.getElementById('loading').style.display = 'none';
+                    const resultsDiv = document.getElementById('results');
+                    resultsDiv.innerHTML = '<h2>Predições</h2>';
+
+                    results.predictions.forEach(result => {
+                        const resultDiv = document.createElement('div');
+                        resultDiv.className = 'result';
+                        resultDiv.innerHTML = `
+                            <strong>Modelo:</strong> ${result.Model}<br>
+                            <strong>Teve AVC:</strong> ${result.Prediction}<br>
+                            <strong>Tempo de Execução (s):</strong> ${result["Execution Time (s)"].toFixed(4)}
+                        `;
+                        resultsDiv.appendChild(resultDiv);
+                    });
+
+                    resultsDiv.innerHTML += '<h2>Avaliações</h2>';
+
+                    results.evaluation.forEach(result => {
+                        const resultDiv = document.createElement('div');
+                        resultDiv.className = 'result';
+                        resultDiv.innerHTML = `
+                            <strong>Modelo:</strong> ${result.Model}<br>
+                            <strong>Acurácia:</strong> ${result.Accuracy.toFixed(4)}<br>
+                            <strong>ROC AUC:</strong> ${result["ROC AUC"] !== 'undefined' ? result["ROC AUC"].toFixed(4) : 'undefined'}<br>
+                            <strong>Precisão:</strong> ${result.Precision.toFixed(4)}<br>
+                            <strong>Recall:</strong> ${result.Recall.toFixed(4)}<br>
+                            <strong>F1:</strong> ${result.F1.toFixed(4)}<br>
+                            <strong>Tempo de Execução (s):</strong> ${result["Execution Time (s)"].toFixed(4)}
+                        `;
+                        resultsDiv.appendChild(resultDiv);
+                    });
+                })
+                .catch(error => {
+                    document.getElementById('loading').style.display = 'none';
+                    console.error('Erro:', error);
+                });
+        });
+    </script>
+</body>
+
+</html>
