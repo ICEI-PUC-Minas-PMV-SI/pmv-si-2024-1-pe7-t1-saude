@@ -231,7 +231,7 @@ Como parte da comprovação de construção dos modelos, um vídeo de demonstra�
 
 Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos deverão ser apresentadas (p. ex.: acurácia, precisão, recall, F1-Score, MSE etc.). A escolha de cada métrica deverá ser justificada, pois esta escolha é essencial para avaliar de forma mais assertiva a qualidade do modelo construído. 
 
-| Métrica | Especificação |
+| Métrica | 
 |---|---|
 | acurácia| 
 | K-fold cross-validation mean accuracy | 
@@ -240,6 +240,8 @@ Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos dev
 | precision- precisão |
 | recall |
 | F1-Score |
+
+![modelo e metrica 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/c7ed54ef-a8ce-48ab-8b59-bf7741e24efd)
 
 Acurácia (Accuracy):
 
@@ -267,8 +269,6 @@ Precisão e recall podem ser aplicados para avaliar a precisão das previsões p
 Uma alta precisão garante que as previsões positivas do modelo sejam confiáveis, enquanto um alto recall indica que o modelo está identificando corretamente a maioria dos casos de alto risco.
 A precision penalisa quando tem falso positivo
 O recall penaliza quando da falso negativo portanto lida bem com o falso negativo.
-
-
 
 F1-Score:
 
@@ -311,6 +311,7 @@ Observou-se que tanto a precisão quanto o recall da Árvore de Decisão foram i
 Embora a Árvore de Decisão possa ter um desempenho semelhante em termos de precisão e recall, é importante considerar outras métricas, como F1-Score (que foi 90%), para avaliar seu desempenho geral em comparação com o Random Forest e o KNN.
 
 Em resumo, diante do exposto, ao escolher entre o Random Forest e o KNN para prever AVC, é essencial considerar não apenas uma métrica isolada, mas uma análise abrangente das métricas de avaliação. O modelo que melhor equilibra precisão, recall e outras métricas relevantes será o mais adequado para prever eficazmente os casos de AVC. O Random Forest foi o modelo considerado mais adequado para o cenário em questão. 
+
 
 
 (Em construção) 
