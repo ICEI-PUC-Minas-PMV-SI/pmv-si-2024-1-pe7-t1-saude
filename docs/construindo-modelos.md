@@ -367,59 +367,6 @@ Revisão e Refinamento: Revisar e refinar o pipeline conforme necessário com ba
 Este pipeline fornece uma estrutura abrangente para lidar com a análise de dados e a construção de modelos de aprendizado de máquina para prever o risco de AVC, garantindo uma abordagem sistemática e eficaz para o problema em questão.
 
 
-+----------------------+       +-------------------------+       +------------------------+       +----------------------+
-| Análise e Preparação +------>+ Construção e Avaliação  +------>+ Ajuste de Parâmetros  +------>+ Avaliação Final e    |
-| de Dados             |       | de Modelos              |       | e Otimização           |       | Discussão de         |
-|                      |       |                         |       |                        |       | Resultados           |
-+----------------------+       +-------------------------+       +------------------------+       +----------------------+
-           |                           |                              |                              |
-           |            +--------------+--------------+               |                              |
-           |            |                               |               |                              |
-           |            v                               v               v                              |
-           |  +--------------+                 +----------------+   +---------------+      +---------------------+
-           |  | Exploração  |                 | Treinamento de |   | Ajuste de     |      | Comparação de       |
-           |  | de Dados    |                 | Modelos        |   | Parâmetros    |      | Modelos             |
-           |  |             |                 |                |   | e Otimização |      |                     |
-           |  +--------------+                 +----------------+   +---------------+      +---------------------+
-           |         |                                 |                    |                           |
-           |         |                +----------------+-------------+      |                           |
-           |         |                | Avaliação de Desempenho     |      |                           |
-           |         |                |                            |      |                           |
-           |         |                +----------------+-------------+      |                           |
-           |         |                               |                      |                           |
-           |         v                               v                      v                           v
-           |  +-----------------+       +-------------------+      +----------------------+     +---------------------+
-           |  | Tratamento de   |       | Seleção de Modelos |      | Experimentação e     |     | Interpretação e      |
-           |  | Valores Ausentes|       |                    |      | Validação Cruzada    |     | Revisão e Refinamento|
-           |  | e Outliers     |       |                    |      | de Parâmetros       |     | do Pipeline          |
-           |  |                 |       |                    |      |                      |     |                     |
-           |  +-----------------+       +-------------------+      +----------------------+     +---------------------+
-           |                                                                                           |
-           |                                                                                           |
-           +-------------------------------------------------------------------------------------------+
+      
 
-+------------------------+    +-------------------------+    +------------------------+    +-------------------------+
-|                        |    |                         |    |                        |    |                         |
-| Análise e Preparação  +--->+ Construção e Avaliação  +--->+ Ajuste de Parâmetros  +--->+ Avaliação Final e       |
-| de Dados              |    | de Modelos              |    | e Otimização          |    | Discussão de Resultados |
-|                        |    |                         |    |                        |    |                         |
-+-----------+------------+    +------------+------------+    +------------+-----------+    +-------------+-----------+
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            |                             |                             |                             |
-            v                             v                             v                             v
-+-----------+------------+    +------------+------------+    +------------+-----------+    +-------------+-----------+
-|                        |    |                         |    |                        |    |                         |
-| Exploração dos Dados  |    | Seleção de Modelos     |    | Ajuste de Parâmetros  |    | Comparação de Modelos  |
-|                        |    |                         |    |                        |    | e Discussão            |
-+------------------------+    +-------------------------+    +------------------------+    +-------------------------+
 
