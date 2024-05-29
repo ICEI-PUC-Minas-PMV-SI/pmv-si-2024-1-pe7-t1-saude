@@ -291,23 +291,23 @@ Nesta seção, discuta os resultados obtidos pelos modelos construídos, no cont
 
 Discussão sobre Recall:
 
-O recall do modelo KNN foi melhor do que o do Random Forest. 95%
+O recall do modelo KNN foi melhor do que o do Random Forest (97%)
 O recall é a proporção de verdadeiros positivos em relação ao total de exemplos que realmente pertencem à classe positiva. No contexto de prevenção de AVC, um recall mais alto para o modelo KNN sugere que ele é mais eficaz em identificar corretamente os indivíduos de alto risco de AVC.
 
 Discussão sobre Precisão:
 
-A precisão do Random Forest foi melhor do que a do KNN (89% contra 80%). O KNN é mto bom o recall com falso negativo e mto ruim com o falso positivo
+A precisão do Random Forest foi melhor do que a do KNN (92% e 83% respectivamente). O KNN é mto bom o recall com falso negativo e mto ruim com o falso positivo
 A precisão é a proporção de verdadeiros positivos em relação ao total de exemplos previstos como positivos pelo modelo. Uma precisão mais alta para o Random Forest indica que ele faz menos previsões erradas de que um paciente terá AVC quando na verdade não terá.
 
 Discussão sobre F1-Score:
 
-O F1-Score do Random Forest foi o melhor entre os dois modelos.92%
+O F1-Score do Random Forest foi o melhor entre os dois modelos (94%).
 
 O F1-Score é a média harmônica entre precisão e recall e fornece uma medida única do desempenho do modelo. Um F1-Score mais alto para o Random Forest sugere que ele atinge um equilíbrio entre precisão e recall, sendo capaz de fazer previsões precisas e identificar corretamente os indivíduos de alto risco de AVC.
 
 Comparação com Árvore de Decisão:
 
-Observou-se que tanto a precisão quanto o recall da Árvore de Decisão foram iguais e bons (90% )
+Observou-se que tanto a precisão quanto o recall da Árvore de Decisão foram quase iguais e bons (88% e 91% respectivamente )
 Embora a Árvore de Decisão possa ter um desempenho semelhante em termos de precisão e recall, é importante considerar outras métricas, como F1-Score (que foi 90%), para avaliar seu desempenho geral em comparação com o Random Forest e o KNN.
 
 Em resumo, diante do exposto, ao escolher entre o Random Forest e o KNN para prever AVC, é essencial considerar não apenas uma métrica isolada, mas uma análise abrangente das métricas de avaliação. O modelo que melhor equilibra precisão, recall e outras métricas relevantes será o mais adequado para prever eficazmente os casos de AVC. O Random Forest foi o modelo considerado mais adequado para o cenário em questão. 
