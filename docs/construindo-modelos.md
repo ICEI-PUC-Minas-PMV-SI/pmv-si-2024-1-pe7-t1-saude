@@ -204,6 +204,32 @@ Limitações:
 - Sensível à escolha da função de kernel.
 
 
+## 1.4 Logistic Regression
+Descrição: A Regressão Logística é um algoritmo de classificação que estima a probabilidade de um evento ocorrer, modelando a relação entre uma variável dependente binária e uma ou mais variáveis independentes.
+
+Vantagens:
+- Simplicidade e fácil interpretação dos coeficientes do modelo.
+- Baixo custo computacional, adequado para grandes conjuntos de dados.
+- Bom desempenho em problemas lineares e com dados binários.
+
+Limitações:
+- Baixa acurácia em problemas não lineares.
+- Sensível a outliers e multicolinearidade.
+- Requer balanceamento das classes para melhor desempenho.
+
+## 1.5 K-Nearest Neighbors (KNN)
+
+Descrição: O KNN é um algoritmo baseado em instâncias que classifica os pontos de dados com base na proximidade dos vizinhos mais próximos.
+
+Vantagens:
+- Simplicidade e fácil implementação.
+- Não requer um modelo paramétrico, adequado para dados complexos.
+- Bom desempenho em problemas com distribuições de dados complexas.
+
+Limitações:
+- Alto custo computacional em grandes conjuntos de dados, especialmente durante a predição.
+- Sensível a ruídos e outliers.
+- Requer escolha adequada do valor de k e da métrica de distância para melhor desempenho.
 
 ## Recursos Computacionais
 
