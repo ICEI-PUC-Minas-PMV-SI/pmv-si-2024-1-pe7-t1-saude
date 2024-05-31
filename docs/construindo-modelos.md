@@ -160,48 +160,48 @@ Interpretação dos resultados: Com base nas métricas de desempenho obtidas dur
 
 ## 1.1 Random Forest
 
-Descrição: O Random Forest é um algoritmo de aprendizado de conjunto ("ensemble learning") que combina múltiplas árvores de decisão para construir um modelo robusto e preciso.
+Descrição: O Random Forest se destaca por sua capacidade de combinar diversas árvores de decisão em um único modelo robusto e preciso, como uma floresta de árvores trabalhando em conjunto. Essa abordagem oferece diversas vantagens, sendo elas:
 
 Vantagens:
-- Alta acurácia e robustez a outliers e ruídos nos dados.
-- Baixo viés e menor suscetibilidade a sobreajuste.
-- Capacidade de lidar com dados de alta dimensionalidade.
-- Permite a interpretação das variáveis mais importantes.
+- Alta acurácia e robustez: O Random Forest geralmente atinge alta acurácia nas previsões, mesmo em cenários com outliers e ruídos nos dados. Isso se deve à combinação de múltiplas árvores, que minimiza o impacto de erros individuais e aumenta a confiabilidade do modelo.
+- Baixo viés e menor suscetibilidade a sobreajuste: O algoritmo tende a ter um viés menor, o que significa que suas previsões são menos propensas a serem enviesadas em favor de um determinado grupo ou subconjunto de dados. Além disso, o Random Forest é menos suscetível a sobreajuste em comparação com outros modelos, como árvores de decisão individuais, pois a combinação de árvores evita que o modelo se adapte excessivamente aos dados de treinamento.
+- Capacidade de lidar com dados de alta dimensionalidade: O Random Forest pode lidar com um grande número de atributos (variáveis) sem sofrer problemas de multicolinearidade, que podem afetar a precisão de outros modelos. Isso o torna adequado para datasets com diversas informações sobre os indivíduos.
+- Interpretabilidade das variáveis: O Random Forest permite a interpretação das variáveis mais importantes para a predição através da importância das variáveis em cada árvore de decisão. Essa característica facilita a compreensão dos fatores que mais influenciam o resultado final e pode auxiliar em análises posteriores.
 
 Limitações:
-- Alto custo computacional, principalmente para grandes conjuntos de dados.
-- Dificuldade na interpretação do modelo final devido à combinação de diversas árvores.
+- Alto custo computacional: A construção do Random Forest pode ser computacionalmente custosa, especialmente para grandes conjuntos de dados. Isso ocorre devido à necessidade de treinar diversas árvores de decisão individualmente.
+- Dificuldade na interpretação do modelo final: A interpretação do modelo final pode ser complexa devido à combinação de diversas árvores de decisão. Embora seja possível identificar as variáveis mais importantes, entender como as árvores interagem para gerar a predição final pode ser um desafio.
 
 
 ## 1.2 Decision Tree
 
-Descrição: O Decision Tree é um algoritmo simples e intuitivo que representa as decisões de forma hierárquica, similar a uma árvore.
+Descrição: O Decision Tree se destaca por sua simplicidade e intuitividade, representando as decisões de forma hierárquica, similar a uma árvore. Essa característica oferece diversas vantagens, sendo elas:
 
 Vantagens:
-- Simplicidade e fácil interpretação, permitindo a visualização das regras de decisão.
-- Baixo custo computacional para treinamento e predição.
-- Robustez a outliers.
+- Simplicidade e fácil interpretação: O Decision Tree é um dos modelos de aprendizado de máquina mais fáceis de entender e interpretar. As regras de decisão são representadas de forma clara e visual, permitindo que especialistas e leigos compreendam facilmente como o modelo chega a suas conclusões.
+- Baixo custo computacional: O treinamento e a predição com Decision Trees são computacionalmente eficientes, mesmo para grandes conjuntos de dados. Isso os torna uma boa opção para análises preliminares e exploração rápida dos dados.
+- Robustez a outliers: O Decision Tree é menos sensível a outliers (valores extremos) nos dados em comparação com outros modelos. Isso significa que o modelo é menos afetado por pontos de dados que se desviam significativamente do padrão gera
 
 Limitações:
-- Baixa acurácia em alguns casos com dados complexos ou não lineares.
-- Suscetível a sobreajuste se não for podado ou regularizado adequadamente.
-- Dificuldade em lidar com dados de alta dimensionalidade.
+- Baixa acurácia em alguns casos: A acurácia do Decision Tree pode ser limitada em casos com dados complexos ou não lineares. Isso ocorre porque o algoritmo constrói um único hiperplano para separar as classes, o que pode não ser suficiente para capturar as nuances de dados mais complexos.
+- Suscetível a sobreajuste: O Decision Tree pode sofrer sobreajuste se não for podado ou regularizado adequadamente. O sobreajuste ocorre quando o modelo se adapta excessivamente aos dados de treinamento, memorizando-os em vez de aprender as características gerais dos dados.
+- Dificuldade em lidar com dados de alta dimensionalidade: O Decision Tree pode ter problemas de multicolinearidade em conjuntos de dados com um grande número de atributos. A multicolinearidade ocorre quando duas ou mais variáveis ​​apresentam alta correlação entre si, o que pode prejudicar a precisão do modelo.
 
 
 
 ## 1.3 Support Vector Machine (SVM)
 
-Descrição: O SVM busca encontrar um hiperplano que maximiza a margem entre os pontos de dados de classes diferentes, representando a fronteira de decisão.
+Descrição: O SVM busca encontrar um hiperplano que maximiza a margem entre os pontos de dados de classes diferentes, representando a fronteira de decisão ideal. Essa abordagem oferece diversas vantagens:
 
 Vantagens:
-- Alta acurácia em problemas com dados lineares e não lineares.
-- Robustez a outliers e ruídos nos dados.
-- Boa capacidade de generalização.
+- Alta acurácia em problemas com dados lineares e não lineares: O SVM é conhecido por sua alta acurácia em diversos tipos de problemas de classificação, incluindo aqueles com dados lineares e não lineares. Essa flexibilidade o torna uma boa escolha para uma variedade de datasets.
+- Robustez a outliers e ruídos nos dados: O SVM é relativamente robusto a outliers e ruídos nos dados. Isso ocorre porque o algoritmo foca na margem entre as classes, minimizando o impacto de pontos de dados isolados.
+- Boa capacidade de generalização: O SVM tende a generalizar bem para novos dados não observados durante o treinamento. Isso se deve à sua capacidade de encontrar a fronteira de decisão ideal com base nas margens entre as classes.
 
 Limitações:
-- Alto custo computacional, principalmente para grandes conjuntos de dados.
-- Dificuldade na interpretação do modelo final.
-- Sensível à escolha da função de kernel.
+- Alto custo computacional: O treinamento de um SVM pode ser computacionalmente custoso, principalmente para grandes conjuntos de dados. O processo de encontrar o hiperplano ideal com a margem máxima pode exigir mais recursos computacionais.
+- Dificuldade na interpretação do modelo final: O modelo final do SVM pode ser difícil de interpretar, especialmente para humanos. Ao contrário de um Decision Tree, não há uma representação visual clara das regras de decisão utilizadas.
+- Sensível à escolha da função de kernel: O SVM utiliza uma função de kernel para mapear os dados para um espaço de alta dimensão, onde a separação entre as classes pode ser mais fácil. A escolha da função de kernel pode afetar a precisão do modelo, exigindo algum conhecimento e experimentação para encontrar a opção mais adequada.
 
 
 ## 1.4 Logistic Regression
