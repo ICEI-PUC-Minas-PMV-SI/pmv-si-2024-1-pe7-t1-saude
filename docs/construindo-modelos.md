@@ -160,76 +160,133 @@ Interpretação dos resultados: Com base nas métricas de desempenho obtidas dur
 
 ## 1.1 Random Forest
 
-Descrição: O Random Forest é um algoritmo de aprendizado de máquina do tipo ensemble learning, que combina diversas árvores de decisão para construir um modelo robusto e preciso. Imagine uma floresta onde cada árvore representa um modelo de decisão individual, e a floresta como um todo representa a sabedoria coletiva de todas as árvores. Essa analogia ilustra a essência do Random Forest: a combinação de diversos modelos para superar as limitações de cada um e alcançar resultados superiores e sendo assim o funcionamento dele se baseia em criação de múltiplas árvores de decisão e agregação das previsões e com isso temos as seguintes vantagens:
+**Descrição:**
 
-Vantagens:
-- Alta acurácia e robustez: O Random Forest geralmente atinge alta acurácia nas previsões, mesmo em cenários com outliers e ruídos nos dados. Isso se deve à combinação de múltiplas árvores, que minimiza o impacto de erros individuais e aumenta a confiabilidade do modelo.
-- Baixo viés e menor suscetibilidade a sobreajuste: O algoritmo tende a ter um viés menor, o que significa que suas previsões são menos propensas a serem enviesadas em favor de um determinado grupo ou subconjunto de dados. Além disso, o Random Forest é menos suscetível a sobreajuste em comparação com outros modelos, como árvores de decisão individuais, pois a combinação de árvores evita que o modelo se adapte excessivamente aos dados de treinamento.
-- Capacidade de lidar com dados de alta dimensionalidade: O Random Forest pode lidar com um grande número de atributos (variáveis) sem sofrer problemas de multicolinearidade, que podem afetar a precisão de outros modelos. Isso o torna adequado para datasets com diversas informações sobre os indivíduos.
-- Interpretabilidade das variáveis: O Random Forest permite a interpretação das variáveis mais importantes para a predição através da importância das variáveis em cada árvore de decisão. Essa característica facilita a compreensão dos fatores que mais influenciam o resultado final e pode auxiliar em análises posteriores.
+O Random Forest é um algoritmo de aprendizado de máquina que faz parte da família de métodos ensemble learning. Ele funciona criando uma grande quantidade de árvores de decisão durante o treinamento e outputando a classe que é o modo das classes (classificação) ou média das predições das árvores individuais (regressão). Imagine uma floresta onde cada árvore representa um modelo de decisão individual. A combinação dessas árvores resulta em uma "floresta" que representa a sabedoria coletiva de todos os modelos individuais. Essa abordagem permite que o Random Forest supere as limitações de cada árvore individual e alcance resultados superiores.
 
-Limitações:
-- Alto custo computacional: A construção do Random Forest pode ser computacionalmente custosa, especialmente para grandes conjuntos de dados. Isso ocorre devido à necessidade de treinar diversas árvores de decisão individualmente.
-- Dificuldade na interpretação do modelo final: A interpretação do modelo final pode ser complexa devido à combinação de diversas árvores de decisão. Embora seja possível identificar as variáveis mais importantes, entender como as árvores interagem para gerar a predição final pode ser um desafio.
+**Funcionamento:**
 
+1. **Seleção Aleatória de Dados:** Cada árvore no Random Forest é treinada usando uma amostra diferente dos dados de treinamento (bootstrap sampling).
+2. **Seleção Aleatória de Variáveis:** Em cada nó de decisão, o algoritmo considera um subconjunto aleatório das variáveis em vez de todas as variáveis, promovendo a diversidade entre as árvores.
+3. **Crescimento das Árvores:** As árvores são crescidas até a maior profundidade possível sem poda, permitindo que cada árvore se torne um modelo forte.
+4. **Agregação das Previsões:** Para classificação, a classe final é determinada por votação majoritária das árvores. Para regressão, a predição final é a média das predições de todas as árvores.
+
+**Vantagens:**
+
+- **Alta acurácia e robustez:** O Random Forest frequentemente atinge alta precisão em suas previsões, mesmo em cenários com outliers e ruídos nos dados. A combinação de múltiplas árvores minimiza o impacto de erros individuais, tornando o modelo mais confiável.
+- **Baixo viés e menor suscetibilidade a sobreajuste:** Este algoritmo tende a ter um viés reduzido, o que significa que suas previsões são menos propensas a serem enviesadas. Além disso, a combinação de várias árvores de decisão ajuda a evitar o sobreajuste, um problema comum em modelos individuais.
+- **Capacidade de lidar com dados de alta dimensionalidade:** O Random Forest pode lidar com um grande número de variáveis sem sofrer problemas de multicolinearidade, que podem afetar outros modelos. Isso o torna adequado para conjuntos de dados complexos com muitas características.
+- **Interpretabilidade das variáveis:** Ele permite a identificação das variáveis mais importantes para a predição, facilitando a compreensão dos fatores que mais influenciam o resultado final.
+
+**Limitações:**
+
+- **Alto custo computacional:** A construção de um Random Forest pode ser computacionalmente intensiva, especialmente para grandes conjuntos de dados, devido à necessidade de treinar múltiplas árvores de decisão.
+- **Dificuldade na interpretação do modelo final:** Combinando diversas árvores, o modelo final pode ser complexo e difícil de interpretar, embora seja possível identificar as variáveis mais importantes.
+
+---
 
 ## 1.2 Decision Tree
 
-Descrição: O Decision Tree se destaca por sua simplicidade e intuitividade na representação de decisões através de uma estrutura hierárquica, similar a uma árvore. Essa característica o torna um algoritmo de aprendizado de máquina acessível e eficaz para diversos problemas, incluindo a predição de AVC com um funcionando de seleções do melhor ponto de corte, crescimento da árvore e por fim predição e com isso temos as seguintes vantagens:
+**Descrição:**
 
-Vantagens:
-- Simplicidade e fácil interpretação: O Decision Tree é um dos modelos de aprendizado de máquina mais fáceis de entender e interpretar. As regras de decisão são representadas de forma clara e visual, permitindo que especialistas e leigos compreendam facilmente como o modelo chega a suas conclusões.
-- Baixo custo computacional: O treinamento e a predição com Decision Trees são computacionalmente eficientes, mesmo para grandes conjuntos de dados. Isso os torna uma boa opção para análises preliminares e exploração rápida dos dados.
-- Robustez a outliers: O Decision Tree é menos sensível a outliers (valores extremos) nos dados em comparação com outros modelos. Isso significa que o modelo é menos afetado por pontos de dados que se desviam significativamente do padrão gera
+As árvores de decisão são conhecidas por sua simplicidade e facilidade de interpretação. Elas representam decisões através de uma estrutura hierárquica semelhante a uma árvore, onde cada nó interno representa uma decisão baseada em uma variável, e cada folha representa um resultado ou valor. Essa estrutura clara e visual torna as árvores de decisão acessíveis e eficazes para diversos problemas, incluindo a predição de eventos como o AVC.
 
-Limitações:
-- Baixa acurácia em alguns casos: A acurácia do Decision Tree pode ser limitada em casos com dados complexos ou não lineares. Isso ocorre porque o algoritmo constrói um único hiperplano para separar as classes, o que pode não ser suficiente para capturar as nuances de dados mais complexos.
-- Suscetível a sobreajuste: O Decision Tree pode sofrer sobreajuste se não for podado ou regularizado adequadamente. O sobreajuste ocorre quando o modelo se adapta excessivamente aos dados de treinamento, memorizando-os em vez de aprender as características gerais dos dados.
-- Dificuldade em lidar com dados de alta dimensionalidade: O Decision Tree pode ter problemas de multicolinearidade em conjuntos de dados com um grande número de atributos. A multicolinearidade ocorre quando duas ou mais variáveis ​​apresentam alta correlação entre si, o que pode prejudicar a precisão do modelo.
+**Funcionamento:**
 
+1. **Seleção do Melhor Ponto de Corte:** Em cada nó, o algoritmo seleciona a variável e o ponto de corte que melhor separam os dados em termos de pureza (medida pelo índice de Gini ou pela entropia).
+2. **Crescimento da Árvore:** A árvore cresce repetindo o processo de divisão até que todos os nós sejam puros (ou quase puros), ou até que outras condições de parada sejam atendidas (como profundidade máxima da árvore).
+3. **Predição:** Para realizar uma predição, o algoritmo segue as regras de decisão da raiz até uma folha, onde a folha representa a classe ou valor predito.
 
+**Vantagens:**
+
+- **Simplicidade e fácil interpretação:** Árvores de decisão são um dos modelos mais fáceis de entender e interpretar. As regras de decisão são claras e visuais, permitindo que tanto especialistas quanto leigos compreendam como o modelo chega às suas conclusões.
+- **Baixo custo computacional:** O treinamento e a predição com árvores de decisão são computacionalmente eficientes, mesmo para grandes conjuntos de dados, tornando-as ideais para análises preliminares e exploração rápida dos dados.
+- **Robustez a outliers:** Árvores de decisão são menos sensíveis a outliers em comparação com outros modelos, sendo menos afetadas por pontos de dados que se desviam significativamente do padrão geral.
+
+**Limitações:**
+
+- **Baixa acurácia em alguns casos:** A acurácia de uma árvore de decisão pode ser limitada em casos com dados complexos ou não lineares, pois ela constrói um único hiperplano para separar as classes.
+- **Suscetibilidade a sobreajuste:** Árvores de decisão podem sofrer de sobreajuste se não forem podadas ou regularizadas adequadamente, adaptando-se excessivamente aos dados de treinamento em vez de aprender as características gerais.
+- **Dificuldade em lidar com dados de alta dimensionalidade:** Árvores de decisão podem enfrentar problemas de multicolinearidade em conjuntos de dados com muitos atributos, onde variáveis altamente correlacionadas podem prejudicar a precisão do modelo.
+
+---
 
 ## 1.3 Support Vector Machine (SVM)
 
-Descrição: O SVM por sua vez se destaca como um algoritmo de aprendizado de máquina robusto e preciso, capaz de encontrar a fronteira de decisão ideal para separar as classes em um dataset. Essa característica o torna um modelo promissor para a predição de AVC, buscando identificar os fatores que diferenciam os pacientes com e sem AVC com alta acurácia.
+**Descrição:**
 
-Vantagens:
-- Alta acurácia em problemas com dados lineares e não lineares: O SVM é conhecido por sua alta acurácia em diversos tipos de problemas de classificação, incluindo aqueles com dados lineares e não lineares. Essa flexibilidade o torna uma boa escolha para uma variedade de datasets.
-- Robustez a outliers e ruídos nos dados: O SVM é relativamente robusto a outliers e ruídos nos dados. Isso ocorre porque o algoritmo foca na margem entre as classes, minimizando o impacto de pontos de dados isolados.
-- Boa capacidade de generalização: O SVM tende a generalizar bem para novos dados não observados durante o treinamento. Isso se deve à sua capacidade de encontrar a fronteira de decisão ideal com base nas margens entre as classes.
+O Support Vector Machine (SVM) é um algoritmo de aprendizado de máquina conhecido por sua robustez e precisão na separação de classes em um dataset. Ele encontra a fronteira de decisão ideal para maximizar a margem entre as classes, tornando-o um modelo promissor para problemas como a predição de AVC. O SVM busca identificar os fatores que diferenciam pacientes com e sem AVC com alta precisão.
 
-Limitações:
-- Alto custo computacional: O treinamento de um SVM pode ser computacionalmente custoso, principalmente para grandes conjuntos de dados. O processo de encontrar o hiperplano ideal com a margem máxima pode exigir mais recursos computacionais.
-- Dificuldade na interpretação do modelo final: O modelo final do SVM pode ser difícil de interpretar, especialmente para humanos. Ao contrário de um Decision Tree, não há uma representação visual clara das regras de decisão utilizadas.
-- Sensível à escolha da função de kernel: O SVM utiliza uma função de kernel para mapear os dados para um espaço de alta dimensão, onde a separação entre as classes pode ser mais fácil. A escolha da função de kernel pode afetar a precisão do modelo, exigindo algum conhecimento e experimentação para encontrar a opção mais adequada.
+**Funcionamento:**
 
+1. **Encontrar o Hiperplano de Separação:** O SVM procura o hiperplano que melhor separa as classes de dados, maximizando a margem entre os pontos de dados mais próximos de qualquer classe (os vetores de suporte).
+2. **Utilização de Kernel:** Em casos de dados não linearmente separáveis, o SVM pode usar funções de kernel (como o kernel radial ou polinomial) para mapear os dados para um espaço de maior dimensão onde a separação linear é possível.
+3. **Maximização da Margem:** O SVM ajusta o hiperplano de modo a maximizar a distância entre os vetores de suporte de diferentes classes, reduzindo assim o risco de erro de classificação.
+
+**Vantagens:**
+
+- **Alta acurácia em problemas com dados lineares e não lineares:** O SVM é conhecido por sua alta precisão em diversos tipos de problemas de classificação, incluindo aqueles com dados lineares e não lineares.
+- **Robustez a outliers e ruídos nos dados:** O SVM é relativamente robusto a outliers e ruídos, focando na margem entre as classes e minimizando o impacto de pontos de dados isolados.
+- **Boa capacidade de generalização:** O SVM tende a generalizar bem para novos dados não observados durante o treinamento, encontrando a fronteira de decisão ideal com base nas margens entre as classes.
+
+**Limitações:**
+
+- **Alto custo computacional:** O treinamento de um SVM pode ser computacionalmente intensivo, especialmente para grandes conjuntos de dados, devido ao processo de encontrar o hiperplano ideal com a margem máxima.
+- **Dificuldade na interpretação do modelo final:** O modelo final do SVM pode ser difícil de interpretar, não oferecendo uma representação visual clara das regras de decisão utilizadas.
+- **Sensível à escolha da função de kernel:** A escolha da função de kernel pode afetar a precisão do modelo, exigindo experimentação para encontrar a opção mais adequada.
+
+---
 
 ## 1.4 Logistic Regression
-Descrição: A Regressão Logística é um algoritmo de classificação que estima a probabilidade de um evento ocorrer, modelando a relação entre uma variável dependente binária e uma ou mais variáveis independentes.
 
-Vantagens:
-- Simplicidade e fácil interpretação dos coeficientes do modelo.
-- Baixo custo computacional, adequado para grandes conjuntos de dados.
-- Bom desempenho em problemas lineares e com dados binários.
+**Descrição:**
 
-Limitações:
-- Baixa acurácia em problemas não lineares.
-- Sensível a outliers e multicolinearidade.
-- Requer balanceamento das classes para melhor desempenho.
+A Regressão Logística é um algoritmo de classificação que estima a probabilidade de um evento ocorrer, modelando a relação entre uma variável dependente binária e uma ou mais variáveis independentes. Amplamente utilizada em diversas áreas, como a medicina, marketing e finanças, a regressão logística é apreciada por sua simplicidade e eficácia em problemas onde a resposta é uma variável categórica binária.
+
+**Funcionamento:**
+
+1. **Modelagem da Relação:** A regressão logística modela a relação entre as variáveis independentes (predictors) e a variável dependente binária (outcome) usando a função logística. A função logística, também conhecida como função sigmoide, transforma os valores resultantes em uma probabilidade que varia de 0 a 1.
+2. **Cálculo das Probabilidades:** O modelo calcula a probabilidade de ocorrência de um evento (classe 1) usando a equação logit: log(p/(1-p)) = β0 + β1X1 + β2X2 + ... + βnXn, onde p é a probabilidade da classe 1, e β0, β1, ..., βn são os coeficientes do modelo.
+3. **Tomada de Decisão:** As previsões são feitas com base nas probabilidades calculadas. Tipicamente, um limiar (threshold) é estabelecido (geralmente 0.5), onde probabilidades acima desse valor são classificadas como classe 1 e abaixo como classe 0.
+
+**Vantagens:**
+
+- **Simplicidade e fácil interpretação:** Os coeficientes do modelo de regressão logística são fáceis de interpretar, facilitando a compreensão das relações entre variáveis independentes e o resultado. Cada coeficiente representa a mudança na razão de chances (odds ratio) da variável dependente por unidade de mudança na variável independente.
+- **Baixo custo computacional:** A regressão logística é computacionalmente eficiente, sendo adequada para grandes conjuntos de dados tanto no treinamento quanto na predição.
+- **Bom desempenho em problemas lineares e dados binários:** A regressão logística é eficaz em problemas onde existe uma relação linear entre as variáveis independentes e a variável dependente binária.
+
+**Limitações:**
+
+- **Baixa acurácia em problemas não lineares:** A regressão logística pode ter desempenho limitado em problemas onde as relações entre variáveis são não lineares. Para tais casos, outras abordagens, como o uso de polinômios ou a transformação das variáveis, podem ser necessárias.
+- **Sensível a outliers e multicolinearidade:** Outliers podem distorcer os resultados do modelo, e a multicolinearidade (altas correlações entre variáveis independentes) pode dificultar a interpretação dos coeficientes. Técnicas de pré-processamento, como a remoção de outliers e a utilização de análise de componentes principais (PCA), podem ajudar a mitigar esses problemas.
+- **Requer balanceamento das classes:** O desempenho do modelo pode ser prejudicado se as classes estiverem desbalanceadas. Métodos como reamostragem (oversampling ou undersampling) e o uso de técnicas como SMOTE (Synthetic Minority Over-sampling Technique) podem ajudar a equilibrar as classes.
+
+---
 
 ## 1.5 K-Nearest Neighbors (KNN)
 
-Descrição: O KNN é um algoritmo baseado em instâncias que classifica os pontos de dados com base na proximidade dos vizinhos mais próximos.
+**Descrição:**
 
-Vantagens:
-- Simplicidade e fácil implementação.
-- Não requer um modelo paramétrico, adequado para dados complexos.
-- Bom desempenho em problemas com distribuições de dados complexas.
+O K-Nearest Neighbors (KNN) é um algoritmo de aprendizado de máquina baseado em instâncias que classifica pontos de dados com base na proximidade dos vizinhos mais próximos. Sem a necessidade de uma fase de treinamento explícita, o KNN é um método de aprendizado preguiçoso (lazy learning) que faz todas as computações durante a fase de predição, tornando-o intuitivo e direto para muitos problemas de classificação e regressão.
 
-Limitações:
-- Alto custo computacional em grandes conjuntos de dados, especialmente durante a predição.
-- Sensível a ruídos e outliers.
-- Requer escolha adequada do valor de k e da métrica de distância para melhor desempenho.
+**Funcionamento:**
+
+1. **Cálculo das Distâncias:** Para cada ponto de dados a ser classificado, o algoritmo calcula a distância entre esse ponto e todos os pontos do conjunto de treinamento usando uma métrica de distância, como a distância Euclidiana, Manhattan ou Minkowski.
+2. **Seleção dos Vizinhos Mais Próximos:** O algoritmo seleciona os k pontos de dados mais próximos (vizinhos) do ponto em questão. O valor de k é um hiperparâmetro que deve ser definido pelo usuário e pode afetar significativamente o desempenho do modelo.
+3. **Classificação:** A classe do ponto é determinada pela maioria das classes dos k vizinhos mais próximos (para classificação). Para problemas de regressão, a predição é feita pela média dos valores dos k vizinhos mais próximos.
+
+**Vantagens:**
+
+- **Simplicidade e fácil implementação:** O KNN é fácil de entender e implementar, sem necessidade de treinamento explícito, tornando-o acessível para iniciantes e útil em diversos cenários.
+- **Não requer um modelo paramétrico:** O KNN não assume uma forma específica para a função de decisão, adaptando-se bem a várias distribuições de dados e sendo capaz de modelar relações complexas entre variáveis.
+- **Bom desempenho em problemas com distribuições complexas:** O KNN é eficaz em problemas onde as distribuições de dados são complexas e não lineares, utilizando a proximidade dos pontos de dados para realizar a classificação ou regressão.
+
+**Limitações:**
+
+- **Alto custo computacional:** O KNN pode ser computacionalmente intensivo em grandes conjuntos de dados, especialmente durante a predição, devido à necessidade de calcular distâncias para todos os pontos de dados. Técnicas como a utilização de estruturas de dados eficientes (como k-d trees) podem ajudar a reduzir o tempo de execução.
+- **Sensível a ruídos e outliers:** O desempenho do KNN pode ser afetado por ruídos e outliers, que podem influenciar negativamente as classificações baseadas na proximidade. Pré-processamento dos dados, como a remoção de outliers e a normalização, pode ajudar a mitigar esses efeitos.
+- **Requer escolha adequada do valor de k e da métrica de distância:** A escolha do valor de k (número de vizinhos) e da métrica de distância pode afetar significativamente o desempenho do modelo. A seleção de k geralmente é feita através de validação cruzada, e a escolha da métrica de distância pode depender da natureza dos dados.
+
 
 ## Recursos Computacionais
 
