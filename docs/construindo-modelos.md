@@ -171,6 +171,16 @@ O Random Forest é um algoritmo de aprendizado de máquina que faz parte da fam�
 3. **Crescimento das Árvores:** As árvores são crescidas até a maior profundidade possível sem poda, permitindo que cada árvore se torne um modelo forte.
 4. **Agregação das Previsões:** Para classificação, a classe final é determinada por votação majoritária das árvores. Para regressão, a predição final é a média das predições de todas as árvores.
 
+**Métricas:**
+
+- **Accuracy:** 93.933162
+- **K-Fold Mean Accuracy:** 93.635183
+- **Standard Deviation:** 0.665223
+- **ROC AUC:** 0.939374
+- **Precision:** 0.925150
+- **Recall:** 0.955670
+- **F1 Score:** 0.940162
+
 **Vantagens:**
 
 - **Alta acurácia e robustez:** O Random Forest frequentemente atinge alta precisão em suas previsões, mesmo em cenários com outliers e ruídos nos dados. A combinação de múltiplas árvores minimiza o impacto de erros individuais, tornando o modelo mais confiável.
@@ -196,6 +206,16 @@ As árvores de decisão são conhecidas por sua simplicidade e facilidade de int
 1. **Seleção do Melhor Ponto de Corte:** Em cada nó, o algoritmo seleciona a variável e o ponto de corte que melhor separam os dados em termos de pureza (medida pelo índice de Gini ou pela entropia).
 2. **Crescimento da Árvore:** A árvore cresce repetindo o processo de divisão até que todos os nós sejam puros (ou quase puros), ou até que outras condições de parada sejam atendidas (como profundidade máxima da árvore).
 3. **Predição:** Para realizar uma predição, o algoritmo segue as regras de decisão da raiz até uma folha, onde a folha representa a classe ou valor predito.
+
+**Métricas:**
+
+- **Accuracy:** 90.231362
+- **K-Fold Mean Accuracy:** 89.803195
+- **Standard Deviation:** 0.880905
+- **ROC AUC:** 0.902355
+- **Precision:** 0.889222
+- **Recall:** 0.918557
+- **F1 Score:** 0.903651
 
 **Vantagens:**
 
@@ -223,6 +243,16 @@ O Support Vector Machine (SVM) é um algoritmo de aprendizado de máquina conhec
 2. **Utilização de Kernel:** Em casos de dados não linearmente separáveis, o SVM pode usar funções de kernel (como o kernel radial ou polinomial) para mapear os dados para um espaço de maior dimensão onde a separação linear é possível.
 3. **Maximização da Margem:** O SVM ajusta o hiperplano de modo a maximizar a distância entre os vetores de suporte de diferentes classes, reduzindo assim o risco de erro de classificação.
 
+**Métricas:**
+
+- **Accuracy:** 76.709512
+- **K-Fold Mean Accuracy:** 77.793736
+- **Standard Deviation:** 1.326972
+- **ROC AUC:** 0.767269
+- **Precision:** 0.734361
+- **Recall:** 0.835052
+- **F1 Score:** 0.781476
+
 **Vantagens:**
 
 - **Alta acurácia em problemas com dados lineares e não lineares:** O SVM é conhecido por sua alta precisão em diversos tipos de problemas de classificação, incluindo aqueles com dados lineares e não lineares.
@@ -241,13 +271,25 @@ O Support Vector Machine (SVM) é um algoritmo de aprendizado de máquina conhec
 
 **Descrição:**
 
-A Regressão Logística é um algoritmo de classificação que estima a probabilidade de um evento ocorrer, modelando a relação entre uma variável dependente binária e uma ou mais variáveis independentes. Amplamente utilizada em diversas áreas, como a medicina, marketing e finanças, a regressão logística é apreciada por sua simplicidade e eficácia em problemas onde a resposta é uma variável categórica binária.
+A Regressão Logística é um algoritmo de classificação que estima a probabilidade de um evento ocorrer, modelando a relação entre uma variável dependente binária e uma ou mais variáveis independentes. Amplamente utilizada em diversas áreas, como a medicina,
+
+ marketing e finanças, a regressão logística é apreciada por sua simplicidade e eficácia em problemas onde a resposta é uma variável categórica binária.
 
 **Funcionamento:**
 
 1. **Modelagem da Relação:** A regressão logística modela a relação entre as variáveis independentes (predictors) e a variável dependente binária (outcome) usando a função logística. A função logística, também conhecida como função sigmoide, transforma os valores resultantes em uma probabilidade que varia de 0 a 1.
 2. **Cálculo das Probabilidades:** O modelo calcula a probabilidade de ocorrência de um evento (classe 1) usando a equação logit: log(p/(1-p)) = β0 + β1X1 + β2X2 + ... + βnXn, onde p é a probabilidade da classe 1, e β0, β1, ..., βn são os coeficientes do modelo.
 3. **Tomada de Decisão:** As previsões são feitas com base nas probabilidades calculadas. Tipicamente, um limiar (threshold) é estabelecido (geralmente 0.5), onde probabilidades acima desse valor são classificadas como classe 1 e abaixo como classe 0.
+
+**Métricas:**
+
+- **Accuracy:** 81.799486
+- **K-Fold Mean Accuracy:** 82.718153
+- **Standard Deviation:** 1.082583
+- **ROC AUC:** 0.818070
+- **Precision:** 0.799611
+- **Recall:** 0.847423
+- **F1 Score:** 0.822823
 
 **Vantagens:**
 
@@ -267,13 +309,23 @@ A Regressão Logística é um algoritmo de classificação que estima a probabil
 
 **Descrição:**
 
-O K-Nearest Neighbors (KNN) é um algoritmo de aprendizado de máquina baseado em instâncias que classifica pontos de dados com base na proximidade dos vizinhos mais próximos. Sem a necessidade de uma fase de treinamento explícita, o KNN é um método de aprendizado preguiçoso (lazy learning) que faz todas as computações durante a fase de predição, tornando-o intuitivo e direto para muitos problemas de classificação e regressão.
+O K-Nearest Neighbors (KNN) é um algoritmo baseado em instâncias que classifica pontos de dados com base na proximidade dos vizinhos mais próximos. Sem a necessidade de uma fase de treinamento explícita, o KNN é um método de aprendizado preguiçoso (lazy learning) que faz todas as computações durante a fase de predição, tornando-o intuitivo e direto para muitos problemas de classificação e regressão.
 
 **Funcionamento:**
 
 1. **Cálculo das Distâncias:** Para cada ponto de dados a ser classificado, o algoritmo calcula a distância entre esse ponto e todos os pontos do conjunto de treinamento usando uma métrica de distância, como a distância Euclidiana, Manhattan ou Minkowski.
 2. **Seleção dos Vizinhos Mais Próximos:** O algoritmo seleciona os k pontos de dados mais próximos (vizinhos) do ponto em questão. O valor de k é um hiperparâmetro que deve ser definido pelo usuário e pode afetar significativamente o desempenho do modelo.
 3. **Classificação:** A classe do ponto é determinada pela maioria das classes dos k vizinhos mais próximos (para classificação). Para problemas de regressão, a predição é feita pela média dos valores dos k vizinhos mais próximos.
+
+**Métricas:**
+
+- **Accuracy:** 89.100257
+- **K-Fold Mean Accuracy:** 88.568831
+- **Standard Deviation:** 1.287883
+- **ROC AUC:** 0.891229
+- **Precision:** 0.831874
+- **Recall:** 0.979381
+- **F1 Score:** 0.899621
 
 **Vantagens:**
 
@@ -286,7 +338,6 @@ O K-Nearest Neighbors (KNN) é um algoritmo de aprendizado de máquina baseado e
 - **Alto custo computacional:** O KNN pode ser computacionalmente intensivo em grandes conjuntos de dados, especialmente durante a predição, devido à necessidade de calcular distâncias para todos os pontos de dados. Técnicas como a utilização de estruturas de dados eficientes (como k-d trees) podem ajudar a reduzir o tempo de execução.
 - **Sensível a ruídos e outliers:** O desempenho do KNN pode ser afetado por ruídos e outliers, que podem influenciar negativamente as classificações baseadas na proximidade. Pré-processamento dos dados, como a remoção de outliers e a normalização, pode ajudar a mitigar esses efeitos.
 - **Requer escolha adequada do valor de k e da métrica de distância:** A escolha do valor de k (número de vizinhos) e da métrica de distância pode afetar significativamente o desempenho do modelo. A seleção de k geralmente é feita através de validação cruzada, e a escolha da métrica de distância pode depender da natureza dos dados.
-
 
 ## Recursos Computacionais
 
