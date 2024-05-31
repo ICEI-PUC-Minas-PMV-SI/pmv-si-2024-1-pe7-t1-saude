@@ -160,7 +160,7 @@ Interpretação dos resultados: Com base nas métricas de desempenho obtidas dur
 
 ## 1.1 Random Forest
 
-Descrição: O Random Forest se destaca por sua capacidade de combinar diversas árvores de decisão em um único modelo robusto e preciso, como uma floresta de árvores trabalhando em conjunto. Essa abordagem oferece diversas vantagens, sendo elas:
+Descrição: O Random Forest é um algoritmo de aprendizado de máquina do tipo ensemble learning, que combina diversas árvores de decisão para construir um modelo robusto e preciso. Imagine uma floresta onde cada árvore representa um modelo de decisão individual, e a floresta como um todo representa a sabedoria coletiva de todas as árvores. Essa analogia ilustra a essência do Random Forest: a combinação de diversos modelos para superar as limitações de cada um e alcançar resultados superiores e sendo assim o funcionamento dele se baseia em criação de múltiplas árvores de decisão e agregação das previsões e com isso temos as seguintes vantagens:
 
 Vantagens:
 - Alta acurácia e robustez: O Random Forest geralmente atinge alta acurácia nas previsões, mesmo em cenários com outliers e ruídos nos dados. Isso se deve à combinação de múltiplas árvores, que minimiza o impacto de erros individuais e aumenta a confiabilidade do modelo.
@@ -175,7 +175,7 @@ Limitações:
 
 ## 1.2 Decision Tree
 
-Descrição: O Decision Tree se destaca por sua simplicidade e intuitividade, representando as decisões de forma hierárquica, similar a uma árvore. Essa característica oferece diversas vantagens, sendo elas:
+Descrição: O Decision Tree se destaca por sua simplicidade e intuitividade na representação de decisões através de uma estrutura hierárquica, similar a uma árvore. Essa característica o torna um algoritmo de aprendizado de máquina acessível e eficaz para diversos problemas, incluindo a predição de AVC com um funcionando de seleções do melhor ponto de corte, crescimento da árvore e por fim predição e com isso temos as seguintes vantagens:
 
 Vantagens:
 - Simplicidade e fácil interpretação: O Decision Tree é um dos modelos de aprendizado de máquina mais fáceis de entender e interpretar. As regras de decisão são representadas de forma clara e visual, permitindo que especialistas e leigos compreendam facilmente como o modelo chega a suas conclusões.
@@ -191,7 +191,7 @@ Limitações:
 
 ## 1.3 Support Vector Machine (SVM)
 
-Descrição: O SVM busca encontrar um hiperplano que maximiza a margem entre os pontos de dados de classes diferentes, representando a fronteira de decisão ideal. Essa abordagem oferece diversas vantagens:
+Descrição: O SVM por sua vez se destaca como um algoritmo de aprendizado de máquina robusto e preciso, capaz de encontrar a fronteira de decisão ideal para separar as classes em um dataset. Essa característica o torna um modelo promissor para a predição de AVC, buscando identificar os fatores que diferenciam os pacientes com e sem AVC com alta acurácia.
 
 Vantagens:
 - Alta acurácia em problemas com dados lineares e não lineares: O SVM é conhecido por sua alta acurácia em diversos tipos de problemas de classificação, incluindo aqueles com dados lineares e não lineares. Essa flexibilidade o torna uma boa escolha para uma variedade de datasets.
