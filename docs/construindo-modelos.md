@@ -171,15 +171,15 @@ O Random Forest é um algoritmo de aprendizado de máquina que faz parte da fam�
 3. **Crescimento das Árvores:** As árvores são crescidas até a maior profundidade possível sem poda, permitindo que cada árvore se torne um modelo forte.
 4. **Agregação das Previsões:** Para classificação, a classe final é determinada por votação majoritária das árvores. Para regressão, a predição final é a média das predições de todas as árvores.
 
-**Métricas:**
+**Parâmetros de Entrada Principais:**
 
-- **Accuracy:** 93.933162
-- **K-Fold Mean Accuracy:** 93.635183
-- **Standard Deviation:** 0.665223
-- **ROC AUC:** 0.939374
-- **Precision:** 0.925150
-- **Recall:** 0.955670
-- **F1 Score:** 0.940162
+- **n_estimators:** Número de árvores na floresta. Exemplo: 100.
+- **criterion:** Função de medição da qualidade de uma divisão. Pode ser "gini" para classificação e "mse" para regressão.
+- **max_depth:** Profundidade máxima da árvore. Exemplo: None.
+- **min_samples_split:** Número mínimo de amostras necessárias para dividir um nó. Exemplo: 2.
+- **min_samples_leaf:** Número mínimo de amostras necessárias para estar em um nó folha. Exemplo: 1.
+- **max_features:** Número de características a serem consideradas ao procurar a melhor divisão. Pode ser um valor int, float, ou “auto”, “sqrt”, “log2”.
+- **random_state:** Controla a aleatoriedade do algoritmo. Defina um valor fixo para reprodutibilidade. Exemplo: 42.
 
 **Vantagens:**
 
@@ -192,6 +192,8 @@ O Random Forest é um algoritmo de aprendizado de máquina que faz parte da fam�
 
 - **Alto custo computacional:** A construção de um Random Forest pode ser computacionalmente intensiva, especialmente para grandes conjuntos de dados, devido à necessidade de treinar múltiplas árvores de decisão.
 - **Dificuldade na interpretação do modelo final:** Combinando diversas árvores, o modelo final pode ser complexo e difícil de interpretar, embora seja possível identificar as variáveis mais importantes.
+
+![Random Forest](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/RF_sem_normalizacao.png)
 
 ---
 
@@ -207,15 +209,15 @@ As árvores de decisão são conhecidas por sua simplicidade e facilidade de int
 2. **Crescimento da Árvore:** A árvore cresce repetindo o processo de divisão até que todos os nós sejam puros (ou quase puros), ou até que outras condições de parada sejam atendidas (como profundidade máxima da árvore).
 3. **Predição:** Para realizar uma predição, o algoritmo segue as regras de decisão da raiz até uma folha, onde a folha representa a classe ou valor predito.
 
-**Métricas:**
+**Parâmetros de Entrada Principais:**
 
-- **Accuracy:** 90.231362
-- **K-Fold Mean Accuracy:** 89.803195
-- **Standard Deviation:** 0.880905
-- **ROC AUC:** 0.902355
-- **Precision:** 0.889222
-- **Recall:** 0.918557
-- **F1 Score:** 0.903651
+- **criterion:** Função de medição da qualidade de uma divisão. Pode ser “gini” ou “entropy” para classificação.
+- **splitter:** Estratégia usada para escolher a divisão em cada nó. Pode ser “best” ou “random”.
+- **max_depth:** Profundidade máxima da árvore. Exemplo: None.
+- **min_samples_split:** Número mínimo de amostras necessárias para dividir um nó. Exemplo: 2.
+- **min_samples_leaf:** Número mínimo de amostras necessárias para estar em um nó folha. Exemplo: 1.
+- **max_features:** Número de características a serem consideradas ao procurar a melhor divisão. Pode ser um valor int, float, ou “auto”, “sqrt”, “log2”.
+- **random_state:** Controla a aleatoriedade do algoritmo. Defina um valor fixo para reprodutibilidade. Exemplo: 42.
 
 **Vantagens:**
 
@@ -228,6 +230,8 @@ As árvores de decisão são conhecidas por sua simplicidade e facilidade de int
 - **Baixa acurácia em alguns casos:** A acurácia de uma árvore de decisão pode ser limitada em casos com dados complexos ou não lineares, pois ela constrói um único hiperplano para separar as classes.
 - **Suscetibilidade a sobreajuste:** Árvores de decisão podem sofrer de sobreajuste se não forem podadas ou regularizadas adequadamente, adaptando-se excessivamente aos dados de treinamento em vez de aprender as características gerais.
 - **Dificuldade em lidar com dados de alta dimensionalidade:** Árvores de decisão podem enfrentar problemas de multicolinearidade em conjuntos de dados com muitos atributos, onde variáveis altamente correlacionadas podem prejudicar a precisão do modelo.
+
+![Decision Tree](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/DT_sem_normalizacao.png)
 
 ---
 
@@ -243,15 +247,13 @@ O Support Vector Machine (SVM) é um algoritmo de aprendizado de máquina conhec
 2. **Utilização de Kernel:** Em casos de dados não linearmente separáveis, o SVM pode usar funções de kernel (como o kernel radial ou polinomial) para mapear os dados para um espaço de maior dimensão onde a separação linear é possível.
 3. **Maximização da Margem:** O SVM ajusta o hiperplano de modo a maximizar a distância entre os vetores de suporte de diferentes classes, reduzindo assim o risco de erro de classificação.
 
-**Métricas:**
+**Parâmetros de Entrada Principais:**
 
-- **Accuracy:** 76.709512
-- **K-Fold Mean Accuracy:** 77.793736
-- **Standard Deviation:** 1.326972
-- **ROC AUC:** 0.767269
-- **Precision:** 0.734361
-- **Recall:** 0.835052
-- **F1 Score:** 0.781476
+- **C:** Parâmetro de regularização. Controla o trade-off entre a margem máxima e a classificação correta dos pontos de dados. Exemplo: 1.0.
+- **kernel:** Tipo de kernel a ser usado no algoritmo. Pode ser “linear”, “poly”, “rbf”, “sigmoid”, “precomputed”.
+- **degree:** Grau do polinômio (se o kernel polinomial for escolhido). Exemplo: 3.
+- **gamma:** Coeficiente de kernel para os kernels “rbf”, “poly” e “sigmoid”. Pode ser “scale”, “auto” ou um valor float.
+- **coef0:** Término independente no kernel polinomial e sigmoid. Exemplo: 0.0.
 
 **Vantagens:**
 
@@ -265,15 +267,15 @@ O Support Vector Machine (SVM) é um algoritmo de aprendizado de máquina conhec
 - **Dificuldade na interpretação do modelo final:** O modelo final do SVM pode ser difícil de interpretar, não oferecendo uma representação visual clara das regras de decisão utilizadas.
 - **Sensível à escolha da função de kernel:** A escolha da função de kernel pode afetar a precisão do modelo, exigindo experimentação para encontrar a opção mais adequada.
 
+![SVM](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/SVM_sem_normalizacao.png)
+
 ---
 
 ## 1.4 Logistic Regression
 
 **Descrição:**
 
-A Regressão Logística é um algoritmo de classificação que estima a probabilidade de um evento ocorrer, modelando a relação entre uma variável dependente binária e uma ou mais variáveis independentes. Amplamente utilizada em diversas áreas, como a medicina,
-
- marketing e finanças, a regressão logística é apreciada por sua simplicidade e eficácia em problemas onde a resposta é uma variável categórica binária.
+A Regressão Logística é um algoritmo de classificação que estima a probabilidade de um evento ocorrer, modelando a relação entre uma variável dependente binária e uma ou mais variáveis independentes. Amplamente utilizada em diversas áreas, como a medicina, marketing e finanças, a regressão logística é apreciada por sua simplicidade e eficácia em problemas onde a resposta é uma variável categórica binária.
 
 **Funcionamento:**
 
@@ -281,15 +283,14 @@ A Regressão Logística é um algoritmo de classificação que estima a probabil
 2. **Cálculo das Probabilidades:** O modelo calcula a probabilidade de ocorrência de um evento (classe 1) usando a equação logit: log(p/(1-p)) = β0 + β1X1 + β2X2 + ... + βnXn, onde p é a probabilidade da classe 1, e β0, β1, ..., βn são os coeficientes do modelo.
 3. **Tomada de Decisão:** As previsões são feitas com base nas probabilidades calculadas. Tipicamente, um limiar (threshold) é estabelecido (geralmente 0.5), onde probabilidades acima desse valor são classificadas como classe 1 e abaixo como classe 0.
 
-**Métricas:**
+**Parâmetros de Entrada Principais:**
 
-- **Accuracy:** 81.799486
-- **K-Fold Mean Accuracy:** 82.718153
-- **Standard Deviation:** 1.082583
-- **ROC AUC:** 0.818070
-- **Precision:** 0.799611
-- **Recall:** 0.847423
-- **F1 Score:** 0.822823
+- **penalty:** Especifica a norma usada na penalização. Pode ser “l1”, “l2”, “elasticnet” ou “none”.
+- **dual:** Booleano, usado quando o número de amostras é maior que o número de características. Exemplo: False.
+- **tol:** Tolerância para o critério de parada. Exemplo: 1e-4.
+- **C:** Parâmetro de regularização inverso. Exemplo: 1.0.
+- **fit_intercept:** Especifica se deve ser ajustado um intercepto para este modelo. Exemplo: True.
+- **solver:** Algoritmo a ser usado no problema de otimização. Pode ser “newton-cg”, “lbfgs”, “liblinear”, “sag”, “saga”.
 
 **Vantagens:**
 
@@ -302,6 +303,8 @@ A Regressão Logística é um algoritmo de classificação que estima a probabil
 - **Baixa acurácia em problemas não lineares:** A regressão logística pode ter desempenho limitado em problemas onde as relações entre variáveis são não lineares. Para tais casos, outras abordagens, como o uso de polinômios ou a transformação das variáveis, podem ser necessárias.
 - **Sensível a outliers e multicolinearidade:** Outliers podem distorcer os resultados do modelo, e a multicolinearidade (altas correlações entre variáveis independentes) pode dificultar a interpretação dos coeficientes. Técnicas de pré-processamento, como a remoção de outliers e a utilização de análise de componentes principais (PCA), podem ajudar a mitigar esses problemas.
 - **Requer balanceamento das classes:** O desempenho do modelo pode ser prejudicado se as classes estiverem desbalanceadas. Métodos como reamostragem (oversampling ou undersampling) e o uso de técnicas como SMOTE (Synthetic Minority Over-sampling Technique) podem ajudar a equilibrar as classes.
+
+![Logistic Regression](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/LR_sem_normalizacao.png)
 
 ---
 
@@ -317,15 +320,14 @@ O K-Nearest Neighbors (KNN) é um algoritmo baseado em instâncias que classific
 2. **Seleção dos Vizinhos Mais Próximos:** O algoritmo seleciona os k pontos de dados mais próximos (vizinhos) do ponto em questão. O valor de k é um hiperparâmetro que deve ser definido pelo usuário e pode afetar significativamente o desempenho do modelo.
 3. **Classificação:** A classe do ponto é determinada pela maioria das classes dos k vizinhos mais próximos (para classificação). Para problemas de regressão, a predição é feita pela média dos valores dos k vizinhos mais próximos.
 
-**Métricas:**
+**Parâmetros de Entrada Principais:**
 
-- **Accuracy:** 89.100257
-- **K-Fold Mean Accuracy:** 88.568831
-- **Standard Deviation:** 1.287883
-- **ROC AUC:** 0.891229
-- **Precision:** 0.831874
-- **Recall:** 0.979381
-- **F1 Score:** 0.899621
+- **n_neighbors:** Número de vizinhos a serem usados na classificação. Exemplo: 5.
+- **weights:** Função de peso usada na predição. Pode ser “uniform”, “distance” ou uma função definida pelo usuário.
+- **algorithm:** Algoritmo usado para computar os vizinhos mais próximos. Pode ser “auto”, “ball_tree”, “kd_tree” ou “brute”.
+- **leaf_size:** Tamanho da folha passada para BallTree ou KDTree. Exemplo: 30.
+- **p:** Potência do parâmetro da métrica de Minkowski. Exemplo: 2.
+- **metric:** Métrica a ser usada para a distância. Exemplo: “minkowski”.
 
 **Vantagens:**
 
@@ -338,6 +340,8 @@ O K-Nearest Neighbors (KNN) é um algoritmo baseado em instâncias que classific
 - **Alto custo computacional:** O KNN pode ser computacionalmente intensivo em grandes conjuntos de dados, especialmente durante a predição, devido à necessidade de calcular distâncias para todos os pontos de dados. Técnicas como a utilização de estruturas de dados eficientes (como k-d trees) podem ajudar a reduzir o tempo de execução.
 - **Sensível a ruídos e outliers:** O desempenho do KNN pode ser afetado por ruídos e outliers, que podem influenciar negativamente as classificações baseadas na proximidade. Pré-processamento dos dados, como a remoção de outliers e a normalização, pode ajudar a mitigar esses efeitos.
 - **Requer escolha adequada do valor de k e da métrica de distância:** A escolha do valor de k (número de vizinhos) e da métrica de distância pode afetar significativamente o desempenho do modelo. A seleção de k geralmente é feita através de validação cruzada, e a escolha da métrica de distância pode depender da natureza dos dados.
+
+![KNN](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/KNN_sem_normalizacao.png)
 
 ## Recursos Computacionais
 
