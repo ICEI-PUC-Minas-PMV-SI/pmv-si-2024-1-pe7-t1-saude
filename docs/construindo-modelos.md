@@ -158,41 +158,6 @@ Interpretação dos resultados: Com base nas métricas de desempenho obtidas dur
 
 # Descrição dos modelos
 
-## Matriz de Confusão
-
-A matriz de confusão é uma tabela que avalia o desempenho de um modelo de classificação, comparando as previsões do modelo com os resultados reais. Ela tem a seguinte estrutura:
-
-| -- | Previsão Positiva | Previsão Negativa |
-|------------------|-----------------|-----------------|
-| Real Positivo | Verdadeiro Positivo (TP) | Falso Negativo (FN) |
-| Real Negativo |	Falso Positivo (FP)	| Verdadeiro Negativo (TN) |
-
-Componentes
-Verdadeiro Positivo (TP): Casos positivos corretamente identificados.
-Falso Negativo (FN): Casos positivos incorretamente identificados como negativos.
-Falso Positivo (FP): Casos negativos incorretamente identificados como positivos.
-Verdadeiro Negativo (TN): Casos negativos corretamente identificados.
-
-Métricas Principais: 
-Acurácia (Accuracy): Proporção de previsões corretas:
-
-Acurácia = TP+TN / TP+TN+FP+FN 
-
-Precisão (Precision): Proporção de verdadeiros positivos entre as previsões positivas.
-
-Precisão = TP / TP+FP
-
-Recall (Sensibilidade): Proporção de verdadeiros positivos entre os casos reais positivos.
-
-Recall= TP / TP+FN
-
-F1-Score: Média harmônica entre precisão e recall.
-
-F1-Score= 2 X (Precisão×Recall / Precisão×Recall)
-
-Importância
-A matriz de confusão ajuda a identificar e entender os tipos de erros (falsos positivos e falsos negativos) cometidos pelo modelo, permitindo a escolha e o ajuste das métricas de desempenho de acordo com a aplicação específica.
-
 ## 1.1 Random Forest
 
 **Descrição:**
@@ -409,6 +374,42 @@ Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos dev
 | Precision (Precisão) |
 | Recall |
 | F1-Score |
+
+## Matriz de Confusão
+
+A matriz de confusão é uma tabela que avalia o desempenho de um modelo de classificação, comparando as previsões do modelo com os resultados reais. Ela tem a seguinte estrutura:
+
+| -- | Previsão Positiva | Previsão Negativa |
+|------------------|-----------------|-----------------|
+| Real Positivo | Verdadeiro Positivo (TP) | Falso Negativo (FN) |
+| Real Negativo |	Falso Positivo (FP)	| Verdadeiro Negativo (TN) |
+
+Componentes
+Verdadeiro Positivo (TP): Casos positivos corretamente identificados.
+Falso Negativo (FN): Casos positivos incorretamente identificados como negativos.
+Falso Positivo (FP): Casos negativos incorretamente identificados como positivos.
+Verdadeiro Negativo (TN): Casos negativos corretamente identificados.
+
+Métricas Principais: 
+Acurácia (Accuracy): Proporção de previsões corretas:
+
+Acurácia = TP+TN / TP+TN+FP+FN 
+
+Precisão (Precision): Proporção de verdadeiros positivos entre as previsões positivas.
+
+Precisão = TP / TP+FP
+
+Recall (Sensibilidade): Proporção de verdadeiros positivos entre os casos reais positivos.
+
+Recall= TP / TP+FN
+
+F1-Score: Média harmônica entre precisão e recall.
+
+F1-Score= 2 X (Precisão×Recall / Precisão×Recall)
+
+Importância
+A matriz de confusão ajuda a identificar e entender os tipos de erros (falsos positivos e falsos negativos) cometidos pelo modelo, permitindo a escolha e o ajuste das métricas de desempenho de acordo com a aplicação específica.
+
 
 ![modelo e metrica 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/c7ed54ef-a8ce-48ab-8b59-bf7741e24efd)
 
