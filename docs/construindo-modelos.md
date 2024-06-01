@@ -396,17 +396,14 @@ F1-Score= 2 X (Precisão×Recall / Precisão×Recall)
 Importância:
 A matriz de confusão ajuda a identificar e entender os tipos de erros (falsos positivos e falsos negativos) cometidos pelo modelo, permitindo a escolha e o ajuste das métricas de desempenho de acordo com a aplicação específica.
 
-| Métrica Utilizadas | 
-|---|
-| Acurácia| 
-| K-Fold Cross-Validation Mean Accuracy  | 
-| Standart Deviation (Desvio Padrão) |
-| Roc Auc (Receiver Operating Characteristic Area Under the Curve) |
-| Precision (Precisão) |
-| Recall |
-| F1-Score |
+| Model | Acurácia | K-Fold  Mean Accuracy | Standart Deviation | Roc Auc | Precision | Recall | F1-Score | Execução | 
+|-------|----------|-----------------------|--------------------|---------|-----------|--------|----------|----------|
+| KNeighbors | 89.100257 | 88.568831 | 1.287883 | 0.891229 | 0.831874 | 0.979381 | 0.899621 |  0.102 | 
+| Random Forest | 93.933162 | 93.635183 | 0.665223 | 0.939374 | 0.925150 | 0.55670 | 0.940162 | 0.814 | 
+| Decision Tree | 90.231362 | 89.803195 | 0.880905 | 0.902355 | 0.889222 | 0.918557 | 0.903651 | 0.032 | 
+| Logistic Regression | 81.799486 | 82.718153 | 1.082583 | 0.818070 | 0.799611 | 0.847423 | 0.822823 | 0.094 | 
+| SVW | 76.709512 | 77.793736 | 1.326972 | 0.767269 | 0.734361 | 0.835052 | 0.781476  | 1.882 | 
 
-![modelo e metrica 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/c7ed54ef-a8ce-48ab-8b59-bf7741e24efd)
 
 ### Métricas de avaliação de classificação
 
