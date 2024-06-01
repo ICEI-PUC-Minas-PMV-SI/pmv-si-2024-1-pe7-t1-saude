@@ -471,9 +471,6 @@ Justificativa de Não Uso: Nenhuma. O F1 Score é valioso para obter uma visão 
 Especificidade (True Negative Rate):
 Justificativa de Não Uso: A especificidade não foi mencionada como uma métrica utilizada, possivelmente porque o foco principal é na identificação de casos positivos (minimização de falsos negativos) e no equilíbrio entre precisão e recall. Pode ser menos relevante em contextos onde a identificação correta dos negativos não é a principal prioridade.
 
-K-Fold Mean Accuracy:
-Justificativa de Não Uso: A acurácia média da validação cruzada (K-Fold Mean Accuracy) é uma média do desempenho do modelo em diferentes subsets de dados. Embora seja uma métrica importante, muitas vezes a acurácia final do modelo treinado e testado em um conjunto de dados separado é mais direta e informativa para a avaliação prática do desempenho. A acurácia média pode ser vista como um complemento à acurácia final, mas pode ser menos enfatizada se os dados forem bem balanceados e não houver grande variação entre os folds.
-
 Em resumo, as métricas selecionadas (acurácia, média de acurácia na validação cruzada, desvio padrão, ROC AUC, precisão, recall e F1 Score) foram escolhidas por suas capacidades de fornecer uma avaliação abrangente e equilibrada do desempenho do modelo de classificação, especialmente em um contexto onde a identificação correta de casos positivos (e a minimização de falsos negativos) é crucial. Métricas como a especificidade não foram incluídas, possivelmente porque não são o foco principal nesta análise específica.
 
 
