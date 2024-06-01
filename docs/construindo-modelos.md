@@ -365,17 +365,7 @@ Como parte da comprovação de construção dos modelos, um vídeo de demonstra�
 
 Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos deverão ser apresentadas (p. ex.: acurácia, precisão, recall, F1-Score, MSE etc.). A escolha de cada métrica deverá ser justificada, pois esta escolha é essencial para avaliar de forma mais assertiva a qualidade do modelo construído. 
 
-| Métrica | 
-|---|
-| Acurácia| 
-| K-Fold Cross-Validation Mean Accuracy  | 
-| Standart Deviation (Desvio Padrão) |
-| Roc Auc (Receiver Operating Characteristic Area Under the Curve) |
-| Precision (Precisão) |
-| Recall |
-| F1-Score |
-
-## Matriz de Confusão
+# Matriz de Confusão
 
 A matriz de confusão é uma tabela que avalia o desempenho de um modelo de classificação, comparando as previsões do modelo com os resultados reais. Ela tem a seguinte estrutura:
 
@@ -409,6 +399,18 @@ F1-Score= 2 X (Precisão×Recall / Precisão×Recall)
 
 Importância
 A matriz de confusão ajuda a identificar e entender os tipos de erros (falsos positivos e falsos negativos) cometidos pelo modelo, permitindo a escolha e o ajuste das métricas de desempenho de acordo com a aplicação específica.
+
+
+| Métrica | 
+|---|
+| Acurácia| 
+| K-Fold Cross-Validation Mean Accuracy  | 
+| Standart Deviation (Desvio Padrão) |
+| Roc Auc (Receiver Operating Characteristic Area Under the Curve) |
+| Precision (Precisão) |
+| Recall |
+| F1-Score |
+
 
 
 ![modelo e metrica 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/c7ed54ef-a8ce-48ab-8b59-bf7741e24efd)
