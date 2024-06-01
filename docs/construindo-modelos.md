@@ -476,7 +476,7 @@ Justificativa de Não Uso: A especificidade não foi mencionada como uma métric
 
 Em resumo, as métricas selecionadas (acurácia, média de acurácia na validação cruzada, desvio padrão, ROC AUC, precisão, recall e F1 Score) foram escolhidas por suas capacidades de fornecer uma avaliação abrangente e equilibrada do desempenho do modelo de classificação, especialmente em um contexto onde a identificação correta de casos positivos (e a minimização de falsos negativos) é crucial. Métricas como a especificidade não foram incluídas, possivelmente porque não são o foco principal nesta análise específica.
 
-###Matriz de Correlação
+### Matriz de Correlação
 
 A matriz de correlação é uma ferramenta estatística que mostra a relação entre variáveis independentes em um conjunto de dados. Cada célula da matriz representa o coeficiente de correlação entre duas variáveis, variando de -1 (correlação negativa perfeita) a +1 (correlação positiva perfeita). Valores próximos de 0 indicam pouca ou nenhuma correlação.
 
