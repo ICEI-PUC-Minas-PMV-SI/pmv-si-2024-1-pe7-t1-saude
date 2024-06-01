@@ -365,7 +365,7 @@ Como parte da comprovação de construção dos modelos, um vídeo de demonstra�
 
 Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos deverão ser apresentadas (p. ex.: acurácia, precisão, recall, F1-Score, MSE etc.). A escolha de cada métrica deverá ser justificada, pois esta escolha é essencial para avaliar de forma mais assertiva a qualidade do modelo construído. 
 
-## Matriz de Confusão
+### Matriz de Confusão
 
 A matriz de confusão é uma tabela que avalia o desempenho de um modelo de classificação, comparando as previsões do modelo com os resultados reais. Ela tem a seguinte estrutura:
 
@@ -374,7 +374,7 @@ A matriz de confusão é uma tabela que avalia o desempenho de um modelo de clas
 | Real Positivo | Verdadeiro Positivo (TP) | Falso Negativo (FN) |
 | Real Negativo |	Falso Positivo (FP)	| Verdadeiro Negativo (TN) |
 
-Componentes
+Componentes:
 Verdadeiro Positivo (TP): Casos positivos corretamente identificados.
 Falso Negativo (FN): Casos positivos incorretamente identificados como negativos.
 Falso Positivo (FP): Casos negativos incorretamente identificados como positivos.
@@ -382,24 +382,19 @@ Verdadeiro Negativo (TN): Casos negativos corretamente identificados.
 
 Métricas Principais: 
 Acurácia (Accuracy): Proporção de previsões corretas:
-
 Acurácia = TP+TN / TP+TN+FP+FN 
 
 Precisão (Precision): Proporção de verdadeiros positivos entre as previsões positivas.
-
 Precisão = TP / TP+FP
 
 Recall (Sensibilidade): Proporção de verdadeiros positivos entre os casos reais positivos.
-
 Recall= TP / TP+FN
 
 F1-Score: Média harmônica entre precisão e recall.
-
 F1-Score= 2 X (Precisão×Recall / Precisão×Recall)
 
-Importância
+Importância:
 A matriz de confusão ajuda a identificar e entender os tipos de erros (falsos positivos e falsos negativos) cometidos pelo modelo, permitindo a escolha e o ajuste das métricas de desempenho de acordo com a aplicação específica.
-
 
 | Métrica Utilizadas | 
 |---|
@@ -413,74 +408,68 @@ A matriz de confusão ajuda a identificar e entender os tipos de erros (falsos p
 
 ![modelo e metrica 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/c7ed54ef-a8ce-48ab-8b59-bf7741e24efd)
 
-## Métricas de avaliação de classificação:
+### Métricas de avaliação de classificação:
 
 Acurácia (Accuracy):
-
 A acurácia pode ser útil para avaliar a proporção de previsões corretas feitas pelo modelo de ML na classificação de indivíduos como propensos ou não a ter AVC.
 Então uma alta acurácia indica que o modelo está fazendo previsões precisas,  é importante para garantir que os pacientes sejam corretamente identificados como de alto risco ou não.
 
-K-fold cross-validation mean accuracy:
-
+K-fold Cross-validation Mean Accuracy:
 A validação cruzada k-fold, com a média da acurácia, pode fornecer uma estimativa mais robusta do desempenho do modelo em diferentes conjuntos de dados.
 Dentro do contexto da prevenção de AVC, é importante que o modelo seja generalizável e capaz de fazer previsões precisas em diferentes populações. A validação cruzada k-fold ajuda a garantir que o modelo não esteja superestimando seu desempenho em um único conjunto de dados.
 
 Desvio Padrão (Standard Deviation):
-
 O desvio padrão das acurácias calculadas em cada iteração da validação cruzada k-fold pode indicar a variabilidade do desempenho do modelo.
 Então um baixo desvio padrão sugere que o modelo é consistente em sua capacidade de fazer previsões precisas, enquanto um alto desvio padrão pode indicar inconsistências que precisam ser investigadas.
 
 ROC AUC (Receiver Operating Characteristic Area Under the Curve):
-
 A área sob a curva ROC é uma métrica útil para avaliar a capacidade do modelo de distinguir entre indivíduos propensos e não propensos a ter AVC.
 Então um valor alto de ROC AUC indica que o modelo é capaz de fazer distinções claras entre os dois grupos, o que é crucial para identificar corretamente os indivíduos de alto risco.
 
 Precisão (Precision) e Recall:
-
 Precisão e recall podem ser aplicados para avaliar a precisão das previsões positivas e a capacidade do modelo de identificar corretamente os indivíduos de alto risco, respectivamente.
 Uma alta precisão garante que as previsões positivas do modelo sejam confiáveis, enquanto um alto recall indica que o modelo está identificando corretamente a maioria dos casos de alto risco.
 A precision penalisa quando tem falso positivo
 O recall penaliza quando da falso negativo portanto lida bem com o falso negativo.
 
 F1-Score:
-
 O F1-Score é uma métrica útil para equilibrar precisão e recall, fornecendo uma medida única do desempenho do modelo.
 Por isso em casos onde precisão e recall são igualmente importantes, o F1-Score pode ser uma métrica útil para avaliar o desempenho geral do modelo.
 O F1 é a média do recall e da precisão.
 
 Diante disso, no contexto da prevenção de AVC, todas essas métricas desempenham um papel importante na avaliação e seleção de modelos de ML, garantindo que o modelo seja preciso, robusto e capaz de identificar corretamente os indivíduos de alto risco.
 
-## Métricas Utilizadas e Justificativas
+### Métricas Utilizadas e Justificativas
 
-1. Accuracy (Acurácia)
+Accuracy (Acurácia):
 Justificativa de Uso: A acurácia é uma métrica fundamental que indica a proporção de previsões corretas feitas pelo modelo em relação ao total de previsões. Ela é útil para ter uma visão geral do desempenho do modelo, especialmente quando as classes são balanceadas.
 Justificativa de Não Uso: A acurácia pode ser enganosa em casos de classes desbalanceadas, onde o modelo pode apresentar alta acurácia apenas por prever a classe majoritária.
 
-2. K-Fold Mean Accuracy (Média de Acurácia na Validação Cruzada K-Fold)
+K-Fold Mean Accuracy (Média de Acurácia na Validação Cruzada K-Fold):
 Justificativa de Uso: Esta métrica proporciona uma estimativa mais robusta da acurácia do modelo, pois avalia o desempenho em diferentes subconjuntos de dados, mitigando problemas de overfitting e subestimando a variabilidade do modelo.
 Justificativa de Não Uso: Nenhuma. Esta métrica é valiosa para garantir que a acurácia observada não seja devido a um único conjunto de dados específico.
 
-3. Standard Deviation (Desvio Padrão)
+Standard Deviation (Desvio Padrão):
 Justificativa de Uso: O desvio padrão das acurácias na validação cruzada indica a consistência do modelo. Um baixo desvio padrão sugere que o modelo tem desempenho consistente, enquanto um alto desvio padrão indica variabilidade nos resultados.
 Justificativa de Não Uso: Nenhuma. Entender a variabilidade do modelo é crucial para avaliar a confiança nas previsões.
 
-4. ROC AUC (Área Sob a Curva ROC)
+ROC AUC (Área Sob a Curva ROC):
 Justificativa de Uso: A ROC AUC é uma métrica robusta que avalia a capacidade do modelo de distinguir entre classes positivas e negativas, independentemente do limiar escolhido. É especialmente útil para problemas de classificação binária onde o balanceamento entre as classes é uma preocupação.
 Justificativa de Não Uso: Nenhuma. A ROC AUC é amplamente aplicável e fornece uma visão abrangente do desempenho do modelo.
 
-5. Precision (Precisão)
+Precision (Precisão):
 Justificativa de Uso: A precisão mede a proporção de verdadeiros positivos entre todas as previsões positivas. É crucial quando o custo de falsos positivos é alto e queremos garantir que as previsões positivas sejam confiáveis.
 Justificativa de Não Uso: Pode ser menos informativa quando a prioridade é minimizar falsos negativos, como em problemas onde é crucial identificar todos os casos positivos.
 
-6. Recall (Sensibilidade)
+Recall (Sensibilidade):
 Justificativa de Uso: O recall mede a proporção de verdadeiros positivos identificados entre todos os casos reais positivos. É vital em contextos onde é mais importante identificar todos os casos positivos, mesmo que isso resulte em mais falsos positivos, como na detecção de doenças.
 Justificativa de Não Uso: Pode ser menos útil quando o foco é evitar falsos positivos, pois altos valores de recall podem resultar em muitos falsos positivos.
 
-7. F1 Score
+F1 Score:
 Justificativa de Uso: O F1 Score é a média harmônica entre precisão e recall, equilibrando os dois aspectos. É útil quando precisamos de um equilíbrio entre a identificação de verdadeiros positivos e a minimização de falsos positivos.
 Justificativa de Não Uso: Nenhuma. O F1 Score é valioso para obter uma visão equilibrada do desempenho do modelo.
 
-Métricas Não Utilizadas e Justificativas
+### Métricas Não Utilizadas e Justificativas
 
 Specificidade (True Negative Rate):
 Justificativa de Não Uso: A especificidade não foi mencionada como uma métrica utilizada, possivelmente porque o foco principal é na identificação de casos positivos (minimização de falsos negativos) e no equilíbrio entre precisão e recall. Pode ser menos relevante em contextos onde a identificação correta dos negativos não é a principal prioridade.
