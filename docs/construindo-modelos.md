@@ -173,13 +173,12 @@ O Random Forest é um algoritmo de aprendizado de máquina que faz parte da fam�
 
 **Parâmetros de Entrada Principais:**
 
-- **n_estimators:** Número de árvores na floresta. Exemplo: 100.
-- **criterion:** Função de medição da qualidade de uma divisão. Pode ser "gini" para classificação e "mse" para regressão.
-- **max_depth:** Profundidade máxima da árvore. Exemplo: None.
-- **min_samples_split:** Número mínimo de amostras necessárias para dividir um nó. Exemplo: 2.
-- **min_samples_leaf:** Número mínimo de amostras necessárias para estar em um nó folha. Exemplo: 1.
-- **max_features:** Número de características a serem consideradas ao procurar a melhor divisão. Pode ser um valor int, float, ou “auto”, “sqrt”, “log2”.
-- **random_state:** Controla a aleatoriedade do algoritmo. Defina um valor fixo para reprodutibilidade. Exemplo: 42.
+- **n_estimators:** Número de árvores na floresta. Utilizado: 100 (default).
+- **criterion:** Função de medição da qualidade de uma divisão. Utilizado: "gini" (default).
+- **max_depth:** Profundidade máxima da árvore. Utilizado: None (default).
+- **min_samples_split:** Número mínimo de amostras necessárias para dividir um nó. Utilizado: 2 (default).
+- **min_samples_leaf:** Número mínimo de amostras necessárias para estar em um nó folha. Utilizado: 1 (default).
+- **max_features:** Número de características a serem consideradas ao procurar a melhor divisão. Utilizado: "auto" (default).
 
 **Vantagens:**
 
@@ -211,13 +210,13 @@ As árvores de decisão são conhecidas por sua simplicidade e facilidade de int
 
 **Parâmetros de Entrada Principais:**
 
-- **criterion:** Função de medição da qualidade de uma divisão. Pode ser “gini” ou “entropy” para classificação.
-- **splitter:** Estratégia usada para escolher a divisão em cada nó. Pode ser “best” ou “random”.
-- **max_depth:** Profundidade máxima da árvore. Exemplo: None.
-- **min_samples_split:** Número mínimo de amostras necessárias para dividir um nó. Exemplo: 2.
-- **min_samples_leaf:** Número mínimo de amostras necessárias para estar em um nó folha. Exemplo: 1.
-- **max_features:** Número de características a serem consideradas ao procurar a melhor divisão. Pode ser um valor int, float, ou “auto”, “sqrt”, “log2”.
-- **random_state:** Controla a aleatoriedade do algoritmo. Defina um valor fixo para reprodutibilidade. Exemplo: 42.
+- **criterion:** Função de medição da qualidade de uma divisão. Utilizado: “gini” (default).
+- **splitter:** Estratégia usada para escolher a divisão em cada nó. Utilizado: “best” (default).
+- **max_depth:** Profundidade máxima da árvore. Utilizado: None (default).
+- **min_samples_split:** Número mínimo de amostras necessárias para dividir um nó. Utilizado: 2 (default).
+- **min_samples_leaf:** Número mínimo de amostras necessárias para estar em um nó folha. Utilizado: 1 (default).
+- **max_features:** Número de características a serem consideradas ao procurar a melhor divisão. Utilizado: None (default).
+- **random_state:** Controla a aleatoriedade do algoritmo. Utilizado: 42.
 
 **Vantagens:**
 
@@ -249,11 +248,11 @@ O Support Vector Machine (SVM) é um algoritmo de aprendizado de máquina conhec
 
 **Parâmetros de Entrada Principais:**
 
-- **C:** Parâmetro de regularização. Controla o trade-off entre a margem máxima e a classificação correta dos pontos de dados. Exemplo: 1.0.
-- **kernel:** Tipo de kernel a ser usado no algoritmo. Pode ser “linear”, “poly”, “rbf”, “sigmoid”, “precomputed”.
-- **degree:** Grau do polinômio (se o kernel polinomial for escolhido). Exemplo: 3.
-- **gamma:** Coeficiente de kernel para os kernels “rbf”, “poly” e “sigmoid”. Pode ser “scale”, “auto” ou um valor float.
-- **coef0:** Término independente no kernel polinomial e sigmoid. Exemplo: 0.0.
+- **C:** Parâmetro de regularização. Controla o trade-off entre a margem máxima e a classificação correta dos pontos de dados. Utilizado: 1.0 (default).
+- **kernel:** Tipo de kernel a ser usado no algoritmo. Utilizado: “rbf” (default).
+- **degree:** Grau do polinômio (se o kernel polinomial for escolhido). Utilizado: 3 (default).
+- **gamma:** Coeficiente de kernel para os kernels “rbf”, “poly” e “sigmoid”. Utilizado: “scale” (default).
+- **coef0:** Término independente no kernel polinomial e sigmoid. Utilizado: 0.0 (default).
 
 **Vantagens:**
 
@@ -285,12 +284,13 @@ A Regressão Logística é um algoritmo de classificação que estima a probabil
 
 **Parâmetros de Entrada Principais:**
 
-- **penalty:** Especifica a norma usada na penalização. Pode ser “l1”, “l2”, “elasticnet” ou “none”.
-- **dual:** Booleano, usado quando o número de amostras é maior que o número de características. Exemplo: False.
-- **tol:** Tolerância para o critério de parada. Exemplo: 1e-4.
-- **C:** Parâmetro de regularização inverso. Exemplo: 1.0.
-- **fit_intercept:** Especifica se deve ser ajustado um intercepto para este modelo. Exemplo: True.
-- **solver:** Algoritmo a ser usado no problema de otimização. Pode ser “newton-cg”, “lbfgs”, “liblinear”, “sag”, “saga”.
+- **penalty:** Especifica a norma usada na penalização. Utilizado: “l2” (default).
+- **dual:** Booleano, usado quando o número de amostras é maior que o número de características. Utilizado: False (default).
+- **tol:** Tolerância para o critério de parada. Utilizado: 1e-4 (default).
+- **C:** Parâmetro de regularização inverso. Utilizado: 1.0 (default).
+- **fit_intercept:** Especifica se deve ser ajustado um intercepto para este modelo. Utilizado: True (default).
+- **solver:** Algoritmo a ser usado no problema de otimização. Utilizado: “lbfgs” (default).
+- **random_state:** Controla a aleatoriedade do algoritmo. Utilizado: 42.
 
 **Vantagens:**
 
@@ -322,12 +322,12 @@ O K-Nearest Neighbors (KNN) é um algoritmo baseado em instâncias que classific
 
 **Parâmetros de Entrada Principais:**
 
-- **n_neighbors:** Número de vizinhos a serem usados na classificação. Exemplo: 5.
-- **weights:** Função de peso usada na predição. Pode ser “uniform”, “distance” ou uma função definida pelo usuário.
-- **algorithm:** Algoritmo usado para computar os vizinhos mais próximos. Pode ser “auto”, “ball_tree”, “kd_tree” ou “brute”.
-- **leaf_size:** Tamanho da folha passada para BallTree ou KDTree. Exemplo: 30.
-- **p:** Potência do parâmetro da métrica de Minkowski. Exemplo: 2.
-- **metric:** Métrica a ser usada para a distância. Exemplo: “minkowski”.
+- **n_neighbors:** Número de vizinhos a serem usados na classificação. Utilizado: 5 (default).
+- **weights:** Função de peso usada na predição. Utilizado: “uniform” (default).
+- **algorithm:** Algoritmo usado para computar os vizinhos mais próximos. Utilizado: “auto” (default).
+- **leaf_size:** Tamanho da folha passada para BallTree ou KDTree. Utilizado: 30 (default).
+- **p:** Potência do parâmetro da métrica de Minkowski. Utilizado: 2 (default).
+- **metric:** Métrica a ser usada para a distância. Utilizado: “minkowski” (default).
 
 **Vantagens:**
 
