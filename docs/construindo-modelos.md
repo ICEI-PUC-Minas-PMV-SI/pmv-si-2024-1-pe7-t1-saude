@@ -365,7 +365,7 @@ Como parte da comprovação de construção dos modelos, um vídeo de demonstra�
 
 Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos deverão ser apresentadas (p. ex.: acurácia, precisão, recall, F1-Score, MSE etc.). A escolha de cada métrica deverá ser justificada, pois esta escolha é essencial para avaliar de forma mais assertiva a qualidade do modelo construído. 
 
-# Matriz de Confusão
+## Matriz de Confusão
 
 A matriz de confusão é uma tabela que avalia o desempenho de um modelo de classificação, comparando as previsões do modelo com os resultados reais. Ela tem a seguinte estrutura:
 
