@@ -408,7 +408,7 @@ A matriz de confusão ajuda a identificar e entender os tipos de erros (falsos p
 
 ![modelo e metrica 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/assets/81451748/c7ed54ef-a8ce-48ab-8b59-bf7741e24efd)
 
-### Métricas de avaliação de classificação:
+### Métricas de avaliação de classificação
 
 Acurácia (Accuracy):
 A acurácia pode ser útil para avaliar a proporção de previsões corretas feitas pelo modelo de ML na classificação de indivíduos como propensos ou não a ter AVC.
@@ -475,6 +475,40 @@ Specificidade (True Negative Rate):
 Justificativa de Não Uso: A especificidade não foi mencionada como uma métrica utilizada, possivelmente porque o foco principal é na identificação de casos positivos (minimização de falsos negativos) e no equilíbrio entre precisão e recall. Pode ser menos relevante em contextos onde a identificação correta dos negativos não é a principal prioridade.
 
 Em resumo, as métricas selecionadas (acurácia, média de acurácia na validação cruzada, desvio padrão, ROC AUC, precisão, recall e F1 Score) foram escolhidas por suas capacidades de fornecer uma avaliação abrangente e equilibrada do desempenho do modelo de classificação, especialmente em um contexto onde a identificação correta de casos positivos (e a minimização de falsos negativos) é crucial. Métricas como a especificidade não foram incluídas, possivelmente porque não são o foco principal nesta análise específica.
+
+###Matriz de Correlação
+
+A matriz de correlação é uma ferramenta estatística que mostra a relação entre variáveis independentes em um conjunto de dados. Cada célula da matriz representa o coeficiente de correlação entre duas variáveis, variando de -1 (correlação negativa perfeita) a +1 (correlação positiva perfeita). Valores próximos de 0 indicam pouca ou nenhuma correlação.
+
+Aplicação na Pesquisa de Regressão Logística
+Contexto:
+Na regressão logística, a matriz de correlação é especialmente útil para identificar multicolinearidade, que ocorre quando duas ou mais variáveis independentes estão altamente correlacionadas. Multicolinearidade pode dificultar a interpretação dos coeficientes do modelo e afetar negativamente o desempenho do modelo.
+
+Funcionamento:
+Identificação de Multicolinearidade: A matriz de correlação ajuda a identificar pares de variáveis independentes que têm correlação alta (geralmente acima de 0.8 ou abaixo de -0.8), indicando multicolinearidade. Essas variáveis podem precisar de tratamento, como remoção ou transformação.
+Simplificação do Modelo: Ao identificar variáveis redundantes, é possível simplificar o modelo, reduzindo o número de variáveis sem perda significativa de informação.
+Interpretação de Resultados: Compreender as correlações entre variáveis auxilia na interpretação dos coeficientes da regressão logística, oferecendo insights sobre como diferentes variáveis estão relacionadas entre si e com a variável dependente.
+Exemplo:
+Se a matriz de correlação mostra uma correlação alta entre duas variáveis independentes, como idade e anos de serviço, pode ser necessário remover uma delas ou combinar as duas em uma nova variável que capte a informação de ambas.
+
+Aplicação na Pesquisa do K-Nearest Neighbors (KNN)
+Contexto:
+Embora o KNN não seja baseado em um modelo paramétrico e, portanto, não dependa dos coeficientes de regressão, a matriz de correlação ainda pode ser útil para o pré-processamento dos dados.
+
+Funcionamento:
+Normalização e Padronização: A matriz de correlação ajuda a entender a relação entre variáveis e pode indicar a necessidade de normalização ou padronização, especialmente se as variáveis têm diferentes escalas.
+Tratamento de Outliers: Identificar variáveis correlacionadas pode ajudar na detecção e tratamento de outliers, que podem influenciar negativamente o desempenho do KNN.
+Seleção de Variáveis: Identificar variáveis altamente correlacionadas permite reduzir a dimensionalidade dos dados, removendo redundâncias que podem não adicionar valor ao modelo KNN.
+Exemplo:
+Se duas variáveis estão altamente correlacionadas, como altura e peso, uma delas pode ser removida para simplificar o modelo sem perda significativa de informação, facilitando a computação durante a fase de predição do KNN.
+
+Conclusão
+A matriz de correlação é uma ferramenta valiosa em ambas as metodologias, embora seja mais crucial para a regressão logística devido à necessidade de interpretar coeficientes e evitar multicolinearidade. No KNN, a matriz de correlação ajuda principalmente no pré-processamento dos dados para garantir a eficiência e eficácia do modelo. Em resumo:
+
+Utilizada para Identificação de Multicolinearidade: Principalmente na regressão logística.
+Auxílio no Pré-Processamento dos Dados: Normalização, padronização e tratamento de outliers, relevante para ambos os métodos.
+Simplificação do Modelo: Remoção de variáveis redundantes para melhorar a interpretabilidade e a eficiência computacional.
+Essas aplicações tornam a matriz de correlação uma ferramenta indispensável na preparação e análise de dados para modelos de aprendizado de máquina.
 
 ## Discussão dos resultados obtidos
 
