@@ -543,7 +543,7 @@ Embora a Árvore de Decisão possa ter um desempenho semelhante em termos de pre
 Em resumo, diante do exposto, ao escolher entre o Random Forest e o KNN para prever AVC, é essencial considerar não apenas uma métrica isolada, mas uma análise abrangente das métricas de avaliação. O modelo que melhor equilibra precisão, recall e outras métricas relevantes será o mais adequado para prever eficazmente os casos de AVC. O Random Forest foi o modelo considerado mais adequado para o cenário em questão. 
 
 
-Resultados da Avaliação dos Modelos de Aprendizado de Máquina para Previsão de AVC:
+## Resumo dos Resultados da Avaliação dos Modelos de Aprendizado de Máquina para Previsão de AVC:
 
 Após a aplicação do oversampling e a separação de 20% dos dados para teste, foram observadas diferenças significativas entre os modelos K-Nearest Neighbors (KNN) e Random Forest.
 Modelo K-Nearest Neighbors (KNN)
