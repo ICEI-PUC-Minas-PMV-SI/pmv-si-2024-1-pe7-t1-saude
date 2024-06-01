@@ -158,6 +158,15 @@ Interpretação dos resultados: Com base nas métricas de desempenho obtidas dur
 
 # Descrição dos modelos
 
+## Matriz de Confusão
+
+A matriz de confusão é uma tabela que avalia o desempenho de um modelo de classificação, comparando as previsões do modelo com os resultados reais. Ela tem a seguinte estrutura:
+
+| -- | Previsão Positiva | Previsão Negativa |
+| Real Positivo | Verdadeiro Positivo (TP) | Falso Negativo (FN) |
+| Real Negativo |	Falso Positivo (FP)	| Verdadeiro Negativo (TN) |
+
+
 ## 1.1 Random Forest
 
 **Descrição:**
