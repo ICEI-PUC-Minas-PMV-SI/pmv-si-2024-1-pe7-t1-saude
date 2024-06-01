@@ -173,17 +173,21 @@ Falso Negativo (FN): Casos positivos incorretamente identificados como negativos
 Falso Positivo (FP): Casos negativos incorretamente identificados como positivos.
 Verdadeiro Negativo (TN): Casos negativos corretamente identificados.
 
-Métricas Principais
+Métricas Principais: 
 Acurácia (Accuracy): Proporção de previsões corretas:
+
 Acurácia = TP+TN / TP+TN+FP+FN 
 
 Precisão (Precision): Proporção de verdadeiros positivos entre as previsões positivas.
-Precisão= TP / TP+FP
+
+Precisão = TP / TP+FP
 
 Recall (Sensibilidade): Proporção de verdadeiros positivos entre os casos reais positivos.
+
 Recall= TP / TP+FN
 
 F1-Score: Média harmônica entre precisão e recall.
+
 F1-Score= 2 X (Precisão×Recall / Precisão×Recall)
 
 Importância
