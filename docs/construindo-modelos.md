@@ -192,8 +192,14 @@ O Random Forest é um algoritmo de aprendizado de máquina que faz parte da fam�
 - **Alto custo computacional:** A construção de um Random Forest pode ser computacionalmente intensiva, especialmente para grandes conjuntos de dados, devido à necessidade de treinar múltiplas árvores de decisão.
 - **Dificuldade na interpretação do modelo final:** Combinando diversas árvores, o modelo final pode ser complexo e difícil de interpretar, embora seja possível identificar as variáveis mais importantes.
 
+
+**Matriz de confusão:**
 ![Random Forest](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/RF_sem_normalizacao.png)
 
+**Árovres dos estimadores:**
+
+Segue a árvore de 5 estimadores, truncada para profundidade 3 para facilitar a visualização:
+![Random Forest](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/random_forest_5_samples.png)
 ---
 
 ## 1.2 Decision Tree
@@ -230,6 +236,8 @@ As árvores de decisão são conhecidas por sua simplicidade e facilidade de int
 - **Suscetibilidade a sobreajuste:** Árvores de decisão podem sofrer de sobreajuste se não forem podadas ou regularizadas adequadamente, adaptando-se excessivamente aos dados de treinamento em vez de aprender as características gerais.
 - **Dificuldade em lidar com dados de alta dimensionalidade:** Árvores de decisão podem enfrentar problemas de multicolinearidade em conjuntos de dados com muitos atributos, onde variáveis altamente correlacionadas podem prejudicar a precisão do modelo.
 
+
+**Matriz de confusão:**
 ![Decision Tree](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/DT_sem_normalizacao.png)
 
 ---
@@ -266,6 +274,8 @@ O Support Vector Machine (SVM) é um algoritmo de aprendizado de máquina conhec
 - **Dificuldade na interpretação do modelo final:** O modelo final do SVM pode ser difícil de interpretar, não oferecendo uma representação visual clara das regras de decisão utilizadas.
 - **Sensível à escolha da função de kernel:** A escolha da função de kernel pode afetar a precisão do modelo, exigindo experimentação para encontrar a opção mais adequada.
 
+
+**Matriz de confusão:**
 ![SVM](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/SVM_sem_normalizacao.png)
 
 ---
@@ -304,6 +314,8 @@ A Regressão Logística é um algoritmo de classificação que estima a probabil
 - **Sensível a outliers e multicolinearidade:** Outliers podem distorcer os resultados do modelo, e a multicolinearidade (altas correlações entre variáveis independentes) pode dificultar a interpretação dos coeficientes. Técnicas de pré-processamento, como a remoção de outliers e a utilização de análise de componentes principais (PCA), podem ajudar a mitigar esses problemas.
 - **Requer balanceamento das classes:** O desempenho do modelo pode ser prejudicado se as classes estiverem desbalanceadas. Métodos como reamostragem (oversampling ou undersampling) e o uso de técnicas como SMOTE (Synthetic Minority Over-sampling Technique) podem ajudar a equilibrar as classes.
 
+
+**Matriz de confusão:**
 ![Logistic Regression](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/LR_sem_normalizacao.png)
 
 ---
@@ -341,6 +353,8 @@ O K-Nearest Neighbors (KNN) é um algoritmo baseado em instâncias que classific
 - **Sensível a ruídos e outliers:** O desempenho do KNN pode ser afetado por ruídos e outliers, que podem influenciar negativamente as classificações baseadas na proximidade. Pré-processamento dos dados, como a remoção de outliers e a normalização, pode ajudar a mitigar esses efeitos.
 - **Requer escolha adequada do valor de k e da métrica de distância:** A escolha do valor de k (número de vizinhos) e da métrica de distância pode afetar significativamente o desempenho do modelo. A seleção de k geralmente é feita através de validação cruzada, e a escolha da métrica de distância pode depender da natureza dos dados.
 
+
+**Matriz de confusão:**
 ![KNN](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/KNN_sem_normalizacao.png)
 
 ## Recursos Computacionais
