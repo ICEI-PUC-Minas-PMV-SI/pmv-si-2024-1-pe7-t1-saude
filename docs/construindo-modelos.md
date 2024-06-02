@@ -386,6 +386,9 @@ Testes foram realizados em um sistema computacional com as seguintes configuraç
 | Armazenamento | SSD Kingston NV2 1TB NVMe M.2 2280 |
 | Sistema Operacional | Microsoft Windows 11 Professional 64 Bits ESD |
 
+## Vídeo de explicação do código
+
+[Video de Apresentação](https://youtu.be/YnmO8E8S9Ew)
 
 # Avaliação dos modelos criados
 
