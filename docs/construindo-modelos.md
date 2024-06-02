@@ -194,12 +194,16 @@ O Random Forest é um algoritmo de aprendizado de máquina que faz parte da fam�
 
 
 **Matriz de confusão:**
+
 ![Random Forest](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/RF_sem_normalizacao.png)
 
 **Árovres dos estimadores:**
 
-Segue a árvore de 5 estimadores, truncada para profundidade 3 para facilitar a visualização:
+- Segue a árvore de 5 estimadores, truncada para profundidade 3 para facilitar a visualização:
 ![Random Forest](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/random_forest_5_samples.png)
+
+- A floresta com as 100 árvores criadas está disponível no arquivo de texto abaixo:
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/floresta.txt
 ---
 
 ## 1.2 Decision Tree
@@ -238,8 +242,17 @@ As árvores de decisão são conhecidas por sua simplicidade e facilidade de int
 
 
 **Matriz de confusão:**
+
 ![Decision Tree](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/DT_sem_normalizacao.png)
 
+**Árovres dos estimadores:**
+
+- Segue a árvore gerada, truncada para profundidade 5 para facilitar a visualização:
+![Random Forest](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/decision_tree_depth4.png)
+
+- A árvore gerada está disponível no arquivo de texto abaixo:
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/decision_tree.txt
+---
 ---
 
 ## 1.3 Support Vector Machine (SVM)
@@ -276,6 +289,7 @@ O Support Vector Machine (SVM) é um algoritmo de aprendizado de máquina conhec
 
 
 **Matriz de confusão:**
+
 ![SVM](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/SVM_sem_normalizacao.png)
 
 ---
@@ -316,6 +330,7 @@ A Regressão Logística é um algoritmo de classificação que estima a probabil
 
 
 **Matriz de confusão:**
+
 ![Logistic Regression](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/LR_sem_normalizacao.png)
 
 ---
@@ -336,7 +351,7 @@ O K-Nearest Neighbors (KNN) é um algoritmo baseado em instâncias que classific
 
 - **n_neighbors:** Número de vizinhos a serem usados na classificação. Utilizado: 5 (default).
 - **weights:** Função de peso usada na predição. Utilizado: “uniform” (default).
-- **algorithm:** Algoritmo usado para computar os vizinhos mais próximos. Utilizado: “auto” (default).
+- **algorithm:** Algoritmo usado para computar os vizinhos mais próximos. Utilizado: “auto” (default). O parametro auto utiliza o algorítmo "KD Tree" com o nosso dataset.
 - **leaf_size:** Tamanho da folha passada para BallTree ou KDTree. Utilizado: 30 (default).
 - **p:** Potência do parâmetro da métrica de Minkowski. Utilizado: 2 (default).
 - **metric:** Métrica a ser usada para a distância. Utilizado: “minkowski” (default).
@@ -355,6 +370,7 @@ O K-Nearest Neighbors (KNN) é um algoritmo baseado em instâncias que classific
 
 
 **Matriz de confusão:**
+
 ![KNN](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/src/models/graficos/split_depois/sem%20normalizacao/KNN_sem_normalizacao.png)
 
 ## Recursos Computacionais
@@ -371,17 +387,9 @@ Testes foram realizados em um sistema computacional com as seguintes configuraç
 | Sistema Operacional | Microsoft Windows 11 Professional 64 Bits ESD |
 
 
-Nesta seção, conhecendo os dados e de posse dos dados preparados, é hora de descrever os algoritmos de aprendizado de máquina selecionados para a construção dos modelos propostos. Inclua informações abrangentes sobre cada algoritmo implementado, aborde conceitos fundamentais, princípios de funcionamento, vantagens/limitações e justifique a escolha de cada um dos algoritmos. 
-
-Explore aspectos específicos, como o ajuste dos parâmetros livres de cada algoritmo. Lembre-se de experimentar parâmetros diferentes e principalmente, de justificar as escolhas realizadas.
-
-Como parte da comprovação de construção dos modelos, um vídeo de demonstração com todas as etapas de pré-processamento e de execução dos modelos deverá ser entregue. Este vídeo poderá ser do tipo _screencast_ e é imprescindível a narração contemplando a demonstração de todas as etapas realizadas.
-
 # Avaliação dos modelos criados
 
 ## Métricas utilizadas
-
-Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos deverão ser apresentadas (p. ex.: acurácia, precisão, recall, F1-Score, MSE etc.). A escolha de cada métrica deverá ser justificada, pois esta escolha é essencial para avaliar de forma mais assertiva a qualidade do modelo construído. 
 
 ### Matriz de Confusão
 
@@ -492,10 +500,10 @@ Nesta seção, discuta os resultados obtidos pelos modelos construídos, no cont
 | Model | Acurácia | K-Fold  Mean Accuracy | Standart Deviation | Roc Auc | Precision | Recall | F1-Score | Execução (s)| 
 |-------|----------|-----------------------|--------------------|---------|-----------|--------|----------|----------|
 | KNeighbors | 0.891002 | 0.8856883 | 1.287883 | 0.891229 | 0.831874 | 0.979381 | 0.899621 |  0.102 | 
-| Random Forest | 0.939331 | 0.9363518 | 0.665223 | 0.939374 | 0.925150 | 0.55670 | 0.940162 | 0.814 | 
+| Random Forest | 0.939331 | 0.9363518 | 0.665223 | 0.939374 | 0.925150 | 0.955670 | 0.940162 | 0.814 | 
 | Decision Tree | 0.902313 | 0.8980319 | 0.880905 | 0.902355 | 0.889222 | 0.918557 | 0.903651 | 0.032 | 
 | Logistic Regression | 0.817994 | 0.8271815 | 1.082583 | 0.818070 | 0.799611 | 0.847423 | 0.822823 | 0.094 | 
-| SVW | 0.767095 | 0.779373 | 1.326972 | 0.767269 | 0.734361 | 0.835052 | 0.781476  | 1.882 | 
+| SVW | 0.767095 | 0.7793736 | 1.326972 | 0.767269 | 0.734361 | 0.835052 | 0.781476  | 1.882 | 
 
 
 Discussão sobre Recall:
@@ -524,17 +532,22 @@ Em resumo, diante do exposto, ao escolher entre o Random Forest e o KNN para pre
 
 ## Resumo dos Resultados da Avaliação dos Modelos de Aprendizado de Máquina para Previsão de AVC:
 
-Após a aplicação do oversampling e a separação de 20% dos dados para teste, foram observadas diferenças significativas entre os modelos K-Nearest Neighbors (KNN) e Random Forest.
+Após a aplicação do oversampling e a separação de 20% dos dados para teste, foram observadas diferenças significativas entre os modelos K-Nearest Neighbors (KNN) e Random Forest: 
+
 Modelo K-Nearest Neighbors (KNN)
-Recall: Eficaz na minimização de falsos negativos, identificando corretamente indivíduos de risco.
-Precisão: Apresentou dificuldades, resultando em muitos falsos positivos.
-Acurácia: Inferior em comparação ao modelo Random Forest.
-Desvio Padrão da Precisão: Baixo, indicando consistência apesar do desempenho global não ideal.
-F1-Score: Baixo devido à precisão limitada.
-Modelo Random Forest
-Precisão e Recall: Equilibrados, evitando tanto falsos positivos quanto falsos negativos.
-F1-Score: Elevado, refletindo um bom equilíbrio entre precisão e recall.
-Conclusão:
+- Recall: Eficaz na minimização de falsos negativos, identificando corretamente indivíduos de risco.
+- Precisão: Apresentou dificuldades, resultando em muitos falsos positivos.
+- Acurácia: Inferior em comparação ao modelo Random Forest.
+- Desvio Padrão da Precisão: Baixo, indicando consistência apesar do desempenho global não ideal.
+- F1-Score: Baixo devido à precisão limitada.
+
+  
+Modelo Random Forest:
+- Precisão e Recall: Equilibrados, evitando tanto falsos positivos quanto falsos negativos.
+- F1-Score: Elevado, refletindo um bom equilíbrio entre precisão e recall.
+
+  
+**Conclusão**:
 O modelo KNN, apesar de bom recall, sofre com precisão, resultando em um F1-Score inferior. O modelo Random Forest apresenta um desempenho mais equilibrado e robusto, sendo mais adequado para identificar corretamente indivíduos de alto risco de AVC, minimizando erros e aumentando a confiabilidade das previsões.
 
 # Pipeline de pesquisa e análise de dados
