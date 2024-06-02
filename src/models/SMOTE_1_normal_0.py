@@ -6,11 +6,14 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.inspection import DecisionBoundaryDisplay
+from sklearn import tree
+from sklearn.tree import DecisionTreeClassifier, export_text
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, roc_auc_score, precision_score, recall_score, f1_score
 from sklearn.model_selection import cross_val_score
 import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
 from datetime import datetime
 
 
@@ -59,7 +62,7 @@ print('After OverSampling, the shape of train_X: {}'.format(x_train_res.shape))
 print('After OverSampling, the shape of train_y: {} \n'.format(y_train_res.shape))
 print("After OverSampling, counts of label '1': {}".format(sum(y_train_res==1)))
 print("After OverSampling, counts of label '0': {}".format(sum(y_train_res==0)))
-x_train , x_test, y_train, y_test = train_test_split(x_train_res,y_train_res, test_size = 0.2, random_state = 42)
+x_train, x_test, y_train, y_test = train_test_split(x_train_res,y_train_res, test_size = 0.2, random_state = 42)
 print(x_train.shape)
 print(y_train.shape)
 print(x_test.shape)
@@ -100,6 +103,31 @@ for m in range(len(models)):
     if ('Tree' in models[m][0] ):
         print ('A profundidade da árvore é: ',model.tree_.max_depth)
         profundidade_arvore = model.tree_.max_depth
+        plt.figure(figsize=(50,12))
+        tree.plot_tree(model, fontsize=5, max_depth=5, feature_names=x_train.columns.values)
+        #plt.savefig('teste1', dpi=200)
+        #plt.show()
+        r = export_text(model, feature_names=x_train.columns.values)
+        #print(r)
+        #with open('decision_tree.txt', 'w') as f:
+        #    f.write("Profudidade: "+ str(model.tree_.max_depth) + '\n')
+        #    f.write(export_text(model, feature_names=x_train.columns.values))
+    if ('Forest' in models[m][0]):
+        fig, axes = plt.subplots(nrows = 1,ncols = 5,figsize = (50,10))
+        #myfile = open('floresta.txt', 'w')
+        for index in range(0, 100):
+            if (index < 5):
+                tree.plot_tree(model.estimators_[95+index], fontsize=4, max_depth=3,
+                    feature_names = x_train.columns.values,
+                    ax = axes[index])
+                axes[index].set_title('Profundidade: ' + str(model.estimators_[95+index].tree_.max_depth), fontsize = 8)
+                #plt.savefig('teste2', dpi=200)
+            #myfile.write("Arvore: "+ str(index)+", Profudidade: "+ str(model.estimators_[index].tree_.max_depth) + '\n')
+            #myfile.write(export_text(model.estimators_[index], feature_names=x_train.columns.values) + '\n')
+        #myfile.close()
+    if ('Neighbors' in models[m][0]):
+        print('Parametros: ', model.get_params())
+
     cm = confusion_matrix(y_test, y_pred)  #Confusion Matrix
     plot_confusion_matrix(y_test, y_pred, models[m][0])
     accuracies = cross_val_score(estimator = model, X = x_train, y = y_train, cv = 10)

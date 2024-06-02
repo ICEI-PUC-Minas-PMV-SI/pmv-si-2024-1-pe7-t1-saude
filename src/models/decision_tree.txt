@@ -1,0 +1,863 @@
+Profudidade: 28
+|--- age <= 55.00
+|   |--- age <= 46.02
+|   |   |--- age <= 38.00
+|   |   |   |--- avg_glucose_level <= 82.29
+|   |   |   |   |--- ever_married <= 0.50
+|   |   |   |   |   |--- age <= 18.98
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- age >  18.98
+|   |   |   |   |   |   |--- avg_glucose_level <= 74.69
+|   |   |   |   |   |   |   |--- age <= 23.07
+|   |   |   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  23.07
+|   |   |   |   |   |   |   |   |--- bmi <= 35.88
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- bmi >  35.88
+|   |   |   |   |   |   |   |   |   |--- bmi <= 38.76
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 60.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  60.86
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- bmi >  38.76
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- avg_glucose_level >  74.69
+|   |   |   |   |   |   |   |--- bmi <= 30.05
+|   |   |   |   |   |   |   |   |--- age <= 31.50
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 79.63
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  79.63
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status <= 1.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status >  1.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  31.50
+|   |   |   |   |   |   |   |   |   |--- bmi <= 25.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- bmi >  25.28
+|   |   |   |   |   |   |   |   |   |   |--- age <= 37.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- age >  37.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- bmi >  30.05
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- ever_married >  0.50
+|   |   |   |   |   |--- avg_glucose_level <= 82.23
+|   |   |   |   |   |   |--- bmi <= 27.24
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- bmi >  27.24
+|   |   |   |   |   |   |   |--- bmi <= 27.29
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- bmi >  27.29
+|   |   |   |   |   |   |   |   |--- age <= 11.79
+|   |   |   |   |   |   |   |   |   |--- gender <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- gender >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 58.78
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  58.78
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  11.79
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- avg_glucose_level >  82.23
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- avg_glucose_level >  82.29
+|   |   |   |   |--- age <= 37.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- age >  37.50
+|   |   |   |   |   |--- smoking_status <= 0.50
+|   |   |   |   |   |   |--- Residence_type <= 0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Residence_type >  0.50
+|   |   |   |   |   |   |   |--- bmi <= 26.55
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- bmi >  26.55
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- smoking_status >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- age >  38.00
+|   |   |   |--- age <= 38.95
+|   |   |   |   |--- class: 1
+|   |   |   |--- age >  38.95
+|   |   |   |   |--- Residence_type <= 0.50
+|   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |--- bmi <= 31.15
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 76.87
+|   |   |   |   |   |   |   |   |--- bmi <= 29.15
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- bmi >  29.15
+|   |   |   |   |   |   |   |   |   |--- bmi <= 29.46
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- bmi >  29.46
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- avg_glucose_level >  76.87
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 102.91
+|   |   |   |   |   |   |   |   |   |--- bmi <= 24.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- bmi >  24.05
+|   |   |   |   |   |   |   |   |   |   |--- age <= 39.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  39.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  102.91
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- bmi >  31.15
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 60.66
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 57.74
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  57.74
+|   |   |   |   |   |   |   |   |   |--- gender <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- gender >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- avg_glucose_level >  60.66
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 146.54
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  146.54
+|   |   |   |   |   |   |   |   |   |--- bmi <= 39.11
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- bmi >  39.11
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |--- bmi <= 43.99
+|   |   |   |   |   |   |   |--- bmi <= 42.06
+|   |   |   |   |   |   |   |   |--- age <= 39.50
+|   |   |   |   |   |   |   |   |   |--- bmi <= 29.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- bmi >  29.45
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 34.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  34.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  39.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- bmi >  42.06
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 143.56
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  143.56
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- bmi >  43.99
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Residence_type >  0.50
+|   |   |   |   |   |--- avg_glucose_level <= 67.72
+|   |   |   |   |   |   |--- age <= 39.86
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  39.86
+|   |   |   |   |   |   |   |--- bmi <= 28.85
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- bmi >  28.85
+|   |   |   |   |   |   |   |   |--- bmi <= 30.77
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- bmi >  30.77
+|   |   |   |   |   |   |   |   |   |--- bmi <= 33.39
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 62.69
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  62.69
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- bmi >  33.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- avg_glucose_level >  67.72
+|   |   |   |   |   |   |--- bmi <= 56.30
+|   |   |   |   |   |   |   |--- smoking_status <= 0.50
+|   |   |   |   |   |   |   |   |--- bmi <= 30.35
+|   |   |   |   |   |   |   |   |   |--- bmi <= 29.55
+|   |   |   |   |   |   |   |   |   |   |--- age <= 41.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  41.95
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- bmi >  29.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- bmi >  30.35
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- smoking_status >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- bmi >  56.30
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 217.29
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- avg_glucose_level >  217.29
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |--- age >  46.02
+|   |   |--- bmi <= 27.25
+|   |   |   |--- bmi <= 25.10
+|   |   |   |   |--- avg_glucose_level <= 74.59
+|   |   |   |   |   |--- avg_glucose_level <= 72.41
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- avg_glucose_level >  72.41
+|   |   |   |   |   |   |--- Residence_type <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- Residence_type >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- avg_glucose_level >  74.59
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- bmi >  25.10
+|   |   |   |   |--- smoking_status <= 1.50
+|   |   |   |   |   |--- avg_glucose_level <= 102.31
+|   |   |   |   |   |   |--- avg_glucose_level <= 92.90
+|   |   |   |   |   |   |   |--- age <= 48.98
+|   |   |   |   |   |   |   |   |--- bmi <= 26.10
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- bmi >  26.10
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  48.98
+|   |   |   |   |   |   |   |   |--- age <= 53.10
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  53.10
+|   |   |   |   |   |   |   |   |   |--- age <= 53.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  53.88
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 26.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  26.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- avg_glucose_level >  92.90
+|   |   |   |   |   |   |   |--- Residence_type <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- Residence_type >  0.50
+|   |   |   |   |   |   |   |   |--- bmi <= 26.69
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- bmi >  26.69
+|   |   |   |   |   |   |   |   |   |--- bmi <= 26.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- bmi >  26.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- avg_glucose_level >  102.31
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- smoking_status >  1.50
+|   |   |   |   |   |--- class: 0
+|   |   |--- bmi >  27.25
+|   |   |   |--- smoking_status <= 2.50
+|   |   |   |   |--- work_type <= 1.50
+|   |   |   |   |   |--- Residence_type <= 0.50
+|   |   |   |   |   |   |--- age <= 54.98
+|   |   |   |   |   |   |   |--- heart_disease <= 0.50
+|   |   |   |   |   |   |   |   |--- age <= 54.07
+|   |   |   |   |   |   |   |   |   |--- age <= 53.99
+|   |   |   |   |   |   |   |   |   |   |--- age <= 53.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- age >  53.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  53.99
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 27.90
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  27.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- age >  54.07
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- heart_disease >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  54.98
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Residence_type >  0.50
+|   |   |   |   |   |   |--- bmi <= 32.30
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 94.56
+|   |   |   |   |   |   |   |   |--- bmi <= 32.12
+|   |   |   |   |   |   |   |   |   |--- bmi <= 30.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- bmi >  30.03
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- bmi >  32.12
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- avg_glucose_level >  94.56
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 105.69
+|   |   |   |   |   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 32.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  32.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  105.69
+|   |   |   |   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 160.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  160.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- bmi >  32.30
+|   |   |   |   |   |   |   |--- age <= 54.08
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  54.08
+|   |   |   |   |   |   |   |   |--- age <= 54.95
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  54.95
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- work_type >  1.50
+|   |   |   |   |   |--- avg_glucose_level <= 88.41
+|   |   |   |   |   |   |--- avg_glucose_level <= 87.70
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 83.97
+|   |   |   |   |   |   |   |   |--- bmi <= 37.12
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- bmi >  37.12
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 67.83
+|   |   |   |   |   |   |   |   |   |   |--- age <= 51.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  51.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  67.83
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- avg_glucose_level >  83.97
+|   |   |   |   |   |   |   |   |--- age <= 49.92
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- age >  49.92
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 86.71
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  86.71
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 87.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  87.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- avg_glucose_level >  87.70
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- avg_glucose_level >  88.41
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- smoking_status >  2.50
+|   |   |   |   |--- age <= 46.84
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- age >  46.84
+|   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |--- avg_glucose_level <= 150.62
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- avg_glucose_level >  150.62
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 167.60
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- avg_glucose_level >  167.60
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |--- bmi <= 29.40
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- bmi >  29.40
+|   |   |   |   |   |   |   |--- class: 1
+|--- age >  55.00
+|   |--- work_type <= 1.50
+|   |   |--- gender <= 0.50
+|   |   |   |--- Residence_type <= 0.50
+|   |   |   |   |--- avg_glucose_level <= 67.12
+|   |   |   |   |   |--- age <= 74.02
+|   |   |   |   |   |   |--- avg_glucose_level <= 63.47
+|   |   |   |   |   |   |   |--- age <= 60.09
+|   |   |   |   |   |   |   |   |--- age <= 59.09
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  59.09
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  60.09
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- avg_glucose_level >  63.47
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 65.81
+|   |   |   |   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |   |   |   |--- age <= 67.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- age >  67.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- avg_glucose_level >  65.81
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- age >  74.02
+|   |   |   |   |   |   |--- heart_disease <= 0.50
+|   |   |   |   |   |   |   |--- age <= 79.50
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 55.76
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  55.76
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  79.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- heart_disease >  0.50
+|   |   |   |   |   |   |   |--- bmi <= 21.98
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- bmi >  21.98
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- avg_glucose_level >  67.12
+|   |   |   |   |   |--- ever_married <= 0.50
+|   |   |   |   |   |   |--- bmi <= 19.99
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- bmi >  19.99
+|   |   |   |   |   |   |   |--- age <= 67.01
+|   |   |   |   |   |   |   |   |--- age <= 66.97
+|   |   |   |   |   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 27.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  27.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 59.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- age >  59.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- age >  66.97
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  67.01
+|   |   |   |   |   |   |   |   |--- heart_disease <= 0.50
+|   |   |   |   |   |   |   |   |   |--- age <= 81.99
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status <= 2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status >  2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- age >  81.99
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 210.42
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  210.42
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- heart_disease >  0.50
+|   |   |   |   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 160.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  160.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 76.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  76.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- ever_married >  0.50
+|   |   |   |   |   |   |--- age <= 78.91
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 88.05
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- avg_glucose_level >  88.05
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 92.74
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  92.74
+|   |   |   |   |   |   |   |   |   |--- age <= 73.41
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  73.41
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 28.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  28.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  78.91
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- Residence_type >  0.50
+|   |   |   |   |--- heart_disease <= 0.50
+|   |   |   |   |   |--- age <= 67.02
+|   |   |   |   |   |   |--- avg_glucose_level <= 107.54
+|   |   |   |   |   |   |   |--- smoking_status <= 1.50
+|   |   |   |   |   |   |   |   |--- bmi <= 27.61
+|   |   |   |   |   |   |   |   |   |--- age <= 64.20
+|   |   |   |   |   |   |   |   |   |   |--- age <= 55.95
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  55.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- age >  64.20
+|   |   |   |   |   |   |   |   |   |   |--- age <= 66.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  66.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- bmi >  27.61
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- smoking_status >  1.50
+|   |   |   |   |   |   |   |   |--- age <= 60.81
+|   |   |   |   |   |   |   |   |   |--- smoking_status <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 56.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- age >  56.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- smoking_status >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 35.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  35.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- age >  60.81
+|   |   |   |   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 61.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- age >  61.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- avg_glucose_level >  107.54
+|   |   |   |   |   |   |   |--- smoking_status <= 2.50
+|   |   |   |   |   |   |   |   |--- bmi <= 24.67
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- bmi >  24.67
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 120.32
+|   |   |   |   |   |   |   |   |   |   |--- age <= 66.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  66.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  120.32
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 184.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  184.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |--- smoking_status >  2.50
+|   |   |   |   |   |   |   |   |--- age <= 58.50
+|   |   |   |   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  58.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- age >  67.02
+|   |   |   |   |   |   |--- ever_married <= 0.50
+|   |   |   |   |   |   |   |--- age <= 76.08
+|   |   |   |   |   |   |   |   |--- age <= 75.99
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 127.26
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 28.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  28.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  127.26
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status <= 2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status >  2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  75.99
+|   |   |   |   |   |   |   |   |   |--- bmi <= 28.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- bmi >  28.00
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 239.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  239.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  76.08
+|   |   |   |   |   |   |   |   |--- smoking_status <= 2.50
+|   |   |   |   |   |   |   |   |   |--- age <= 81.98
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 22.70
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  22.70
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- age >  81.98
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- smoking_status >  2.50
+|   |   |   |   |   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- ever_married >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- heart_disease >  0.50
+|   |   |   |   |   |--- bmi <= 26.46
+|   |   |   |   |   |   |--- age <= 77.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- age >  77.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- bmi >  26.46
+|   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |--- bmi <= 27.50
+|   |   |   |   |   |   |   |   |--- age <= 60.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  60.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- bmi >  27.50
+|   |   |   |   |   |   |   |   |--- age <= 63.50
+|   |   |   |   |   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  63.50
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 263.18
+|   |   |   |   |   |   |   |   |   |   |--- age <= 79.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  79.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  263.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |--- gender >  0.50
+|   |   |   |--- age <= 71.00
+|   |   |   |   |--- Residence_type <= 0.50
+|   |   |   |   |   |--- bmi <= 22.75
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- bmi >  22.75
+|   |   |   |   |   |   |--- smoking_status <= 2.50
+|   |   |   |   |   |   |   |--- age <= 55.97
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  55.97
+|   |   |   |   |   |   |   |   |--- age <= 64.04
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 90.83
+|   |   |   |   |   |   |   |   |   |   |--- age <= 57.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  57.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  90.83
+|   |   |   |   |   |   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- age >  64.04
+|   |   |   |   |   |   |   |   |   |--- age <= 70.96
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 37.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  37.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- age >  70.96
+|   |   |   |   |   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- smoking_status >  2.50
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 100.81
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- avg_glucose_level >  100.81
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 104.41
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  104.41
+|   |   |   |   |   |   |   |   |   |--- heart_disease <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 25.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  25.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- heart_disease >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Residence_type >  0.50
+|   |   |   |   |   |--- bmi <= 29.37
+|   |   |   |   |   |   |--- bmi <= 25.03
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 113.43
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- avg_glucose_level >  113.43
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 122.53
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  122.53
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- bmi >  25.03
+|   |   |   |   |   |   |   |--- age <= 63.17
+|   |   |   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 62.59
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 28.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  28.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  62.59
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 26.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  26.58
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |   |   |--- bmi <= 27.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- bmi >  27.40
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 29.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  29.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- age >  63.17
+|   |   |   |   |   |   |   |   |--- smoking_status <= 2.50
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 173.21
+|   |   |   |   |   |   |   |   |   |   |--- age <= 69.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- age >  69.36
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  173.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- smoking_status >  2.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- bmi >  29.37
+|   |   |   |   |   |   |--- age <= 55.66
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  55.66
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 205.47
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 63.35
+|   |   |   |   |   |   |   |   |   |--- smoking_status <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 30.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  30.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- smoking_status >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  63.35
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- avg_glucose_level >  205.47
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 211.96
+|   |   |   |   |   |   |   |   |   |--- age <= 61.65
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  61.65
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 206.33
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  206.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  211.96
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- age >  71.00
+|   |   |   |   |--- age <= 81.99
+|   |   |   |   |   |--- smoking_status <= 2.50
+|   |   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 238.32
+|   |   |   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |   |   |--- Residence_type <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 75.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- age >  75.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- Residence_type >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- heart_disease <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- heart_disease >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |   |   |--- ever_married <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 34.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  34.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- ever_married >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- avg_glucose_level >  238.32
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |   |--- bmi <= 28.88
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 75.77
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 63.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  63.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  75.77
+|   |   |   |   |   |   |   |   |   |--- age <= 76.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- age >  76.09
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- smoking_status >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- bmi >  28.88
+|   |   |   |   |   |   |   |   |--- ever_married <= 0.50
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 200.07
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 36.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  36.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  200.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- ever_married >  0.50
+|   |   |   |   |   |   |   |   |   |--- Residence_type <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- Residence_type >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- heart_disease <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- heart_disease >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- smoking_status >  2.50
+|   |   |   |   |   |   |--- avg_glucose_level <= 204.18
+|   |   |   |   |   |   |   |--- bmi <= 29.00
+|   |   |   |   |   |   |   |   |--- bmi <= 28.30
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 78.92
+|   |   |   |   |   |   |   |   |   |   |--- bmi <= 25.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- bmi >  25.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  78.92
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 191.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  191.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- bmi >  28.30
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- bmi >  29.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- avg_glucose_level >  204.18
+|   |   |   |   |   |   |   |--- work_type <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- work_type >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- age >  81.99
+|   |   |   |   |   |--- avg_glucose_level <= 60.40
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- avg_glucose_level >  60.40
+|   |   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |   |--- bmi <= 26.75
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 80.67
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  80.67
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- bmi >  26.75
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |--- work_type >  1.50
+|   |   |--- avg_glucose_level <= 102.16
+|   |   |   |--- avg_glucose_level <= 82.64
+|   |   |   |   |--- avg_glucose_level <= 81.85
+|   |   |   |   |   |--- avg_glucose_level <= 62.78
+|   |   |   |   |   |   |--- avg_glucose_level <= 62.21
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- avg_glucose_level >  62.21
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- avg_glucose_level >  62.78
+|   |   |   |   |   |   |--- age <= 57.50
+|   |   |   |   |   |   |   |--- gender <= 0.50
+|   |   |   |   |   |   |   |   |--- avg_glucose_level <= 77.77
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- avg_glucose_level >  77.77
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- gender >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- age >  57.50
+|   |   |   |   |   |   |   |--- age <= 80.00
+|   |   |   |   |   |   |   |   |--- heart_disease <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- heart_disease >  0.50
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 73.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  73.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- age >  80.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- avg_glucose_level >  81.85
+|   |   |   |   |   |--- hypertension <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- hypertension >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- avg_glucose_level >  82.64
+|   |   |   |   |--- age <= 79.39
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- age >  79.39
+|   |   |   |   |   |--- bmi <= 25.95
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- bmi >  25.95
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- avg_glucose_level >  102.16
+|   |   |   |--- age <= 81.15
+|   |   |   |   |--- bmi <= 37.05
+|   |   |   |   |   |--- avg_glucose_level <= 212.07
+|   |   |   |   |   |   |--- gender <= 0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- gender >  0.50
+|   |   |   |   |   |   |   |--- avg_glucose_level <= 131.94
+|   |   |   |   |   |   |   |   |--- bmi <= 23.75
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- bmi >  23.75
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 106.30
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  106.30
+|   |   |   |   |   |   |   |   |   |   |--- age <= 56.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- age >  56.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- avg_glucose_level >  131.94
+|   |   |   |   |   |   |   |   |--- bmi <= 28.95
+|   |   |   |   |   |   |   |   |   |--- bmi <= 26.75
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level <= 178.56
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- avg_glucose_level >  178.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- bmi >  26.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- bmi >  28.95
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- avg_glucose_level >  212.07
+|   |   |   |   |   |   |--- smoking_status <= 0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- smoking_status >  0.50
+|   |   |   |   |   |   |   |--- gender <= 0.50
+|   |   |   |   |   |   |   |   |--- bmi <= 33.80
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- bmi >  33.80
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- gender >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- bmi >  37.05
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- age >  81.15
+|   |   |   |   |--- class: 1
