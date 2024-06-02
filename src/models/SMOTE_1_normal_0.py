@@ -20,13 +20,11 @@ avc = avc.drop(['id'], axis = 1)
 # valores nulos
 print(avc.bmi.isnull().sum())
 print(avc.bmi.mean())
-# media? dropar? media das instancias para stroke = 0 ou 1?
 avc['bmi'].fillna(avc['bmi'].mean(), inplace=True)
 print(avc.bmi.isnull().sum())
 print(avc.bmi.mean())
 
 # variáveis categóricas
-# legal pra KNN no modelo
 columns_temp = ['gender', 'ever_married', 'work_type', 'smoking_status', 'Residence_type']
 for col in columns_temp:
     print('column :', col)
@@ -51,17 +49,7 @@ avc = avc.replace(
 # print(avc.to_string())
 print(avc.describe().to_string())
 
-# normalização
-# validar se é necessário ou não, testar primeiro sem
-#mms = MinMaxScaler()
-#avc['age'] = mms.fit_transform(avc[['age']])
-#avc['bmi'] = mms.fit_transform(avc[['bmi']])
-#avc['avg_glucose_level'] = mms.fit_transform(avc[['avg_glucose_level']])
-#print(avc.describe().to_string())
-
 # oversampling
-# testar com e sem oversampling, e com ou sem under depois; avaliar impacto
-# olhar como splitar no KNN, diferenciar dos outros, splitar depois de preparação
 oversample = SMOTE(random_state=42)
 avc_x = avc.drop(['stroke'], axis = 1)
 avc_y = avc['stroke']
@@ -77,8 +65,7 @@ print(y_train.shape)
 print(x_test.shape)
 print(y_test.shape)
 
-#acuracia ponderada leva em consideração desbalanceamento
-
+#inicialização de vetor dos modelos a serem utilizados
 models = []
 models.append(['Logistic Regreesion', LogisticRegression(random_state=42, max_iter=200)])
 models.append(['SVM', SVC(random_state=42)])
@@ -87,7 +74,7 @@ models.append(['Decision Tree', DecisionTreeClassifier(random_state=42)])
 models.append(['Random Forest', RandomForestClassifier(random_state=42)])
 lst_1= []
 
-
+#funcao para imprimir matriz de confusao
 def plot_confusion_matrix(y_test, y_prediction, nome):
     cm = metrics.confusion_matrix(y_test, y_prediction)
     ax = plt.subplot()
@@ -99,7 +86,7 @@ def plot_confusion_matrix(y_test, y_prediction, nome):
     ax.yaxis.set_ticklabels(['Dont Had Stroke', 'Had Stroke'])
     plt.show()
 
-
+#loop para treinamento dos modelos
 for m in range(len(models)):
     t1 = datetime.now()
     lst_2= []
@@ -152,6 +139,7 @@ for m in range(len(models)):
     lst_2.append(delta_rf)
     lst_1.append(lst_2)
 
+#imprime as métricas de cada modelo
 df = pd.DataFrame(lst_1, columns= ['Model', 'Accuracy', 'K-Fold Mean Accuracy', 'Std. Deviation', 'ROC AUC', 'Precision', 'Recall', 'F1', 'Execução(s)'])
 df.sort_values(by= ['Recall', 'Precision'], inplace= True, ascending= False)
 print (df.to_string())
