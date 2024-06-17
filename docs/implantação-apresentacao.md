@@ -52,10 +52,21 @@ A comunicação entre o frontend e o backend é realizada por meio de solicitaç
 O Render atua como o ambiente de hospedagem para o frontend e o backend do seu aplicativo, garantindo que ambos os componentes estejam disponíveis e acessíveis para os usuários finais. Ele facilita a implantação e o gerenciamento do seu aplicativo na nuvem.
 
 
+##  Monitoramento da implantação
 
+Métricas Coletadas
 
+Tempo de Resposta: A primeira requisição apresentou um tempo médio de resposta de 2 minutos e 49 segundos, medido em dois testes realizados ao longo de 6 horas. Em contraste, a segunda requisição, e as subsequentes, apresentaram tempos médios de 0,6 segundos. Para requisições simultâneas, o tempo médio de resposta foi de 0,7 segundos.
 
+Utilização de Recursos: Após a primeira requisição, o tempo médio de utilização de recursos foi de 0,6 segundos.
 
+Simulação de Requisições: Foram simuladas de 4 a 5 requisições simultâneas, com retorno de resultados ao mesmo tempo. Em um teste de 8 minutos, foram realizadas em média 15 requisições com intervalos de 30 segundos entre cada uma. O tempo médio de resposta após a segunda requisição foi consistentemente de 0,6 segundos.
+
+Ambientes de Teste: Os testes foram realizados em um computador com Windows 11 (64 bits) e processador Intel Core i5-1235U (12ª geração) a 1.30 GHz, além de dispositivos Android e iPhone.
+
+Requisitos de Sistema: O sistema requer um mínimo de 512 MB de memória para operar eficazmente.
+
+Observações: O elevado tempo de resposta na primeira requisição é provavelmente devido a processos de inicialização. Após essa etapa, o sistema demonstrou uma performance significativamente melhor e uma boa escalabilidade, mantendo tempos de resposta rápidos e consistentes. A versatilidade foi confirmada através de testes em diferentes plataformas, incluindo desktop e dispositivos móveis.
 
 # Apresentação da solução
 
