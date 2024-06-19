@@ -1,6 +1,6 @@
 # Implantação da solução
 ## Front-end
-
+Link para acesso ao projeto: https://stroke-pmv-si-2024-1-pe7-t1-saude.onrender.com/
 ## Visão Geral
 O frontend é uma interface web onde os usuários podem inserir suas informações pessoais para prever o risco de AVC. Os resultados dessas previsões e as avaliações dos modelos são mostrados na mesma página.
 
