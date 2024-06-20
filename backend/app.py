@@ -98,22 +98,19 @@ def evaluate_models(x_test, y_test):
     results = sorted(results, key=lambda x: x['Recall'], reverse=True)
     return results
 
-def get_recall(model, x_test, y_test):
-    y_pred = model.predict(x_test)
-    return recall_score(y_test, y_pred)
+def get_model_with_highest_recall(x_test, y_test):
+    best_model = max(models, key=lambda model: recall_score(y_test, model[1].predict(x_test)))
+    return best_model
 
 def calculate_majority_prediction(predictions):
     count = sum(predictions)
     majority = count > len(predictions) / 2
     return 'Sim' if majority else 'Não'
 
-def calculate_probability(predictions, models, input_df):
-    majority = [model for model, pred in zip(models, predictions) if pred == 1]
-    if not majority:
-        return 0.0
-    best_model = max(majority, key=lambda model: get_recall(model[1], x_test, y_test))
-    proba = best_model[1].predict_proba(input_df)[0][1]
-    return proba
+def calculate_probability(x_test, y_test):
+    best_model = get_model_with_highest_recall(x_test, y_test)
+    best_recall = recall_score(y_test, best_model[1].predict(x_test))
+    return best_recall
 
 @app.route('/')
 def home():
@@ -149,7 +146,7 @@ def predict():
             })
 
         majority_prediction = calculate_majority_prediction(predictions)
-        probability = calculate_probability(predictions, models, input_df)
+        probability = calculate_probability(x_test, y_test)
         evaluation_results = evaluate_models(x_test, y_test)
 
         return jsonify({
