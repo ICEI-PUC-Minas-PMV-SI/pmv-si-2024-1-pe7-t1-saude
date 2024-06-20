@@ -38,7 +38,7 @@ x_train, x_test, y_train, y_test = train_test_split(x_train_res, y_train_res, te
 # Train models
 models = [
     ['Logistic Regression', LogisticRegression(random_state=42, max_iter=200)],
-    ['SVM', SVC(random_state=42)],
+    ['SVM', SVC(random_state=42, probability=True)],
     ['KNeighbors', KNeighborsClassifier()],
     ['Decision Tree', DecisionTreeClassifier(random_state=42)],
     ['Random Forest', RandomForestClassifier(random_state=42)]
@@ -98,6 +98,23 @@ def evaluate_models(x_test, y_test):
     results = sorted(results, key=lambda x: x['Recall'], reverse=True)
     return results
 
+def get_recall(model, x_test, y_test):
+    y_pred = model.predict(x_test)
+    return recall_score(y_test, y_pred)
+
+def calculate_majority_prediction(predictions):
+    count = sum(predictions)
+    majority = count > len(predictions) / 2
+    return 'Sim' if majority else 'Não'
+
+def calculate_probability(predictions, models, input_df):
+    majority = [model for model, pred in zip(models, predictions) if pred == 1]
+    if not majority:
+        return 0.0
+    best_model = max(majority, key=lambda model: get_recall(model[1], x_test, y_test))
+    proba = best_model[1].predict_proba(input_df)[0][1]
+    return proba
+
 @app.route('/')
 def home():
     return "Hello, World!"
@@ -117,24 +134,31 @@ def predict():
         }).infer_objects()
 
         results = []
+        predictions = []
         for name, model in models:
             start_time = datetime.now()
             y_pred = model.predict(input_df)
+            predictions.append(y_pred[0])
             end_time = datetime.now()
             execution_time = (end_time - start_time).total_seconds()
 
-            prediction = 'Sim' if y_pred[0] == 1 else 'Não'
-
             results.append({
                 'Model': name,
-                'Prediction': prediction,
+                'Prediction': 'Sim' if y_pred[0] == 1 else 'Não',
                 'Execution Time (s)': execution_time
             })
 
+        majority_prediction = calculate_majority_prediction(predictions)
+        probability = calculate_probability(predictions, models, input_df)
         evaluation_results = evaluate_models(x_test, y_test)
+
         return jsonify({
             'predictions': results,
-            'evaluation': evaluation_results
+            'evaluation': evaluation_results,
+            'result': {
+                'Prediction': majority_prediction,
+                'Probability': probability
+            }
         })
     except Exception as e:
         print(f"Error occurred: {e}")

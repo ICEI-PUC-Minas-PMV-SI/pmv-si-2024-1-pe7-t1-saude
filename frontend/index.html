@@ -175,14 +175,24 @@
                 .then(results => {
                     document.getElementById('loading').style.display = 'none';
                     const resultsDiv = document.getElementById('results');
-                    resultsDiv.innerHTML = '<h2>Predições</h2>';
+                    resultsDiv.innerHTML = '<h2>Resultado</h2>';
+
+                    const overallResultDiv = document.createElement('div');
+                    overallResultDiv.className = 'result';
+                    overallResultDiv.innerHTML = `
+                        <strong>Se encontra no grupo de risco de AVC:</strong> ${results.result.Prediction}<br>
+                        <strong>Probabilidade:</strong> ${results.result.Probability.toFixed(4)}
+                    `;
+                    resultsDiv.appendChild(overallResultDiv);
+
+                    resultsDiv.innerHTML += '<h2>Predições por Modelo</h2>';
 
                     results.predictions.forEach(result => {
                         const resultDiv = document.createElement('div');
                         resultDiv.className = 'result';
                         resultDiv.innerHTML = `
                             <strong>Modelo:</strong> ${result.Model}<br>
-                            <strong>Teve AVC:</strong> ${result.Prediction}<br>
+                            <strong>Se encontra no grupo de risco de AVC:</strong> ${result.Prediction}<br>
                             <strong>Tempo de Execução (s):</strong> ${result["Execution Time (s)"].toFixed(4)}
                         `;
                         resultsDiv.appendChild(resultDiv);
