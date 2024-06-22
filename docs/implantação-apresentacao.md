@@ -78,7 +78,7 @@ O Render atua como o ambiente de hospedagem para o frontend e o backend do seu a
 - **Debugging e Monitoramento**: Ferramentas de debugging e monitoramento podem ser menos avançadas, dificultando a identificação e resolução de problemas rapidamente.
 
 ## 7. Limitações de Monitoramento
--No Render, o acesso às métricas detalhadas de recursos do aplicativo, como memória e uso de CPU, está disponível apenas para instâncias pagas. Usuários no plano gratuito não têm acesso a essas métricas. Para desbloquear o monitoramento completo de desempenho e obter insights sobre o uso de recursos do aplicativo, é necessário atualizar para um plano premium. Esta atualização permite exibir métricas detalhadas diretamente na página de monitoramento do Render.
+- No Render, o acesso às métricas detalhadas de recursos do aplicativo, como memória e uso de CPU, está disponível apenas para instâncias pagas. Usuários no plano gratuito não têm acesso a essas métricas. Para desbloquear o monitoramento completo de desempenho e obter insights sobre o uso de recursos do aplicativo, é necessário atualizar para um plano premium. Esta atualização permite exibir métricas detalhadas diretamente na página de monitoramento do Render.
 
 
 #  Monitoramento da implantação
@@ -101,10 +101,9 @@ Os primeiros testes foram conduzidos manualmente em computadores e dispositivos 
 
 6. Requisitos de Sistema: O sistema requer um mínimo de 512 MB de memória para operar eficazmente. 
 
-###Testes com Apache JMeter:
+### Testes com Apache JMeter:
 
 - Primeira Simulação:
-  
 Configuração: 1 usuário, 1 contador de interação. 
 Resultados: 
 Tempo de Amostra: 1312 ms. 
@@ -113,7 +112,6 @@ Tempo de Conexão: 86 ms.
 Hora de Início: 12:04. 
 
 - Segunda Simulação: 
-
 Configuração: 1 usuário, 2 contadores de interação simultâneas. 
 Resultados: 
 Tempo de Amostra: Primeira interação: 1138 ms e segunda interação: 416 ms. 
@@ -122,7 +120,6 @@ Tempo de Conexão: Primeira interação: 68 ms e segunda interação: 0 ms.
 Hora de Início: 12:12. 
 
 - Terceira Simulação:
-
 Configuração: 10 usuários, 1 contador de interação. 
 Resultados: 
 Tempo de Amostra: Primeira interação: 1027 ms e última interação: 386 ms. 
@@ -131,7 +128,6 @@ Tempo de Conexão: Primeira interação: 186 ms, a segunda interação: 88 ms, a
 Hora de Início: entre 12:10 e 12:21. 
 
 - Quarta Simulação: 
-
 Configuração: 10 usuários, 2 contadores de interação (totalizando 20 requisições). 
 Resultados: 
 Tempo de Amostra: Variou de 1158 ms a 259 ms. 
@@ -139,8 +135,7 @@ Latência: Variou de 242 ms a 453 ms.
 Tempo de Conexão: Variou de 0 ms a 199 ms, com a 10ª amostra tendo a maior taxa (199 ms). 
 Hora de Início: 12:36. 
 
-4. Parâmetros dos Testes de Carga 
-
+Parâmetros dos Testes de Carga 
 Requisições por Segundo: Dependendo do número de usuários e contadores de interação, variou de 1 a 20 requisições por segundo. 
 Threads em Paralelo: Testes variaram de 1 a 10 threads. 
 Tempo de Execução: Variou entre 8 a 15 minutos por bateria de testes. 
