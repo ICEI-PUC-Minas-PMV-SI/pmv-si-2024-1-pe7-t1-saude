@@ -83,25 +83,69 @@ O Render atua como o ambiente de hospedagem para o frontend e o backend do seu a
 
 #  Monitoramento da implantação
 
-## Métricas Coletadas
+## Plano de Monitoramento e Teste de Carga do Sistema
 
- 1. Tempo de Resposta: 
-A primeira requisição apresentou um tempo médio de resposta de 2 minutos e 49 segundos, medido em dois testes realizados ao longo de 6 horas. Em contraste, a segunda requisição, e as subsequentes, apresentaram tempos médios de 0,6 segundos. Para requisições simultâneas, o tempo médio de resposta foi de 0,7 segundos.
+### Primeiros Testes Manuais
 
- 2. Utilização de Recursos: 
-Após a primeira requisição, o tempo médio de utilização de recursos foi de 0,6 segundos.
+Os primeiros testes foram conduzidos manualmente em computadores e dispositivos móveis, sem ferramentas de automação, observando os seguintes pontos: 
 
- 3. Simulação de Requisições:
-Foram simuladas de 4 a 5 requisições simultâneas, com retorno de resultados ao mesmo tempo. Em um teste de 8 minutos, foram realizadas em média 15 requisições com intervalos de 30 segundos entre cada uma. O tempo médio de resposta após a segunda requisição foi consistentemente de 0,6 segundos.
+1. Tempo de Resposta: A primeira requisição apresentou um tempo médio de resposta de 2 minutos e 49 segundos, medido em dois testes realizados ao longo de 6 horas. Em contraste, a segunda requisição, e as subsequentes, apresentaram tempos médios de 0,6 segundos. Para requisições simultâneas, o tempo médio de resposta foi de 0,7 segundos. 
 
- 4. Ambientes de Teste:
-Os testes foram realizados em um computador com Windows 11 (64 bits) e processador Intel Core i5-1235U (12ª geração) a 1.30 GHz, além de dispositivos Android e iPhone.
+2. Utilização de Recursos: Após a primeira requisição, o tempo médio de utilização de recursos foi de 0,6 segundos. 
 
- 5. Requisitos de Sistema:
-O sistema requer um mínimo de 512 MB de memória para operar eficazmente.
+3. Simulação de Requisições: Foram simuladas de 4 a 5 requisições simultâneas, com retorno de resultados ao mesmo tempo. Em um teste de 8 minutos, foram realizadas em média 15 requisições com intervalos de 30 segundos entre cada uma. O tempo médio de resposta após a segunda requisição foi consistentemente de 0,6 segundos. 
 
- 6. Observações: 
-O elevado tempo de resposta na primeira requisição é provavelmente devido a processos de inicialização. Após essa etapa, o sistema demonstrou uma performance significativamente melhor e uma boa escalabilidade, mantendo tempos de resposta rápidos e consistentes. A versatilidade foi confirmada através de testes em diferentes plataformas, incluindo desktop e dispositivos móveis.
+4. Simulação de Requisições: Foram simuladas de 4 a 5 requisições simultâneas, com retorno de resultados ao mesmo tempo. Em um teste de 8 minutos, foram realizadas em média 15 requisições com intervalos de 30 segundos entre cada uma. O tempo médio de resposta após a segunda requisição foi consistentemente de 0,6 segundos. 
+
+5. Ambientes de Teste: Os testes foram realizados em um computador com Windows 11 (64 bits) e processador Intel Core i5-1235U (12ª geração) a 1.30 GHz, além de dispositivos Android e iPhone. 
+
+6. Requisitos de Sistema: O sistema requer um mínimo de 512 MB de memória para operar eficazmente. 
+
+###Testes com Apache JMeter:
+
+- Primeira Simulação:
+  
+Configuração: 1 usuário, 1 contador de interação. 
+Resultados: 
+Tempo de Amostra: 1312 ms. 
+Latência: 371 ms. 
+Tempo de Conexão: 86 ms. 
+Hora de Início: 12:04. 
+
+- Segunda Simulação: 
+
+Configuração: 1 usuário, 2 contadores de interação simultâneas. 
+Resultados: 
+Tempo de Amostra: Primeira interação: 1138 ms e segunda interação: 416 ms. 
+Latência: Primeira interação: 385 ms e segunda interação: 386 ms. 
+Tempo de Conexão: Primeira interação: 68 ms e segunda interação: 0 ms. 
+Hora de Início: 12:12. 
+
+- Terceira Simulação:
+
+Configuração: 10 usuários, 1 contador de interação. 
+Resultados: 
+Tempo de Amostra: Primeira interação: 1027 ms e última interação: 386 ms. 
+Latência: Variou de 427 ms a 255 ms. 
+Tempo de Conexão: Primeira interação: 186 ms, a segunda interação: 88 ms, as interações subsequentes: variando de 22 ms a 17 ms. 
+Hora de Início: entre 12:10 e 12:21. 
+
+- Quarta Simulação: 
+
+Configuração: 10 usuários, 2 contadores de interação (totalizando 20 requisições). 
+Resultados: 
+Tempo de Amostra: Variou de 1158 ms a 259 ms. 
+Latência: Variou de 242 ms a 453 ms. 
+Tempo de Conexão: Variou de 0 ms a 199 ms, com a 10ª amostra tendo a maior taxa (199 ms). 
+Hora de Início: 12:36. 
+
+4. Parâmetros dos Testes de Carga 
+
+Requisições por Segundo: Dependendo do número de usuários e contadores de interação, variou de 1 a 20 requisições por segundo. 
+Threads em Paralelo: Testes variaram de 1 a 10 threads. 
+Tempo de Execução: Variou entre 8 a 15 minutos por bateria de testes. 
+Baterias de Teste: Cada simulação foi executada em diferentes cenários, ajustando usuários e contadores de interação para observar o comportamento do sistema sob carga variável. 
+
 
 # Apresentação da solução
 
