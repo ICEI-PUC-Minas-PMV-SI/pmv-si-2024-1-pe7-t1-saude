@@ -77,6 +77,9 @@ O Render atua como o ambiente de hospedagem para o frontend e o backend do seu a
 - **Ambientes de Desenvolvimento e Teste**: Pode não oferecer a mesma flexibilidade ou número de ambientes de desenvolvimento e teste que outras plataformas, limitando a capacidade de testar mudanças extensivamente.
 - **Debugging e Monitoramento**: Ferramentas de debugging e monitoramento podem ser menos avançadas, dificultando a identificação e resolução de problemas rapidamente.
 
+## 7. Limitações de Monitoramento
+-No Render, o acesso às métricas detalhadas de recursos do aplicativo, como memória e uso de CPU, está disponível apenas para instâncias pagas. Usuários no plano gratuito não têm acesso a essas métricas. Para desbloquear o monitoramento completo de desempenho e obter insights sobre o uso de recursos do aplicativo, é necessário atualizar para um plano premium. Esta atualização permite exibir métricas detalhadas diretamente na página de monitoramento do Render.
+
 
 #  Monitoramento da implantação
 
