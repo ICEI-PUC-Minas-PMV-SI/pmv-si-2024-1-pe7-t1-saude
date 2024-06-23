@@ -142,6 +142,10 @@ Tempo de Execução: Variou entre 8 a 15 minutos por bateria de testes.
 Baterias de Teste: Cada simulação foi executada em diferentes cenários, ajustando usuários e contadores de interação para observar o comportamento do sistema sob carga variável. 
 
 
+# Vídeo de demonstração da solução:
+
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude/blob/main/presentation/recording-2024-06-23-14-16-24.mp4
+
 # Apresentação da solução
 
 Nesta seção, um vídeo de, no máximo, 5 minutos onde deverá ser descrito o escopo todo do projeto, um resumo do trabalho desenvolvido, incluindo a comprovação de que a implantação foi realizada e, as conclusões alcançadas.
