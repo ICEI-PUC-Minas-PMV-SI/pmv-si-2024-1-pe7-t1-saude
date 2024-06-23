@@ -145,5 +145,7 @@ Baterias de Teste: Cada simulação foi executada em diferentes cenários, ajust
 # Apresentação da solução
 
 Nesta seção, um vídeo de, no máximo, 5 minutos onde deverá ser descrito o escopo todo do projeto, um resumo do trabalho desenvolvido, incluindo a comprovação de que a implantação foi realizada e, as conclusões alcançadas.
+
+
 [Eixo 7 - Apresentação.pdf](https://github.com/user-attachments/files/15944631/Eixo.7.-.Apresentacao.pdf)
 
