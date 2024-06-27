@@ -1,29 +1,29 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Saude+
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Farias Contim
+    given-names: Celso
+  - family-names: Alves Pantolfo
+    given-names: Alex
+  - family-names: Andreia Gomes Pinto
+    given-names: Jennifer
+  - family-names: Gonçalves Bergami
+    given-names: Vitor
+  - family-names: Antunes da Cruz Macedo
+    given-names: Simone
+  - name-suffix: Professor 
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: de Nardin
+    given-names: Luciana
 keywords:
-  -
-  -
-repository-code:
+  - Stroke risk
+  - Health Data Analysis
+  - Machine Learning
+  - Random Forest
+  - Decision Tree
+  - K-Nearest Neighbors
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-saude
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-06-30
+date-released: 2024-06-27
